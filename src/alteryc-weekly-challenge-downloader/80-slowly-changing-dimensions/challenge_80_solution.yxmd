@@ -1,0 +1,447 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="11.3">
+  <Nodes>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+        <Position x="54" y="138" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <NumRows value="4" />
+          <Fields>
+            <Field name="Name" />
+            <Field name="Level" />
+            <Field name="Start Date" />
+            <Field name="End Date" />
+          </Fields>
+          <Data>
+            <r>
+              <c>Bob</c>
+              <c>Jedi Knight</c>
+              <c>2015-02-20</c>
+              <c>2016-06-27</c>
+            </r>
+            <r>
+              <c>Kaitlin</c>
+              <c>Jedi Master</c>
+              <c>2016-08-03</c>
+              <c />
+            </r>
+            <r>
+              <c>Joe</c>
+              <c>Jedi Youngling</c>
+              <c>2017-01-01</c>
+              <c />
+            </r>
+            <r>
+              <c>Richard</c>
+              <c>Grand Master</c>
+              <c>2017-08-03</c>
+              <c />
+            </r>
+          </Data>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+    </Node>
+    <Node ToolID="2">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+        <Position x="54" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <NumRows value="8" />
+          <Fields>
+            <Field name="Name" />
+            <Field name="Level" />
+            <Field name="Start Date" />
+            <Field name="End Date" />
+            <Field name="Current Flag" />
+          </Fields>
+          <Data>
+            <r>
+              <c>Bob</c>
+              <c>Jedi Knight</c>
+              <c>2015-02-20</c>
+              <c>2016-06-27</c>
+              <c>Y</c>
+            </r>
+            <r>
+              <c>Debbie</c>
+              <c>Jedi Master</c>
+              <c>2014-10-13</c>
+              <c>2016-06-21</c>
+              <c>Y</c>
+            </r>
+            <r>
+              <c>Kaitlin</c>
+              <c>Padawan</c>
+              <c>2016-01-01</c>
+              <c>2016-06-27</c>
+              <c>N</c>
+            </r>
+            <r>
+              <c>Kaitlin</c>
+              <c>Jedi Knight</c>
+              <c>2016-06-27</c>
+              <c />
+              <c>Y</c>
+            </r>
+            <r>
+              <c>Richard</c>
+              <c>Jedi Youngling</c>
+              <c>2015-01-01</c>
+              <c>2016-01-01</c>
+              <c>N</c>
+            </r>
+            <r>
+              <c>Richard</c>
+              <c>Padawan</c>
+              <c>2016-01-01</c>
+              <c>2016-06-01</c>
+              <c>N</c>
+            </r>
+            <r>
+              <c>Richard</c>
+              <c>Jedi Knight</c>
+              <c>2016-06-01</c>
+              <c>2016-10-01</c>
+              <c>N</c>
+            </r>
+            <r>
+              <c>Richard</c>
+              <c>Jedi Master</c>
+              <c>2016-10-01</c>
+              <c>2017-08-03</c>
+              <c>Y</c>
+            </r>
+          </Data>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+    </Node>
+    <Node ToolID="3">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Union.Union">
+        <Position x="186" y="78" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <ByName_ErrorMode>Warning</ByName_ErrorMode>
+          <ByName_OutputMode>All</ByName_OutputMode>
+          <Mode>ByName</Mode>
+          <SetOutputOrder value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnion" />
+    </Node>
+    <Node ToolID="4">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Sort.Sort">
+        <Position x="306" y="78" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SortInfo locale="0">
+            <Field field="Name" order="Ascending" />
+            <Field field="Start Date" order="Ascending" />
+          </SortInfo>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Name - Ascending
+Start Date - Ascending</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSort" />
+    </Node>
+    <Node ToolID="5">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.MultiRowFormula.MultiRowFormula">
+        <Position x="450" y="78" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <UpdateField value="True" />
+          <UpdateField_Name>End Date</UpdateField_Name>
+          <CreateField_Name>NewField</CreateField_Name>
+          <CreateField_Type>Int32</CreateField_Type>
+          <CreateField_Size>4</CreateField_Size>
+          <OtherRows>Empty</OtherRows>
+          <NumRows value="1" />
+          <Expression>IF IsNull([End Date]) AND [Row+1:Level] = [Level] THEN [Row+1:End Date] ELSEIF IsNull([End Date]) AND [Row+1:Level]!=[Level] THEN [Row+1:Start Date] ELSE [End Date] ENDIF</Expression>
+          <GroupByFields>
+            <Field field="Name" />
+          </GroupByFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>IF IsNull([End Date]) AND [Row+1:Level] = [Level] THEN [Row+1...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxMultiRowFormula" />
+    </Node>
+    <Node ToolID="6">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.MultiRowFormula.MultiRowFormula">
+        <Position x="582" y="78" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <UpdateField value="True" />
+          <UpdateField_Name>Current Flag</UpdateField_Name>
+          <CreateField_Name>NewField</CreateField_Name>
+          <CreateField_Type>Int32</CreateField_Type>
+          <CreateField_Size>4</CreateField_Size>
+          <OtherRows>Empty</OtherRows>
+          <NumRows value="1" />
+          <Expression>IF [End Date] != [Row+1:Start Date] OR IsNull([End Date])  THEN "Y" else "N" ENDIF</Expression>
+          <GroupByFields>
+            <Field field="Name" />
+          </GroupByFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>IF [End Date] != [Row+1:Start Date] OR IsNull([End Date])  TH...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxMultiRowFormula" />
+    </Node>
+    <Node ToolID="7">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Unique.Unique">
+        <Position x="714" y="78" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <UniqueFields>
+            <Field field="Name" />
+            <Field field="Level" />
+            <Field field="Start Date" />
+            <Field field="End Date" />
+            <Field field="Current Flag" />
+          </UniqueFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Unique: Name, Level, Start Date, End Date, Current Flag</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnique" />
+    </Node>
+    <Node ToolID="8">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="954" y="66" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\ProgramData\Alteryx\Engine\Engine_80828_79555aa4dfa84e9abfe0a72ec900437c_\Engine_84508_0e4a390b8a754cc48ff7991ed9c7822a_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="9">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Sort.Sort">
+        <Position x="846" y="66" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SortInfo locale="0">
+            <Field field="Name" order="Ascending" />
+            <Field field="Current Flag" order="Descending" />
+          </SortInfo>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Name - Ascending
+Current Flag - Descending</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSort" />
+    </Node>
+    <Node ToolID="10">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="162" y="30" width="100" height="48" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Union the new and existing datasets</Text>
+          <Font name="Segoe UI" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="11">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="294" y="30" width="100" height="48" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Sort by Name and Start Date</Text>
+          <Font name="Segoe UI" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="12">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="426" y="30" width="228" height="48" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text><![CDATA[Readjust End Dates to reflect current level rankings and create a flag (Y/N) to identify each current level. ]]></Text>
+          <Font name="Segoe UI" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="13">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="714" y="18" width="168" height="48" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text><![CDATA[Use a Unique tool to ensure no duplicate records exist and sort the data to see each person's current level first. ]]></Text>
+          <Font name="Segoe UI" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection name="#2">
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="3" Connection="Input" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="2" Connection="Output" />
+      <Destination ToolID="3" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="3" Connection="Output" />
+      <Destination ToolID="4" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="4" Connection="Output" />
+      <Destination ToolID="5" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="5" Connection="Output" />
+      <Destination ToolID="6" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="6" Connection="Output" />
+      <Destination ToolID="7" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="7" Connection="Unique" />
+      <Destination ToolID="9" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="9" Connection="Output" />
+      <Destination ToolID="8" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>challenge_80_solution</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>

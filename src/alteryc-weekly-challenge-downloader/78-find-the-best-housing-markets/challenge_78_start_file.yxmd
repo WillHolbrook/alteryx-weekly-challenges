@@ -1,0 +1,418 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="11.3">
+  <Nodes>
+    <Node ToolID="116">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="438" y="318" width="240" height="204" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Output</Text>
+          <Font name="Segoe UI" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="115">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="66" y="318" width="240" height="204" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Input</Text>
+          <Font name="Segoe UI" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="26">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="54" y="54" width="324" height="72" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text />
+          <Font name="Segoe UI" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="3" />
+          <Justification Justification="4" />
+          <BG_Image>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</BG_Image>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="27">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="450" y="66" width="300" height="40" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Challenge #78</Text>
+          <Font name="Microsoft Sans Serif" size="16.2" style="0" />
+          <TextColor name="Gray" />
+          <FillColor name="White" />
+          <Shape shape="3" />
+          <Justification Justification="0" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="28">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="66" y="114" width="612" height="180" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>As we all know, the housing market these days is going a bit crazy... we'd like to capture some census data on the value of new privately owned housing units in various metropolitan areas to see where the top 10 markets are YTD as of end of April (data lags about 2 months behind).
+
+Our objective for this challenge is to capture Census data from the following URL: https://www.census.gov/construction/bps/txt/t3yv201704.txt
+
+We will then need to parse the data into the columns identified in text input #2, then sort to find the top 10 new housing markets based on value. 
+
+BONUS: 
+Build an app that will allow you to choose whether you want to look at value (the "v" in "t3yv" in the URL above) or units (which would look like "t3yu"), specify the through-date (year &amp; month designated at the end of the txt file name, in the example above as "201704"), and which column you want to sort by (Total, 1 Unit, 2 Units, etc.)</Text>
+          <Font name="Microsoft Sans Serif" size="7.8" style="0" />
+          <TextColor name="Gray" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="3" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="89">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+        <Position x="103" y="338" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <NumRows value="1" />
+          <Fields>
+            <Field name="URL" />
+          </Fields>
+          <Data>
+            <r>
+              <c>https://www.census.gov/construction/bps/txt/t3yv201704.txt</c>
+            </r>
+          </Data>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>Input #1: Census Data URL</AnnotationText>
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+    </Node>
+    <Node ToolID="97">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+        <Position x="102" y="426" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <NumRows value="0" />
+          <Fields>
+            <Field name="CSA" />
+            <Field name="CBSA" />
+            <Field name="Name" />
+            <Field name="Total" />
+            <Field name="1 Unit" />
+            <Field name="2 Units" />
+            <Field name="3 and 4 Units" />
+            <Field name="5 Units or More" />
+          </Fields>
+          <Data />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>Input #2: Column Names</AnnotationText>
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+    </Node>
+    <Node ToolID="61">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="571" y="390" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\jmiller\AppData\Local\Temp\Engine_15004_b3205335c57f44a2ad74d5ef1983598b_\Engine_59496_b016244bebff469490406b25e0c79a93_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="114">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+        <Position x="486" y="390" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <NumRows value="10" />
+          <Fields>
+            <Field name="CSA" />
+            <Field name="CBSA" />
+            <Field name="Name" />
+            <Field name="Total" />
+            <Field name="1 Unit" />
+            <Field name="2 Units" />
+            <Field name="3 and 4 Units" />
+            <Field name="5 Units or More" />
+          </Fields>
+          <Data>
+            <r>
+              <c>206</c>
+              <c>19100</c>
+              <c>Dallas-Fort Worth-Arlington, TX</c>
+              <c>4255747</c>
+              <c>3248347</c>
+              <c>22392</c>
+              <c>9133</c>
+              <c>975875</c>
+            </r>
+            <r>
+              <c>408</c>
+              <c>35620</c>
+              <c>New York-Newark-Jersey City, NY-NJ-PA</c>
+              <c>2744052</c>
+              <c>936603</c>
+              <c>78437</c>
+              <c>26335</c>
+              <c>1702677</c>
+            </r>
+            <r>
+              <c>348</c>
+              <c>31080</c>
+              <c>Los Angeles-Long Beach-Anaheim,* CA</c>
+              <c>2540835</c>
+              <c>1286067</c>
+              <c>72735</c>
+              <c>32854</c>
+              <c>1149179</c>
+            </r>
+            <r>
+              <c>288</c>
+              <c>26420</c>
+              <c>Houston-The Woodlands-Sugar Land, TX</c>
+              <c>2515072</c>
+              <c>2256740</c>
+              <c>7129</c>
+              <c>6971</c>
+              <c>244232</c>
+            </r>
+            <r>
+              <c>122</c>
+              <c>12060</c>
+              <c>Atlanta-Sandy Springs-Roswell, GA</c>
+              <c>2225440</c>
+              <c>1787310</c>
+              <c>2613</c>
+              <c>5956</c>
+              <c>429561</c>
+            </r>
+            <r>
+              <c>999</c>
+              <c>38060</c>
+              <c>Phoenix-Mesa-Scottsdale,* AZ</c>
+              <c>2148454</c>
+              <c>1755950</c>
+              <c>6497</c>
+              <c>17859</c>
+              <c>368148</c>
+            </r>
+            <r>
+              <c>370</c>
+              <c>33100</c>
+              <c>Miami-Fort Lauderdale-West Palm Beach, FL</c>
+              <c>1699818</c>
+              <c>770996</c>
+              <c>14285</c>
+              <c>5697</c>
+              <c>908840</c>
+            </r>
+            <r>
+              <c>500</c>
+              <c>42660</c>
+              <c>Seattle-Tacoma-Bellevue,* WA</c>
+              <c>1691187</c>
+              <c>1044028</c>
+              <c>29842</c>
+              <c>51210</c>
+              <c>566107</c>
+            </r>
+            <r>
+              <c>216</c>
+              <c>19740</c>
+              <c>Denver-Aurora-Lakewood, CO</c>
+              <c>1553340</c>
+              <c>908759</c>
+              <c>15370</c>
+              <c>4765</c>
+              <c>624446</c>
+            </r>
+            <r>
+              <c>422</c>
+              <c>36740</c>
+              <c>Orlando-Kissimmee-Sanford, FL</c>
+              <c>1514372</c>
+              <c>1410544</c>
+              <c>7972</c>
+              <c>5706</c>
+              <c>90150</c>
+            </r>
+          </Data>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+    </Node>
+    <Node ToolID="117">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="198" y="338" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Layout>
+            <View1>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="118">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="198" y="426" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Layout>
+            <View1>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="89" Connection="Output" />
+      <Destination ToolID="117" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="97" Connection="Output" />
+      <Destination ToolID="118" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="114" Connection="Output" />
+      <Destination ToolID="61" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>challenge_78_start_file</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>

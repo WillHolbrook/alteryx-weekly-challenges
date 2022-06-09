@@ -1,0 +1,2344 @@
+﻿<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="10.0">
+  <Nodes>
+    <Node ToolID="26">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="54" y="54" width="324" height="72" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text />
+          <Font name="Segoe UI" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="3" />
+          <Justification Justification="4" />
+          <BG_Image>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</BG_Image>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="27">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="450" y="66" width="300" height="40" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Weekly Challenge #69</Text>
+          <Font name="Microsoft Sans Serif" size="16.2" style="0" />
+          <TextColor name="Gray" />
+          <FillColor name="White" />
+          <Shape shape="3" />
+          <Justification Justification="0" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="28">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="66" y="114" width="612" height="72" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>This week’s challenge is inspired by @SeanAdam’s mastery of the Field Info Tool! Can you follow in his footsteps to master the tool and use it to build a workflow that can compare two incoming data sets to see if they contain the same columns? Be sure to be sensitive to string case and any columns that have underscores substituted for spaces (i.e. “Store name” should match to “store_name”)!</Text>
+          <Font name="Microsoft Sans Serif" size="7.8" style="0" />
+          <TextColor name="Gray" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="3" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="52">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="438" y="198" width="240" height="132" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Output</Text>
+          <Font name="Segoe UI" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="53">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="66" y="198" width="240" height="204" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Input</Text>
+          <Font name="Segoe UI" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="59">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="198" y="246" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\ProgramData\Alteryx\Engine\Engine_13236_6e092b1bf8e04573b88fc50f4ce18edb_\Engine_9292_45ed813aa66c4a978e000f6683839f1b_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <View1>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="61">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="582" y="246" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\ProgramData\Alteryx\Engine\Engine_13236_6e092b1bf8e04573b88fc50f4ce18edb_\Engine_9292_0089631a345b435eab73041642846a2a_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <View1>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="63">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+        <Position x="90" y="246" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <NumRows value="100" />
+          <Fields>
+            <Field name="Record ID" />
+            <Field name="First" />
+            <Field name="Last" />
+            <Field name="ADD" />
+            <Field name="ADD 2" />
+            <Field name="ZIP" />
+            <Field name="Z 4" />
+            <Field name="Source" />
+          </Fields>
+          <Data>
+            <r>
+              <c>142705146</c>
+              <c>LASKA</c>
+              <c>CARTER-LEOPOLDO</c>
+              <c>43 POUND RD</c>
+              <c />
+              <c>02891</c>
+              <c>5815</c>
+              <c>A</c>
+            </r>
+            <r>
+              <c>143055033</c>
+              <c>ISABEL</c>
+              <c>CARVALHO-FERREIRA</c>
+              <c>292 GRAND AVE</c>
+              <c />
+              <c>02861</c>
+              <c>2161</c>
+              <c>A</c>
+            </r>
+            <r>
+              <c>143097137</c>
+              <c>ROBERT</c>
+              <c>DRAPEAU</c>
+              <c>40 OLD LOUISQUISSET PIKE</c>
+              <c>UNIT 104A</c>
+              <c>02896</c>
+              <c>8234</c>
+              <c>A</c>
+            </r>
+            <r>
+              <c>143405628</c>
+              <c>LUCILLE</c>
+              <c>GABORIAULT</c>
+              <c>34 MYRTLE AVE</c>
+              <c />
+              <c>02910</c>
+              <c>5743</c>
+              <c>A</c>
+            </r>
+            <r>
+              <c>279538560</c>
+              <c>SHARON</c>
+              <c>SCOTT</c>
+              <c>11864 GARFIELD ST</c>
+              <c />
+              <c>80233</c>
+              <c />
+              <c>A</c>
+            </r>
+            <r>
+              <c>280045116</c>
+              <c>LINDA</c>
+              <c>CLASON</c>
+              <c>1817 10TH ST SW</c>
+              <c />
+              <c>80537</c>
+              <c>6702</c>
+              <c>A</c>
+            </r>
+            <r>
+              <c>281073862</c>
+              <c>JANET</c>
+              <c>WATSON</c>
+              <c>6188 ARROWHEAD TRL</c>
+              <c />
+              <c>80107</c>
+              <c>6804</c>
+              <c>A</c>
+            </r>
+            <r>
+              <c>282079122</c>
+              <c>BRADY</c>
+              <c>PARTEN</c>
+              <c>7464 S DEXTER ST</c>
+              <c />
+              <c>80122</c>
+              <c />
+              <c>A</c>
+            </r>
+            <r>
+              <c>282459972</c>
+              <c>GUY</c>
+              <c>BEALS</c>
+              <c>81 ELK HORN DR</c>
+              <c />
+              <c>80421</c>
+              <c>1107</c>
+              <c>A</c>
+            </r>
+            <r>
+              <c>282579080</c>
+              <c>JENNIFER</c>
+              <c>ROWLES</c>
+              <c>3511 S RICHFIELD ST</c>
+              <c />
+              <c>80013</c>
+              <c />
+              <c>A</c>
+            </r>
+            <r>
+              <c>143059801</c>
+              <c>MICHAEL</c>
+              <c>MCMILLAN</c>
+              <c>S 75 Katie St</c>
+              <c />
+              <c>02860</c>
+              <c>3978</c>
+              <c>A</c>
+            </r>
+            <r>
+              <c>143253708</c>
+              <c>LINDA</c>
+              <c>STONE</c>
+              <c>47 Katie Penny Ave</c>
+              <c />
+              <c>02919</c>
+              <c>6762</c>
+              <c>A</c>
+            </r>
+            <r>
+              <c>279457496</c>
+              <c>MICHAEL</c>
+              <c>TAYLOR</c>
+              <c>8300 Katzman Blvd</c>
+              <c />
+              <c>80003</c>
+              <c>6041</c>
+              <c>A</c>
+            </r>
+            <r>
+              <c>280143677</c>
+              <c>ROBERTO</c>
+              <c>MEJIA</c>
+              <c>S 1400 Kaufman St</c>
+              <c />
+              <c>80501</c>
+              <c>6946</c>
+              <c>A</c>
+            </r>
+            <r>
+              <c>280255373</c>
+              <c>KIMBERLY</c>
+              <c>HANKSTON</c>
+              <c>W 7530 Kay Ave</c>
+              <c />
+              <c>80123</c>
+              <c>9409</c>
+              <c>A</c>
+            </r>
+            <r>
+              <c>280761212</c>
+              <c>RONALD</c>
+              <c>ROBERTSON</c>
+              <c>122 Kayla Ricci</c>
+              <c />
+              <c>81602</c>
+              <c>0122</c>
+              <c>A</c>
+            </r>
+            <r>
+              <c>281184592</c>
+              <c>JON</c>
+              <c>CHAVEZ</c>
+              <c>5100 Kazan Dr</c>
+              <c />
+              <c>80246</c>
+              <c>8122</c>
+              <c>A</c>
+            </r>
+            <r>
+              <c>281356610</c>
+              <c>DAVID</c>
+              <c>BARRAZA</c>
+              <c>7161 Keach Dam Dr</c>
+              <c />
+              <c>80221</c>
+              <c>2518</c>
+              <c>A</c>
+            </r>
+            <r>
+              <c>281688053</c>
+              <c>K</c>
+              <c>HIGHTOWER</c>
+              <c>E 11223 Keach Pond Pl</c>
+              <c />
+              <c>80022</c>
+              <c>9417</c>
+              <c>A</c>
+            </r>
+            <r>
+              <c>281688258</c>
+              <c>LLOYD</c>
+              <c>VANCLEAVE</c>
+              <c>9833 Keane Cir</c>
+              <c />
+              <c>80022</c>
+              <c>9523</c>
+              <c>A</c>
+            </r>
+            <r>
+              <c>281859073</c>
+              <c>MARY</c>
+              <c>MARCELO</c>
+              <c>5150 Keaney Rd</c>
+              <c />
+              <c>80916</c>
+              <c>1615</c>
+              <c>A</c>
+            </r>
+            <r>
+              <c>281937407</c>
+              <c>ROBERT</c>
+              <c>SANDOVAL</c>
+              <c>E 3985 Kearney St</c>
+              <c />
+              <c>80909</c>
+              <c>6846</c>
+              <c>A</c>
+            </r>
+            <r>
+              <c>282249780</c>
+              <c>NICOLE</c>
+              <c>DIGIROLAMO</c>
+              <c>16491 Kearns Ln</c>
+              <c />
+              <c>80023</c>
+              <c>8039</c>
+              <c>A</c>
+            </r>
+            <r>
+              <c>282714666</c>
+              <c>CHRIS</c>
+              <c>BEERY</c>
+              <c>W 17932 Dr</c>
+              <c />
+              <c>80007</c>
+              <c>7969</c>
+              <c>A</c>
+            </r>
+            <r>
+              <c>282380961</c>
+              <c>MARK</c>
+              <c>WELKER</c>
+              <c>4725 1 2 Wood Ave</c>
+              <c />
+              <c>80303</c>
+              <c>1106</c>
+              <c>A</c>
+            </r>
+            <r>
+              <c>282489378</c>
+              <c>S</c>
+              <c>ANDERSON</c>
+              <c>S 924 1/2 Main Way</c>
+              <c />
+              <c>80017</c>
+              <c>3116</c>
+              <c>A</c>
+            </r>
+            <r>
+              <c>281102388</c>
+              <c>CARLA</c>
+              <c>WESTON</c>
+              <c>280 1/2 Walker Dr</c>
+              <c />
+              <c>81303</c>
+              <c>7324</c>
+              <c>A</c>
+            </r>
+            <r>
+              <c>281959828</c>
+              <c>BURT</c>
+              <c>HANSEN</c>
+              <c>7284 10th Rd</c>
+              <c />
+              <c>80908</c>
+              <c>1166</c>
+              <c>A</c>
+            </r>
+            <r>
+              <c>280551366</c>
+              <c>ROBIN</c>
+              <c>WALSH</c>
+              <c>3086 11th</c>
+              <c />
+              <c>81326</c>
+              <c>9711</c>
+              <c>A</c>
+            </r>
+            <r>
+              <c>282506794</c>
+              <c>DAVID</c>
+              <c>ESLER</c>
+              <c>S 7150 12th Ct</c>
+              <c />
+              <c>80016</c>
+              <c>1320</c>
+              <c>A</c>
+            </r>
+            <r>
+              <c>281647019</c>
+              <c>DALE</c>
+              <c>HARBER</c>
+              <c>448 13th Ct</c>
+              <c />
+              <c>81625</c>
+              <c>2254</c>
+              <c>A</c>
+            </r>
+            <r>
+              <c>281559220</c>
+              <c>JURITA</c>
+              <c>MILLER</c>
+              <c>E 3501 14th Ave</c>
+              <c />
+              <c>80205</c>
+              <c>5035</c>
+              <c>A</c>
+            </r>
+            <r>
+              <c>143343165</c>
+              <c>PAUL</c>
+              <c>CHOQUETTE</c>
+              <c>51 15th St</c>
+              <c>APT 201</c>
+              <c>02864</c>
+              <c>4848</c>
+              <c>A</c>
+            </r>
+            <r>
+              <c>282659912</c>
+              <c>BOB</c>
+              <c>SATTLER</c>
+              <c>741 16th Orly Dr St</c>
+              <c />
+              <c>80011</c>
+              <c>6908</c>
+              <c>A</c>
+            </r>
+            <r>
+              <c>282158925</c>
+              <c>MARIE</c>
+              <c>KOURI</c>
+              <c>7400 17th Ansel Avenue Way</c>
+              <c />
+              <c>80108</c>
+              <c>3078</c>
+              <c>A</c>
+            </r>
+            <r>
+              <c>281596183</c>
+              <c>JOHN</c>
+              <c>CULSHAW</c>
+              <c>1767 1st St</c>
+              <c>APT 205</c>
+              <c>80203</c>
+              <c>1489</c>
+              <c>A</c>
+            </r>
+            <r>
+              <c>280256139</c>
+              <c>J</c>
+              <c>KELLEY</c>
+              <c>W 8078 20th Step Circle Pl</c>
+              <c />
+              <c>80123</c>
+              <c>3518</c>
+              <c>A</c>
+            </r>
+            <r>
+              <c>279995961</c>
+              <c>LOVELL</c>
+              <c>SASSER</c>
+              <c>625 25th Sherri Dr Rd</c>
+              <c />
+              <c>81525</c>
+              <c>9724</c>
+              <c>A</c>
+            </r>
+            <r>
+              <c>280872721</c>
+              <c>JERLYN</c>
+              <c>CULP</c>
+              <c>4901 2nd Dr</c>
+              <c />
+              <c>80526</c>
+              <c>3931</c>
+              <c>A</c>
+            </r>
+            <r>
+              <c>280262855</c>
+              <c>ERIC</c>
+              <c>BECKER</c>
+              <c>5225 2nd Point Trl</c>
+              <c />
+              <c>80123</c>
+              <c>1409</c>
+              <c>A</c>
+            </r>
+            <r>
+              <c>282088936</c>
+              <c>RENEE</c>
+              <c>BAIER</c>
+              <c>S E 3187 36th Cir</c>
+              <c />
+              <c>80122</c>
+              <c>3328</c>
+              <c>A</c>
+            </r>
+            <r>
+              <c>281663017</c>
+              <c>MARCIA</c>
+              <c>PEAK</c>
+              <c>E 30652 3rd Vly</c>
+              <c />
+              <c>80433</c>
+              <c>7427</c>
+              <c>A</c>
+            </r>
+            <r>
+              <c>282178696</c>
+              <c>LISA</c>
+              <c>BIRDWELL</c>
+              <c>210 3rd Beach Ave</c>
+              <c />
+              <c>80104</c>
+              <c>2232</c>
+              <c>A</c>
+            </r>
+            <r>
+              <c>143099707</c>
+              <c>EDWARD</c>
+              <c>HINKEL</c>
+              <c>131 46th Smith Avenue Dr</c>
+              <c />
+              <c>02896</c>
+              <c>8126</c>
+              <c>A</c>
+            </r>
+            <r>
+              <c>282794823</c>
+              <c>ALAN</c>
+              <c>KLEPACKI</c>
+              <c>5513 4th Way</c>
+              <c />
+              <c>80002</c>
+              <c>3124</c>
+              <c>A</c>
+            </r>
+            <r>
+              <c>281394023</c>
+              <c>J</c>
+              <c>GERKEN</c>
+              <c>S 2069 5th St</c>
+              <c />
+              <c>80219</c>
+              <c>5154</c>
+              <c>A</c>
+            </r>
+            <r>
+              <c>282551902</c>
+              <c>SHERRY</c>
+              <c>SMITH</c>
+              <c>E 14390 64th Lindy Avenue Dr</c>
+              <c>APT 201</c>
+              <c>80014</c>
+              <c>3772</c>
+              <c>A</c>
+            </r>
+            <r>
+              <c>143324275</c>
+              <c>KIRSTEN</c>
+              <c>ANDERSON</c>
+              <c>82 6th St</c>
+              <c />
+              <c>02818</c>
+              <c>3305</c>
+              <c>A</c>
+            </r>
+            <r>
+              <c>280095553</c>
+              <c>CHRISTINE</c>
+              <c>ALMODOVAR</c>
+              <c>1649 7th Dr</c>
+              <c />
+              <c>80504</c>
+              <c>3014</c>
+              <c>A</c>
+            </r>
+            <r>
+              <c>282522568</c>
+              <c>MIKE</c>
+              <c>LOS</c>
+              <c>E 16823 8th Pl</c>
+              <c />
+              <c>80016</c>
+              <c>5047</c>
+              <c>A</c>
+            </r>
+            <r>
+              <c>282674463</c>
+              <c>J</c>
+              <c>HOBBS</c>
+              <c>E 14704 95th Omaha Boulevard Ave</c>
+              <c />
+              <c>80011</c>
+              <c>3457</c>
+              <c>A</c>
+            </r>
+            <r>
+              <c>279960040</c>
+              <c>L</c>
+              <c>VEO</c>
+              <c>S 1010 9th St</c>
+              <c />
+              <c>81401</c>
+              <c>4054</c>
+              <c>A</c>
+            </r>
+            <r>
+              <c>280898332</c>
+              <c>CAROL</c>
+              <c>CLEM</c>
+              <c>2133 9th Merica Rd</c>
+              <c>UNIT A-108</c>
+              <c>80525</c>
+              <c>6757</c>
+              <c>A</c>
+            </r>
+            <r>
+              <c>282169343</c>
+              <c>MICHAEL</c>
+              <c>BLANCHARD</c>
+              <c>N 134 A St</c>
+              <c />
+              <c>80104</c>
+              <c>8504</c>
+              <c>A</c>
+            </r>
+            <r>
+              <c>280617595</c>
+              <c>WILMA</c>
+              <c>PETERS</c>
+              <c>4522 A Admiralty Dr</c>
+              <c />
+              <c>80634</c>
+              <c>9280</c>
+              <c>A</c>
+            </r>
+            <r>
+              <c>281269143</c>
+              <c>ROBERT</c>
+              <c>MERRITT</c>
+              <c>S 1872 A Bainbridge St</c>
+              <c />
+              <c>80231</c>
+              <c>8007</c>
+              <c>A</c>
+            </r>
+            <r>
+              <c>282617818</c>
+              <c>DEANNA</c>
+              <c>BAIER-BARNES</c>
+              <c>E 20086 A Connell Dr</c>
+              <c />
+              <c>80013</c>
+              <c>9435</c>
+              <c>A</c>
+            </r>
+            <r>
+              <c>281586227</c>
+              <c>DONNA</c>
+              <c>LUNA</c>
+              <c>555 A Fifth St</c>
+              <c />
+              <c>80204</c>
+              <c>4633</c>
+              <c>A</c>
+            </r>
+            <r>
+              <c>282512015</c>
+              <c>RENEE</c>
+              <c>GORDON</c>
+              <c>S 5348 A Mooresfield Rd Way</c>
+              <c />
+              <c>80016</c>
+              <c>5873</c>
+              <c>A</c>
+            </r>
+            <r>
+              <c>143440228</c>
+              <c>M</c>
+              <c>PLATAU</c>
+              <c>15 Aa Bainbridge Rd</c>
+              <c />
+              <c>02816</c>
+              <c>6053</c>
+              <c>A</c>
+            </r>
+            <r>
+              <c>281272094</c>
+              <c>JOHN</c>
+              <c>KIMLEY</c>
+              <c>S 3380 Aaron Ct</c>
+              <c />
+              <c>80231</c>
+              <c>4726</c>
+              <c>A</c>
+            </r>
+            <r>
+              <c>279586016</c>
+              <c>DWIGHT</c>
+              <c>WALKER</c>
+              <c>1415 Abalone St</c>
+              <c>APT F46</c>
+              <c>80751</c>
+              <c>2875</c>
+              <c>A</c>
+            </r>
+            <r>
+              <c>143045845</c>
+              <c>ALLAN</c>
+              <c>MCKINNON</c>
+              <c>165 Abbey St</c>
+              <c />
+              <c>02861</c>
+              <c>3221</c>
+              <c>A</c>
+            </r>
+            <r>
+              <c>279718010</c>
+              <c>TRACEY</c>
+              <c>MCCORMAC</c>
+              <c>2214 Abbi St</c>
+              <c />
+              <c>81004</c>
+              <c>3902</c>
+              <c>A</c>
+            </r>
+            <r>
+              <c>281733058</c>
+              <c>MARK</c>
+              <c>STOUFFER</c>
+              <c>6140 Abbott Ct</c>
+              <c />
+              <c>80922</c>
+              <c>1702</c>
+              <c>A</c>
+            </r>
+            <r>
+              <c>280645421</c>
+              <c>ROBERT</c>
+              <c>COSTELLO</c>
+              <c>9921 Abbott Run Valley</c>
+              <c>SPC 26</c>
+              <c>80447</c>
+              <c>8802</c>
+              <c>A</c>
+            </r>
+            <r>
+              <c>281801350</c>
+              <c>G</c>
+              <c>NUNN</c>
+              <c>1022 Abbott Valley View Dr</c>
+              <c />
+              <c>80919</c>
+              <c>1435</c>
+              <c>A</c>
+            </r>
+            <r>
+              <c>143306800</c>
+              <c>E</c>
+              <c>JANNERELLI</c>
+              <c>5 Abbotts Crossing Rd</c>
+              <c />
+              <c>02914</c>
+              <c>1919</c>
+              <c>A</c>
+            </r>
+            <r>
+              <c>279433541</c>
+              <c>KIRSTEN</c>
+              <c>ANDREWS</c>
+              <c>11092 Abbottsford Ct</c>
+              <c />
+              <c>80031</c>
+              <c>2009</c>
+              <c>A</c>
+            </r>
+            <r>
+              <c>280883405</c>
+              <c>MIDGE</c>
+              <c>SMILIE</c>
+              <c>1030 Abby Dr</c>
+              <c />
+              <c>80525</c>
+              <c>5891</c>
+              <c>A</c>
+            </r>
+            <r>
+              <c>282510415</c>
+              <c>LINDA</c>
+              <c>THOMPSON</c>
+              <c>S 7140 Abe St</c>
+              <c />
+              <c>80016</c>
+              <c>6024</c>
+              <c>A</c>
+            </r>
+            <r>
+              <c>280194122</c>
+              <c>ROBERT</c>
+              <c>SUDDATH</c>
+              <c>W 10405 Abel Mtn</c>
+              <c />
+              <c>80127</c>
+              <c>3836</c>
+              <c>A</c>
+            </r>
+            <r>
+              <c>143126243</c>
+              <c>DORIS</c>
+              <c>GAGNON</c>
+              <c>380 Abel Hart Ave</c>
+              <c>APT 19</c>
+              <c>02904</c>
+              <c>3790</c>
+              <c>A</c>
+            </r>
+            <r>
+              <c>280450091</c>
+              <c>DEBRA</c>
+              <c>BEDWELL</c>
+              <c>38 Aberdeen</c>
+              <c />
+              <c>80825</c>
+              <c>0038</c>
+              <c>A</c>
+            </r>
+            <r>
+              <c>280888573</c>
+              <c>LINDA</c>
+              <c>ROLLIN</c>
+              <c>E 2101 Abigail</c>
+              <c />
+              <c>80525</c>
+              <c>9332</c>
+              <c>A</c>
+            </r>
+            <r>
+              <c>280183425</c>
+              <c>GREG</c>
+              <c>JOHNSON</c>
+              <c>W 6876 Abilio Pl</c>
+              <c />
+              <c>80128</c>
+              <c>6395</c>
+              <c>A</c>
+            </r>
+            <r>
+              <c>279506766</c>
+              <c>PATRICIA</c>
+              <c>MALLETT</c>
+              <c>9595 Abner St</c>
+              <c>LOT 129</c>
+              <c>80260</c>
+              <c>5931</c>
+              <c>A</c>
+            </r>
+            <r>
+              <c>280291684</c>
+              <c>JYOTI</c>
+              <c>PATEL</c>
+              <c>S 5558 Aborn St</c>
+              <c>UNIT 102</c>
+              <c>80120</c>
+              <c>1164</c>
+              <c>A</c>
+            </r>
+            <r>
+              <c>143141181</c>
+              <c>CHARLES</c>
+              <c>MCLAREN</c>
+              <c>85 Abraham Dr</c>
+              <c />
+              <c>02852</c>
+              <c>3113</c>
+              <c>A</c>
+            </r>
+            <r>
+              <c>281665390</c>
+              <c>PAUL</c>
+              <c>MARTIN</c>
+              <c>28425 Abram Ln</c>
+              <c />
+              <c>80433</c>
+              <c>7242</c>
+              <c>A</c>
+            </r>
+            <r>
+              <c>279697661</c>
+              <c>GREG</c>
+              <c>VALENCIA</c>
+              <c>3804 Abruzzese Ln</c>
+              <c />
+              <c>81005</c>
+              <c>3330</c>
+              <c>A</c>
+            </r>
+            <r>
+              <c>281127988</c>
+              <c>PATRICIA</c>
+              <c>SALMANS</c>
+              <c>253 Absalona Hill</c>
+              <c />
+              <c>80024</c>
+              <c>0253</c>
+              <c>A</c>
+            </r>
+            <r>
+              <c>143084116</c>
+              <c>WILLIAM</c>
+              <c>SATTI</c>
+              <c>210 Acacia St</c>
+              <c>APT 2</c>
+              <c>02860</c>
+              <c>4352</c>
+              <c>A</c>
+            </r>
+            <r>
+              <c>279963694</c>
+              <c>HUGH</c>
+              <c>YATES</c>
+              <c>472 Academy Dr</c>
+              <c />
+              <c>81401</c>
+              <c>3816</c>
+              <c>A</c>
+            </r>
+            <r>
+              <c>281749233</c>
+              <c>CHRIS</c>
+              <c>KEOUGH</c>
+              <c>1235 Acciardo Ln</c>
+              <c />
+              <c>80921</c>
+              <c>2272</c>
+              <c>A</c>
+            </r>
+            <r>
+              <c>143031966</c>
+              <c>SARA</c>
+              <c>VANHOF</c>
+              <c>48 Achille Ln</c>
+              <c />
+              <c>02871</c>
+              <c>3000</c>
+              <c>A</c>
+            </r>
+            <r>
+              <c>281033448</c>
+              <c>JENNIFER</c>
+              <c>MCKERNAN</c>
+              <c>S 4353 Acorn St</c>
+              <c />
+              <c>80113</c>
+              <c>5728</c>
+              <c>A</c>
+            </r>
+            <r>
+              <c>279509318</c>
+              <c>CLIFFORD</c>
+              <c>PIGG</c>
+              <c>10211 Acorn Valley Ln</c>
+              <c>APT 9-107</c>
+              <c>80260</c>
+              <c>6359</c>
+              <c>A</c>
+            </r>
+            <r>
+              <c>280579301</c>
+              <c>ANDREW</c>
+              <c>WINKELJOHN</c>
+              <c>S 4950 Acre St</c>
+              <c />
+              <c>80111</c>
+              <c>1349</c>
+              <c>A</c>
+            </r>
+            <r>
+              <c>282248263</c>
+              <c>ANITA</c>
+              <c>RYAN</c>
+              <c>14165 Acre Pond Dr</c>
+              <c />
+              <c>80023</c>
+              <c>4243</c>
+              <c>A</c>
+            </r>
+            <r>
+              <c>280710588</c>
+              <c>LINDA</c>
+              <c>CRUZ</c>
+              <c>W 525 Acres Ave</c>
+              <c />
+              <c>81501</c>
+              <c>5654</c>
+              <c>A</c>
+            </r>
+            <r>
+              <c>280010657</c>
+              <c>BEVERLY</c>
+              <c>GREEN</c>
+              <c>N 3518 Acres Of Pine Ave</c>
+              <c />
+              <c>80538</c>
+              <c>2636</c>
+              <c>A</c>
+            </r>
+            <r>
+              <c>279978355</c>
+              <c>NOLA</c>
+              <c>WILSON</c>
+              <c>S 540 Actinia Ct</c>
+              <c />
+              <c>80543</c>
+              <c>9111</c>
+              <c>A</c>
+            </r>
+            <r>
+              <c>282295894</c>
+              <c>CHRISTOPHER</c>
+              <c>SCOGGIN</c>
+              <c>13249 Ada Trl</c>
+              <c />
+              <c>80020</c>
+              <c>5562</c>
+              <c>A</c>
+            </r>
+            <r>
+              <c>281297984</c>
+              <c>GRACE</c>
+              <c>LUEVANO</c>
+              <c>S 2811 Adams Way</c>
+              <c />
+              <c>80227</c>
+              <c>4115</c>
+              <c>A</c>
+            </r>
+            <r>
+              <c>280134418</c>
+              <c>LARRY</c>
+              <c>LEE</c>
+              <c>2171 Adams Point Cir</c>
+              <c />
+              <c>80501</c>
+              <c>0917</c>
+              <c>A</c>
+            </r>
+            <r>
+              <c>143182126</c>
+              <c>SUSAN</c>
+              <c>GONZALEZ</c>
+              <c>119 Addeo Trl</c>
+              <c />
+              <c>02882</c>
+              <c>2402</c>
+              <c>A</c>
+            </r>
+            <r>
+              <c>281738131</c>
+              <c>J</c>
+              <c>JARRELL</c>
+              <c>3048 Addison Dr</c>
+              <c />
+              <c>80922</c>
+              <c>1275</c>
+              <c>A</c>
+            </r>
+            <r>
+              <c>281968193</c>
+              <c>ALLEN</c>
+              <c>GABEL</c>
+              <c>922 Addy Dr</c>
+              <c />
+              <c>80907</c>
+              <c>4033</c>
+              <c>A</c>
+            </r>
+            <r>
+              <c>281726154</c>
+              <c>RICHARD</c>
+              <c>DINWIDDIE JR</c>
+              <c>4512 Adelaide Pl</c>
+              <c />
+              <c>80923</c>
+              <c>7330</c>
+              <c>A</c>
+            </r>
+          </Data>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+    </Node>
+    <Node ToolID="64">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+        <Position x="90" y="318" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <NumRows value="100" />
+          <Fields>
+            <Field name="record_id" />
+            <Field name="first" />
+            <Field name="last" />
+            <Field name="add" />
+            <Field name="add_2" />
+            <Field name="zip" />
+            <Field name="z_4" />
+            <Field name="is_deleted" />
+          </Fields>
+          <Data>
+            <r>
+              <c>279800079</c>
+              <c>JANICE</c>
+              <c>MILLER</c>
+              <c>11529 Job Ln</c>
+              <c />
+              <c>80138</c>
+              <c>7108</c>
+              <c>n</c>
+            </r>
+            <r>
+              <c>280161751</c>
+              <c>KATHLEEN</c>
+              <c>GUY</c>
+              <c>871 Jobs Hill Dr</c>
+              <c />
+              <c>80603</c>
+              <c>7757</c>
+              <c>y</c>
+            </r>
+            <r>
+              <c>281928180</c>
+              <c>HEATHER</c>
+              <c>LESTENKOF</c>
+              <c>3524 Jodie Beth Ct</c>
+              <c />
+              <c>80910</c>
+              <c>4113</c>
+              <c>n</c>
+            </r>
+            <r>
+              <c>143156328</c>
+              <c>AMBERLE</c>
+              <c>HAMMICK</c>
+              <c>59 Jodoin Rd</c>
+              <c />
+              <c>02852</c>
+              <c>2031</c>
+              <c>n</c>
+            </r>
+            <r>
+              <c>279539650</c>
+              <c>CATHERINE</c>
+              <c>SEARS</c>
+              <c>11911 Joe Sarle Pl</c>
+              <c />
+              <c>80233</c>
+              <c>1546</c>
+              <c>n</c>
+            </r>
+            <r>
+              <c>143015060</c>
+              <c>LINDA</c>
+              <c>RICCI</c>
+              <c>100 Joe Sweet St</c>
+              <c>APT 216</c>
+              <c>02903</c>
+              <c>4130</c>
+              <c>n</c>
+            </r>
+            <r>
+              <c>279732748</c>
+              <c>MARY</c>
+              <c>SANDOVAL</c>
+              <c>W 2311 Joelle St</c>
+              <c />
+              <c>81003</c>
+              <c>1137</c>
+              <c>n</c>
+            </r>
+            <r>
+              <c>279899061</c>
+              <c>N</c>
+              <c>EAGLE</c>
+              <c>11648 Joffre St</c>
+              <c />
+              <c>80233</c>
+              <c>1910</c>
+              <c>y</c>
+            </r>
+            <r>
+              <c>142824383</c>
+              <c>ELIZABETH</c>
+              <c>CARTER</c>
+              <c>14 John St</c>
+              <c />
+              <c>02885</c>
+              <c>2406</c>
+              <c>n</c>
+            </r>
+            <r>
+              <c>280508261</c>
+              <c>LISA</c>
+              <c>MATHERNE</c>
+              <c>1030 John A Cummings Ln</c>
+              <c />
+              <c>80129</c>
+              <c>6990</c>
+              <c>n</c>
+            </r>
+            <r>
+              <c>142716201</c>
+              <c>MARK</c>
+              <c>SELTZER</c>
+              <c>9 John Alden Rd</c>
+              <c />
+              <c>02891</c>
+              <c>4407</c>
+              <c>n</c>
+            </r>
+            <r>
+              <c>280072073</c>
+              <c>SARA</c>
+              <c>FORD</c>
+              <c>W 306 John Briggs Ct</c>
+              <c />
+              <c>80027</c>
+              <c>1146</c>
+              <c>n</c>
+            </r>
+            <r>
+              <c>143164097</c>
+              <c>LESLIE</c>
+              <c>ANDERSON</c>
+              <c>120 John Brown Ave</c>
+              <c />
+              <c>02840</c>
+              <c>1646</c>
+              <c>n</c>
+            </r>
+            <r>
+              <c>279789810</c>
+              <c>DIANA</c>
+              <c>GRUENLER</c>
+              <c>22305 John C Dean Memorial Way</c>
+              <c />
+              <c>80138</c>
+              <c>3120</c>
+              <c>n</c>
+            </r>
+            <r>
+              <c>281832325</c>
+              <c>THEODORE</c>
+              <c>SCHENDT</c>
+              <c>4715 John Clarke Rd</c>
+              <c />
+              <c>80918</c>
+              <c>7913</c>
+              <c>n</c>
+            </r>
+            <r>
+              <c>282085955</c>
+              <c>KATHERINE</c>
+              <c>MCATEE</c>
+              <c>S 7132 John Duggan Cir</c>
+              <c />
+              <c>80122</c>
+              <c>2524</c>
+              <c>y</c>
+            </r>
+            <r>
+              <c>143048752</c>
+              <c>DONNA</c>
+              <c>TEIXEIRA</c>
+              <c>9 John Dyer St</c>
+              <c />
+              <c>02861</c>
+              <c>1913</c>
+              <c>n</c>
+            </r>
+            <r>
+              <c>279760571</c>
+              <c>LARRY</c>
+              <c>PARKS</c>
+              <c>322 John F Kennedy</c>
+              <c />
+              <c>81242</c>
+              <c>0322</c>
+              <c>n</c>
+            </r>
+            <r>
+              <c>279556220</c>
+              <c>SAMANTHA</c>
+              <c>SCHOBITZ</c>
+              <c>8935 John Franklin St</c>
+              <c>APT 301</c>
+              <c>80229</c>
+              <c>4598</c>
+              <c>n</c>
+            </r>
+            <r>
+              <c>280750997</c>
+              <c>JANET</c>
+              <c>SESTRICH</c>
+              <c>W 14735 John H Chafee Pl</c>
+              <c />
+              <c>80401</c>
+              <c>5170</c>
+              <c>n</c>
+            </r>
+            <r>
+              <c>142715277</c>
+              <c>FAUSTINA</c>
+              <c>TAYLOR</c>
+              <c>4 John Kesson St</c>
+              <c />
+              <c>02891</c>
+              <c>1622</c>
+              <c>n</c>
+            </r>
+            <r>
+              <c>281514230</c>
+              <c>JODY</c>
+              <c>MANGUS</c>
+              <c>S 19 John McLaughlin St</c>
+              <c />
+              <c>80209</c>
+              <c>2272</c>
+              <c>n</c>
+            </r>
+            <r>
+              <c>280111635</c>
+              <c>TIM</c>
+              <c>LEVENS</c>
+              <c>4501 John Mowry Rd</c>
+              <c>APT 2505</c>
+              <c>80503</c>
+              <c>7736</c>
+              <c>n</c>
+            </r>
+            <r>
+              <c>279708714</c>
+              <c>SANDRA</c>
+              <c>LEFEBRE</c>
+              <c>134 John Oldham St</c>
+              <c />
+              <c>81005</c>
+              <c>1641</c>
+              <c>n</c>
+            </r>
+            <r>
+              <c>280059453</c>
+              <c>PAUL</c>
+              <c>RAUCCI</c>
+              <c>821 John Potter Trl</c>
+              <c />
+              <c>80537</c>
+              <c>8154</c>
+              <c>n</c>
+            </r>
+            <r>
+              <c>281674781</c>
+              <c>NADINE</c>
+              <c>CASEY</c>
+              <c>E 15841 John Scott Way</c>
+              <c />
+              <c>80022</c>
+              <c>0618</c>
+              <c>n</c>
+            </r>
+            <r>
+              <c>282718977</c>
+              <c>TARA</c>
+              <c>ALEGRIA</c>
+              <c>8726 John Sisson Way</c>
+              <c />
+              <c>80005</c>
+              <c>1562</c>
+              <c>n</c>
+            </r>
+            <r>
+              <c>279795122</c>
+              <c>JEREMY</c>
+              <c>GRAYSON</c>
+              <c>22983 John Steere Ave</c>
+              <c />
+              <c>80138</c>
+              <c>8836</c>
+              <c>n</c>
+            </r>
+            <r>
+              <c>281673752</c>
+              <c>ARLINE</c>
+              <c>HAINES</c>
+              <c>6321 John T Martin St</c>
+              <c />
+              <c>80022</c>
+              <c>3513</c>
+              <c>n</c>
+            </r>
+            <r>
+              <c>281910687</c>
+              <c>WILLIAM</c>
+              <c>BLOOM</c>
+              <c>4455 John Wickes Dr</c>
+              <c />
+              <c>80911</c>
+              <c>3229</c>
+              <c>n</c>
+            </r>
+            <r>
+              <c>142898716</c>
+              <c>DOLORES</c>
+              <c>ENOS</c>
+              <c>3663 Johnny Cake Ave</c>
+              <c>APT 502</c>
+              <c>02915</c>
+              <c>4342</c>
+              <c>n</c>
+            </r>
+            <r>
+              <c>280357286</c>
+              <c>MARY</c>
+              <c>TAYON</c>
+              <c>W 11475 Johnnycake Ave</c>
+              <c />
+              <c>80227</c>
+              <c />
+              <c>n</c>
+            </r>
+            <r>
+              <c>280252755</c>
+              <c>SHIRLEY</c>
+              <c>HEBERT</c>
+              <c>S 5008 Johnson Way</c>
+              <c />
+              <c>80123</c>
+              <c>1220</c>
+              <c>n</c>
+            </r>
+            <r>
+              <c>142879794</c>
+              <c>MICHAEL</c>
+              <c>CAPINERI</c>
+              <c>6 Jolly Cir</c>
+              <c />
+              <c>02916</c>
+              <c>3512</c>
+              <c>n</c>
+            </r>
+            <r>
+              <c>142669492</c>
+              <c>ROBERT</c>
+              <c>CASEY JR</c>
+              <c>86 Jon St</c>
+              <c>APT 202</c>
+              <c>02895</c>
+              <c>8208</c>
+              <c>n</c>
+            </r>
+            <r>
+              <c>282169348</c>
+              <c>BARBARA</c>
+              <c>CHRISTENSEN</c>
+              <c>E 5220 Jonathan Ave</c>
+              <c />
+              <c>80104</c>
+              <c>8983</c>
+              <c>n</c>
+            </r>
+            <r>
+              <c>279521274</c>
+              <c>TIMOTHY</c>
+              <c>OKONSKI</c>
+              <c>E 4960 Jones Ave</c>
+              <c />
+              <c>80241</c>
+              <c>3014</c>
+              <c>n</c>
+            </r>
+            <r>
+              <c>143044538</c>
+              <c>CAMELIA</c>
+              <c>BARTELSON</c>
+              <c>245 Jonquil St</c>
+              <c />
+              <c>02861</c>
+              <c>4329</c>
+              <c>n</c>
+            </r>
+            <r>
+              <c>280636832</c>
+              <c>STEVENSON</c>
+              <c>JONES</c>
+              <c>2204 Jordan Ave</c>
+              <c />
+              <c>80631</c>
+              <c>9023</c>
+              <c>n</c>
+            </r>
+            <r>
+              <c>282130696</c>
+              <c>DIANA</c>
+              <c>RECKER</c>
+              <c>S 5732 Josa Cir</c>
+              <c />
+              <c>80015</c>
+              <c>3569</c>
+              <c>n</c>
+            </r>
+            <r>
+              <c>282415468</c>
+              <c>HANNAH</c>
+              <c>RODABAUGH</c>
+              <c>2995 Josal Dr</c>
+              <c>APT 213</c>
+              <c>80301</c>
+              <c>1375</c>
+              <c>n</c>
+            </r>
+            <r>
+              <c>282088916</c>
+              <c>MERLE</c>
+              <c>SAVAGE</c>
+              <c>S E 3143 Joseph Cir</c>
+              <c />
+              <c>80122</c>
+              <c>3328</c>
+              <c>n</c>
+            </r>
+            <r>
+              <c>280627555</c>
+              <c>TRAVIS</c>
+              <c>STOLTZ</c>
+              <c>3102 Josephine Ave</c>
+              <c>LOT 11</c>
+              <c>80631</c>
+              <c>8908</c>
+              <c>n</c>
+            </r>
+            <r>
+              <c>282134562</c>
+              <c>CHARLES</c>
+              <c>CONNERS</c>
+              <c>E 18087 Joshua Ave</c>
+              <c />
+              <c>80015</c>
+              <c>2605</c>
+              <c>n</c>
+            </r>
+            <r>
+              <c>282085771</c>
+              <c>WAYNE</c>
+              <c>LAMBERT</c>
+              <c>E 3056 Joslin Ave</c>
+              <c />
+              <c>80122</c>
+              <c>1945</c>
+              <c>n</c>
+            </r>
+            <r>
+              <c>280878653</c>
+              <c>PHYLLIS</c>
+              <c>OSTER</c>
+              <c>7855 Jovere Ct</c>
+              <c />
+              <c>80525</c>
+              <c>4277</c>
+              <c />
+            </r>
+            <r>
+              <c>279440926</c>
+              <c>CAROL</c>
+              <c>BROOKS</c>
+              <c>W 3180 Joy Ave</c>
+              <c>APT 206</c>
+              <c>80030</c>
+              <c>4927</c>
+              <c>n</c>
+            </r>
+            <r>
+              <c>281338860</c>
+              <c>H</c>
+              <c>GAMEL</c>
+              <c>S 3313 Joyce St</c>
+              <c />
+              <c>80222</c>
+              <c>7525</c>
+              <c>n</c>
+            </r>
+            <r>
+              <c>142945016</c>
+              <c>TRACEY</c>
+              <c>ISABELLA</c>
+              <c>632 Joyce Ann St</c>
+              <c />
+              <c>02908</c>
+              <c>4327</c>
+              <c>n</c>
+            </r>
+            <r>
+              <c>281291989</c>
+              <c>RACHEL</c>
+              <c>WESTBROOK</c>
+              <c>8199 Joyce Anne Rd</c>
+              <c>APT 1803</c>
+              <c>80229</c>
+              <c>5632</c>
+              <c>n</c>
+            </r>
+            <r>
+              <c>142820083</c>
+              <c>FRANK</c>
+              <c>SUNDSTROM</c>
+              <c>89 Joyce Glen Rd</c>
+              <c />
+              <c>02886</c>
+              <c>7507</c>
+              <c>n</c>
+            </r>
+            <r>
+              <c>280732615</c>
+              <c>JUNE</c>
+              <c>CAMPBELL</c>
+              <c>W 18775 Jude Pl</c>
+              <c />
+              <c>80403</c>
+              <c>1055</c>
+              <c>n</c>
+            </r>
+            <r>
+              <c>282785716</c>
+              <c>KAREN</c>
+              <c>LAYFIELD</c>
+              <c>8186 Judes Ct</c>
+              <c />
+              <c>80003</c>
+              <c>1835</c>
+              <c>n</c>
+            </r>
+            <r>
+              <c>282553656</c>
+              <c>CORY</c>
+              <c>HESTER</c>
+              <c>S 2361 Judge St</c>
+              <c />
+              <c>80014</c>
+              <c>1717</c>
+              <c>n</c>
+            </r>
+            <r>
+              <c>280414188</c>
+              <c>RANDALL</c>
+              <c>DIAMON</c>
+              <c>W 6790 Judge Torres Pl</c>
+              <c>APT 105</c>
+              <c>80214</c>
+              <c>1477</c>
+              <c>n</c>
+            </r>
+            <r>
+              <c>282727524</c>
+              <c>RODNEY</c>
+              <c>GINN</c>
+              <c>W 13405 Judi Pl</c>
+              <c />
+              <c>80005</c>
+              <c>2808</c>
+              <c>n</c>
+            </r>
+            <r>
+              <c>281135994</c>
+              <c>JOSPEH</c>
+              <c>KAIN</c>
+              <c>548 Judith Dr</c>
+              <c />
+              <c>80814</c>
+              <c>9756</c>
+              <c>n</c>
+            </r>
+            <r>
+              <c>282410396</c>
+              <c>NICOLE</c>
+              <c>MCGANN</c>
+              <c>3575 Judkins St</c>
+              <c>APT 304</c>
+              <c>80301</c>
+              <c>1539</c>
+              <c>n</c>
+            </r>
+            <r>
+              <c>280902541</c>
+              <c>ELIZABETH</c>
+              <c>HAMLIN</c>
+              <c>575 Judson Ct</c>
+              <c />
+              <c>80525</c>
+              <c>3184</c>
+              <c>n</c>
+            </r>
+            <r>
+              <c>280808603</c>
+              <c>PAMELA</c>
+              <c>BOTZENMAYER</c>
+              <c>N 517 Judy St</c>
+              <c />
+              <c>80817</c>
+              <c>1849</c>
+              <c>n</c>
+            </r>
+            <r>
+              <c>279391159</c>
+              <c>JESSE</c>
+              <c>RASCON</c>
+              <c>W 6754 Julia Pl</c>
+              <c />
+              <c>80033</c>
+              <c>6437</c>
+              <c>n</c>
+            </r>
+            <r>
+              <c>280615843</c>
+              <c>A</c>
+              <c>MAXEY</c>
+              <c>8733 Julian Rd</c>
+              <c />
+              <c>80634</c>
+              <c>5725</c>
+              <c>n</c>
+            </r>
+            <r>
+              <c>280134429</c>
+              <c>BILL</c>
+              <c>RHODES</c>
+              <c>2186 Julie Cir</c>
+              <c />
+              <c>80501</c>
+              <c>0919</c>
+              <c>n</c>
+            </r>
+            <r>
+              <c>279935159</c>
+              <c>ADAM</c>
+              <c>BOCHINSKI</c>
+              <c>19215 Julie Ann Way</c>
+              <c />
+              <c>80132</c>
+              <c>9626</c>
+              <c>n</c>
+            </r>
+            <r>
+              <c>280979922</c>
+              <c>ELIZABETH</c>
+              <c>HAWKINS</c>
+              <c>524 Julien Dr</c>
+              <c />
+              <c>80439</c>
+              <c>9638</c>
+              <c>n</c>
+            </r>
+            <r>
+              <c>282271519</c>
+              <c>JANELLE</c>
+              <c>LADBURY</c>
+              <c>W 10951 Juliet Dr</c>
+              <c />
+              <c>80021</c>
+              <c>7823</c>
+              <c>n</c>
+            </r>
+            <r>
+              <c>281188883</c>
+              <c>APRIL</c>
+              <c>SALAMIE</c>
+              <c>12105 Junction St</c>
+              <c />
+              <c>80241</c>
+              <c>3461</c>
+              <c>n</c>
+            </r>
+            <r>
+              <c>282586503</c>
+              <c>ROBERT</c>
+              <c>PLOURDE</c>
+              <c>S 3934 June St</c>
+              <c />
+              <c>80013</c>
+              <c>3613</c>
+              <c>n</c>
+            </r>
+            <r>
+              <c>279940645</c>
+              <c>ROBERT</c>
+              <c>URBANEK</c>
+              <c>16721 Junior Trl</c>
+              <c />
+              <c>80132</c>
+              <c>7173</c>
+              <c>n</c>
+            </r>
+            <r>
+              <c>280490887</c>
+              <c>KATE</c>
+              <c>SUNSTROM</c>
+              <c>9806 Juniper Cir</c>
+              <c />
+              <c>80130</c>
+              <c>6818</c>
+              <c />
+            </r>
+            <r>
+              <c>281481942</c>
+              <c>KRISTIN</c>
+              <c>BERGNER</c>
+              <c>S 2884 Juniper Drive St</c>
+              <c />
+              <c>80210</c>
+              <c>6435</c>
+              <c>n</c>
+            </r>
+            <r>
+              <c>142764966</c>
+              <c>DIANNE</c>
+              <c>HOULE</c>
+              <c>125 Juniper Hill Ave</c>
+              <c />
+              <c>02889</c>
+              <c>5309</c>
+              <c>n</c>
+            </r>
+            <r>
+              <c>281683597</c>
+              <c>DENNIS</c>
+              <c>FOLSOM</c>
+              <c>7121 Jupeter St</c>
+              <c />
+              <c>80022</c>
+              <c>2194</c>
+              <c>n</c>
+            </r>
+            <r>
+              <c>281497162</c>
+              <c>BRYAN</c>
+              <c>DOWER</c>
+              <c>S 1665 Jurczyk St</c>
+              <c />
+              <c>80210</c>
+              <c>2729</c>
+              <c>n</c>
+            </r>
+            <r>
+              <c>281257699</c>
+              <c>ANDREA</c>
+              <c>BRACKEN</c>
+              <c>E 2885 Justa Blvd</c>
+              <c>LOT 120</c>
+              <c>80234</c>
+              <c>7045</c>
+              <c>n</c>
+            </r>
+            <r>
+              <c>280556238</c>
+              <c>JUDY</c>
+              <c>COLLINS</c>
+              <c>11601 Justice St</c>
+              <c />
+              <c>80640</c>
+              <c>7616</c>
+              <c>y</c>
+            </r>
+            <r>
+              <c>281143378</c>
+              <c>KALENE</c>
+              <c>SALAS</c>
+              <c>8601 Justin St</c>
+              <c>LOT 161</c>
+              <c>80260</c>
+              <c>7413</c>
+              <c>n</c>
+            </r>
+            <r>
+              <c>279651767</c>
+              <c>CHERI</c>
+              <c>SMITH</c>
+              <c>174 Jutras</c>
+              <c />
+              <c>81648</c>
+              <c>9700</c>
+              <c>n</c>
+            </r>
+            <r>
+              <c>281989530</c>
+              <c>SALLY</c>
+              <c>PAXTON</c>
+              <c>506 K Ave</c>
+              <c />
+              <c>80906</c>
+              <c>4735</c>
+              <c>n</c>
+            </r>
+            <r>
+              <c>143371203</c>
+              <c>C</c>
+              <c>ROTTER</c>
+              <c>147 K G Ranch Dr</c>
+              <c />
+              <c>02920</c>
+              <c>1313</c>
+              <c>n</c>
+            </r>
+            <r>
+              <c>280142519</c>
+              <c>TRACI</c>
+              <c>BENBROOK</c>
+              <c>920 K Hopkins Dr</c>
+              <c />
+              <c>80501</c>
+              <c>6619</c>
+              <c>n</c>
+            </r>
+            <r>
+              <c>281261965</c>
+              <c>MICHAEL</c>
+              <c>JANICEK</c>
+              <c>W 10555 Kaitlin Ave</c>
+              <c>APT 21-304</c>
+              <c>80232</c>
+              <c>4840</c>
+              <c>n</c>
+            </r>
+            <r>
+              <c>279895884</c>
+              <c>BRITTANY</c>
+              <c>CARDENAS</c>
+              <c>1489 Kalmer Dr</c>
+              <c />
+              <c>80233</c>
+              <c>1292</c>
+              <c>y</c>
+            </r>
+            <r>
+              <c>279957773</c>
+              <c>ZACK</c>
+              <c>BILMORE</c>
+              <c>S 1000 Kane Ave</c>
+              <c />
+              <c>81401</c>
+              <c>4941</c>
+              <c>n</c>
+            </r>
+            <r>
+              <c>280141298</c>
+              <c>RUTH</c>
+              <c>MURPHY</c>
+              <c>S 170 Kardway Pkwy</c>
+              <c>APT B</c>
+              <c>80501</c>
+              <c>6270</c>
+              <c>n</c>
+            </r>
+            <r>
+              <c>280654426</c>
+              <c>KEL</c>
+              <c>ZUMWALT</c>
+              <c>627 Karee Dr</c>
+              <c />
+              <c>81507</c>
+              <c>4011</c>
+              <c>n</c>
+            </r>
+            <r>
+              <c>280981613</c>
+              <c>CURTIS</c>
+              <c>KLINE</c>
+              <c>30232 Karen Rd</c>
+              <c />
+              <c>80439</c>
+              <c>8734</c>
+              <c>y</c>
+            </r>
+            <r>
+              <c>281494737</c>
+              <c>BRIAN</c>
+              <c>ALDRICH</c>
+              <c>S 2655 Karen Ann St</c>
+              <c />
+              <c>80210</c>
+              <c>5933</c>
+              <c>n</c>
+            </r>
+            <r>
+              <c>282066366</c>
+              <c>FRANCES</c>
+              <c>NEGRETE</c>
+              <c>383 Karen Marie</c>
+              <c />
+              <c>80427</c>
+              <c>0383</c>
+              <c>n</c>
+            </r>
+            <r>
+              <c>281558842</c>
+              <c>WILLIE</c>
+              <c>FORD</c>
+              <c>3030 Karison Ct</c>
+              <c>APT 208</c>
+              <c>80205</c>
+              <c>4915</c>
+              <c>n</c>
+            </r>
+            <r>
+              <c>282640290</c>
+              <c>TANYA</c>
+              <c>PRESTON</c>
+              <c>S 1309 Katama Cir</c>
+              <c>UNIT B</c>
+              <c>80012</c>
+              <c>4702</c>
+              <c>n</c>
+            </r>
+            <r>
+              <c>282636280</c>
+              <c>JESSICA</c>
+              <c>HAGGERTY</c>
+              <c>E 11620 Kate Lynn Pl</c>
+              <c />
+              <c>80012</c>
+              <c>3264</c>
+              <c>n</c>
+            </r>
+            <r>
+              <c>282331969</c>
+              <c>JOHN</c>
+              <c>KISH</c>
+              <c>393 Kate Randall</c>
+              <c />
+              <c>80601</c>
+              <c>0393</c>
+              <c>n</c>
+            </r>
+            <r>
+              <c>282646856</c>
+              <c>DAWN</c>
+              <c>HEMPEL</c>
+              <c>E 13672 Katelan Pl</c>
+              <c />
+              <c>80012</c>
+              <c>2460</c>
+              <c>n</c>
+            </r>
+            <r>
+              <c>280600418</c>
+              <c>AUTHUR</c>
+              <c>CLARK</c>
+              <c>115 Katelyn Ave</c>
+              <c />
+              <c>80634</c>
+              <c>4706</c>
+              <c>y</c>
+            </r>
+            <r>
+              <c>280760401</c>
+              <c>ANDREA</c>
+              <c>MUNLIN</c>
+              <c>1445 Katherine Dr</c>
+              <c>APT 8</c>
+              <c>80401</c>
+              <c>2609</c>
+              <c>n</c>
+            </r>
+            <r>
+              <c>281685865</c>
+              <c>FERNANDO</c>
+              <c>LEATHERS JR</c>
+              <c>E 16006 Kathleen Pl</c>
+              <c />
+              <c>80022</c>
+              <c>9264</c>
+              <c>n</c>
+            </r>
+            <r>
+              <c>282647499</c>
+              <c>RICHARD</c>
+              <c>WEBER</c>
+              <c>S 1434 Kathryn St</c>
+              <c />
+              <c>80012</c>
+              <c>4127</c>
+              <c>n</c>
+            </r>
+            <r>
+              <c>281809399</c>
+              <c>JULIE</c>
+              <c>POGAR</c>
+              <c>4332 Kathy Rd</c>
+              <c />
+              <c>80918</c>
+              <c>4130</c>
+              <c>y</c>
+            </r>
+            <r>
+              <c>279371269</c>
+              <c>JULIE</c>
+              <c>CONMAY</c>
+              <c>903 Kathy Ann Ct</c>
+              <c />
+              <c>80550</c>
+              <c>5368</c>
+              <c>n</c>
+            </r>
+          </Data>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+    </Node>
+    <Node ToolID="65">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="198" y="318" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\ProgramData\Alteryx\Engine\Engine_13236_6e092b1bf8e04573b88fc50f4ce18edb_\Engine_9292_2229c14fa67742d4b0f5e07d1937cc48_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <View1>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="79">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+        <Position x="486" y="246" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <NumRows value="9" />
+          <Fields>
+            <Field name="Dataset 1 Name" />
+            <Field name="Dataset 2 Name" />
+          </Fields>
+          <Data>
+            <r>
+              <c>ADD</c>
+              <c>add</c>
+            </r>
+            <r>
+              <c>ADD 2</c>
+              <c>add_2</c>
+            </r>
+            <r>
+              <c>First</c>
+              <c>first</c>
+            </r>
+            <r>
+              <c />
+              <c>is_deleted</c>
+            </r>
+            <r>
+              <c>Last</c>
+              <c>last</c>
+            </r>
+            <r>
+              <c>Record ID</c>
+              <c>record_id</c>
+            </r>
+            <r>
+              <c>Source</c>
+              <c />
+            </r>
+            <r>
+              <c>Z 4</c>
+              <c>z_4</c>
+            </r>
+            <r>
+              <c>ZIP</c>
+              <c>zip</c>
+            </r>
+          </Data>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="63" Connection="Output" />
+      <Destination ToolID="59" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="64" Connection="Output" />
+      <Destination ToolID="65" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="79" Connection="Output" />
+      <Destination ToolID="61" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>challenge_72_start_file</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>

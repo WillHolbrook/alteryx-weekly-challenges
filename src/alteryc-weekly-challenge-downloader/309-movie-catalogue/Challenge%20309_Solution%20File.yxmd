@@ -1,0 +1,2410 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<AlteryxDocument yxmdVer="2020.1">
+  <Nodes>
+    <Node ToolID="68">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="54" y="378" width="192" height="204" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Input</Text>
+          <Font name="Arial" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="54" y="138" width="900" height="204" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>The dataset is a short sample of Rotten Tomatoes's list of 100 best movies written by women. These are highly Certified Fresh films (nothing on the list falls below 94%) whose screenplay credit goes in part or fully to women.
+
+The challenge is to create a PDF catalogue to create a list of 10 movies written by women. The catalogue must contain: name, cover, writer, synopsis, critics consensus, starring, director. 
+
+Extra cookies if you solve this challenge using the Tile tool! 
+
+Source: https://editorial.rottentomatoes.com/guide/best-movies-written-by-women/</Text>
+          <Font name="Microsoft Sans Serif" size="12" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="0" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="2">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+        <Position x="66" y="402" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <NumRows value="70" />
+          <Fields>
+            <Field name="F1" />
+          </Fields>
+          <Data>
+            <r>
+              <c>BATTLESHIP POTEMKIN (1925)</c>
+            </r>
+            <r>
+              <c>Writer:Nina Agadzhanova, Nikolay Aseev, Sergei M. Eisenstein, Sergei Tretyakov</c>
+            </r>
+            <r>
+              <c>https://resizing.flixster.com/Ce6C_pXu0H-LaDLn9lykML-Mcqs=/fit-in/180x240/v2/https://resizing.flixster.com/tKeaP5a0OwQzQKvRv_b4Nv3j0LU=/ems.ZW1zLXByZC1hc3NldHMvbW92aWVzLzY5YzA5NjAxLTNmMmYtNGI1OS1hNDZjLTVkNDI3YTkwOWNjMi5qcGc=</c>
+            </r>
+            <r>
+              <c>Critics Consensus: A technical masterpiece, Battleship Potemkin is Soviet cinema at its finest, and its montage editing techniques remain influential to this day.</c>
+            </r>
+            <r>
+              <c>Synopsis: When they are fed rancid meat, the sailors on the Potemkin revolt against their harsh conditions. Led by Vakulinchuk (Aleksandr... [More]</c>
+            </r>
+            <r>
+              <c>Starring: Aleksandr Antonov, Vladimir Barskiy, Grigoriy Aleksandrov, Mikhail Gomorov</c>
+            </r>
+            <r>
+              <c>Directed By: S. M. Eisenstein</c>
+            </r>
+            <r>
+              <c>METROPOLIS (1927)</c>
+            </r>
+            <r>
+              <c>Writer:Fritz Lang, Thea von Harbou, Thea von Harbou</c>
+            </r>
+            <r>
+              <c>https://resizing.flixster.com/j88wGyBiIDTdZe8fUAGnlkMW8R8=/fit-in/180x240/v2/https://flxt.tmsimg.com/assets/p5638_p_v8_aa.jpg</c>
+            </r>
+            <r>
+              <c>Critics Consensus: A visually awe-inspiring science fiction classic from the silent era.</c>
+            </r>
+            <r>
+              <c>Synopsis: This influential German science-fiction film presents a highly stylized futuristic city where a beautiful and cultured utopia exists above a... [More]</c>
+            </r>
+            <r>
+              <c>Starring: Brigitte Helm, Alfred Abel, Gustav Fröhlich, Rudolf Klein-Rogge</c>
+            </r>
+            <r>
+              <c>Directed By: Fritz Lang</c>
+            </r>
+            <r>
+              <c>KING KONG (1933)</c>
+            </r>
+            <r>
+              <c>Writer:James Ashmore Creelman, Ruth Rose</c>
+            </r>
+            <r>
+              <c>https://resizing.flixster.com/xp3I-cjz9_EVllMumDF35HLaWE0=/fit-in/180x240/v2/https://flxt.tmsimg.com/assets/p2242_p_v8_am.jpg</c>
+            </r>
+            <r>
+              <c>Critics Consensus: King Kong explores the soul of a monster -- making audiences scream and cry throughout the film -- in large part due to Kong's breakthrough special effects.</c>
+            </r>
+            <r>
+              <c>Synopsis: Actress Ann Darrow (Fay Wray) and director Carl Denham (Robert Armstrong) travel to the Indian Ocean to do location shoots... [More]</c>
+            </r>
+            <r>
+              <c>Starring: Fay Wray, Bruce Cabot, Robert Armstrong, Frank Reicher</c>
+            </r>
+            <r>
+              <c>Directed By: Merian C. Cooper, Ernest B. Schoedsack</c>
+            </r>
+            <r>
+              <c>SNOW WHITE AND THE SEVEN DWARFS (1937)</c>
+            </r>
+            <r>
+              <c>Writer:Ted Sears, Richard Creedon, Otto Englander, Dick Rickard, Earl Hurd, Merrill De Maris, Webb Smith</c>
+            </r>
+            <r>
+              <c>https://resizing.flixster.com/xY85qXaKHIOUhNz-rN3vS7aCQlU=/fit-in/180x240/v2/https://flxt.tmsimg.com/assets/p15972_p_v8_ae.jpg</c>
+            </r>
+            <r>
+              <c>Critics Consensus: With its involving story and characters, vibrant art, and memorable songs, Snow White and the Seven Dwarfs set the animation standard for decades to come.</c>
+            </r>
+            <r>
+              <c>Synopsis: The Grimm fairy tale gets a Technicolor treatment in Disney's first animated feature. Jealous of Snow White's beauty, the wicked... [More]</c>
+            </r>
+            <r>
+              <c>Starring: Adriana Caselotti, Harry Stockwell, Lucille La Verne, Moroni Olsen</c>
+            </r>
+            <r>
+              <c>Directed By: David Hand</c>
+            </r>
+            <r>
+              <c>THE WIZARD OF OZ (1939)</c>
+            </r>
+            <r>
+              <c>Writer:L. Frank Baum, Noel Langley, Florence Ryerson, Edgar Allan Woolf</c>
+            </r>
+            <r>
+              <c>https://resizing.flixster.com/k3V0CshRTh9hjqX1ca06kRxaJK0=/fit-in/180x240/v2/https://flxt.tmsimg.com/NowShowing/129612/129612_ab.jpg</c>
+            </r>
+            <r>
+              <c>Critics Consensus: An absolute masterpiece whose groundbreaking visuals and deft storytelling are still every bit as resonant, The Wizard of Oz is a must-see film for young and old.</c>
+            </r>
+            <r>
+              <c>Synopsis: When a tornado rips through Kansas, Dorothy (Judy Garland) and her dog, Toto, are whisked away in their house to... [More]</c>
+            </r>
+            <r>
+              <c>Starring: Judy Garland, Frank Morgan, Ray Bolger, Bert Lahr</c>
+            </r>
+            <r>
+              <c>Directed By: Victor Fleming</c>
+            </r>
+            <r>
+              <c>REBECCA (1940)</c>
+            </r>
+            <r>
+              <c>Writer:Daphne Du Maurier, Philip MacDonald, Michael Hogan, Robert E. Sherwood, Joan Harrison, Barbara Keon</c>
+            </r>
+            <r>
+              <c>https://resizing.flixster.com/NxP0vb39d3Ww3ldYZza9VJCQh-s=/fit-in/180x240/v2/https://flxt.tmsimg.com/assets/p3680_p_v8_aa.jpg</c>
+            </r>
+            <r>
+              <c>Critics Consensus: Hitchcock's first American film (and his only Best Picture winner), Rebecca is a masterpiece of haunting atmosphere, Gothic thrills, and gripping suspense.</c>
+            </r>
+            <r>
+              <c>Synopsis: Story of a young woman who marries a fascinating widower only to find out that she must live in the... [More]</c>
+            </r>
+            <r>
+              <c>Starring: Laurence Olivier, Joan Fontaine, Judith Anderson, George Sanders</c>
+            </r>
+            <r>
+              <c>Directed By: Alfred Hitchcock</c>
+            </r>
+            <r>
+              <c>SHADOW OF A DOUBT (1943)</c>
+            </r>
+            <r>
+              <c>Writer:Gordon McDonell, Thornton Wilder, Sally Benson, Alma Reville</c>
+            </r>
+            <r>
+              <c>https://resizing.flixster.com/wSa76uNr9p4yxPPooLNrzuF_M7Q=/fit-in/180x240/v2/https://flxt.tmsimg.com/assets/p281_p_v8_af.jpg</c>
+            </r>
+            <r>
+              <c>Critics Consensus: Alfred Hitchcock's earliest classic -- and his own personal favorite -- deals its flesh-crawling thrills as deftly as its finely shaded characters.</c>
+            </r>
+            <r>
+              <c>Synopsis: Uncle Charlie (Joseph Cotten) visits his relatives in Santa Rosa. He is a very charming man, but his niece slowly... [More]</c>
+            </r>
+            <r>
+              <c>Starring: Teresa Wright, Joseph Cotten, Hume Cronyn, Macdonald Carey</c>
+            </r>
+            <r>
+              <c>Directed By: Alfred Hitchcock</c>
+            </r>
+            <r>
+              <c>LAURA (1944)</c>
+            </r>
+            <r>
+              <c>Writer:Jay Dratler, Samuel Hoffenstein, Elizabeth Reinhardt</c>
+            </r>
+            <r>
+              <c>https://resizing.flixster.com/l0Wm6F-MHCiPSw6K1EKAGJB9Nto=/fit-in/180x240/v2/https://flxt.tmsimg.com/assets/p212_p_v8_aa.jpg</c>
+            </r>
+            <r>
+              <c>Critics Consensus: A psychologically complex portrait of obsession, Laura is also a deliciously well-crafted murder mystery.</c>
+            </r>
+            <r>
+              <c>Synopsis: In one of the most celebrated 1940s film noirs, Manhattan detective Mark McPherson (Dana Andrews) investigates the murder of Madison... [More]</c>
+            </r>
+            <r>
+              <c>Starring: Gene Tierney, Dana Andrews, Clifton Webb, Vincent Price</c>
+            </r>
+            <r>
+              <c>Directed By: Otto Preminger</c>
+            </r>
+            <r>
+              <c>THE BIG SLEEP (1946)</c>
+            </r>
+            <r>
+              <c>Writer:William Faulkner, Leigh Brackett, Jules Furthman</c>
+            </r>
+            <r>
+              <c>https://resizing.flixster.com/TTMspgpaH9jRIn6W8IFkIDYUkog=/fit-in/180x240/v2/https://flxt.tmsimg.com/assets/p905_p_v8_aa.jpg</c>
+            </r>
+            <r>
+              <c>Critics Consensus: A perfect match of screenplay, director, and leading man, The Big Sleep stands as a towering achievement in film noir whose grim vitality remains undimmed.</c>
+            </r>
+            <r>
+              <c>Synopsis: Private investigator Philip Marlowe (Humphrey Bogart) is hired by General Sternwood to help resolve the gambling debts of his wild... [More]</c>
+            </r>
+            <r>
+              <c>Starring: Humphrey Bogart, Lauren Bacall, Martha Vickers, John Ridgely</c>
+            </r>
+            <r>
+              <c>Directed By: Howard Hawks</c>
+            </r>
+            <r>
+              <c>BICYCLE THIEVES (1948)</c>
+            </r>
+            <r>
+              <c>Writer:Luigi Bartolini, Cesar Zavattini, Suso Cecchi d'Amico</c>
+            </r>
+            <r>
+              <c>https://resizing.flixster.com/ttmP3B0Nh8W4xYftKR4YVL7fFm8=/fit-in/180x240/v2/https://flxt.tmsimg.com/assets/p7480_p_v7_ae.jpg</c>
+            </r>
+            <r>
+              <c>Critics Consensus: An Italian neorealism exemplar, Bicycle Thieves thrives on its non-flashy performances and searing emotion.</c>
+            </r>
+            <r>
+              <c>Synopsis: Unemployed Antonio Ricci (Lamberto Maggiorani) is elated when he finally finds work hanging posters around war-torn Rome. His wife, Maria... [More]</c>
+            </r>
+            <r>
+              <c>Starring: Lamberto Maggiorani, Lianella Carell, Enzo Staiola, Elena Altieri</c>
+            </r>
+            <r>
+              <c>Directed By: Vittorio De Sica</c>
+            </r>
+          </Data>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="F1" size="224" source="TextInput:" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+    </Node>
+    <Node ToolID="3">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="174" y="606" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="F1" selected="True" rename="Data" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>Rename column</AnnotationText>
+          <DefaultAnnotationText>Rename column</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Data" size="224" source="TextInput:" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="4">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="390" y="606" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="FLOOR([RecordID]/7)+1" field="Movie number" size="2" type="Int16" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText><![CDATA[Movie number = FLOOR([RecordID]/7)+1
+]]></DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="RecordID" source="RecordID: Starting Value=0" type="Int32" />
+            <Field name="Data" size="224" source="TextInput:" type="V_String" />
+            <Field name="Movie number" source="Formula: FLOOR([RecordID]/7)+1" type="Int16" />
+          </RecordInfo>
+          <SortInfo>
+            <Field field="RecordID" order="Asc" />
+          </SortInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="5">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.RecordID.RecordID">
+        <Position x="282" y="606" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FieldName>RecordID</FieldName>
+          <StartValue>0</StartValue>
+          <FieldType>Int32</FieldType>
+          <FieldSize>6</FieldSize>
+          <Position>0</Position>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>Add RecordID</AnnotationText>
+          <DefaultAnnotationText>Add RecordID</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="RecordID" source="RecordID: Starting Value=0" type="Int32" />
+            <Field name="Data" size="224" source="TextInput:" type="V_String" />
+          </RecordInfo>
+          <SortInfo>
+            <Field field="RecordID" order="Asc" />
+          </SortInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxRecordID" />
+    </Node>
+    <Node ToolID="6">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="258" y="762" width="264" height="72" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text><![CDATA[The info for each movie takes up 7 records.
+We use floor division to find the largest integer of (RecordID / 7) and then add 1.
+Each row now has a value for the "movie number"
+
+]]></Text>
+          <Font name="Arial" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="0" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="8">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AppendFields.AppendFields">
+        <Position x="642" y="690" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <CartesianMode>Allow</CartesianMode>
+          <SelectConfiguration>
+            <Configuration outputConnection="Output">
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Target_Movie number" selected="True" input="Target_" />
+                <SelectField field="Source_Categories" selected="True" input="Source_" />
+                <SelectField field="*Unknown" selected="False" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Movie number" source="Summarize: GroupBy - Movie number" type="Int16" />
+            <Field name="Categories" size="8" source="TextInput:" type="String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxAppendFields" />
+    </Node>
+    <Node ToolID="9">
+      <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+        <Position x="486" y="654" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SummarizeFields>
+            <SummarizeField field="Movie number" action="GroupBy" rename="Movie number" />
+          </SummarizeFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Movie number" source="Summarize: GroupBy - Movie number" type="Int16" />
+          </RecordInfo>
+          <SortInfo>
+            <Field field="Movie number" order="Asc" />
+          </SortInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+    </Node>
+    <Node ToolID="10">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.RecordID.RecordID">
+        <Position x="738" y="690" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FieldName>RecordID_2</FieldName>
+          <StartValue>0</StartValue>
+          <FieldType>Int32</FieldType>
+          <FieldSize>6</FieldSize>
+          <Position>0</Position>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="RecordID_2" source="RecordID: Starting Value=0" type="Int32" />
+            <Field name="Movie number" source="Summarize: GroupBy - Movie number" type="Int16" />
+            <Field name="Categories" size="8" source="TextInput:" type="String" />
+          </RecordInfo>
+          <SortInfo>
+            <Field field="RecordID_2" order="Asc" />
+          </SortInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxRecordID" />
+    </Node>
+    <Node ToolID="11">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="858" y="678" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="False">
+          <JoinInfo connection="Left">
+            <Field field="RecordID" />
+          </JoinInfo>
+          <JoinInfo connection="Right">
+            <Field field="RecordID_2" />
+          </JoinInfo>
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Right_RecordID_2" selected="False" input="Right_" />
+                <SelectField field="Right_Movie number" selected="False" rename="Right_Movie number" input="Right_" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>Join on Record IDs</AnnotationText>
+          <DefaultAnnotationText>Join on Record IDs</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Left">
+          <RecordInfo>
+            <Field name="RecordID" source="RecordID: Starting Value=0" type="Int32" />
+            <Field name="Data" size="224" source="TextInput:" type="V_String" />
+            <Field name="Movie number" source="Formula: FLOOR([RecordID]/7)+1" type="Int16" />
+          </RecordInfo>
+          <SortInfo noProgress="True">
+            <Field field="RecordID" />
+          </SortInfo>
+        </MetaInfo>
+        <MetaInfo connection="Join">
+          <RecordInfo>
+            <Field name="RecordID" source="RecordID: Starting Value=0" type="Int32" />
+            <Field name="Data" size="224" source="TextInput:" type="V_String" />
+            <Field name="Movie number" source="Formula: FLOOR([RecordID]/7)+1" type="Int16" />
+            <Field name="Categories" size="8" source="TextInput:" type="String" />
+          </RecordInfo>
+          <SortInfo>
+            <Field field="RecordID" order="" />
+          </SortInfo>
+        </MetaInfo>
+        <MetaInfo connection="Right">
+          <RecordInfo>
+            <Field name="RecordID_2" source="RecordID: Starting Value=0" type="Int32" />
+            <Field name="Categories" size="8" source="TextInput:" type="String" />
+          </RecordInfo>
+          <SortInfo noProgress="True">
+            <Field field="RecordID_2" />
+          </SortInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+    <Node ToolID="12">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.CrossTab.CrossTab">
+        <Position x="954" y="678" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <GroupFields>
+            <Field field="Movie number" />
+          </GroupFields>
+          <HeaderField field="Categories" />
+          <DataField field="Data" />
+          <Methods>
+            <Method method="Concat" />
+            <Separator>,</Separator>
+            <FieldSize value="2048" />
+          </Methods>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Movie number" source="CrossTab:Group:Concat:" type="Int16" />
+            <Field name="Cover" size="2048" source="CrossTab:Header:Categories:Cover:Concat:" type="V_String" />
+            <Field name="Critics" size="2048" source="CrossTab:Header:Categories:Critics:Concat:" type="V_String" />
+            <Field name="Director" size="2048" source="CrossTab:Header:Categories:Director:Concat:" type="V_String" />
+            <Field name="Name" size="2048" source="CrossTab:Header:Categories:Name:Concat:" type="V_String" />
+            <Field name="Starring" size="2048" source="CrossTab:Header:Categories:Starring:Concat:" type="V_String" />
+            <Field name="Synopsis" size="2048" source="CrossTab:Header:Categories:Synopsis:Concat:" type="V_String" />
+            <Field name="Writer" size="2048" source="CrossTab:Header:Categories:Writer:Concat:" type="V_String" />
+          </RecordInfo>
+          <SortInfo>
+            <Field field="Movie number" order="Asc" />
+          </SortInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxCrossTab" />
+    </Node>
+    <Node ToolID="13">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="1050" y="678" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="TrimLeft([Critics],&quot;Critics Consensus:&quot;)" field="Critics" size="2048" type="V_String" />
+            <FormulaField expression="TrimLeft([Director],&quot;Directed By:&quot;)" field="Director" size="2048" type="V_String" />
+            <FormulaField expression="TrimLeft([Starring],&quot;Starring:&quot;)" field="Starring" size="2048" type="V_String" />
+            <FormulaField expression="TrimLeft([Writer],&quot;Writer:&quot;)" field="Writer" size="2048" type="V_String" />
+            <FormulaField expression="TitleCase([Name])" field="Name" size="2048" type="V_String" />
+            <FormulaField expression="TrimLeft([Synopsis],&quot;Synopsis:&quot;)" field="Synopsis" size="2048" type="V_String" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>Trim extra words
+Movie name in title case</AnnotationText>
+          <DefaultAnnotationText>Critics = TrimLeft([Critics],"Critics Consensus:")
+Director = TrimLeft([Director...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Movie number" source="CrossTab:Group:Concat:" type="Int16" />
+            <Field name="Cover" size="2048" source="CrossTab:Header:Categories:Cover:Concat:" type="V_String" />
+            <Field name="Critics" size="2048" source="Formula: TrimLeft([Critics],&quot;Critics Consensus:&quot;)" type="V_String" />
+            <Field name="Director" size="2048" source="Formula: TrimLeft([Director],&quot;Directed By:&quot;)" type="V_String" />
+            <Field name="Name" size="2048" source="Formula: TitleCase([Name])" type="V_String" />
+            <Field name="Starring" size="2048" source="Formula: TrimLeft([Starring],&quot;Starring:&quot;)" type="V_String" />
+            <Field name="Synopsis" size="2048" source="Formula: TrimLeft([Synopsis],&quot;Synopsis:&quot;)" type="V_String" />
+            <Field name="Writer" size="2048" source="Formula: TrimLeft([Writer],&quot;Writer:&quot;)" type="V_String" />
+          </RecordInfo>
+          <SortInfo>
+            <Field field="Movie number" order="Asc" />
+          </SortInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="14">
+      <GuiSettings>
+        <Position x="1182" y="678" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="Check Box (135)">False</Value>
+          <Value name="Check Box (136)">False</Value>
+          <Value name="List Box (11)">"Cover","Critics","Director","Name","Starring","Synopsis","Writer"</Value>
+          <Value name="Check Box (84)">True</Value>
+          <Value name="Check Box (117)">True</Value>
+          <Value name="Check Box (15)">True</Value>
+          <Value name="Check Box (109)">False</Value>
+          <Value name="Check Box (122)">False</Value>
+          <Value name="Check Box (53)">False</Value>
+          <Value name="Check Box (58)">False</Value>
+          <Value name="Check Box (70)">False</Value>
+          <Value name="Check Box (77)">False</Value>
+          <Value name="Drop Down (81)">upper</Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>Remove white space</AnnotationText>
+          <DefaultAnnotationText>Remove white space</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output26">
+          <RecordInfo>
+            <Field name="Movie number" source="Formula: IF [_CurrentFieldName_] IN(&quot;Cover&quot;,&quot;Critics&quot;,&quot;Director&quot;,&quot;Name&quot;,&quot;Starring&quot;,&quot;Synopsis&quot;,&quot;Writer&quot;) THEN   &#xA;       IF IsNull([_CurrentField_]) THEN &#xA;	    IF ( [_CurrentFieldType_] IN ('Byte', 'Int16', 'Int32', 'Int64', 'Float', 'Double', 'FixedDecimal')) THEN&#xA;       	0&#xA;    	    ELSE [_CurrentField_]&#xA;	    ENDIF&#xA;	ELSE [_CurrentField_]&#xA;	ENDIF&#xA;    ELSE [_CurrentField_]&#xA;    ENDIF" type="Int16" />
+            <Field name="Cover" size="2048" source="Formula: [_CurrentField_]" type="V_String" />
+            <Field name="Critics" size="2048" source="Formula: [_CurrentField_]" type="V_String" />
+            <Field name="Director" size="2048" source="Formula: [_CurrentField_]" type="V_String" />
+            <Field name="Name" size="2048" source="Formula: [_CurrentField_]" type="V_String" />
+            <Field name="Starring" size="2048" source="Formula: [_CurrentField_]" type="V_String" />
+            <Field name="Synopsis" size="2048" source="Formula: [_CurrentField_]" type="V_String" />
+            <Field name="Writer" size="2048" source="Formula: [_CurrentField_]" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings Macro="Cleanse.yxmc" />
+    </Node>
+    <Node ToolID="15">
+      <GuiSettings Plugin="AlteryxConnectorGui.Download.Download">
+        <Position x="1290" y="678" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <URLField>Cover</URLField>
+          <OutputMode>Blob</OutputMode>
+          <EncodeURLs value="False" />
+          <Headers>
+            <NameValues />
+            <Fields orderChanged="False">
+              <Field name="Movie number" selected="False" />
+              <Field name="Cover" selected="False" />
+              <Field name="Critics" selected="False" />
+              <Field name="Director" selected="False" />
+              <Field name="Name" selected="False" />
+              <Field name="Starring" selected="False" />
+              <Field name="Synopsis" selected="False" />
+              <Field name="Writer" selected="False" />
+              <Field name="*Unknown" selected="False" />
+            </Fields>
+          </Headers>
+          <Payload>
+            <HTTPAction>GET</HTTPAction>
+            <QueryStringBodyMode>Compose</QueryStringBodyMode>
+            <ComposeNameValues />
+            <ComposeFields orderChanged="False">
+              <Field name="Movie number" selected="False" />
+              <Field name="Cover" selected="False" />
+              <Field name="Critics" selected="False" />
+              <Field name="Director" selected="False" />
+              <Field name="Name" selected="False" />
+              <Field name="Starring" selected="False" />
+              <Field name="Synopsis" selected="False" />
+              <Field name="Writer" selected="False" />
+              <Field name="*Unknown" selected="False" />
+            </ComposeFields>
+          </Payload>
+          <UserName />
+          <Password />
+          <numConnections>2</numConnections>
+          <Timeout>600</Timeout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>Download images</AnnotationText>
+          <DefaultAnnotationText>Download images</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Movie number" source="Formula: IF [_CurrentFieldName_] IN(&quot;Cover&quot;,&quot;Critics&quot;,&quot;Director&quot;,&quot;Name&quot;,&quot;Starring&quot;,&quot;Synopsis&quot;,&quot;Writer&quot;) THEN   &#xA;       IF IsNull([_CurrentField_]) THEN &#xA;	    IF ( [_CurrentFieldType_] IN ('Byte', 'Int16', 'Int32', 'Int64', 'Float', 'Double', 'FixedDecimal')) THEN&#xA;       	0&#xA;    	    ELSE [_CurrentField_]&#xA;	    ENDIF&#xA;	ELSE [_CurrentField_]&#xA;	ENDIF&#xA;    ELSE [_CurrentField_]&#xA;    ENDIF" type="Int16" />
+            <Field name="Cover" size="2048" source="Formula: [_CurrentField_]" type="V_String" />
+            <Field name="Critics" size="2048" source="Formula: [_CurrentField_]" type="V_String" />
+            <Field name="Director" size="2048" source="Formula: [_CurrentField_]" type="V_String" />
+            <Field name="Name" size="2048" source="Formula: [_CurrentField_]" type="V_String" />
+            <Field name="Starring" size="2048" source="Formula: [_CurrentField_]" type="V_String" />
+            <Field name="Synopsis" size="2048" source="Formula: [_CurrentField_]" type="V_String" />
+            <Field name="Writer" size="2048" source="Formula: [_CurrentField_]" type="V_String" />
+            <Field name="DownloadData" size="2147483647" source="Download" type="Blob" />
+            <Field name="DownloadHeaders" size="2147483647" source="Download" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxConnectorEngine.dll" EngineDllEntryPoint="AlteryxDownload" />
+    </Node>
+    <Node ToolID="16">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BlobConvert.BlobConvert">
+        <Position x="1386" y="678" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <ToBlob value="False" />
+          <from_Field>DownloadData</from_Field>
+          <from_Mode>ReportSnippet</from_Mode>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Movie number" source="Formula: IF [_CurrentFieldName_] IN(&quot;Cover&quot;,&quot;Critics&quot;,&quot;Director&quot;,&quot;Name&quot;,&quot;Starring&quot;,&quot;Synopsis&quot;,&quot;Writer&quot;) THEN   &#xA;       IF IsNull([_CurrentField_]) THEN &#xA;	    IF ( [_CurrentFieldType_] IN ('Byte', 'Int16', 'Int32', 'Int64', 'Float', 'Double', 'FixedDecimal')) THEN&#xA;       	0&#xA;    	    ELSE [_CurrentField_]&#xA;	    ENDIF&#xA;	ELSE [_CurrentField_]&#xA;	ENDIF&#xA;    ELSE [_CurrentField_]&#xA;    ENDIF" type="Int16" />
+            <Field name="Cover" size="2048" source="Formula: [_CurrentField_]" type="V_String" />
+            <Field name="Critics" size="2048" source="Formula: [_CurrentField_]" type="V_String" />
+            <Field name="Director" size="2048" source="Formula: [_CurrentField_]" type="V_String" />
+            <Field name="Name" size="2048" source="Formula: [_CurrentField_]" type="V_String" />
+            <Field name="Starring" size="2048" source="Formula: [_CurrentField_]" type="V_String" />
+            <Field name="Synopsis" size="2048" source="Formula: [_CurrentField_]" type="V_String" />
+            <Field name="Writer" size="2048" source="Formula: [_CurrentField_]" type="V_String" />
+            <Field name="DownloadData" size="2147483647" source="Report: BlobConvert: ReportSnippet" type="V_String" />
+            <Field name="DownloadHeaders" size="2147483647" source="Download" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBlobConvert" />
+    </Node>
+    <Node ToolID="17">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="1506" y="798" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\MARIE~1.COU\AppData\Local\Temp\Engine_19280_87979745344644809c3e519d9d37b31b_\Engine_21700_319314026e344c9ea42235276cb60172_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Report</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>Movie cover images</AnnotationText>
+          <DefaultAnnotationText>Movie cover images</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="18">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="1530" y="678" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="True" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="Movie number" selected="True" />
+            <SelectField field="Name" selected="True" />
+            <SelectField field="Starring" selected="True" />
+            <SelectField field="Synopsis" selected="True" />
+            <SelectField field="Director" selected="True" />
+            <SelectField field="Writer" selected="True" />
+            <SelectField field="Critics" selected="True" />
+            <SelectField field="DownloadData" selected="True" rename="Cover" />
+            <SelectField field="DownloadHeaders" selected="False" />
+            <SelectField field="Cover" selected="False" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Movie number" source="Formula: IF [_CurrentFieldName_] IN(&quot;Cover&quot;,&quot;Critics&quot;,&quot;Director&quot;,&quot;Name&quot;,&quot;Starring&quot;,&quot;Synopsis&quot;,&quot;Writer&quot;) THEN   &#xA;       IF IsNull([_CurrentField_]) THEN &#xA;	    IF ( [_CurrentFieldType_] IN ('Byte', 'Int16', 'Int32', 'Int64', 'Float', 'Double', 'FixedDecimal')) THEN&#xA;       	0&#xA;    	    ELSE [_CurrentField_]&#xA;	    ENDIF&#xA;	ELSE [_CurrentField_]&#xA;	ENDIF&#xA;    ELSE [_CurrentField_]&#xA;    ENDIF" type="Int16" />
+            <Field name="Name" size="2048" source="Formula: [_CurrentField_]" type="V_String" />
+            <Field name="Starring" size="2048" source="Formula: [_CurrentField_]" type="V_String" />
+            <Field name="Synopsis" size="2048" source="Formula: [_CurrentField_]" type="V_String" />
+            <Field name="Director" size="2048" source="Formula: [_CurrentField_]" type="V_String" />
+            <Field name="Writer" size="2048" source="Formula: [_CurrentField_]" type="V_String" />
+            <Field name="Critics" size="2048" source="Formula: [_CurrentField_]" type="V_String" />
+            <Field name="Cover" size="2147483647" source="Report: BlobConvert: ReportSnippet" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="19">
+      <GuiSettings Plugin="PortfolioPluginsGui.ComposerTable.PortfolioComposerTable">
+        <Position x="1626" y="678" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TableMode>Basic</TableMode>
+          <GroupingFields orderChanged="False" />
+          <Width>100%</Width>
+          <ShowHeader value="True" />
+          <ShowBarGraph value="False" />
+          <TableFields orderChanged="False">
+            <Field name="Name" selected="True" Alignment="Center" Borders="None" Width="" />
+            <Field name="Starring" selected="True" Alignment="Left" Borders="None" />
+            <Field name="Synopsis" selected="True" Alignment="Left" Borders="None" />
+            <Field name="Director" selected="True" Alignment="Left" Borders="None" />
+            <Field name="Writer" selected="True" Alignment="Left" Borders="None" />
+            <Field name="Critics" selected="True" Alignment="Left" Borders="None" />
+            <Field name="Cover" selected="True" Alignment="Center" Width="" Borders="None" />
+            <Field name="Movie number" selected="False" />
+            <Field name="*Unknown" selected="False" />
+          </TableFields>
+          <TableStyles>
+            <Style Name="Data" Font="Arial" Size="8" TextColor="#000000" BackColor="#ffffff" AltColor="#f0f0f0" RowGroup="1" />
+            <Style Name="Header" Font="Arial" Size="10" TextColor="#000000" BackColor="#dbdbdb" />
+            <Style Name="Borders" Width="1" DataColor="#000000" HeaderColor="#000000" RowBorder="None" BasicColBorder="Default (Use Per Column Setting)" />
+            <Style Name="Table" CellPadding="1" ColumnPadding="1" TableBorder="true" Width="1" BorderColor="#8000ff" />
+          </TableStyles>
+          <StyleRules>
+            <Rule Name="e90bcb87-93a6-4d3e-b554-e3406640817f">
+              <RowRule value="True" />
+              <HighPrecedence value="False" />
+              <Field />
+              <Test>Simple</Test>
+              <ApplyTo>Data</ApplyTo>
+              <SimpleVar />
+              <SimpleOp>==</SimpleOp>
+              <SimpleConst>1</SimpleConst>
+              <Formula>1</Formula>
+              <Style />
+              <PrettyName>Row Rule 1</PrettyName>
+            </Rule>
+          </StyleRules>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Basic Table</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Table" size="2147483647" source="Report:Table:Basic:" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="PortfolioPluginsEngine.dll" EngineDllEntryPoint="AlteryxPortfolioComposerTablePlugin" />
+    </Node>
+    <Node ToolID="20">
+      <GuiSettings Plugin="PortfolioPluginsGui.ComposerRender.PortfolioComposerRender">
+        <Position x="1962" y="678" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFileType>pdf</TempFileType>
+          <BatchMode value="False" />
+          <DataField>Layout</DataField>
+          <Separator>Continuous</Separator>
+          <EmbedDependencies value="False" />
+          <ShowHeader value="True" />
+          <HeaderField>Header</HeaderField>
+          <ShowFooter value="False" />
+          <OnFirstPage value="True" />
+          <HeaderFooterEdge Distance="0" />
+          <PortraitMode value="False" />
+          <PaperType Width="612" Height="792" Left="36" Right="36" Top="36" Bottom="36" />
+          <DefaultStyles>
+            <Style Name="TextStyle" FontName="Arial" FontSize="14" Justify="Left" ForeColor="#8000ff" Locale="1033" />
+          </DefaultStyles>
+          <PNGResolution>1</PNGResolution>
+          <PNGLargerAction>squeeze</PNGLargerAction>
+          <PNGLargerThanPageChoice>warning</PNGLargerThanPageChoice>
+          <PNGTransparentBG value="False" />
+          <PNGBackColor value="#ffffff" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="PortfolioPluginsEngine.dll" EngineDllEntryPoint="AlteryxPortfolioComposerRenderPlugin" />
+    </Node>
+    <Node ToolID="21">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="1950" y="750" width="100" height="40" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>The final PDF report</Text>
+          <Font name="Arial" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="22">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="846" y="798" width="108" height="48" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Join to add the category to each record</Text>
+          <Font name="Arial" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="23">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="1050" y="798" width="240" height="48" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Trim the extra words from the columns
+Convert the movie name to Title Case
+Remove leftover whitespace</Text>
+          <Font name="Arial" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="1" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="24">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="1626" y="798" width="204" height="40" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Movie number was removed from the final report but it could also be left in.</Text>
+          <Font name="Arial" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="25">
+      <GuiSettings Plugin="PortfolioPluginsGui.ComposerLayout.PortfolioComposerLayout">
+        <Position x="1710" y="678" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <GroupingMode>PerRecord</GroupingMode>
+          <PreserveSourceFields value="False" />
+          <Orientation>V</Orientation>
+          <Separator>Continuous</Separator>
+          <Width>100%</Width>
+          <Height />
+          <BorderStyle Enabled="false" Color="#000000" Width="2" />
+          <SeparatorStyle Enabled="false" Color="#000000" Width="1" />
+          <Padding>2</Padding>
+          <LayoutFields orderChanged="False">
+            <Field name="Table" selected="True" Alignment="Center" />
+          </LayoutFields>
+          <MergeIntoTable value="False" />
+          <SectionNameForGroup />
+          <SectionNameForAllRecords />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Vertical Layout
+Each Individual Record</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Layout" size="2147483647" source="Report:Layout:" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="PortfolioPluginsEngine.dll" EngineDllEntryPoint="AlteryxPortfolioComposerLayoutPlugin" />
+    </Node>
+    <Node ToolID="26">
+      <GuiSettings>
+        <Position x="1830" y="678" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="HeaderText">Top 10 Movies Written by Women</Value>
+          <Value name="IncludeDate">False</Value>
+          <Value name="DateFormat">Month dd, yyyy</Value>
+          <Value name="IncludeImage">False</Value>
+          <Value name="AlteryxLogo">True</Value>
+          <Value name="OwnLogo">False</Value>
+          <Value name="ImageFile" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output13">
+          <RecordInfo>
+            <Field name="Layout" size="2147483647" source="Report:Layout:" type="V_String" />
+            <Field name="Header" size="2147483647" source="Report:Text:" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings Macro="HeaderMacro.yxmc" />
+    </Node>
+    <Node ToolID="59">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="54" y="54" width="324" height="72" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text />
+          <Font name="Segoe UI" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="3" />
+          <Justification Justification="4" />
+          <BG_Image>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</BG_Image>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="60">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="774" y="66" width="180" height="40" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Challenge #309</Text>
+          <Font name="Microsoft Sans Serif" size="16.2" style="0" />
+          <TextColor name="Gray" />
+          <FillColor name="White" />
+          <Shape shape="3" />
+          <Justification Justification="0" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="67">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="1950" y="858" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\MARIE~1.COU\AppData\Local\Temp\Engine_19280_87979745344644809c3e519d9d37b31b_\Engine_21700_77b7b63bf31e46b4ba3ce5563483e4e3_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Report</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="70">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+        <Position x="66" y="498" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <NumRows value="7" />
+          <Fields>
+            <Field name="Categories" />
+          </Fields>
+          <Data>
+            <r>
+              <c>Name</c>
+            </r>
+            <r>
+              <c>Writer</c>
+            </r>
+            <r>
+              <c>Cover</c>
+            </r>
+            <r>
+              <c>Critics</c>
+            </r>
+            <r>
+              <c>Synopsis</c>
+            </r>
+            <r>
+              <c>Starring</c>
+            </r>
+            <r>
+              <c>Director</c>
+            </r>
+          </Data>
+        </Configuration>
+        <Annotation DisplayMode="2">
+          <Name />
+          <DefaultAnnotationText>Add categories</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Categories" size="8" source="TextInput:" type="String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+    </Node>
+    <Node ToolID="71">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="174" y="402" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\MARIE~1.COU\AppData\Local\Temp\Engine_19280_87979745344644809c3e519d9d37b31b_\Engine_21700_5193cdd403eb45f882e92270080e6ebd_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="72">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="174" y="498" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\MARIE~1.COU\AppData\Local\Temp\Engine_19280_87979745344644809c3e519d9d37b31b_\Engine_21700_f0d6eac858044208b92df28f1fede103_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="65">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="461" y="1036" width="1597" height="234" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption><![CDATA[ Solution with Tile Tool]]></Caption>
+          <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="False" />
+          <Folded value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="32">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Tile.Tile">
+            <Position x="486" y="1086" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Method>EqualRecords</Method>
+              <EqualRecords>
+                <NumTiles value="10" />
+              </EqualRecords>
+              <GroupFields orderChanged="False" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="RecordID" source="RecordID: Starting Value=0" type="Int32" />
+                <Field name="Data" size="224" source="TextInput:" type="V_String" />
+                <Field name="Tile_Num" type="Int16" />
+                <Field name="Tile_SequenceNum" type="Int32" />
+              </RecordInfo>
+              <SortInfo>
+                <Field field="RecordID" order="Asc" />
+              </SortInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTile" />
+        </Node>
+        <Node ToolID="33">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.CrossTab.CrossTab">
+            <Position x="630" y="1086" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <GroupFields>
+                <Field field="Tile_SequenceNum" />
+              </GroupFields>
+              <HeaderField field="Tile_Num" />
+              <DataField field="Data" />
+              <Methods>
+                <Method method="First" />
+                <Separator>,</Separator>
+                <FieldSize value="2048" />
+              </Methods>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="Tile_SequenceNum" source="CrossTab:Group:First:" type="Int32" />
+                <Field name="1" size="224" source="TextInput:" type="V_String" />
+                <Field name="2" size="224" source="TextInput:" type="V_String" />
+                <Field name="3" size="224" source="TextInput:" type="V_String" />
+                <Field name="4" size="224" source="TextInput:" type="V_String" />
+                <Field name="5" size="224" source="TextInput:" type="V_String" />
+                <Field name="6" size="224" source="TextInput:" type="V_String" />
+                <Field name="7" size="224" source="TextInput:" type="V_String" />
+                <Field name="8" size="224" source="TextInput:" type="V_String" />
+                <Field name="9" size="224" source="TextInput:" type="V_String" />
+                <Field name="10" size="224" source="TextInput:" type="V_String" />
+              </RecordInfo>
+              <SortInfo>
+                <Field field="Tile_SequenceNum" order="Asc" />
+              </SortInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxCrossTab" />
+        </Node>
+        <Node ToolID="34">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+            <Position x="630" y="1170" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <NumRows value="7" />
+              <Fields>
+                <Field name="Categories" />
+                <Field name="Tile " />
+              </Fields>
+              <Data>
+                <r>
+                  <c>Name</c>
+                  <c>1</c>
+                </r>
+                <r>
+                  <c>Writer</c>
+                  <c>2</c>
+                </r>
+                <r>
+                  <c>Cover</c>
+                  <c>3</c>
+                </r>
+                <r>
+                  <c>Critics</c>
+                  <c>4</c>
+                </r>
+                <r>
+                  <c>Synopsis</c>
+                  <c>5</c>
+                </r>
+                <r>
+                  <c>Starring</c>
+                  <c>6</c>
+                </r>
+                <r>
+                  <c>Director</c>
+                  <c>7</c>
+                </r>
+              </Data>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <AnnotationText>Add categories</AnnotationText>
+              <DefaultAnnotationText>Add categories</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="Categories" size="8" source="TextInput:" type="String" />
+                <Field name="Tile " source="TextInput:" type="Byte" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+        </Node>
+        <Node ToolID="35">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.FindReplace.FindReplace">
+            <Position x="870" y="1134" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <FieldFind>Tile_SequenceNum</FieldFind>
+              <FieldSearch><![CDATA[Tile ]]></FieldSearch>
+              <ReplaceFoundField>Categories</ReplaceFoundField>
+              <FindMode>FindWhole</FindMode>
+              <NoCase value="False" />
+              <MatchWholeWord value="False" />
+              <ReplaceMode>Replace</ReplaceMode>
+              <ReplaceMultipleFound value="True" />
+              <ReplaceAppendFields>
+                <Field field="Categories" />
+              </ReplaceAppendFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="Tile_SequenceNum" size="11" source="CrossTab:Group:First:" type="V_String" />
+                <Field name="1" size="224" source="TextInput:" type="V_String" />
+                <Field name="2" size="224" source="TextInput:" type="V_String" />
+                <Field name="3" size="224" source="TextInput:" type="V_String" />
+                <Field name="4" size="224" source="TextInput:" type="V_String" />
+                <Field name="5" size="224" source="TextInput:" type="V_String" />
+                <Field name="6" size="224" source="TextInput:" type="V_String" />
+                <Field name="7" size="224" source="TextInput:" type="V_String" />
+                <Field name="8" size="224" source="TextInput:" type="V_String" />
+                <Field name="9" size="224" source="TextInput:" type="V_String" />
+                <Field name="10" size="224" source="TextInput:" type="V_String" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFindReplace" />
+        </Node>
+        <Node ToolID="36">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+            <Position x="738" y="1110" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Tile_SequenceNum" selected="True" type="V_String" size="11" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="Tile_SequenceNum" size="11" source="CrossTab:Group:First:" type="V_String" />
+                <Field name="1" size="224" source="TextInput:" type="V_String" />
+                <Field name="2" size="224" source="TextInput:" type="V_String" />
+                <Field name="3" size="224" source="TextInput:" type="V_String" />
+                <Field name="4" size="224" source="TextInput:" type="V_String" />
+                <Field name="5" size="224" source="TextInput:" type="V_String" />
+                <Field name="6" size="224" source="TextInput:" type="V_String" />
+                <Field name="7" size="224" source="TextInput:" type="V_String" />
+                <Field name="8" size="224" source="TextInput:" type="V_String" />
+                <Field name="9" size="224" source="TextInput:" type="V_String" />
+                <Field name="10" size="224" source="TextInput:" type="V_String" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+        </Node>
+        <Node ToolID="37">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+            <Position x="750" y="1170" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Categories" selected="True" type="V_String" size="8" />
+                <SelectField field="Tile " selected="True" type="V_String" size="3" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="Categories" size="8" source="TextInput:" type="V_String" />
+                <Field name="Tile " size="3" source="TextInput:" type="V_String" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+        </Node>
+        <Node ToolID="45">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Transpose.Transpose">
+            <Position x="978" y="1134" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <ErrorWarn>Warn</ErrorWarn>
+              <KeyFields>
+                <Field field="Tile_SequenceNum" />
+              </KeyFields>
+              <DataFields>
+                <Field field="Tile_SequenceNum" selected="False" />
+                <Field field="1" selected="True" />
+                <Field field="2" selected="True" />
+                <Field field="3" selected="True" />
+                <Field field="4" selected="True" />
+                <Field field="5" selected="True" />
+                <Field field="6" selected="True" />
+                <Field field="7" selected="True" />
+                <Field field="8" selected="True" />
+                <Field field="9" selected="True" />
+                <Field field="10" selected="True" />
+                <Field field="*Unknown" selected="True" />
+              </DataFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="Tile_SequenceNum" size="11" source="CrossTab:Group:First:" type="V_String" />
+                <Field name="Name" size="2" source="Transpose:" type="String" />
+                <Field name="Value" size="224" source="TextInput:" type="V_String" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTranspose" />
+        </Node>
+        <Node ToolID="46">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.CrossTab.CrossTab">
+            <Position x="1086" y="1134" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <GroupFields>
+                <Field field="Name" />
+              </GroupFields>
+              <HeaderField field="Tile_SequenceNum" />
+              <DataField field="Value" />
+              <Methods>
+                <Method method="Concat" />
+                <Separator>,</Separator>
+                <FieldSize value="2048" />
+              </Methods>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="Name" size="2" source="CrossTab:Group:Concat:" type="String" />
+                <Field name="Cover" size="2048" source="CrossTab:Header:Tile_SequenceNum:Cover:Concat:" type="V_String" />
+                <Field name="Critics" size="2048" source="CrossTab:Header:Tile_SequenceNum:Critics:Concat:" type="V_String" />
+                <Field name="Director" size="2048" source="CrossTab:Header:Tile_SequenceNum:Director:Concat:" type="V_String" />
+                <Field name="Name2" size="2048" source="CrossTab:Header:Tile_SequenceNum:Name:Concat:" type="V_String" />
+                <Field name="Starring" size="2048" source="CrossTab:Header:Tile_SequenceNum:Starring:Concat:" type="V_String" />
+                <Field name="Synopsis" size="2048" source="CrossTab:Header:Tile_SequenceNum:Synopsis:Concat:" type="V_String" />
+                <Field name="Writer" size="2048" source="CrossTab:Header:Tile_SequenceNum:Writer:Concat:" type="V_String" />
+              </RecordInfo>
+              <SortInfo>
+                <Field field="Name" order="Asc" />
+              </SortInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxCrossTab" />
+        </Node>
+        <Node ToolID="47">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+            <Position x="1206" y="1134" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <FormulaFields>
+                <FormulaField expression="TrimLeft([Critics],&quot;Critics Consensus:&quot;)" field="Critics" size="2048" type="V_String" />
+                <FormulaField expression="TrimLeft([Director],&quot;Directed By:&quot;)" field="Director" size="2048" type="V_String" />
+                <FormulaField expression="TrimLeft([Starring],&quot;Starring:&quot;)" field="Starring" size="2048" type="V_String" />
+                <FormulaField expression="TrimLeft([Writer],&quot;Writer:&quot;)" field="Writer" size="2048" type="V_String" />
+                <FormulaField expression="TitleCase([Name])" field="Name" size="2" type="String" />
+                <FormulaField expression="TrimLeft([Synopsis],&quot;Synopsis:&quot;)" field="Synopsis" size="2048" type="V_String" />
+              </FormulaFields>
+            </Configuration>
+            <Annotation DisplayMode="2">
+              <Name />
+              <DefaultAnnotationText>Critics = TrimLeft([Critics],"Critics Consensus:")
+Director = TrimLeft([Director...</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="Name" size="2" source="Formula: TitleCase([Name])" type="String" />
+                <Field name="Cover" size="2048" source="CrossTab:Header:Tile_SequenceNum:Cover:Concat:" type="V_String" />
+                <Field name="Critics" size="2048" source="Formula: TrimLeft([Critics],&quot;Critics Consensus:&quot;)" type="V_String" />
+                <Field name="Director" size="2048" source="Formula: TrimLeft([Director],&quot;Directed By:&quot;)" type="V_String" />
+                <Field name="Name2" size="2048" source="CrossTab:Header:Tile_SequenceNum:Name:Concat:" type="V_String" />
+                <Field name="Starring" size="2048" source="Formula: TrimLeft([Starring],&quot;Starring:&quot;)" type="V_String" />
+                <Field name="Synopsis" size="2048" source="Formula: TrimLeft([Synopsis],&quot;Synopsis:&quot;)" type="V_String" />
+                <Field name="Writer" size="2048" source="Formula: TrimLeft([Writer],&quot;Writer:&quot;)" type="V_String" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+        </Node>
+        <Node ToolID="48">
+          <GuiSettings Plugin="AlteryxConnectorGui.Download.Download">
+            <Position x="1314" y="1134" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <URLField>Cover</URLField>
+              <OutputMode>Blob</OutputMode>
+              <EncodeURLs value="False" />
+              <Headers>
+                <NameValues />
+                <Fields orderChanged="False">
+                  <Field name="Name" selected="False" />
+                  <Field name="Cover" selected="False" />
+                  <Field name="Critics" selected="False" />
+                  <Field name="Director" selected="False" />
+                  <Field name="Name2" selected="False" />
+                  <Field name="Starring" selected="False" />
+                  <Field name="Synopsis" selected="False" />
+                  <Field name="Writer" selected="False" />
+                  <Field name="*Unknown" selected="False" />
+                </Fields>
+              </Headers>
+              <Payload>
+                <HTTPAction>GET</HTTPAction>
+                <QueryStringBodyMode>Compose</QueryStringBodyMode>
+                <ComposeNameValues />
+                <ComposeFields orderChanged="False">
+                  <Field name="Name" selected="False" />
+                  <Field name="Cover" selected="False" />
+                  <Field name="Critics" selected="False" />
+                  <Field name="Director" selected="False" />
+                  <Field name="Name2" selected="False" />
+                  <Field name="Starring" selected="False" />
+                  <Field name="Synopsis" selected="False" />
+                  <Field name="Writer" selected="False" />
+                  <Field name="*Unknown" selected="False" />
+                </ComposeFields>
+              </Payload>
+              <UserName />
+              <Password />
+              <numConnections>2</numConnections>
+              <Timeout>600</Timeout>
+            </Configuration>
+            <Annotation DisplayMode="2">
+              <Name />
+              <DefaultAnnotationText>Download images</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="Name" size="2" source="Formula: TitleCase([Name])" type="String" />
+                <Field name="Cover" size="2048" source="CrossTab:Header:Tile_SequenceNum:Cover:Concat:" type="V_String" />
+                <Field name="Critics" size="2048" source="Formula: TrimLeft([Critics],&quot;Critics Consensus:&quot;)" type="V_String" />
+                <Field name="Director" size="2048" source="Formula: TrimLeft([Director],&quot;Directed By:&quot;)" type="V_String" />
+                <Field name="Name2" size="2048" source="CrossTab:Header:Tile_SequenceNum:Name:Concat:" type="V_String" />
+                <Field name="Starring" size="2048" source="Formula: TrimLeft([Starring],&quot;Starring:&quot;)" type="V_String" />
+                <Field name="Synopsis" size="2048" source="Formula: TrimLeft([Synopsis],&quot;Synopsis:&quot;)" type="V_String" />
+                <Field name="Writer" size="2048" source="Formula: TrimLeft([Writer],&quot;Writer:&quot;)" type="V_String" />
+                <Field name="DownloadData" size="2147483647" source="Download" type="Blob" />
+                <Field name="DownloadHeaders" size="2147483647" source="Download" type="V_String" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxConnectorEngine.dll" EngineDllEntryPoint="AlteryxDownload" />
+        </Node>
+        <Node ToolID="49">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.BlobConvert.BlobConvert">
+            <Position x="1422" y="1134" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <ToBlob value="False" />
+              <from_Field>DownloadData</from_Field>
+              <from_Mode>ReportSnippet</from_Mode>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="Name" size="2" source="Formula: TitleCase([Name])" type="String" />
+                <Field name="Cover" size="2048" source="CrossTab:Header:Tile_SequenceNum:Cover:Concat:" type="V_String" />
+                <Field name="Critics" size="2048" source="Formula: TrimLeft([Critics],&quot;Critics Consensus:&quot;)" type="V_String" />
+                <Field name="Director" size="2048" source="Formula: TrimLeft([Director],&quot;Directed By:&quot;)" type="V_String" />
+                <Field name="Name2" size="2048" source="CrossTab:Header:Tile_SequenceNum:Name:Concat:" type="V_String" />
+                <Field name="Starring" size="2048" source="Formula: TrimLeft([Starring],&quot;Starring:&quot;)" type="V_String" />
+                <Field name="Synopsis" size="2048" source="Formula: TrimLeft([Synopsis],&quot;Synopsis:&quot;)" type="V_String" />
+                <Field name="Writer" size="2048" source="Formula: TrimLeft([Writer],&quot;Writer:&quot;)" type="V_String" />
+                <Field name="DownloadData" size="2147483647" source="Report: BlobConvert: ReportSnippet" type="V_String" />
+                <Field name="DownloadHeaders" size="2147483647" source="Download" type="V_String" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBlobConvert" />
+        </Node>
+        <Node ToolID="51">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+            <Position x="1530" y="1134" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <OrderChanged value="True" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Movie number" selected="True" />
+                <SelectField field="Name" selected="False" />
+                <SelectField field="Starring" selected="True" />
+                <SelectField field="Synopsis" selected="True" />
+                <SelectField field="Director" selected="True" />
+                <SelectField field="Writer" selected="True" />
+                <SelectField field="Critics" selected="True" />
+                <SelectField field="DownloadData" selected="True" rename="Cover" />
+                <SelectField field="DownloadHeaders" selected="False" />
+                <SelectField field="Cover" selected="False" />
+                <SelectField field="Name2" selected="True" rename="Name" />
+                <SelectField field="*Unknown" selected="False" />
+              </SelectFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="Starring" size="2048" source="Formula: TrimLeft([Starring],&quot;Starring:&quot;)" type="V_String" />
+                <Field name="Synopsis" size="2048" source="Formula: TrimLeft([Synopsis],&quot;Synopsis:&quot;)" type="V_String" />
+                <Field name="Director" size="2048" source="Formula: TrimLeft([Director],&quot;Directed By:&quot;)" type="V_String" />
+                <Field name="Writer" size="2048" source="Formula: TrimLeft([Writer],&quot;Writer:&quot;)" type="V_String" />
+                <Field name="Critics" size="2048" source="Formula: TrimLeft([Critics],&quot;Critics Consensus:&quot;)" type="V_String" />
+                <Field name="Cover" size="2147483647" source="Report: BlobConvert: ReportSnippet" type="V_String" />
+                <Field name="Name" size="2048" source="CrossTab:Header:Tile_SequenceNum:Name:Concat:" type="V_String" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+        </Node>
+        <Node ToolID="52">
+          <GuiSettings Plugin="PortfolioPluginsGui.ComposerTable.PortfolioComposerTable">
+            <Position x="1638" y="1134" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <TableMode>Basic</TableMode>
+              <GroupingFields orderChanged="False" />
+              <Width>100%</Width>
+              <ShowHeader value="True" />
+              <ShowBarGraph value="False" />
+              <TableFields orderChanged="True">
+                <Field name="Name" selected="True" Alignment="Center" Borders="None" Width="" />
+                <Field name="Writer" selected="True" Alignment="Left" Borders="None" />
+                <Field name="Critics" selected="True" Alignment="Left" Borders="None" Width="" />
+                <Field name="Synopsis" selected="True" Alignment="Left" Borders="None" Width="" />
+                <Field name="Starring" selected="True" Alignment="Left" Borders="None" />
+                <Field name="Director" selected="True" Alignment="Left" Borders="None" />
+                <Field name="Cover" selected="True" Alignment="Center" Width="" Borders="None" />
+                <Field name="*Unknown" selected="False" />
+              </TableFields>
+              <TableStyles>
+                <Style Name="Data" Font="Arial" Size="8" TextColor="#000000" BackColor="#ffffff" AltColor="#f0f0f0" RowGroup="1" />
+                <Style Name="Header" Font="Arial" Size="10" TextColor="#000000" BackColor="#dbdbdb" />
+                <Style Name="Borders" Width="1" DataColor="#000000" HeaderColor="#000000" RowBorder="None" BasicColBorder="Default (Use Per Column Setting)" />
+                <Style Name="Table" CellPadding="1" ColumnPadding="1" TableBorder="true" Width="1" BorderColor="#8000ff" />
+              </TableStyles>
+              <StyleRules>
+                <Rule Name="e90bcb87-93a6-4d3e-b554-e3406640817f">
+                  <RowRule value="True" />
+                  <HighPrecedence value="False" />
+                  <Field />
+                  <Test>Simple</Test>
+                  <ApplyTo>Data</ApplyTo>
+                  <SimpleVar />
+                  <SimpleOp>==</SimpleOp>
+                  <SimpleConst>1</SimpleConst>
+                  <Formula>1</Formula>
+                  <Style />
+                  <PrettyName>Row Rule 1</PrettyName>
+                </Rule>
+              </StyleRules>
+            </Configuration>
+            <Annotation DisplayMode="2">
+              <Name />
+              <DefaultAnnotationText>Basic Table</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="Table" size="2147483647" source="Report:Table:Basic:" type="V_String" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="PortfolioPluginsEngine.dll" EngineDllEntryPoint="AlteryxPortfolioComposerTablePlugin" />
+        </Node>
+        <Node ToolID="56">
+          <GuiSettings Plugin="PortfolioPluginsGui.ComposerLayout.PortfolioComposerLayout">
+            <Position x="1758" y="1134" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <GroupingMode>PerRecord</GroupingMode>
+              <PreserveSourceFields value="False" />
+              <Orientation>V</Orientation>
+              <Separator>Continuous</Separator>
+              <Width>100%</Width>
+              <Height />
+              <BorderStyle Enabled="false" Color="#000000" Width="2" />
+              <SeparatorStyle Enabled="false" Color="#000000" Width="1" />
+              <Padding>2</Padding>
+              <LayoutFields orderChanged="False">
+                <Field name="Table" selected="True" Alignment="Center" />
+              </LayoutFields>
+              <MergeIntoTable value="False" />
+              <SectionNameForGroup />
+              <SectionNameForAllRecords />
+            </Configuration>
+            <Annotation DisplayMode="2">
+              <Name />
+              <DefaultAnnotationText>Vertical Layout
+Each Individual Record</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="Layout" size="2147483647" source="Report:Layout:" type="V_String" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="PortfolioPluginsEngine.dll" EngineDllEntryPoint="AlteryxPortfolioComposerLayoutPlugin" />
+        </Node>
+        <Node ToolID="57">
+          <GuiSettings>
+            <Position x="1866" y="1134" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Value name="HeaderText">Top 10 Movies Written by Women</Value>
+              <Value name="IncludeDate">False</Value>
+              <Value name="DateFormat">Month dd, yyyy</Value>
+              <Value name="IncludeImage">False</Value>
+              <Value name="AlteryxLogo">True</Value>
+              <Value name="OwnLogo">False</Value>
+              <Value name="ImageFile" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+            <Dependencies>
+              <Implicit />
+            </Dependencies>
+            <MetaInfo connection="Output13">
+              <RecordInfo>
+                <Field name="Layout" size="2147483647" source="Report:Layout:" type="V_String" />
+                <Field name="Header" size="2147483647" source="Report:Text:" type="V_String" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings Macro="HeaderMacro.yxmc" />
+        </Node>
+        <Node ToolID="58">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+            <Position x="1974" y="1134" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <TempFile>C:\Users\MARIE~1.COU\AppData\Local\Temp\Engine_19280_87979745344644809c3e519d9d37b31b_\Engine_21700_2de1118343fb43c9b1589b27d8da3485_.yxdb</TempFile>
+              <TempFileDataProfiling />
+              <Layout>
+                <ViewMode>Single</ViewMode>
+                <ViewSize value="100" />
+                <View1>
+                  <DefaultTab>Report</DefaultTab>
+                  <Hints>
+                    <Table />
+                  </Hints>
+                </View1>
+                <View2 />
+              </Layout>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+        </Node>
+      </ChildNodes>
+    </Node>
+    <Node ToolID="28">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Transpose.Transpose">
+        <Position x="1986" y="546" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <ErrorWarn>Warn</ErrorWarn>
+          <KeyFields />
+          <DataFields>
+            <Field field="Layout" selected="True" />
+            <Field field="Header" selected="True" />
+            <Field field="*Unknown" selected="False" />
+          </DataFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Name" size="6" source="Transpose:" type="String" />
+            <Field name="Value" size="2147483647" source="Report: (Multiple Sources)" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTranspose" />
+    </Node>
+    <Node ToolID="29">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="2190" y="546" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\MARIE~1.COU\AppData\Local\Temp\Engine_19280_87979745344644809c3e519d9d37b31b_\Engine_21700_ff12283325ce4955805d625d8c6e196e_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Report</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="30">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Sort.Sort">
+        <Position x="2082" y="546" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SortInfo locale="0">
+            <Field field="Name" order="Ascending" />
+          </SortInfo>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Name - Ascending</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Name" size="6" source="Transpose:" type="String" />
+            <Field name="Value" size="2147483647" source="Report: (Multiple Sources)" type="V_String" />
+          </RecordInfo>
+          <SortInfo locale="0">
+            <Field field="Name" order="Ascending" />
+          </SortInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSort" />
+    </Node>
+    <Node ToolID="73">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="750" y="354" width="192" height="204" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Output</Text>
+          <Font name="Arial" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="74">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="762" y="426" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" FileFormat="19" SearchSubDirs="False" RecordLimit="">Output.yxdb</File>
+          <FormatSpecificOptions />
+        </Configuration>
+        <Annotation DisplayMode="2">
+          <Name />
+          <DefaultAnnotationText>Output.yxdb</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Name" size="6" source="Transpose:" type="String" />
+            <Field name="Value" size="2147483647" source="Report: (Multiple Sources)" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="75">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="870" y="426" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\MARIE~1.COU\AppData\Local\Temp\Engine_19280_87979745344644809c3e519d9d37b31b_\Engine_21700_1d7ca44bf9294aecaabcd0c3de488701_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Report</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="31">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="1949" y="316" width="326" height="123" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>Output - Browse Tool</Caption>
+          <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="False" />
+          <Folded value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="27">
+          <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+            <Position x="1974" y="366" width="276" height="48" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Text>Manually created and ordered the records so the header would come out on top when we view the results in a Browse Tool.</Text>
+              <Font name="Arial" size="8.25" style="0" />
+              <TextColor name="Black" />
+              <FillColor name="White" />
+              <Shape shape="0" />
+              <Justification Justification="0" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+        </Node>
+      </ChildNodes>
+    </Node>
+    <Node ToolID="62">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="536" y="2815" width="656" height="85" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>Alteryx Educational Asset - Terms and Conditions</Caption>
+          <Style TextColor="#ffffff" FillColor="#0d2345" BorderColor="#ffffff" Transparency="1" Margin="10" />
+          <Disabled value="False" />
+          <Folded value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="61">
+          <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+            <Position x="546" y="2850" width="636" height="40" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Text>Use of this Alteryx asset is for educational purposes only and bound by the conditions set forth on alteryx.com/terms-and-conditions. Alteryx Information may not be reproduced, transmitted or distributed without Alteryx, Inc.'s permission.”</Text>
+              <Font name="Times New Roman" size="8.25" style="0" />
+              <TextColor name="White" />
+              <FillColor name="White" />
+              <Shape shape="3" />
+              <Justification Justification="4" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+        </Node>
+      </ChildNodes>
+    </Node>
+    <Node ToolID="64">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="152" y="1411" width="656" height="85" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>Alteryx Educational Asset - Terms and Conditions</Caption>
+          <Style TextColor="#ffffff" FillColor="#0d2345" BorderColor="#ffffff" Transparency="1" Margin="10" />
+          <Disabled value="False" />
+          <Folded value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="63">
+          <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+            <Position x="162" y="1446" width="636" height="40" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Text>Use of this Alteryx asset is for educational purposes only and bound by the conditions set forth on alteryx.com/terms-and-conditions. Alteryx Information may not be reproduced, transmitted or distributed without Alteryx, Inc.'s permission.”</Text>
+              <Font name="Times New Roman" size="8.25" style="0" />
+              <TextColor name="White" />
+              <FillColor name="White" />
+              <Shape shape="3" />
+              <Justification Justification="4" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+        </Node>
+      </ChildNodes>
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="2" Connection="Output" />
+      <Destination ToolID="3" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="2" Connection="Output" />
+      <Destination ToolID="71" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="3" Connection="Output" />
+      <Destination ToolID="5" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="4" Connection="Output" />
+      <Destination ToolID="9" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="4" Connection="Output" />
+      <Destination ToolID="11" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="10" Connection="Output" />
+      <Destination ToolID="11" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="5" Connection="Output" />
+      <Destination ToolID="4" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="5" Connection="Output" />
+      <Destination ToolID="32" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="8" Connection="Output" />
+      <Destination ToolID="10" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="9" Connection="Output" />
+      <Destination ToolID="8" Connection="Targets" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="70" Connection="Output" />
+      <Destination ToolID="8" Connection="Source" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="11" Connection="Join" />
+      <Destination ToolID="12" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="12" Connection="Output" />
+      <Destination ToolID="13" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="13" Connection="Output" />
+      <Destination ToolID="14" Connection="Input2" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="14" Connection="Output26" />
+      <Destination ToolID="15" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="15" Connection="Output" />
+      <Destination ToolID="16" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="16" Connection="Output" />
+      <Destination ToolID="17" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="16" Connection="Output" />
+      <Destination ToolID="18" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="18" Connection="Output" />
+      <Destination ToolID="19" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="19" Connection="Output" />
+      <Destination ToolID="25" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="25" Connection="Output" />
+      <Destination ToolID="26" Connection="Report Layout" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="26" Connection="Output13" />
+      <Destination ToolID="20" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="26" Connection="Output13" />
+      <Destination ToolID="28" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="26" Connection="Output13" />
+      <Destination ToolID="67" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="70" Connection="Output" />
+      <Destination ToolID="72" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="32" Connection="Output" />
+      <Destination ToolID="33" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="33" Connection="Output" />
+      <Destination ToolID="36" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="34" Connection="Output" />
+      <Destination ToolID="37" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="35" Connection="Output" />
+      <Destination ToolID="45" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="36" Connection="Output" />
+      <Destination ToolID="35" Connection="Targets" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="37" Connection="Output" />
+      <Destination ToolID="35" Connection="Source" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="45" Connection="Output" />
+      <Destination ToolID="46" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="46" Connection="Output" />
+      <Destination ToolID="47" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="47" Connection="Output" />
+      <Destination ToolID="48" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="48" Connection="Output" />
+      <Destination ToolID="49" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="49" Connection="Output" />
+      <Destination ToolID="51" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="51" Connection="Output" />
+      <Destination ToolID="52" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="52" Connection="Output" />
+      <Destination ToolID="56" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="56" Connection="Output" />
+      <Destination ToolID="57" Connection="Report Layout" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="57" Connection="Output13" />
+      <Destination ToolID="58" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="28" Connection="Output" />
+      <Destination ToolID="30" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="30" Connection="Output" />
+      <Destination ToolID="29" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="74" Connection="Output" />
+      <Destination ToolID="75" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>Challenge 309_Solution File</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>

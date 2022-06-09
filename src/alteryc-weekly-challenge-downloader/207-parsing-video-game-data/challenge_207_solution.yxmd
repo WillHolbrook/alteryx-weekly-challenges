@@ -1,0 +1,2304 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2020.1">
+  <Nodes>
+    <Node ToolID="28">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="510" y="354" width="204" height="132" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text><![CDATA[Output
+
+
+
+
+
+]]></Text>
+          <Font name="Segoe UI" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="26">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="54" y="354" width="240" height="132" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text><![CDATA[Inputs
+
+
+
+
+
+
+]]></Text>
+          <Font name="Segoe UI" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="22">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="642" y="390" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\ProgramData\Alteryx\Engine\Engine_3248_ede2d9692c1640eca6a5e5ee7701b778_\Engine_3652_580af20a23a34345b478beae369fe99a_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="23">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="54" y="54" width="324" height="72" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text />
+          <Font name="Segoe UI" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="3" />
+          <Justification Justification="4" />
+          <BG_Image>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</BG_Image>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="24">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="438" y="66" width="468" height="40" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Weekly Challenge #207</Text>
+          <Font name="Microsoft Sans Serif" size="16.2" style="0" />
+          <TextColor name="Gray" />
+          <FillColor name="White" />
+          <Shape shape="3" />
+          <Justification Justification="0" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="25">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="54" y="138" width="660" height="144" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text><![CDATA[Parse the data provided below into columns. 
+
+Data Source: Data modified from the original source found at https://www.kaggle.com/gregorut/videogamesales
+]]></Text>
+          <Font name="Microsoft Sans Serif" size="11.25" style="0" />
+          <TextColor name="Gray" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="3" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="31">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="186" y="390" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\ProgramData\Alteryx\Engine\Engine_3248_ede2d9692c1640eca6a5e5ee7701b778_\Engine_3652_70ef9476bc3043089352b58ab2ac8c2d_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="42">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+        <Position x="78" y="390" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <NumRows value="100" />
+          <Fields>
+            <Field name="Video Game Data" />
+          </Fields>
+          <Data>
+            <r>
+              <c>Game ID|Name|Platform|Year|Genre|Publisher|NA_Sales|EU_Sales|JP_Sales|Other_Sales|Global_Sales</c>
+            </r>
+            <r>
+              <c>0000001Wii Sports Wii (2006) CAT:Sports PUB:Nintendo $41.49million, $29.02million, $3.77million, $8.46million, $82.74million</c>
+            </r>
+            <r>
+              <c>0000002Super Mario Bros. NES (1985) CAT:Platform PUB:Nintendo $29.08million, $3.58million, $6.81million, $0.77million, $40.24million</c>
+            </r>
+            <r>
+              <c>0000003Mario Kart Wii Wii (2008) CAT:Racing PUB:Nintendo $15.85million, $12.88million, $3.79million, $3.31million, $35.82million</c>
+            </r>
+            <r>
+              <c>0000004Wii Sports Resort Wii (2009) CAT:Sports PUB:Nintendo $15.75million, $11.01million, $3.28million, $2.96million, $33million</c>
+            </r>
+            <r>
+              <c>0000005Pokemon Red/Pokemon Blue GB (1996) CAT:Role-Playing PUB:Nintendo $11.27million, $8.89million, $10.22million, $1million, $31.37million</c>
+            </r>
+            <r>
+              <c>0000006Tetris GB (1989) CAT:Puzzle PUB:Nintendo $23.2million, $2.26million, $4.22million, $0.58million, $30.26million</c>
+            </r>
+            <r>
+              <c>0000007New Super Mario Bros. DS (2006) CAT:Platform PUB:Nintendo $11.38million, $9.23million, $6.5million, $2.9million, $30.01million</c>
+            </r>
+            <r>
+              <c>0000008Wii Play Wii (2006) CAT:Misc PUB:Nintendo $14.03million, $9.2million, $2.93million, $2.85million, $29.02million</c>
+            </r>
+            <r>
+              <c>0000009New Super Mario Bros. Wii Wii (2009) CAT:Platform PUB:Nintendo $14.59million, $7.06million, $4.7million, $2.26million, $28.62million</c>
+            </r>
+            <r>
+              <c>0000010Duck Hunt NES (1984) CAT:Shooter PUB:Nintendo $26.93million, $0.63million, $0.28million, $0.47million, $28.31million</c>
+            </r>
+            <r>
+              <c>0000011Nintendogs DS (2005) CAT:Simulation PUB:Nintendo $9.07million, $11million, $1.93million, $2.75million, $24.76million</c>
+            </r>
+            <r>
+              <c>0000012Mario Kart DS DS (2005) CAT:Racing PUB:Nintendo $9.81million, $7.57million, $4.13million, $1.92million, $23.42million</c>
+            </r>
+            <r>
+              <c>0000013Pokemon Gold/Pokemon Silver GB (1999) CAT:Role-Playing PUB:Nintendo $9million, $6.18million, $7.2million, $0.71million, $23.1million</c>
+            </r>
+            <r>
+              <c>0000014Wii Fit Wii (2007) CAT:Sports PUB:Nintendo $8.94million, $8.03million, $3.6million, $2.15million, $22.72million</c>
+            </r>
+            <r>
+              <c>0000015Wii Fit Plus Wii (2009) CAT:Sports PUB:Nintendo $9.09million, $8.59million, $2.53million, $1.79million, $22million</c>
+            </r>
+            <r>
+              <c>0000016Kinect Adventures! X360 (2010) CAT:Misc PUB:Microsoft Game Studios $14.97million, $4.94million, $0.24million, $1.67million, $21.82million</c>
+            </r>
+            <r>
+              <c>0000017Grand Theft Auto V PS3 (2013) CAT:Action PUB:Take-Two Interactive $7.01million, $9.27million, $0.97million, $4.14million, $21.4million</c>
+            </r>
+            <r>
+              <c>0000018Grand Theft Auto: San Andreas PS2 (2004) CAT:Action PUB:Take-Two Interactive $9.43million, $0.4million, $0.41million, $10.57million, $20.81million</c>
+            </r>
+            <r>
+              <c>0000019Super Mario World SNES (1990) CAT:Platform PUB:Nintendo $12.78million, $3.75million, $3.54million, $0.55million, $20.61million</c>
+            </r>
+            <r>
+              <c>0000020Brain Age: Train Your Brain in Minutes a Day DS (2005) CAT:Misc PUB:Nintendo $4.75million, $9.26million, $4.16million, $2.05million, $20.22million</c>
+            </r>
+            <r>
+              <c>0000021Pokemon Diamond/Pokemon Pearl DS (2006) CAT:Role-Playing PUB:Nintendo $6.42million, $4.52million, $6.04million, $1.37million, $18.36million</c>
+            </r>
+            <r>
+              <c>0000022Super Mario Land GB (1989) CAT:Platform PUB:Nintendo $10.83million, $2.71million, $4.18million, $0.42million, $18.14million</c>
+            </r>
+            <r>
+              <c>0000023Super Mario Bros. 3 NES (1988) CAT:Platform PUB:Nintendo $9.54million, $3.44million, $3.84million, $0.46million, $17.28million</c>
+            </r>
+            <r>
+              <c>0000024Grand Theft Auto V X360 (2013) CAT:Action PUB:Take-Two Interactive $9.63million, $5.31million, $0.06million, $1.38million, $16.38million</c>
+            </r>
+            <r>
+              <c>0000025Grand Theft Auto: Vice City PS2 (2002) CAT:Action PUB:Take-Two Interactive $8.41million, $5.49million, $0.47million, $1.78million, $16.15million</c>
+            </r>
+            <r>
+              <c>0000026Pokemon Ruby/Pokemon Sapphire GBA (2002) CAT:Role-Playing PUB:Nintendo $6.06million, $3.9million, $5.38million, $0.5million, $15.85million</c>
+            </r>
+            <r>
+              <c>0000027Pokemon Black/Pokemon White DS (2010) CAT:Role-Playing PUB:Nintendo $5.57million, $3.28million, $5.65million, $0.82million, $15.32million</c>
+            </r>
+            <r>
+              <c>0000028Brain Age 2: More Training in Minutes a Day DS (2005) CAT:Puzzle PUB:Nintendo $3.44million, $5.36million, $5.32million, $1.18million, $15.3million</c>
+            </r>
+            <r>
+              <c>0000029Gran Turismo 3: A-Spec PS2 (2001) CAT:Racing PUB:Sony Computer Entertainment $6.85million, $5.09million, $1.87million, $1.16million, $14.98million</c>
+            </r>
+            <r>
+              <c>0000030Call of Duty: Modern Warfare 3 X360 (2011) CAT:Shooter PUB:Activision $9.03million, $4.28million, $0.13million, $1.32million, $14.76million</c>
+            </r>
+            <r>
+              <c>0000031PokÃ©mon Yellow: Special Pikachu Edition GB (1998) CAT:Role-Playing PUB:Nintendo $5.89million, $5.04million, $3.12million, $0.59million, $14.64million</c>
+            </r>
+            <r>
+              <c>0000032Call of Duty: Black Ops X360 (2010) CAT:Shooter PUB:Activision $9.67million, $3.73million, $0.11million, $1.13million, $14.64million</c>
+            </r>
+            <r>
+              <c>0000033Pokemon X/Pokemon Y 3DS (2013) CAT:Role-Playing PUB:Nintendo $5.17million, $4.05million, $4.34million, $0.79million, $14.35million</c>
+            </r>
+            <r>
+              <c>0000034Call of Duty: Black Ops 3 PS4 (2015) CAT:Shooter PUB:Activision $5.77million, $5.81million, $0.35million, $2.31million, $14.24million</c>
+            </r>
+            <r>
+              <c>0000035Call of Duty: Black Ops II PS3 (2012) CAT:Shooter PUB:Activision $4.99million, $5.88million, $0.65million, $2.52million, $14.03million</c>
+            </r>
+            <r>
+              <c>0000036Call of Duty: Black Ops II X360 (2012) CAT:Shooter PUB:Activision $8.25million, $4.3million, $0.07million, $1.12million, $13.73million</c>
+            </r>
+            <r>
+              <c>0000037Call of Duty: Modern Warfare 2 X360 (2009) CAT:Shooter PUB:Activision $8.52million, $3.63million, $0.08million, $1.29million, $13.51million</c>
+            </r>
+            <r>
+              <c>0000038Call of Duty: Modern Warfare 3 PS3 (2011) CAT:Shooter PUB:Activision $5.54million, $5.82million, $0.49million, $1.62million, $13.46million</c>
+            </r>
+            <r>
+              <c>0000039Grand Theft Auto III PS2 (2001) CAT:Action PUB:Take-Two Interactive $6.99million, $4.51million, $0.3million, $1.3million, $13.1million</c>
+            </r>
+            <r>
+              <c>0000040Super Smash Bros. Brawl Wii (2008) CAT:Fighting PUB:Nintendo $6.75million, $2.61million, $2.66million, $1.02million, $13.04million</c>
+            </r>
+            <r>
+              <c>0000041Call of Duty: Black Ops PS3 (2010) CAT:Shooter PUB:Activision $5.98million, $4.44million, $0.48million, $1.83million, $12.73million</c>
+            </r>
+            <r>
+              <c>0000042Animal Crossing: Wild World DS (2005) CAT:Simulation PUB:Nintendo $2.55million, $3.52million, $5.33million, $0.88million, $12.27million</c>
+            </r>
+            <r>
+              <c>0000043Mario Kart 7 3DS (2011) CAT:Racing PUB:Nintendo $4.74million, $3.91million, $2.67million, $0.89million, $12.21million</c>
+            </r>
+            <r>
+              <c>0000044Halo 3 X360 (2007) CAT:Shooter PUB:Microsoft Game Studios $7.97million, $2.83million, $0.13million, $1.21million, $12.14million</c>
+            </r>
+            <r>
+              <c>0000045Grand Theft Auto V PS4 (2014) CAT:Action PUB:Take-Two Interactive $3.8million, $5.81million, $0.36million, $2.02million, $11.98million</c>
+            </r>
+            <r>
+              <c>0000046Pokemon HeartGold/Pokemon SoulSilver DS (2009) CAT:Action PUB:Nintendo $4.4million, $2.77million, $3.96million, $0.77million, $11.9million</c>
+            </r>
+            <r>
+              <c>0000047Super Mario 64 N64 (1996) CAT:Platform PUB:Nintendo $6.91million, $2.85million, $1.91million, $0.23million, $11.89million</c>
+            </r>
+            <r>
+              <c>0000048Gran Turismo 4 PS2 (2004) CAT:Racing PUB:Sony Computer Entertainment $3.01million, $0.01million, $1.1million, $7.53million, $11.66million</c>
+            </r>
+            <r>
+              <c>0000049Super Mario Galaxy Wii (2007) CAT:Platform PUB:Nintendo $6.16million, $3.4million, $1.2million, $0.76million, $11.52million</c>
+            </r>
+            <r>
+              <c>0000050Pokemon Omega Ruby/Pokemon Alpha Sapphire 3DS (2014) CAT:Role-Playing PUB:Nintendo $4.23million, $3.37million, $3.08million, $0.65million, $11.33million</c>
+            </r>
+            <r>
+              <c>0000051Super Mario Land 2: 6 Golden Coins GB (1992) CAT:Adventure PUB:Nintendo $6.16million, $2.04million, $2.69million, $0.29million, $11.18million</c>
+            </r>
+            <r>
+              <c>0000052Grand Theft Auto IV X360 (2008) CAT:Action PUB:Take-Two Interactive $6.76million, $3.1million, $0.14million, $1.03million, $11.02million</c>
+            </r>
+            <r>
+              <c>0000053Gran Turismo PS (1997) CAT:Racing PUB:Sony Computer Entertainment $4.02million, $3.87million, $2.54million, $0.52million, $10.95million</c>
+            </r>
+            <r>
+              <c>0000054Super Mario 3D Land 3DS (2011) CAT:Platform PUB:Nintendo $4.89million, $2.99million, $2.13million, $0.78million, $10.79million</c>
+            </r>
+            <r>
+              <c>0000055Gran Turismo 5 PS3 (2010) CAT:Racing PUB:Sony Computer Entertainment $2.96million, $4.88million, $0.81million, $2.12million, $10.77million</c>
+            </r>
+            <r>
+              <c>0000056Call of Duty: Modern Warfare 2 PS3 (2009) CAT:Shooter PUB:Activision $4.99million, $3.69million, $0.38million, $1.63million, $10.69million</c>
+            </r>
+            <r>
+              <c>0000057Grand Theft Auto IV PS3 (2008) CAT:Action PUB:Take-Two Interactive $4.76million, $3.76million, $0.44million, $1.62million, $10.57million</c>
+            </r>
+            <r>
+              <c>0000058Super Mario All-Stars SNES (1993) CAT:Platform PUB:Nintendo $5.99million, $2.15million, $2.12million, $0.29million, $10.55million</c>
+            </r>
+            <r>
+              <c>0000059Pokemon FireRed/Pokemon LeafGreen GBA (2004) CAT:Role-Playing PUB:Nintendo $4.34million, $2.65million, $3.15million, $0.35million, $10.49million</c>
+            </r>
+            <r>
+              <c>0000060Super Mario 64 DS (2004) CAT:Platform PUB:Nintendo $5.08million, $3.11million, $1.25million, $0.98million, $10.42million</c>
+            </r>
+            <r>
+              <c>0000061Just Dance 3 Wii (2011) CAT:Misc PUB:Ubisoft $6.05million, $3.15million, $0million, $1.07million, $10.26million</c>
+            </r>
+            <r>
+              <c>0000062Call of Duty: Ghosts X360 (2013) CAT:Shooter PUB:Activision $6.72million, $2.63million, $0.04million, $0.82million, $10.21million</c>
+            </r>
+            <r>
+              <c>0000063Halo: Reach X360 (2010) CAT:Shooter PUB:Microsoft Game Studios $7.03million, $1.98million, $0.08million, $0.78million, $9.88million</c>
+            </r>
+            <r>
+              <c>0000064Mario Kart 64 N64 (1996) CAT:Racing PUB:Nintendo $5.55million, $1.94million, $2.23million, $0.15million, $9.87million</c>
+            </r>
+            <r>
+              <c>0000065New Super Mario Bros. 2 3DS (2012) CAT:Platform PUB:Nintendo $3.66million, $3.07million, $2.47million, $0.63million, $9.82million</c>
+            </r>
+            <r>
+              <c>0000066Halo 4 X360 (2012) CAT:Shooter PUB:Microsoft Game Studios $6.63million, $2.36million, $0.04million, $0.73million, $9.76million</c>
+            </r>
+            <r>
+              <c>0000067Final Fantasy VII PS (1997) CAT:Role-Playing PUB:Sony Computer Entertainment $3.01million, $2.47million, $3.28million, $0.96million, $9.72million</c>
+            </r>
+            <r>
+              <c>0000068Call of Duty: Ghosts PS3 (2013) CAT:Shooter PUB:Activision $4.09million, $3.73million, $0.38million, $1.38million, $9.59million</c>
+            </r>
+            <r>
+              <c>0000069Just Dance 2 Wii (2010) CAT:Misc PUB:Ubisoft $5.84million, $2.89million, $0.01million, $0.78million, $9.52million</c>
+            </r>
+            <r>
+              <c>0000070Gran Turismo 2 PS (1999) CAT:Racing PUB:Sony Computer Entertainment $3.88million, $3.42million, $1.69million, $0.5million, $9.49million</c>
+            </r>
+            <r>
+              <c>0000071Call of Duty 4: Modern Warfare X360 (2007) CAT:Shooter PUB:Activision $5.91million, $2.38million, $0.13million, $0.9million, $9.32million</c>
+            </r>
+            <r>
+              <c>0000072Donkey Kong Country SNES (1994) CAT:Platform PUB:Nintendo $4.36million, $1.71million, $3million, $0.23million, $9.3million</c>
+            </r>
+            <r>
+              <c>0000073Minecraft X360 (2013) CAT:Misc PUB:Microsoft Game Studios $5.58million, $2.83million, $0.02million, $0.77million, $9.2million</c>
+            </r>
+            <r>
+              <c>0000074Animal Crossing: New Leaf 3DS (2012) CAT:Simulation PUB:Nintendo $2.01million, $2.32million, $4.36million, $0.41million, $9.09million</c>
+            </r>
+            <r>
+              <c>0000075Mario Party DS DS (2007) CAT:Misc PUB:Nintendo $4.46million, $1.88million, $1.98million, $0.7million, $9.02million</c>
+            </r>
+            <r>
+              <c>0000076The Elder Scrolls V: Skyrim X360 (2011) CAT:Role-Playing PUB:Bethesda Softworks $5.03million, $2.86million, $0.1million, $0.85million, $8.84million</c>
+            </r>
+            <r>
+              <c>0000077Super Mario Kart SNES (1992) CAT:Racing PUB:Nintendo $3.54million, $1.24million, $3.81million, $0.18million, $8.76million</c>
+            </r>
+            <r>
+              <c>0000078FIFA 16 PS4 (2015) CAT:Sports PUB:Electronic Arts $1.11million, $6.06million, $0.06million, $1.26million, $8.49million</c>
+            </r>
+            <r>
+              <c>0000079Wii Party Wii (2010) CAT:Misc PUB:Nintendo $1.79million, $3.53million, $2.49million, $0.68million, $8.49million</c>
+            </r>
+            <r>
+              <c>0000080Halo 2 XB (2004) CAT:Shooter PUB:Microsoft Game Studios $6.82million, $1.53million, $0.05million, $0.08million, $8.49million</c>
+            </r>
+            <r>
+              <c>0000081Mario Party 8 Wii (2007) CAT:Misc PUB:Nintendo $3.81million, $2.3million, $1.58million, $0.73million, $8.42million</c>
+            </r>
+            <r>
+              <c>0000082Pokemon Black 2/Pokemon White 2 DS (2012) CAT:Role-Playing PUB:Nintendo $2.91million, $1.86million, $3.14million, $0.43million, $8.33million</c>
+            </r>
+            <r>
+              <c>0000083FIFA Soccer 13 PS3 (2012) CAT:Action PUB:Electronic Arts $1.06million, $5.05million, $0.13million, $2.01million, $8.24million</c>
+            </r>
+            <r>
+              <c>0000084The Sims 3 PC (2009) CAT:Simulation PUB:Electronic Arts $0.98million, $6.42million, $0million, $0.71million, $8.11million</c>
+            </r>
+            <r>
+              <c>0000085GoldenEye 007 N64 (1997) CAT:Shooter PUB:Nintendo $5.8million, $2.01million, $0.13million, $0.15million, $8.09million</c>
+            </r>
+            <r>
+              <c>0000086Mario &amp; Sonic at the Olympic Games Wii (2007) CAT:Sports PUB:Sega $2.58million, $3.9million, $0.66million, $0.91million, $8.06million</c>
+            </r>
+            <r>
+              <c>0000087Final Fantasy X PS2 (2001) CAT:Role-Playing PUB:Sony Computer Entertainment $2.91million, $2.07million, $2.73million, $0.33million, $8.05million</c>
+            </r>
+            <r>
+              <c>0000088Final Fantasy VIII PS (1999) CAT:Role-Playing PUB:SquareSoft $2.28million, $1.72million, $3.63million, $0.23million, $7.86million</c>
+            </r>
+            <r>
+              <c>0000089PokÃ©mon Platinum Version DS (2008) CAT:Role-Playing PUB:Nintendo $2.82million, $1.78million, $2.69million, $0.55million, $7.84million</c>
+            </r>
+            <r>
+              <c>0000090Pac-Man 2600 (1982) CAT:Puzzle PUB:Atari $7.28million, $0.45million, $0million, $0.08million, $7.81million</c>
+            </r>
+            <r>
+              <c>0000091Grand Theft Auto: Liberty City Stories PSP (2005) CAT:Action PUB:Take-Two Interactive $2.9million, $2.83million, $0.24million, $1.75million, $7.72million</c>
+            </r>
+            <r>
+              <c>0000092Super Mario Galaxy 2 Wii (2010) CAT:Platform PUB:Nintendo $3.66million, $2.42million, $0.98million, $0.64million, $7.69million</c>
+            </r>
+            <r>
+              <c>0000093Star Wars Battlefront PS4 (2015) CAT:Shooter PUB:Electronic Arts $2.93million, $3.29million, $0.22million, $1.23million, $7.67million</c>
+            </r>
+            <r>
+              <c>0000094Call of Duty: Advanced Warfare PS4 (2014) CAT:Shooter PUB:Activision $2.8million, $3.3million, $0.14million, $1.37million, $7.6million</c>
+            </r>
+            <r>
+              <c>0000095The Legend of Zelda: Ocarina of Time N64 (1998) CAT:Action PUB:Nintendo $4.1million, $1.89million, $1.45million, $0.16million, $7.6million</c>
+            </r>
+            <r>
+              <c>0000096Crash Bandicoot 2: Cortex Strikes Back PS (1997) CAT:Platform PUB:Sony Computer Entertainment $3.78million, $2.17million, $1.31million, $0.31million, $7.58million</c>
+            </r>
+            <r>
+              <c>0000097Super Mario Bros. 2 NES (1988) CAT:Platform PUB:Nintendo $5.39million, $1.18million, $0.7million, $0.19million, $7.46million</c>
+            </r>
+            <r>
+              <c>0000098Super Smash Bros. for Wii U and 3DS 3DS (2014) CAT:Fighting PUB:Nintendo $3.24million, $1.35million, $2.42million, $0.43million, $7.45million</c>
+            </r>
+            <r>
+              <c>0000099Call of Duty: World at War X360 (2008) CAT:Shooter PUB:Activision $4.79million, $1.9million, $0million, $0.69million, $7.37million</c>
+            </r>
+          </Data>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+    </Node>
+    <Node ToolID="43">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+        <Position x="534" y="390" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <NumRows value="99" />
+          <Fields>
+            <Field name="Game ID" />
+            <Field name="Name" />
+            <Field name="Platform" />
+            <Field name="Year" />
+            <Field name="Genre" />
+            <Field name="Publisher" />
+            <Field name="NA_Sales" />
+            <Field name="EU_Sales" />
+            <Field name="JP_Sales" />
+            <Field name="Other_Sales" />
+            <Field name="Global_Sales" />
+          </Fields>
+          <Data>
+            <r>
+              <c>0000001</c>
+              <c>Wii Sports</c>
+              <c>Wii</c>
+              <c>2006</c>
+              <c>Sports</c>
+              <c>Nintendo</c>
+              <c>41.49</c>
+              <c>29.02</c>
+              <c>3.77</c>
+              <c>8.46</c>
+              <c>82.74</c>
+            </r>
+            <r>
+              <c>0000002</c>
+              <c>Super Mario Bros.</c>
+              <c>NES</c>
+              <c>1985</c>
+              <c>Platform</c>
+              <c>Nintendo</c>
+              <c>29.08</c>
+              <c>3.58</c>
+              <c>6.81</c>
+              <c>0.77</c>
+              <c>40.24</c>
+            </r>
+            <r>
+              <c>0000003</c>
+              <c>Mario Kart Wii</c>
+              <c>Wii</c>
+              <c>2008</c>
+              <c>Racing</c>
+              <c>Nintendo</c>
+              <c>15.85</c>
+              <c>12.88</c>
+              <c>3.79</c>
+              <c>3.31</c>
+              <c>35.82</c>
+            </r>
+            <r>
+              <c>0000004</c>
+              <c>Wii Sports Resort</c>
+              <c>Wii</c>
+              <c>2009</c>
+              <c>Sports</c>
+              <c>Nintendo</c>
+              <c>15.75</c>
+              <c>11.01</c>
+              <c>3.28</c>
+              <c>2.96</c>
+              <c>33</c>
+            </r>
+            <r>
+              <c>0000005</c>
+              <c>Pokemon Red/Pokemon Blue</c>
+              <c>GB</c>
+              <c>1996</c>
+              <c>Role-Playing</c>
+              <c>Nintendo</c>
+              <c>11.27</c>
+              <c>8.89</c>
+              <c>10.22</c>
+              <c>1</c>
+              <c>31.37</c>
+            </r>
+            <r>
+              <c>0000006</c>
+              <c>Tetris</c>
+              <c>GB</c>
+              <c>1989</c>
+              <c>Puzzle</c>
+              <c>Nintendo</c>
+              <c>23.2</c>
+              <c>2.26</c>
+              <c>4.22</c>
+              <c>0.58</c>
+              <c>30.26</c>
+            </r>
+            <r>
+              <c>0000007</c>
+              <c>New Super Mario Bros.</c>
+              <c>DS</c>
+              <c>2006</c>
+              <c>Platform</c>
+              <c>Nintendo</c>
+              <c>11.38</c>
+              <c>9.23</c>
+              <c>6.5</c>
+              <c>2.9</c>
+              <c>30.01</c>
+            </r>
+            <r>
+              <c>0000008</c>
+              <c>Wii Play</c>
+              <c>Wii</c>
+              <c>2006</c>
+              <c>Misc</c>
+              <c>Nintendo</c>
+              <c>14.03</c>
+              <c>9.2</c>
+              <c>2.93</c>
+              <c>2.85</c>
+              <c>29.02</c>
+            </r>
+            <r>
+              <c>0000009</c>
+              <c>New Super Mario Bros. Wii</c>
+              <c>Wii</c>
+              <c>2009</c>
+              <c>Platform</c>
+              <c>Nintendo</c>
+              <c>14.59</c>
+              <c>7.06</c>
+              <c>4.7</c>
+              <c>2.26</c>
+              <c>28.62</c>
+            </r>
+            <r>
+              <c>0000010</c>
+              <c>Duck Hunt</c>
+              <c>NES</c>
+              <c>1984</c>
+              <c>Shooter</c>
+              <c>Nintendo</c>
+              <c>26.93</c>
+              <c>0.63</c>
+              <c>0.28</c>
+              <c>0.47</c>
+              <c>28.31</c>
+            </r>
+            <r>
+              <c>0000011</c>
+              <c>Nintendogs</c>
+              <c>DS</c>
+              <c>2005</c>
+              <c>Simulation</c>
+              <c>Nintendo</c>
+              <c>9.07</c>
+              <c>11</c>
+              <c>1.93</c>
+              <c>2.75</c>
+              <c>24.76</c>
+            </r>
+            <r>
+              <c>0000012</c>
+              <c>Mario Kart DS</c>
+              <c>DS</c>
+              <c>2005</c>
+              <c>Racing</c>
+              <c>Nintendo</c>
+              <c>9.81</c>
+              <c>7.57</c>
+              <c>4.13</c>
+              <c>1.92</c>
+              <c>23.42</c>
+            </r>
+            <r>
+              <c>0000013</c>
+              <c>Pokemon Gold/Pokemon Silver</c>
+              <c>GB</c>
+              <c>1999</c>
+              <c>Role-Playing</c>
+              <c>Nintendo</c>
+              <c>9</c>
+              <c>6.18</c>
+              <c>7.2</c>
+              <c>0.71</c>
+              <c>23.1</c>
+            </r>
+            <r>
+              <c>0000014</c>
+              <c>Wii Fit</c>
+              <c>Wii</c>
+              <c>2007</c>
+              <c>Sports</c>
+              <c>Nintendo</c>
+              <c>8.94</c>
+              <c>8.03</c>
+              <c>3.6</c>
+              <c>2.15</c>
+              <c>22.72</c>
+            </r>
+            <r>
+              <c>0000015</c>
+              <c>Wii Fit Plus</c>
+              <c>Wii</c>
+              <c>2009</c>
+              <c>Sports</c>
+              <c>Nintendo</c>
+              <c>9.09</c>
+              <c>8.59</c>
+              <c>2.53</c>
+              <c>1.79</c>
+              <c>22</c>
+            </r>
+            <r>
+              <c>0000016</c>
+              <c>Kinect Adventures!</c>
+              <c>X360</c>
+              <c>2010</c>
+              <c>Misc</c>
+              <c>Microsoft Game Studios</c>
+              <c>14.97</c>
+              <c>4.94</c>
+              <c>0.24</c>
+              <c>1.67</c>
+              <c>21.82</c>
+            </r>
+            <r>
+              <c>0000017</c>
+              <c>Grand Theft Auto V</c>
+              <c>PS3</c>
+              <c>2013</c>
+              <c>Action</c>
+              <c>Take-Two Interactive</c>
+              <c>7.01</c>
+              <c>9.27</c>
+              <c>0.97</c>
+              <c>4.14</c>
+              <c>21.4</c>
+            </r>
+            <r>
+              <c>0000018</c>
+              <c>Grand Theft Auto: San Andreas</c>
+              <c>PS2</c>
+              <c>2004</c>
+              <c>Action</c>
+              <c>Take-Two Interactive</c>
+              <c>9.43</c>
+              <c>0.4</c>
+              <c>0.41</c>
+              <c>10.57</c>
+              <c>20.81</c>
+            </r>
+            <r>
+              <c>0000019</c>
+              <c>Super Mario World</c>
+              <c>SNES</c>
+              <c>1990</c>
+              <c>Platform</c>
+              <c>Nintendo</c>
+              <c>12.78</c>
+              <c>3.75</c>
+              <c>3.54</c>
+              <c>0.55</c>
+              <c>20.61</c>
+            </r>
+            <r>
+              <c>0000020</c>
+              <c>Brain Age: Train Your Brain in Minutes a Day</c>
+              <c>DS</c>
+              <c>2005</c>
+              <c>Misc</c>
+              <c>Nintendo</c>
+              <c>4.75</c>
+              <c>9.26</c>
+              <c>4.16</c>
+              <c>2.05</c>
+              <c>20.22</c>
+            </r>
+            <r>
+              <c>0000021</c>
+              <c>Pokemon Diamond/Pokemon Pearl</c>
+              <c>DS</c>
+              <c>2006</c>
+              <c>Role-Playing</c>
+              <c>Nintendo</c>
+              <c>6.42</c>
+              <c>4.52</c>
+              <c>6.04</c>
+              <c>1.37</c>
+              <c>18.36</c>
+            </r>
+            <r>
+              <c>0000022</c>
+              <c>Super Mario Land</c>
+              <c>GB</c>
+              <c>1989</c>
+              <c>Platform</c>
+              <c>Nintendo</c>
+              <c>10.83</c>
+              <c>2.71</c>
+              <c>4.18</c>
+              <c>0.42</c>
+              <c>18.14</c>
+            </r>
+            <r>
+              <c>0000023</c>
+              <c>Super Mario Bros. 3</c>
+              <c>NES</c>
+              <c>1988</c>
+              <c>Platform</c>
+              <c>Nintendo</c>
+              <c>9.54</c>
+              <c>3.44</c>
+              <c>3.84</c>
+              <c>0.46</c>
+              <c>17.28</c>
+            </r>
+            <r>
+              <c>0000024</c>
+              <c>Grand Theft Auto V</c>
+              <c>X360</c>
+              <c>2013</c>
+              <c>Action</c>
+              <c>Take-Two Interactive</c>
+              <c>9.63</c>
+              <c>5.31</c>
+              <c>0.06</c>
+              <c>1.38</c>
+              <c>16.38</c>
+            </r>
+            <r>
+              <c>0000025</c>
+              <c>Grand Theft Auto: Vice City</c>
+              <c>PS2</c>
+              <c>2002</c>
+              <c>Action</c>
+              <c>Take-Two Interactive</c>
+              <c>8.41</c>
+              <c>5.49</c>
+              <c>0.47</c>
+              <c>1.78</c>
+              <c>16.15</c>
+            </r>
+            <r>
+              <c>0000026</c>
+              <c>Pokemon Ruby/Pokemon Sapphire</c>
+              <c>GBA</c>
+              <c>2002</c>
+              <c>Role-Playing</c>
+              <c>Nintendo</c>
+              <c>6.06</c>
+              <c>3.9</c>
+              <c>5.38</c>
+              <c>0.5</c>
+              <c>15.85</c>
+            </r>
+            <r>
+              <c>0000027</c>
+              <c>Pokemon Black/Pokemon White</c>
+              <c>DS</c>
+              <c>2010</c>
+              <c>Role-Playing</c>
+              <c>Nintendo</c>
+              <c>5.57</c>
+              <c>3.28</c>
+              <c>5.65</c>
+              <c>0.82</c>
+              <c>15.32</c>
+            </r>
+            <r>
+              <c>0000028</c>
+              <c>Brain Age 2: More Training in Minutes a Day</c>
+              <c>DS</c>
+              <c>2005</c>
+              <c>Puzzle</c>
+              <c>Nintendo</c>
+              <c>3.44</c>
+              <c>5.36</c>
+              <c>5.32</c>
+              <c>1.18</c>
+              <c>15.3</c>
+            </r>
+            <r>
+              <c>0000029</c>
+              <c>Gran Turismo 3: A-Spec</c>
+              <c>PS2</c>
+              <c>2001</c>
+              <c>Racing</c>
+              <c>Sony Computer Entertainment</c>
+              <c>6.85</c>
+              <c>5.09</c>
+              <c>1.87</c>
+              <c>1.16</c>
+              <c>14.98</c>
+            </r>
+            <r>
+              <c>0000030</c>
+              <c>Call of Duty: Modern Warfare 3</c>
+              <c>X360</c>
+              <c>2011</c>
+              <c>Shooter</c>
+              <c>Activision</c>
+              <c>9.03</c>
+              <c>4.28</c>
+              <c>0.13</c>
+              <c>1.32</c>
+              <c>14.76</c>
+            </r>
+            <r>
+              <c>0000031</c>
+              <c>PokÃ©mon Yellow: Special Pikachu Edition</c>
+              <c>GB</c>
+              <c>1998</c>
+              <c>Role-Playing</c>
+              <c>Nintendo</c>
+              <c>5.89</c>
+              <c>5.04</c>
+              <c>3.12</c>
+              <c>0.59</c>
+              <c>14.64</c>
+            </r>
+            <r>
+              <c>0000032</c>
+              <c>Call of Duty: Black Ops</c>
+              <c>X360</c>
+              <c>2010</c>
+              <c>Shooter</c>
+              <c>Activision</c>
+              <c>9.67</c>
+              <c>3.73</c>
+              <c>0.11</c>
+              <c>1.13</c>
+              <c>14.64</c>
+            </r>
+            <r>
+              <c>0000033</c>
+              <c>Pokemon X/Pokemon Y</c>
+              <c>3DS</c>
+              <c>2013</c>
+              <c>Role-Playing</c>
+              <c>Nintendo</c>
+              <c>5.17</c>
+              <c>4.05</c>
+              <c>4.34</c>
+              <c>0.79</c>
+              <c>14.35</c>
+            </r>
+            <r>
+              <c>0000034</c>
+              <c>Call of Duty: Black Ops 3</c>
+              <c>PS4</c>
+              <c>2015</c>
+              <c>Shooter</c>
+              <c>Activision</c>
+              <c>5.77</c>
+              <c>5.81</c>
+              <c>0.35</c>
+              <c>2.31</c>
+              <c>14.24</c>
+            </r>
+            <r>
+              <c>0000035</c>
+              <c>Call of Duty: Black Ops II</c>
+              <c>PS3</c>
+              <c>2012</c>
+              <c>Shooter</c>
+              <c>Activision</c>
+              <c>4.99</c>
+              <c>5.88</c>
+              <c>0.65</c>
+              <c>2.52</c>
+              <c>14.03</c>
+            </r>
+            <r>
+              <c>0000036</c>
+              <c>Call of Duty: Black Ops II</c>
+              <c>X360</c>
+              <c>2012</c>
+              <c>Shooter</c>
+              <c>Activision</c>
+              <c>8.25</c>
+              <c>4.3</c>
+              <c>0.07</c>
+              <c>1.12</c>
+              <c>13.73</c>
+            </r>
+            <r>
+              <c>0000037</c>
+              <c>Call of Duty: Modern Warfare 2</c>
+              <c>X360</c>
+              <c>2009</c>
+              <c>Shooter</c>
+              <c>Activision</c>
+              <c>8.52</c>
+              <c>3.63</c>
+              <c>0.08</c>
+              <c>1.29</c>
+              <c>13.51</c>
+            </r>
+            <r>
+              <c>0000038</c>
+              <c>Call of Duty: Modern Warfare 3</c>
+              <c>PS3</c>
+              <c>2011</c>
+              <c>Shooter</c>
+              <c>Activision</c>
+              <c>5.54</c>
+              <c>5.82</c>
+              <c>0.49</c>
+              <c>1.62</c>
+              <c>13.46</c>
+            </r>
+            <r>
+              <c>0000039</c>
+              <c>Grand Theft Auto III</c>
+              <c>PS2</c>
+              <c>2001</c>
+              <c>Action</c>
+              <c>Take-Two Interactive</c>
+              <c>6.99</c>
+              <c>4.51</c>
+              <c>0.3</c>
+              <c>1.3</c>
+              <c>13.1</c>
+            </r>
+            <r>
+              <c>0000040</c>
+              <c>Super Smash Bros. Brawl</c>
+              <c>Wii</c>
+              <c>2008</c>
+              <c>Fighting</c>
+              <c>Nintendo</c>
+              <c>6.75</c>
+              <c>2.61</c>
+              <c>2.66</c>
+              <c>1.02</c>
+              <c>13.04</c>
+            </r>
+            <r>
+              <c>0000041</c>
+              <c>Call of Duty: Black Ops</c>
+              <c>PS3</c>
+              <c>2010</c>
+              <c>Shooter</c>
+              <c>Activision</c>
+              <c>5.98</c>
+              <c>4.44</c>
+              <c>0.48</c>
+              <c>1.83</c>
+              <c>12.73</c>
+            </r>
+            <r>
+              <c>0000042</c>
+              <c>Animal Crossing: Wild World</c>
+              <c>DS</c>
+              <c>2005</c>
+              <c>Simulation</c>
+              <c>Nintendo</c>
+              <c>2.55</c>
+              <c>3.52</c>
+              <c>5.33</c>
+              <c>0.88</c>
+              <c>12.27</c>
+            </r>
+            <r>
+              <c>0000043</c>
+              <c>Mario Kart 7</c>
+              <c>3DS</c>
+              <c>2011</c>
+              <c>Racing</c>
+              <c>Nintendo</c>
+              <c>4.74</c>
+              <c>3.91</c>
+              <c>2.67</c>
+              <c>0.89</c>
+              <c>12.21</c>
+            </r>
+            <r>
+              <c>0000044</c>
+              <c>Halo 3</c>
+              <c>X360</c>
+              <c>2007</c>
+              <c>Shooter</c>
+              <c>Microsoft Game Studios</c>
+              <c>7.97</c>
+              <c>2.83</c>
+              <c>0.13</c>
+              <c>1.21</c>
+              <c>12.14</c>
+            </r>
+            <r>
+              <c>0000045</c>
+              <c>Grand Theft Auto V</c>
+              <c>PS4</c>
+              <c>2014</c>
+              <c>Action</c>
+              <c>Take-Two Interactive</c>
+              <c>3.8</c>
+              <c>5.81</c>
+              <c>0.36</c>
+              <c>2.02</c>
+              <c>11.98</c>
+            </r>
+            <r>
+              <c>0000046</c>
+              <c>Pokemon HeartGold/Pokemon SoulSilver</c>
+              <c>DS</c>
+              <c>2009</c>
+              <c>Action</c>
+              <c>Nintendo</c>
+              <c>4.4</c>
+              <c>2.77</c>
+              <c>3.96</c>
+              <c>0.77</c>
+              <c>11.9</c>
+            </r>
+            <r>
+              <c>0000047</c>
+              <c>Super Mario 64</c>
+              <c>N64</c>
+              <c>1996</c>
+              <c>Platform</c>
+              <c>Nintendo</c>
+              <c>6.91</c>
+              <c>2.85</c>
+              <c>1.91</c>
+              <c>0.23</c>
+              <c>11.89</c>
+            </r>
+            <r>
+              <c>0000048</c>
+              <c>Gran Turismo 4</c>
+              <c>PS2</c>
+              <c>2004</c>
+              <c>Racing</c>
+              <c>Sony Computer Entertainment</c>
+              <c>3.01</c>
+              <c>0.01</c>
+              <c>1.1</c>
+              <c>7.53</c>
+              <c>11.66</c>
+            </r>
+            <r>
+              <c>0000049</c>
+              <c>Super Mario Galaxy</c>
+              <c>Wii</c>
+              <c>2007</c>
+              <c>Platform</c>
+              <c>Nintendo</c>
+              <c>6.16</c>
+              <c>3.4</c>
+              <c>1.2</c>
+              <c>0.76</c>
+              <c>11.52</c>
+            </r>
+            <r>
+              <c>0000050</c>
+              <c>Pokemon Omega Ruby/Pokemon Alpha Sapphire</c>
+              <c>3DS</c>
+              <c>2014</c>
+              <c>Role-Playing</c>
+              <c>Nintendo</c>
+              <c>4.23</c>
+              <c>3.37</c>
+              <c>3.08</c>
+              <c>0.65</c>
+              <c>11.33</c>
+            </r>
+            <r>
+              <c>0000051</c>
+              <c>Super Mario Land 2: 6 Golden Coins</c>
+              <c>GB</c>
+              <c>1992</c>
+              <c>Adventure</c>
+              <c>Nintendo</c>
+              <c>6.16</c>
+              <c>2.04</c>
+              <c>2.69</c>
+              <c>0.29</c>
+              <c>11.18</c>
+            </r>
+            <r>
+              <c>0000052</c>
+              <c>Grand Theft Auto IV</c>
+              <c>X360</c>
+              <c>2008</c>
+              <c>Action</c>
+              <c>Take-Two Interactive</c>
+              <c>6.76</c>
+              <c>3.1</c>
+              <c>0.14</c>
+              <c>1.03</c>
+              <c>11.02</c>
+            </r>
+            <r>
+              <c>0000053</c>
+              <c>Gran Turismo</c>
+              <c>PS</c>
+              <c>1997</c>
+              <c>Racing</c>
+              <c>Sony Computer Entertainment</c>
+              <c>4.02</c>
+              <c>3.87</c>
+              <c>2.54</c>
+              <c>0.52</c>
+              <c>10.95</c>
+            </r>
+            <r>
+              <c>0000054</c>
+              <c>Super Mario 3D Land</c>
+              <c>3DS</c>
+              <c>2011</c>
+              <c>Platform</c>
+              <c>Nintendo</c>
+              <c>4.89</c>
+              <c>2.99</c>
+              <c>2.13</c>
+              <c>0.78</c>
+              <c>10.79</c>
+            </r>
+            <r>
+              <c>0000055</c>
+              <c>Gran Turismo 5</c>
+              <c>PS3</c>
+              <c>2010</c>
+              <c>Racing</c>
+              <c>Sony Computer Entertainment</c>
+              <c>2.96</c>
+              <c>4.88</c>
+              <c>0.81</c>
+              <c>2.12</c>
+              <c>10.77</c>
+            </r>
+            <r>
+              <c>0000056</c>
+              <c>Call of Duty: Modern Warfare 2</c>
+              <c>PS3</c>
+              <c>2009</c>
+              <c>Shooter</c>
+              <c>Activision</c>
+              <c>4.99</c>
+              <c>3.69</c>
+              <c>0.38</c>
+              <c>1.63</c>
+              <c>10.69</c>
+            </r>
+            <r>
+              <c>0000057</c>
+              <c>Grand Theft Auto IV</c>
+              <c>PS3</c>
+              <c>2008</c>
+              <c>Action</c>
+              <c>Take-Two Interactive</c>
+              <c>4.76</c>
+              <c>3.76</c>
+              <c>0.44</c>
+              <c>1.62</c>
+              <c>10.57</c>
+            </r>
+            <r>
+              <c>0000058</c>
+              <c>Super Mario All-Stars</c>
+              <c>SNES</c>
+              <c>1993</c>
+              <c>Platform</c>
+              <c>Nintendo</c>
+              <c>5.99</c>
+              <c>2.15</c>
+              <c>2.12</c>
+              <c>0.29</c>
+              <c>10.55</c>
+            </r>
+            <r>
+              <c>0000059</c>
+              <c>Pokemon FireRed/Pokemon LeafGreen</c>
+              <c>GBA</c>
+              <c>2004</c>
+              <c>Role-Playing</c>
+              <c>Nintendo</c>
+              <c>4.34</c>
+              <c>2.65</c>
+              <c>3.15</c>
+              <c>0.35</c>
+              <c>10.49</c>
+            </r>
+            <r>
+              <c>0000060</c>
+              <c>Super Mario 64</c>
+              <c>DS</c>
+              <c>2004</c>
+              <c>Platform</c>
+              <c>Nintendo</c>
+              <c>5.08</c>
+              <c>3.11</c>
+              <c>1.25</c>
+              <c>0.98</c>
+              <c>10.42</c>
+            </r>
+            <r>
+              <c>0000061</c>
+              <c>Just Dance 3</c>
+              <c>Wii</c>
+              <c>2011</c>
+              <c>Misc</c>
+              <c>Ubisoft</c>
+              <c>6.05</c>
+              <c>3.15</c>
+              <c>0</c>
+              <c>1.07</c>
+              <c>10.26</c>
+            </r>
+            <r>
+              <c>0000062</c>
+              <c>Call of Duty: Ghosts</c>
+              <c>X360</c>
+              <c>2013</c>
+              <c>Shooter</c>
+              <c>Activision</c>
+              <c>6.72</c>
+              <c>2.63</c>
+              <c>0.04</c>
+              <c>0.82</c>
+              <c>10.21</c>
+            </r>
+            <r>
+              <c>0000063</c>
+              <c>Halo: Reach</c>
+              <c>X360</c>
+              <c>2010</c>
+              <c>Shooter</c>
+              <c>Microsoft Game Studios</c>
+              <c>7.03</c>
+              <c>1.98</c>
+              <c>0.08</c>
+              <c>0.78</c>
+              <c>9.88</c>
+            </r>
+            <r>
+              <c>0000064</c>
+              <c>Mario Kart 64</c>
+              <c>N64</c>
+              <c>1996</c>
+              <c>Racing</c>
+              <c>Nintendo</c>
+              <c>5.55</c>
+              <c>1.94</c>
+              <c>2.23</c>
+              <c>0.15</c>
+              <c>9.87</c>
+            </r>
+            <r>
+              <c>0000065</c>
+              <c>New Super Mario Bros. 2</c>
+              <c>3DS</c>
+              <c>2012</c>
+              <c>Platform</c>
+              <c>Nintendo</c>
+              <c>3.66</c>
+              <c>3.07</c>
+              <c>2.47</c>
+              <c>0.63</c>
+              <c>9.82</c>
+            </r>
+            <r>
+              <c>0000066</c>
+              <c>Halo 4</c>
+              <c>X360</c>
+              <c>2012</c>
+              <c>Shooter</c>
+              <c>Microsoft Game Studios</c>
+              <c>6.63</c>
+              <c>2.36</c>
+              <c>0.04</c>
+              <c>0.73</c>
+              <c>9.76</c>
+            </r>
+            <r>
+              <c>0000067</c>
+              <c>Final Fantasy VII</c>
+              <c>PS</c>
+              <c>1997</c>
+              <c>Role-Playing</c>
+              <c>Sony Computer Entertainment</c>
+              <c>3.01</c>
+              <c>2.47</c>
+              <c>3.28</c>
+              <c>0.96</c>
+              <c>9.72</c>
+            </r>
+            <r>
+              <c>0000068</c>
+              <c>Call of Duty: Ghosts</c>
+              <c>PS3</c>
+              <c>2013</c>
+              <c>Shooter</c>
+              <c>Activision</c>
+              <c>4.09</c>
+              <c>3.73</c>
+              <c>0.38</c>
+              <c>1.38</c>
+              <c>9.59</c>
+            </r>
+            <r>
+              <c>0000069</c>
+              <c>Just Dance 2</c>
+              <c>Wii</c>
+              <c>2010</c>
+              <c>Misc</c>
+              <c>Ubisoft</c>
+              <c>5.84</c>
+              <c>2.89</c>
+              <c>0.01</c>
+              <c>0.78</c>
+              <c>9.52</c>
+            </r>
+            <r>
+              <c>0000070</c>
+              <c>Gran Turismo 2</c>
+              <c>PS</c>
+              <c>1999</c>
+              <c>Racing</c>
+              <c>Sony Computer Entertainment</c>
+              <c>3.88</c>
+              <c>3.42</c>
+              <c>1.69</c>
+              <c>0.5</c>
+              <c>9.49</c>
+            </r>
+            <r>
+              <c>0000071</c>
+              <c>Call of Duty 4: Modern Warfare</c>
+              <c>X360</c>
+              <c>2007</c>
+              <c>Shooter</c>
+              <c>Activision</c>
+              <c>5.91</c>
+              <c>2.38</c>
+              <c>0.13</c>
+              <c>0.9</c>
+              <c>9.32</c>
+            </r>
+            <r>
+              <c>0000072</c>
+              <c>Donkey Kong Country</c>
+              <c>SNES</c>
+              <c>1994</c>
+              <c>Platform</c>
+              <c>Nintendo</c>
+              <c>4.36</c>
+              <c>1.71</c>
+              <c>3</c>
+              <c>0.23</c>
+              <c>9.3</c>
+            </r>
+            <r>
+              <c>0000073</c>
+              <c>Minecraft</c>
+              <c>X360</c>
+              <c>2013</c>
+              <c>Misc</c>
+              <c>Microsoft Game Studios</c>
+              <c>5.58</c>
+              <c>2.83</c>
+              <c>0.02</c>
+              <c>0.77</c>
+              <c>9.2</c>
+            </r>
+            <r>
+              <c>0000074</c>
+              <c>Animal Crossing: New Leaf</c>
+              <c>3DS</c>
+              <c>2012</c>
+              <c>Simulation</c>
+              <c>Nintendo</c>
+              <c>2.01</c>
+              <c>2.32</c>
+              <c>4.36</c>
+              <c>0.41</c>
+              <c>9.09</c>
+            </r>
+            <r>
+              <c>0000075</c>
+              <c>Mario Party DS</c>
+              <c>DS</c>
+              <c>2007</c>
+              <c>Misc</c>
+              <c>Nintendo</c>
+              <c>4.46</c>
+              <c>1.88</c>
+              <c>1.98</c>
+              <c>0.7</c>
+              <c>9.02</c>
+            </r>
+            <r>
+              <c>0000076</c>
+              <c>The Elder Scrolls V: Skyrim</c>
+              <c>X360</c>
+              <c>2011</c>
+              <c>Role-Playing</c>
+              <c>Bethesda Softworks</c>
+              <c>5.03</c>
+              <c>2.86</c>
+              <c>0.1</c>
+              <c>0.85</c>
+              <c>8.84</c>
+            </r>
+            <r>
+              <c>0000077</c>
+              <c>Super Mario Kart</c>
+              <c>SNES</c>
+              <c>1992</c>
+              <c>Racing</c>
+              <c>Nintendo</c>
+              <c>3.54</c>
+              <c>1.24</c>
+              <c>3.81</c>
+              <c>0.18</c>
+              <c>8.76</c>
+            </r>
+            <r>
+              <c>0000078</c>
+              <c>FIFA 16</c>
+              <c>PS4</c>
+              <c>2015</c>
+              <c>Sports</c>
+              <c>Electronic Arts</c>
+              <c>1.11</c>
+              <c>6.06</c>
+              <c>0.06</c>
+              <c>1.26</c>
+              <c>8.49</c>
+            </r>
+            <r>
+              <c>0000079</c>
+              <c>Wii Party</c>
+              <c>Wii</c>
+              <c>2010</c>
+              <c>Misc</c>
+              <c>Nintendo</c>
+              <c>1.79</c>
+              <c>3.53</c>
+              <c>2.49</c>
+              <c>0.68</c>
+              <c>8.49</c>
+            </r>
+            <r>
+              <c>0000080</c>
+              <c>Halo 2</c>
+              <c>XB</c>
+              <c>2004</c>
+              <c>Shooter</c>
+              <c>Microsoft Game Studios</c>
+              <c>6.82</c>
+              <c>1.53</c>
+              <c>0.05</c>
+              <c>0.08</c>
+              <c>8.49</c>
+            </r>
+            <r>
+              <c>0000081</c>
+              <c>Mario Party 8</c>
+              <c>Wii</c>
+              <c>2007</c>
+              <c>Misc</c>
+              <c>Nintendo</c>
+              <c>3.81</c>
+              <c>2.3</c>
+              <c>1.58</c>
+              <c>0.73</c>
+              <c>8.42</c>
+            </r>
+            <r>
+              <c>0000082</c>
+              <c>Pokemon Black 2/Pokemon White 2</c>
+              <c>DS</c>
+              <c>2012</c>
+              <c>Role-Playing</c>
+              <c>Nintendo</c>
+              <c>2.91</c>
+              <c>1.86</c>
+              <c>3.14</c>
+              <c>0.43</c>
+              <c>8.33</c>
+            </r>
+            <r>
+              <c>0000083</c>
+              <c>FIFA Soccer 13</c>
+              <c>PS3</c>
+              <c>2012</c>
+              <c>Action</c>
+              <c>Electronic Arts</c>
+              <c>1.06</c>
+              <c>5.05</c>
+              <c>0.13</c>
+              <c>2.01</c>
+              <c>8.24</c>
+            </r>
+            <r>
+              <c>0000084</c>
+              <c>The Sims 3</c>
+              <c>PC</c>
+              <c>2009</c>
+              <c>Simulation</c>
+              <c>Electronic Arts</c>
+              <c>0.98</c>
+              <c>6.42</c>
+              <c>0</c>
+              <c>0.71</c>
+              <c>8.11</c>
+            </r>
+            <r>
+              <c>0000085</c>
+              <c>GoldenEye 007</c>
+              <c>N64</c>
+              <c>1997</c>
+              <c>Shooter</c>
+              <c>Nintendo</c>
+              <c>5.8</c>
+              <c>2.01</c>
+              <c>0.13</c>
+              <c>0.15</c>
+              <c>8.09</c>
+            </r>
+            <r>
+              <c>0000086</c>
+              <c>Mario &amp; Sonic at the Olympic Games</c>
+              <c>Wii</c>
+              <c>2007</c>
+              <c>Sports</c>
+              <c>Sega</c>
+              <c>2.58</c>
+              <c>3.9</c>
+              <c>0.66</c>
+              <c>0.91</c>
+              <c>8.06</c>
+            </r>
+            <r>
+              <c>0000087</c>
+              <c>Final Fantasy X</c>
+              <c>PS2</c>
+              <c>2001</c>
+              <c>Role-Playing</c>
+              <c>Sony Computer Entertainment</c>
+              <c>2.91</c>
+              <c>2.07</c>
+              <c>2.73</c>
+              <c>0.33</c>
+              <c>8.05</c>
+            </r>
+            <r>
+              <c>0000088</c>
+              <c>Final Fantasy VIII</c>
+              <c>PS</c>
+              <c>1999</c>
+              <c>Role-Playing</c>
+              <c>SquareSoft</c>
+              <c>2.28</c>
+              <c>1.72</c>
+              <c>3.63</c>
+              <c>0.23</c>
+              <c>7.86</c>
+            </r>
+            <r>
+              <c>0000089</c>
+              <c>PokÃ©mon Platinum Version</c>
+              <c>DS</c>
+              <c>2008</c>
+              <c>Role-Playing</c>
+              <c>Nintendo</c>
+              <c>2.82</c>
+              <c>1.78</c>
+              <c>2.69</c>
+              <c>0.55</c>
+              <c>7.84</c>
+            </r>
+            <r>
+              <c>0000090</c>
+              <c>Pac-Man</c>
+              <c>2600</c>
+              <c>1982</c>
+              <c>Puzzle</c>
+              <c>Atari</c>
+              <c>7.28</c>
+              <c>0.45</c>
+              <c>0</c>
+              <c>0.08</c>
+              <c>7.81</c>
+            </r>
+            <r>
+              <c>0000091</c>
+              <c>Grand Theft Auto: Liberty City Stories</c>
+              <c>PSP</c>
+              <c>2005</c>
+              <c>Action</c>
+              <c>Take-Two Interactive</c>
+              <c>2.9</c>
+              <c>2.83</c>
+              <c>0.24</c>
+              <c>1.75</c>
+              <c>7.72</c>
+            </r>
+            <r>
+              <c>0000092</c>
+              <c>Super Mario Galaxy 2</c>
+              <c>Wii</c>
+              <c>2010</c>
+              <c>Platform</c>
+              <c>Nintendo</c>
+              <c>3.66</c>
+              <c>2.42</c>
+              <c>0.98</c>
+              <c>0.64</c>
+              <c>7.69</c>
+            </r>
+            <r>
+              <c>0000093</c>
+              <c>Star Wars Battlefront</c>
+              <c>PS4</c>
+              <c>2015</c>
+              <c>Shooter</c>
+              <c>Electronic Arts</c>
+              <c>2.93</c>
+              <c>3.29</c>
+              <c>0.22</c>
+              <c>1.23</c>
+              <c>7.67</c>
+            </r>
+            <r>
+              <c>0000094</c>
+              <c>Call of Duty: Advanced Warfare</c>
+              <c>PS4</c>
+              <c>2014</c>
+              <c>Shooter</c>
+              <c>Activision</c>
+              <c>2.8</c>
+              <c>3.3</c>
+              <c>0.14</c>
+              <c>1.37</c>
+              <c>7.6</c>
+            </r>
+            <r>
+              <c>0000095</c>
+              <c>The Legend of Zelda: Ocarina of Time</c>
+              <c>N64</c>
+              <c>1998</c>
+              <c>Action</c>
+              <c>Nintendo</c>
+              <c>4.1</c>
+              <c>1.89</c>
+              <c>1.45</c>
+              <c>0.16</c>
+              <c>7.6</c>
+            </r>
+            <r>
+              <c>0000096</c>
+              <c>Crash Bandicoot 2: Cortex Strikes Back</c>
+              <c>PS</c>
+              <c>1997</c>
+              <c>Platform</c>
+              <c>Sony Computer Entertainment</c>
+              <c>3.78</c>
+              <c>2.17</c>
+              <c>1.31</c>
+              <c>0.31</c>
+              <c>7.58</c>
+            </r>
+            <r>
+              <c>0000097</c>
+              <c>Super Mario Bros. 2</c>
+              <c>NES</c>
+              <c>1988</c>
+              <c>Platform</c>
+              <c>Nintendo</c>
+              <c>5.39</c>
+              <c>1.18</c>
+              <c>0.7</c>
+              <c>0.19</c>
+              <c>7.46</c>
+            </r>
+            <r>
+              <c>0000098</c>
+              <c>Super Smash Bros. for Wii U and 3DS</c>
+              <c>3DS</c>
+              <c>2014</c>
+              <c>Fighting</c>
+              <c>Nintendo</c>
+              <c>3.24</c>
+              <c>1.35</c>
+              <c>2.42</c>
+              <c>0.43</c>
+              <c>7.45</c>
+            </r>
+            <r>
+              <c>0000099</c>
+              <c>Call of Duty: World at War</c>
+              <c>X360</c>
+              <c>2008</c>
+              <c>Shooter</c>
+              <c>Activision</c>
+              <c>4.79</c>
+              <c>1.9</c>
+              <c>0</c>
+              <c>0.69</c>
+              <c>7.37</c>
+            </r>
+          </Data>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+    </Node>
+    <Node ToolID="44">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Sample.Sample">
+        <Position x="150" y="498" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Mode>First</Mode>
+          <N>1</N>
+          <GroupFields orderChanged="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>First 1</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSample" />
+    </Node>
+    <Node ToolID="45">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.TextToColumns.TextToColumns">
+        <Position x="246" y="498" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Field>Video Game Data</Field>
+          <ErrorHandling>Last</ErrorHandling>
+          <RootName>
+          </RootName>
+          <Delimeters value="|" />
+          <NumFields value="11" />
+          <Flags value="0" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextToColumns" />
+    </Node>
+    <Node ToolID="46">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="342" y="498" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="Video Game Data" selected="False" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="47">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Sample.Sample">
+        <Position x="150" y="618" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Mode>Skip</Mode>
+          <N>1</N>
+          <GroupFields orderChanged="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Skip 1st 1</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSample" />
+    </Node>
+    <Node ToolID="48">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.RegEx.RegEx">
+        <Position x="258" y="618" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Field>Video Game Data</Field>
+          <RegExExpression value="(\d{7})(.*?)\s(\w+)\s\((.*)\).*CAT:(.*) PUB:(.*?)\s\$(.*)" />
+          <CaseInsensitve value="True" />
+          <Method>ParseComplex</Method>
+          <Replace expression="">
+            <CopyUnmatched value="True" />
+          </Replace>
+          <ParseSimple>
+            <SplitToRows value="False" />
+            <RootName>Video Game Data</RootName>
+            <NumFields value="3" />
+            <ErrorHandling>Warn</ErrorHandling>
+          </ParseSimple>
+          <ParseComplex>
+            <Field field="RegExOut1" type="V_WString" size="1073741823" />
+            <Field field="RegExOut2" type="V_WString" size="1073741823" />
+            <Field field="RegExOut3" type="V_WString" size="1073741823" />
+            <Field field="RegExOut4" type="V_WString" size="1073741823" />
+            <Field field="RegExOut5" type="V_WString" size="1073741823" />
+            <Field field="RegExOut6" type="V_WString" size="1073741823" />
+            <Field field="RegExOut7" type="V_WString" size="1073741823" />
+          </ParseComplex>
+          <Match>
+            <Field>Video Game Data_Matched</Field>
+            <ErrorUnmatched value="False" />
+          </Match>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxRegEx" />
+    </Node>
+    <Node ToolID="49">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.TextToColumns.TextToColumns">
+        <Position x="366" y="618" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Field>RegExOut7</Field>
+          <ErrorHandling>Last</ErrorHandling>
+          <RootName>RegExOut7</RootName>
+          <Delimeters value="," />
+          <NumFields value="5" />
+          <Flags value="0" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextToColumns" />
+    </Node>
+    <Node ToolID="50">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="474" y="618" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="51">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.MultiFieldFormula.MultiFieldFormula">
+        <Position x="582" y="618" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FieldType>Text</FieldType>
+          <Fields orderChanged="False">
+            <Field name="RegExOut71" />
+            <Field name="RegExOut72" />
+            <Field name="RegExOut73" />
+            <Field name="RegExOut74" />
+            <Field name="RegExOut75" />
+            <Field name="Video Game Data" selected="False" />
+            <Field name="RegExOut1" selected="False" />
+            <Field name="RegExOut2" selected="False" />
+            <Field name="RegExOut3" selected="False" />
+            <Field name="RegExOut4" selected="False" />
+            <Field name="RegExOut6" selected="False" />
+            <Field name="RegExOut7" selected="False" />
+            <Field name="*Unknown" selected="False" />
+          </Fields>
+          <CopyOutput value="False" />
+          <Expression>ReplaceChar([_CurrentField_], "$milon", "")</Expression>
+          <ChangeFieldType value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>ReplaceChar([_CurrentField_], "$milon", "")</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxMultiFieldFormula" />
+    </Node>
+    <Node ToolID="52">
+      <GuiSettings>
+        <Position x="678" y="618" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="List Box (11)">"Video Game Data","RegExOut1","RegExOut2","RegExOut3","RegExOut4","RegExOut6","RegExOut7","RegExOut71","RegExOut72","RegExOut73","RegExOut74","RegExOut75"</Value>
+          <Value name="Check Box (84)">True</Value>
+          <Value name="Check Box (117)">True</Value>
+          <Value name="Check Box (15)">True</Value>
+          <Value name="Check Box (109)">False</Value>
+          <Value name="Check Box (122)">False</Value>
+          <Value name="Check Box (53)">False</Value>
+          <Value name="Check Box (58)">False</Value>
+          <Value name="Check Box (70)">False</Value>
+          <Value name="Check Box (77)">False</Value>
+          <Value name="Drop Down (81)">upper</Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings Macro="Cleanse.yxmc" />
+    </Node>
+    <Node ToolID="53">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="762" y="618" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="Video Game Data" selected="False" />
+            <SelectField field="RegExOut7" selected="False" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="54">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Union.Union">
+        <Position x="870" y="498" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <ByName_ErrorMode>Warning</ByName_ErrorMode>
+          <ByName_OutputMode>All</ByName_OutputMode>
+          <Mode>ByPos</Mode>
+          <SetOutputOrder value="True" />
+          <OutputOrder>
+            <Connection>#1</Connection>
+            <Connection>#2</Connection>
+          </OutputOrder>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnion" />
+    </Node>
+    <Node ToolID="55">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DynamicRename.DynamicRename">
+        <Position x="966" y="498" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <RenameMode>FirstRow</RenameMode>
+          <Fields orderChanged="False">
+            <Field name="1" />
+            <Field name="2" />
+            <Field name="3" />
+            <Field name="4" />
+            <Field name="5" />
+            <Field name="6" />
+            <Field name="7" />
+            <Field name="8" />
+            <Field name="9" />
+            <Field name="10" />
+            <Field name="11" />
+            <Field name="*Unknown" />
+          </Fields>
+          <Expression />
+          <FirstRow>
+            <OnError>Warn</OnError>
+          </FirstRow>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Game ID" size="1073741823" source="(Multiple Sources)" type="V_WString" />
+            <Field name="Name" size="1073741823" source="(Multiple Sources)" type="V_WString" />
+            <Field name="Platform" size="1073741823" source="(Multiple Sources)" type="V_WString" />
+            <Field name="Year" size="1073741823" source="(Multiple Sources)" type="V_WString" />
+            <Field name="Genre" size="1073741823" source="(Multiple Sources)" type="V_WString" />
+            <Field name="Publisher" size="1073741823" source="(Multiple Sources)" type="V_WString" />
+            <Field name="NA_Sales" size="1073741823" source="(Multiple Sources)" type="V_WString" />
+            <Field name="EU_Sales" size="1073741823" source="(Multiple Sources)" type="V_WString" />
+            <Field name="JP_Sales" size="1073741823" source="(Multiple Sources)" type="V_WString" />
+            <Field name="Other_Sales" size="1073741823" source="(Multiple Sources)" type="V_WString" />
+            <Field name="Global_Sales" size="1073741823" source="(Multiple Sources)" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDynamicRename" />
+    </Node>
+    <Node ToolID="56">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="1062" y="498" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\ProgramData\Alteryx\Engine\Engine_3248_ede2d9692c1640eca6a5e5ee7701b778_\Engine_3652_9393ea720675481e9e583c4b2f6e70a7_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="40">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="164" y="1040" width="656" height="84" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>Alteryx Educational Asset - Terms and Conditions</Caption>
+          <Style TextColor="#ffffff" FillColor="#0d2345" BorderColor="#ffffff" Transparency="1" Margin="10" />
+          <Disabled value="False" />
+          <Folded value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="39">
+          <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+            <Position x="174" y="1074" width="636" height="40" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Text>Use of this Alteryx asset is for educational purposes only and bound by the conditions set forth on alteryx.com/terms-and-conditions. Alteryx Information may not be reproduced, transmitted or distributed without Alteryx, Inc.'s permission.”</Text>
+              <Font name="Times New Roman" size="8.25" style="0" />
+              <TextColor name="White" />
+              <FillColor name="White" />
+              <Shape shape="3" />
+              <Justification Justification="4" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+        </Node>
+      </ChildNodes>
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="42" Connection="Output" />
+      <Destination ToolID="31" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="42" Connection="Output" />
+      <Destination ToolID="44" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="42" Connection="Output" />
+      <Destination ToolID="47" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="43" Connection="Output" />
+      <Destination ToolID="22" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="44" Connection="Output" />
+      <Destination ToolID="45" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="45" Connection="Output" />
+      <Destination ToolID="46" Connection="Input" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="46" Connection="Output" />
+      <Destination ToolID="54" Connection="Input" />
+    </Connection>
+    <Connection name="#2">
+      <Origin ToolID="53" Connection="Output" />
+      <Destination ToolID="54" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="47" Connection="Output" />
+      <Destination ToolID="48" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="48" Connection="Output" />
+      <Destination ToolID="49" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="49" Connection="Output" />
+      <Destination ToolID="50" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="50" Connection="Output" />
+      <Destination ToolID="51" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="51" Connection="Output" />
+      <Destination ToolID="52" Connection="Input2" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="52" Connection="Output26" />
+      <Destination ToolID="53" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="54" Connection="Output" />
+      <Destination ToolID="55" Connection="Targets" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="55" Connection="Output" />
+      <Destination ToolID="56" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>challenge_207_solution</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>

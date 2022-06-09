@@ -1,0 +1,756 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2019.4">
+  <Nodes>
+    <Node ToolID="15">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="60" y="222" width="216" height="156" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Input</Text>
+          <Font name="Microsoft Sans Serif" size="7.8" style="0" />
+          <TextColor name="Gray" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="16">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="455" y="222" width="216" height="156" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Output</Text>
+          <Font name="Lato" size="7.8" style="0" />
+          <TextColor name="Gray" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="29">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="54" y="54" width="324" height="72" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text />
+          <Font name="Segoe UI" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="3" />
+          <Justification Justification="4" />
+          <BG_Image>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</BG_Image>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="30">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="450" y="70" width="300" height="40" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Weekly Challenge #209</Text>
+          <Font name="Microsoft Sans Serif" size="16.2" style="0" />
+          <TextColor name="Gray" />
+          <FillColor name="White" />
+          <Shape shape="3" />
+          <Justification Justification="0" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="31">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="59" y="114" width="612" height="96" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text><![CDATA[The Input Data is a claims experience record for a group health insurance policy for 3 underwriting years.   The data was converted from a PDF file - each page of the PDF is contained in a single cell of data.  
+
+Your goal is to extract the amounts shown next to each Accident Month  (in the block of text under Period)  and summarize them with regards to the Inception Date of the policy.  
+
+
+]]></Text>
+          <Font name="Microsoft Sans Serif" size="7.8" style="0" />
+          <TextColor name="Gray" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="0" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="33">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="570" y="270" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\mohamad.assaf\AppData\Local\Temp\Engine_8948_c43a2839ae864ea78729381a06bac575_\Engine_10784_083b6f4eb2634012aa70d4b025854e16_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="34">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+        <Position x="474" y="270" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <NumRows value="33" />
+          <Fields>
+            <Field name="Inception" />
+            <Field name="Accident Month" />
+            <Field name="Number of Lives" />
+            <Field name="Number of Paid Claims" />
+            <Field name="Amt Paid Before VAT" />
+            <Field name="Amt Paid After VAT" />
+            <Field name="Number of OS Claims" />
+            <Field name="Amt of OS Claims Before VAT" />
+            <Field name="Amt of OS Claims after VAT" />
+          </Fields>
+          <Data>
+            <r>
+              <c>24-04-2017</c>
+              <c>2017-04-01</c>
+              <c>10320</c>
+              <c>1849</c>
+              <c>1985974.59</c>
+              <c>1985974.59</c>
+              <c>0</c>
+              <c>0</c>
+              <c>0</c>
+            </r>
+            <r>
+              <c>24-04-2017</c>
+              <c>2017-05-01</c>
+              <c>10385</c>
+              <c>8324</c>
+              <c>8064636.49</c>
+              <c>8064636.49</c>
+              <c>0</c>
+              <c>0</c>
+              <c>0</c>
+            </r>
+            <r>
+              <c>24-04-2017</c>
+              <c>2017-06-01</c>
+              <c>10382</c>
+              <c>5859</c>
+              <c>5279349.51</c>
+              <c>5279349.51</c>
+              <c>0</c>
+              <c>0</c>
+              <c>0</c>
+            </r>
+            <r>
+              <c>24-04-2017</c>
+              <c>2017-07-01</c>
+              <c>10375</c>
+              <c>7496</c>
+              <c>7377419.28</c>
+              <c>7377419.28</c>
+              <c>0</c>
+              <c>0</c>
+              <c>0</c>
+            </r>
+            <r>
+              <c>24-04-2017</c>
+              <c>2017-08-01</c>
+              <c>10393</c>
+              <c>7262</c>
+              <c>7265501.55</c>
+              <c>7265501.55</c>
+              <c>0</c>
+              <c>0</c>
+              <c>0</c>
+            </r>
+            <r>
+              <c>24-04-2017</c>
+              <c>2017-09-01</c>
+              <c>10405</c>
+              <c>6407</c>
+              <c>6992772</c>
+              <c>6992772</c>
+              <c>0</c>
+              <c>0</c>
+              <c>0</c>
+            </r>
+            <r>
+              <c>24-04-2017</c>
+              <c>2017-10-01</c>
+              <c>10450</c>
+              <c>8344</c>
+              <c>7319265.22</c>
+              <c>7319265.22</c>
+              <c>0</c>
+              <c>0</c>
+              <c>0</c>
+            </r>
+            <r>
+              <c>24-04-2017</c>
+              <c>2017-11-01</c>
+              <c>10489</c>
+              <c>8713</c>
+              <c>7858932.5</c>
+              <c>7858932.5</c>
+              <c>0</c>
+              <c>0</c>
+              <c>0</c>
+            </r>
+            <r>
+              <c>24-04-2017</c>
+              <c>2017-12-01</c>
+              <c>10494</c>
+              <c>8640</c>
+              <c>7878868.83</c>
+              <c>7878868.83</c>
+              <c>0</c>
+              <c>0</c>
+              <c>0</c>
+            </r>
+            <r>
+              <c>24-04-2017</c>
+              <c>2018-01-01</c>
+              <c>10433</c>
+              <c>8686</c>
+              <c>8421750.49</c>
+              <c>8688719.98</c>
+              <c>0</c>
+              <c>0</c>
+              <c>0</c>
+            </r>
+            <r>
+              <c>24-04-2017</c>
+              <c>2018-02-01</c>
+              <c>10289</c>
+              <c>8334</c>
+              <c>7281329.36</c>
+              <c>7512147.5</c>
+              <c>0</c>
+              <c>0</c>
+              <c>0</c>
+            </r>
+            <r>
+              <c>24-04-2017</c>
+              <c>2018-03-01</c>
+              <c>10061</c>
+              <c>9052</c>
+              <c>7849509.59</c>
+              <c>8098339.05</c>
+              <c>0</c>
+              <c>0</c>
+              <c>0</c>
+            </r>
+            <r>
+              <c>24-04-2017</c>
+              <c>2018-04-01</c>
+              <c>9960</c>
+              <c>6903</c>
+              <c>6057094.47</c>
+              <c>6249104.36</c>
+              <c>0</c>
+              <c>0</c>
+              <c>0</c>
+            </r>
+            <r>
+              <c>24-04-2018</c>
+              <c>2018-04-01</c>
+              <c>9663</c>
+              <c>1293</c>
+              <c>1408698.12</c>
+              <c>1453353.85</c>
+              <c>0</c>
+              <c>0</c>
+              <c>0</c>
+            </r>
+            <r>
+              <c>24-04-2018</c>
+              <c>2018-05-01</c>
+              <c>9586</c>
+              <c>6092</c>
+              <c>5937072.15</c>
+              <c>6125277.33</c>
+              <c>0</c>
+              <c>0</c>
+              <c>0</c>
+            </r>
+            <r>
+              <c>24-04-2018</c>
+              <c>2018-06-01</c>
+              <c>9467</c>
+              <c>4485</c>
+              <c>4079795.07</c>
+              <c>4209124.58</c>
+              <c>0</c>
+              <c>0</c>
+              <c>0</c>
+            </r>
+            <r>
+              <c>24-04-2018</c>
+              <c>2018-07-01</c>
+              <c>9403</c>
+              <c>5341</c>
+              <c>5916140.24</c>
+              <c>6103681.89</c>
+              <c>0</c>
+              <c>0</c>
+              <c>0</c>
+            </r>
+            <r>
+              <c>24-04-2018</c>
+              <c>2018-08-01</c>
+              <c>9323</c>
+              <c>4946</c>
+              <c>4593841.41</c>
+              <c>4739466.18</c>
+              <c>0</c>
+              <c>0</c>
+              <c>0</c>
+            </r>
+            <r>
+              <c>24-04-2018</c>
+              <c>2018-09-01</c>
+              <c>9266</c>
+              <c>6038</c>
+              <c>5757437.57</c>
+              <c>5939948.34</c>
+              <c>0</c>
+              <c>0</c>
+              <c>0</c>
+            </r>
+            <r>
+              <c>24-04-2018</c>
+              <c>2018-10-01</c>
+              <c>9250</c>
+              <c>6445</c>
+              <c>6374160.02</c>
+              <c>6576220.9</c>
+              <c>0</c>
+              <c>0</c>
+              <c>0</c>
+            </r>
+            <r>
+              <c>24-04-2018</c>
+              <c>2018-11-01</c>
+              <c>9203</c>
+              <c>6180</c>
+              <c>4958654.43</c>
+              <c>5115843.78</c>
+              <c>0</c>
+              <c>0</c>
+              <c>0</c>
+            </r>
+            <r>
+              <c>24-04-2018</c>
+              <c>2018-12-01</c>
+              <c>9173</c>
+              <c>6705</c>
+              <c>6088946.97</c>
+              <c>6281966.59</c>
+              <c>0</c>
+              <c>0</c>
+              <c>0</c>
+            </r>
+            <r>
+              <c>24-04-2018</c>
+              <c>2019-01-01</c>
+              <c>9163</c>
+              <c>6913</c>
+              <c>6620825.7</c>
+              <c>6830705.87</c>
+              <c>0</c>
+              <c>0</c>
+              <c>0</c>
+            </r>
+            <r>
+              <c>24-04-2018</c>
+              <c>2019-02-01</c>
+              <c>9137</c>
+              <c>6535</c>
+              <c>5562491.74</c>
+              <c>5738822.73</c>
+              <c>0</c>
+              <c>0</c>
+              <c>0</c>
+            </r>
+            <r>
+              <c>24-04-2018</c>
+              <c>2019-03-01</c>
+              <c>9158</c>
+              <c>6869</c>
+              <c>5507350.9</c>
+              <c>5643894.98</c>
+              <c>0</c>
+              <c>0</c>
+              <c>0</c>
+            </r>
+            <r>
+              <c>24-04-2018</c>
+              <c>2019-04-01</c>
+              <c>9105</c>
+              <c>5484</c>
+              <c>4223102.68</c>
+              <c>4323390.35</c>
+              <c>0</c>
+              <c>0</c>
+              <c>0</c>
+            </r>
+            <r>
+              <c>24-04-2019</c>
+              <c>2019-04-01</c>
+              <c>8952</c>
+              <c>1391</c>
+              <c>1481993.93</c>
+              <c>1510717.28</c>
+              <c>0</c>
+              <c>0</c>
+              <c>0</c>
+            </r>
+            <r>
+              <c>24-04-2019</c>
+              <c>2019-05-01</c>
+              <c>8959</c>
+              <c>5465</c>
+              <c>5287881.47</c>
+              <c>5408356.66</c>
+              <c>0</c>
+              <c>0</c>
+              <c>0</c>
+            </r>
+            <r>
+              <c>24-04-2019</c>
+              <c>2019-06-01</c>
+              <c>8925</c>
+              <c>4548</c>
+              <c>3942014.75</c>
+              <c>4042258.21</c>
+              <c>0</c>
+              <c>0</c>
+              <c>0</c>
+            </r>
+            <r>
+              <c>24-04-2019</c>
+              <c>2019-07-01</c>
+              <c>8926</c>
+              <c>5525</c>
+              <c>5316636.58</c>
+              <c>5452801.74</c>
+              <c>0</c>
+              <c>0</c>
+              <c>0</c>
+            </r>
+            <r>
+              <c>24-04-2019</c>
+              <c>2019-08-01</c>
+              <c>8973</c>
+              <c>4230</c>
+              <c>3573086.99</c>
+              <c>3655762.26</c>
+              <c>0</c>
+              <c>0</c>
+              <c>0</c>
+            </r>
+            <r>
+              <c>24-04-2019</c>
+              <c>2019-09-01</c>
+              <c>9004</c>
+              <c>5748</c>
+              <c>5467749.6</c>
+              <c>5587539.1</c>
+              <c>0</c>
+              <c>0</c>
+              <c>0</c>
+            </r>
+            <r>
+              <c>24-04-2019</c>
+              <c>2019-10-01</c>
+              <c>8999</c>
+              <c>6383</c>
+              <c>6342485.89</c>
+              <c>6476909.48</c>
+              <c>0</c>
+              <c>0</c>
+              <c>0</c>
+            </r>
+          </Data>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+    </Node>
+    <Node ToolID="35">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+        <Position x="90" y="282" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <NumRows value="6" />
+          <Fields>
+            <Field name="Field1" />
+          </Fields>
+          <Data>
+            <r>
+              <c>Inception                            24-04-2019                           Claims Processed to                      31/10/2019
+Expiry                               23-04-2020                           Class                                        VIP
+Deductible      20 %      OHN      100     OCN 100       MPN        75    Dental Limit                 2,000.00      Optical Limit         400.00
+Annual Limit         500,000.00           In- patient limit  500,000.00 Out patient Limit             500,000.00      Maternity Limit   500,000.00
+       Annual Claims        No. of Lives   No. of Paid        Amt of Paid Claims      Amt of Paid Claims No. of OS Amt of OS Claims Amt of OS Claims
+                                             Claims              (before VAT)            (after VAT)       Claims    (before VAT)     (after VAT)
+        Period
+     Last Policy Year
+     1           04/2019        8,844          1,390              1,481,798.93           1,510,522.28         0          0.00              0.00
+                 05/2019        8,849          5,451              5,277,674.00           5,398,082.71         0          0.00              0.00
+                 06/2019        8,817          4,528              3,924,225.84           4,024,250.50         0          0.00              0.00
+                 07/2019        8,821          5,509              5,294,859.51           5,430,547.20         0          0.00              0.00
+                 08/2019        8,868          4,214              3,558,281.52           3,640,881.47         0          0.00              0.00
+                 09/2019        8,900          5,734              5,458,328.10           5,578,056.16         0          0.00              0.00
+                 10/2019        8,897          6,363              6,332,559.68           6,466,712.77         0          0.00              0.00</c>
+            </r>
+            <r>
+              <c>Inception                            24-04-2019                           Claims Processed to                      31/10/2019
+Expiry                               23-04-2020                           Class                                         C
+Deductible      20 %      OHN      100     OCN 100       MPN        75    Dental Limit                 2,000.00      Optical Limit         400.00
+Annual Limit         500,000.00           In- patient limit  500,000.00 Out patient Limit             500,000.00      Maternity Limit    15,000.00
+       Annual Claims        No. of Lives   No. of Paid        Amt of Paid Claims      Amt of Paid Claims No. of OS Amt of OS Claims Amt of OS Claims
+                                             Claims              (before VAT)            (after VAT)       Claims    (before VAT)     (after VAT)
+        Period
+     Last Policy Year
+     3           04/2019        108              1                   195.00                 195.00            0          0.00              0.00
+                 05/2019        110             14                 10,207.47              10,273.95           0          0.00              0.00
+                 06/2019        108             20                 17,788.91              18,007.71           0          0.00              0.00
+                 07/2019        105             16                 21,777.07              22,254.54           0          0.00              0.00
+                 08/2019        105             16                 14,805.47              14,880.79           0          0.00              0.00
+                 09/2019        104             14                  9,421.50               9,482.94           0          0.00              0.00
+                 10/2019        102             20                  9,926.21              10,196.71           0          0.00              0.00</c>
+            </r>
+            <r>
+              <c>Inception                             24-04-2018                            Claims Processed to                         30/04/2019
+Expiry                                23-04-2019                            Class                                           VIP
+Deductible      20 %        OHN       100 OCN 100 MPN              75       Dental Limit               2,000.00          Optical Limit             400.00
+Annual Limit        500,000.00              In- patient limit   500,000.00 Out patient Limit          500,000.00         Maternity Limit        500,000.00
+      Annual Claims            No. of Lives       No. of Paid        Amt of Paid Claims         Amt of Paid Claims No. of OS Amt of OS Claims Amt of OS Claims
+                                                    Claims              (before VAT)               (after VAT)      Claims     (before VAT)     (after VAT)
+       Period
+    Last Policy Year
+    1           04/2018           9,553              1,293               1,408,698.12             1,453,353.85          0          0.00             0.00
+                05/2018           9,476              6,085               5,935,579.58             6,123,737.45          0          0.00             0.00
+                06/2018           9,359              4,478               4,077,039.68             4,206,281.84          0          0.00             0.00
+                07/2018           9,293              5,332               5,912,087.23             6,099,500.40          0          0.00             0.00
+                08/2018           9,214              4,938               4,590,359.30             4,735,873.69          0          0.00             0.00
+                09/2018           9,157              6,030               5,752,388.11             5,934,738.81          0          0.00             0.00
+                10/2018           9,139              6,434               6,370,241.49             6,572,178.15          0          0.00             0.00
+                11/2018           9,093              6,161               4,944,852.33             5,101,604.15          0          0.00             0.00
+                12/2018           9,066              6,675               6,016,430.17             6,207,151.01          0          0.00             0.00
+                01/2019           9,058              6,874               6,569,605.81             6,777,862.31          0          0.00             0.00
+                02/2019           9,033              6,506               5,528,051.70             5,703,290.94          0          0.00             0.00
+                03/2019           9,045              6,852               5,498,071.03             5,634,522.80          0          0.00             0.00
+                04/2019           8,994              5,464               4,109,709.82             4,205,807.24          0          0.00             0.00</c>
+            </r>
+            <r>
+              <c>Inception                             24-04-2018                            Claims Processed to                         30/04/2019
+Expiry                                23-04-2019                            Class                                            C
+Deductible      20 %        OHN       100 OCN 100 MPN              75       Dental Limit               2,000.00          Optical Limit             400.00
+Annual Limit        500,000.00              In- patient limit   500,000.00 Out patient Limit          500,000.00         Maternity Limit         15,000.00
+      Annual Claims            No. of Lives       No. of Paid        Amt of Paid Claims         Amt of Paid Claims No. of OS Amt of OS Claims Amt of OS Claims
+                                                    Claims              (before VAT)              (after VAT)       Claims     (before VAT)     (after VAT)
+       Period
+    Last Policy Year
+    3           04/2018            110                  0                    0.00                      0.00             0          0.00             0.00
+                05/2018            110                  7                  1,492.57                 1,539.88            0          0.00             0.00
+                06/2018            108                  7                  2,755.39                 2,842.74            0          0.00             0.00
+                07/2018            110                  9                  4,053.01                 4,181.49            0          0.00             0.00
+                08/2018            109                  8                  3,482.11                 3,592.49            0          0.00             0.00
+                09/2018            109                  8                  5,049.46                 5,209.53            0          0.00             0.00
+                10/2018            111                 11                  3,918.53                 4,042.75            0          0.00             0.00
+                11/2018            110                 19                 13,802.10                 14,239.63           0          0.00             0.00
+                12/2018            107                 30                 72,516.80                 74,815.58           0          0.00             0.00
+                01/2019            105                 39                 51,219.89                 52,843.56           0          0.00             0.00
+                02/2019            104                 29                 34,440.04                 35,531.79           0          0.00             0.00
+                03/2019            113                 17                  9,279.87                 9,372.18            0          0.00             0.00
+                04/2019            111                 20                 113,392.86               117,583.11           0          0.00             0.00</c>
+            </r>
+            <r>
+              <c>Inception                            24-04-2017                            Claims Processed to                       30/04/2018
+Expiry                               23-04-2018                            Class                                        VIP
+Deductible       20 %      OHN    20     OCN       20 MPN         20       Dental Limit               4,000.00         Optical Limit          400.00
+Annual Limit           500000             In- patient limit   500,000.00   Out patient Limit         500,000.00     Maternity Limit         500,000.00
+       Annual Claims          No. of Lives     No. of Paid         Amt of Paid Claims        Amt of Paid Claims No. of OS  Amt of OS Claims Amt of OS Claims
+                                                                                                                             (before VAT)     (after VAT)
+                                                  Claims              (before VAT)              (after VAT)      Claims
+        Period
+      Last Policy Year
+     1           04/2017         10,257             1,848              1,982,142.74            1,982,142.74          0            0.00            0.00
+                 05/2017         10,244             8,318              8,061,843.40            8,061,843.40          0            0.00            0.00
+                 06/2017         10,240             5,855              5,276,833.05            5,276,833.05          0            0.00            0.00
+                 07/2017         10,239             7,496              7,377,419.28            7,377,419.28          0            0.00            0.00
+                 08/2017         10,258             7,258              7,259,396.55            7,259,396.55          0            0.00            0.00
+                 09/2017         10,270             6,405              6,989,788.39            6,989,788.39          0            0.00            0.00
+                 10/2017         10,316             8,341              7,317,028.12            7,317,028.12          0            0.00            0.00
+                 11/2017         10,357             8,712              7,858,684.62            7,858,684.62          0            0.00            0.00
+                 12/2017         10,363             8,631              7,870,948.90            7,870,948.90          0            0.00            0.00
+                 01/2018         10,305             8,686              8,421,750.49            8,688,719.98          0            0.00            0.00
+                 02/2018         10,160             8,334              7,281,329.36            7,512,147.50          0            0.00            0.00
+                 03/2018         9,951              9,049              7,845,148.44            8,093,839.65          0            0.00            0.00
+                 04/2018         9,855              6,903              6,057,094.47            6,249,104.36          0            0.00            0.00</c>
+            </r>
+            <r>
+              <c>Inception                            24-04-2017                             Claims Processed to                       30/04/2018
+Expiry                               23-04-2018                             Class                                         C
+Deductible       20 %      OHN    100    OCN      100 MPN         75        Dental Limit              2,000.00          Optical Limit          400.00
+Annual Limit           500000             In- patient limit   500,000.00    Out patient Limit        500,000.00      Maternity Limit         15,000.00
+       Annual Claims          No. of Lives     No. of Paid         Amt of Paid Claims         Amt of Paid Claims No. of OS  Amt of OS Claims Amt of OS Claims
+                                                                                                                              (before VAT)     (after VAT)
+                                                  Claims              (before VAT)              (after VAT)       Claims
+        Period
+      Last Policy Year
+     3           04/2017           63                  1                 3,831.85                 3,831.85            0            0.00            0.00
+                 05/2017          141                  6                 2,793.09                 2,793.09            0            0.00            0.00
+                 06/2017          142                  4                 2,516.46                 2,516.46            0            0.00            0.00
+                 07/2017          136                  0                   0.00                     0.00              0            0.00            0.00
+                 08/2017          135                  4                 6,105.00                 6,105.00            0            0.00            0.00
+                 09/2017          135                  2                 2,983.61                 2,983.61            0            0.00            0.00
+                 10/2017          134                  3                 2,237.10                 2,237.10            0            0.00            0.00
+                 11/2017          132                  1                  247.88                   247.88             0            0.00            0.00
+                 12/2017          131                  9                 7,919.93                 7,919.93            0            0.00            0.00
+                 01/2018          128                  0                   0.00                     0.00              0            0.00            0.00
+                 02/2018          129                  0                   0.00                     0.00              0            0.00            0.00
+                 03/2018          110                  3                 4,361.15                 4,499.40            0            0.00            0.00
+                 04/2018          105                  0                   0.00                     0.00              0            0.00            0.00</c>
+            </r>
+          </Data>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+    </Node>
+    <Node ToolID="36">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="186" y="282" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\mohamad.assaf\AppData\Local\Temp\Engine_8948_c43a2839ae864ea78729381a06bac575_\Engine_10784_a3b90b0773af45d6ad0655f63b0b053d_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="34" Connection="Output" />
+      <Destination ToolID="33" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="35" Connection="Output" />
+      <Destination ToolID="36" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>challenge_209_start_file</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>

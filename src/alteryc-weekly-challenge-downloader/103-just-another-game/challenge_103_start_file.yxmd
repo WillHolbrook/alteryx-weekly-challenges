@@ -1,0 +1,534 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="11.7">
+  <Nodes>
+    <Node ToolID="26">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="54" y="54" width="324" height="72" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text />
+          <Font name="Segoe UI" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="3" />
+          <Justification Justification="4" />
+          <BG_Image>iVBORw0KGgoAAAANSUhEUgAAAXoAAAA0CAIAAAAL52RvAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnEAABJxAfPceo4AAAASdEVYdFNvZnR3YXJlAEdyZWVuc2hvdF5VCAUAAA0cSURBVHhe7Z3fjhXHEYf9Bs4bxG+A38B+A/sN7DdI3sBccYcSKXBhCQkuLPliibGEfcNeJGKvFiFhNgoKijFai+BVEPJCIrAlS+TbU72V2uo/02dn5uyedX1qjU7XVPd0D1O/qZ4zZ3nrTRAEwUoIuQmCYEWE3ARBsCJORm7+8uQ/Nx7tp0qwDjx58uTu3bu7u7upHgTLs2q5efzi5/e/+PatP31DSaZgHQi5CcazUrm59+zVbz79m2jNsnLz40+/nN/eQ6oQrGQKVkjITTCelcrNJ9s/qNYsJTdWp1iIJWuwQkJugvGsh9y8/emOtgq5ORFCboLxrIfc2FYhNydCyE0wnpCboIuQm2A8ITdBFyE3wXhCboIuQm6C8YTcBF2E3ATjGZCbH3/65Y/fPPt48/v3v/jWvjJDeffzh9jZe+/Zq+Q9xMnKDeM8v733+9v/Yi5s+fzloxdpXzBEyE0wngG5+eCr72yo18o71x4QwIMv4C0lN3+49290gYKu2VZoHEphy6AAXX3w3GmlFuz0gKom1xLs/euT/0pJpsXvMES5RLySdQG71L/ds6JNrHbzWftJpgp2hDO9BhlyE4xnQG4+2tx18dkohG5qVmEpubGe7fLen/+Z2mQQh06tigWfhi5YzUUE8URi1CIluS6wdk5gstZBDdX/t9f+nqxH3zb63e0nyZrh5thzxGMQchOMZ0BuuOty0RPPhBxiYQsWGw9S2okGraxzslawnu3SkJtzn/8jd5bi7ERsapNhnZl1nii5AVh5GpRgsIPkFCXrIr9TO6V2blEi67bW2c3+/j6HAD4kU5PXr1+LPyRTnU43RQbDIVJ9wbKd7O3tuU7EwjbVSxR9BluBjNmdPSzWKNUexH9Cxj4qdgoyodzkSlErNkQt7nBUbQrDZxeotX5ybXLFJRQ3Hu3bve3fvqMO1tmJhT0JrFjzFIwTrg6U2hTGM6vcEAk3b968fPnyBQPVzc1NF+0Cxq2trStXriTXQ7Ds7OwkpwzxuXXrVqo3efjwofi7KYuR0aZ6k9u3b4u/7eSzzz7DwjbVSxR9Fj1duH//fqqXkCOyTfUF0lCNUu1BTsLFixcbMscucb5z504y1RkrN+5yn1BulKUOobgwJlNIO45iFYd4Ttaj5HJDWofEMJJ7z16xzVWANZE6t1c3NoVxWRLQv+6luCUVx2XMuhdtSjtmYD65IX7kei3Ctc5Fn1wXcH1jTLsXEJbWgugUwyPtvnBhMEeAS5cuiXNRbmDwVKCJOqoJ5aYd/NPKDc6Dox10sJxZubE6Yh+IOIhYdaMUO3dyQ1TbB7pFXN6U65Fihenqg+fJanAnzY7QHWVwVGOYSW64JS4u7AOIBxtIHIskAvvGxkYyHdUa9lp/UiR6kL3FmJRWMBgbVgFrcjPYiUS+MKHcAHpaTPpADqrKIkgrZ1QYmzgU/3E5q7K3mFXpiWoooOXMyo19rlRLbQSrJowwWQ3WgW57otrlVkUdAZu80HNNlYpLKndaiiOfkDnkhmtULtbGHRu7DS1dQLmUR8FfFAfPZDoEo0pVYyKalUiC4zwXrVM/jXVNo5ORciPd1lZzk8sNSJ+sbZ3G6Rw716dwNuXm2KP64KvvktVg5SZf79SwGlHsFmx60lhzuenIksr2T4rUSKAmYQ65kaCCznuj3ktrkSNo/Dg5ECOxwZbgSdYMiS7cZHhuygddLAbAttGJ5GVs806KUuIo+mABPQlFsZOBufMj/rWTpqer8Y8roul6kGOhOE6GGpxNuXHf6SRrBTuqopocT27s19uUohzYFKw9L7du+vDrx7bac05GMrncaJZeu1HnSGrTc303wlXvycVwlb1yCOmkKDfaSTGGZWo48CHvpDg2R9EHC/BBtAxymRYJcKMS5+JQoUdu1IcZiUX/+WppZpGzKTdkCrZJslaYSW7QF21FyddT9gusxtMlgd7sUx5bJNmZm8nlRu/SndcrES7+PfKkj4RSfYFaGrdliWSJzFwp4KCLRScy/mN0UpQSR9EHC/CBI4ry5gscmZpTlkW7UXIDGxsb+Fy/fl2qPbPI6ZIbrvUvH704v73HTVXeo9XiXqI7JXJjBYLixuyK/XJnQrkBq3ocKFkPsXt7JMOdBykrWEYJk8uNBAZ0rqQ0KmphYymGkFjkc3F1IHdsdkkMS0S5KR90cbQT9+RCU5taJz2BWvTBAvJZH1Fp/AtyVt28Fu3Gyg3zkiPipk002elkQG4ev/j5483v3SXeKKdTbvrLtHLjXsCx79S43Me9blPDLakoK/sPLeaTm1QfQi/xWthY1NkOWCzyWXMTGzByA9dFVq4UcNDFYSd6FNuJtNKXUPJOilLiKPpggVSpPMmSs+pOUe5mKZ6rIpIzMioZXs8/hKMlN+T/tZ8a1coccuMegswqN8XntceWG7ArIPsFmZ3Uue73ZZzy9ryyPBXzyU3nHVKjoucqL4aQWFLlMKR1aSZNSFikCuLgpnzQRdaJphg9nYiFbaqXKPpggVRZII+9QfuXs+pOkfjUzpuMGdxMi+g3g5oDLkVVbrjfOq0hKtALCndUrnst1odqal/ieHLjWrUPIViBYNg61MGS2h9ljNzYwdvfSdg+88c6NZiLtpJC/2nfzMwnN519snwQ/x65kddhwWqZWFLFhJms5mq64Ia3aPH/TnRU4iZNND+CWrdsU71E0QcLpMoh7vH53HKjJ3apJ8RKVW7sD3/aL5uoG6UWscKJyM34FGCM3LgXcGTR5IydD1/cedAy69t9yuRyoxduj3wI8qwkf6EmR277NsuAxdGOhKusnohqWZi48JaYd1M+6OJoJ/JgGGeJ28FO9KCpXkJaOR8skCqHoKfySEVOy9xys5RzTlVu7AXdfk3Oep5CuaEk63EZIzdgm8uZtN/TN163sdgXAl1p/Lh0QiaXG5A4aby94pDAHrzWuc9Lz7pQEqRtqiwgVsUo/u6hda4UsHD3nehE2Dr/vBNRBJqkegkR1qJqpIpBhRuRXUu5IaTtBd2O8H7PlcmNazLyu5uRcmMf08jPsuyaqPNZr21CsuleLGK+yW825pAbiQ2oRYJD1YE7eePBgaqSXUmBGFPlEH384bQJOuUGdCIuH4G8E11/2TWXRUPayZ8YU+UoOgtZW6233CRrBeu5lNwcbxHRIzdu/P0PR4qMlBumaV/ns+oz+LqN4MRFUiQ7KsrcS6o55EbTEKj9nphAskKggU1cOTUBOrx+/bo45B2KPVUOkTFA3lu/3CzbiRjxz88nEoOdvblyHRy4IjcgfQrrLTftCO/3PIZwgAu2nnTAfc2cv/OyFCPlBtxrh1p6Xrdxz+x1ANitis29pJpDbkCjC1iMoBEcQuCzLE9cGGvyAojL1tYWqwm22LWrPFUB2ZUqBsQCUsXQLzewVCdMR4fKFHZ2dhYz3t3c3BQje11qA7IrVTI4uva5ZnLjnhQ0sgP31LOtIPbGTul8bOG0r7OVi/AxCc54uXFT0CJPjtvYo6Mvtkkx65mJmeQGiCtZAhQhXPPAYxkiTzdysNcWKeKQKh0sJTc1ip1AY9ZMIZ8yyN5UKaFasGZyA/bO+c61B3lgIEn5G4DcY+XvB5NQ5BGeP+/EU3omH5EXl/NFgVM0iv5dZLb9rXArLt8ahxbGyw3kP0E41/G6jROU/BmNHRtJkJyWOZhPbgQyFFISgpNbNPHGB5ZR7cPRhBDa2NjAmS2fsaR9JXCDVOmAAeDvIn+SThSUkZGL7jBrPte0EnoOzRnIO5GGtZ4ZmzjUBmlZyjmnKjf5C6woiPwHBh9+/di++F8rxW+gaz/80TL4m+xiKS4l3NpNCp4yEflBhp1IbT0yidzkgxlMuNAOu4wqypNT1ZHLxgZzy03wa6AqN9zzB6WBgk9DC/J8obas0FIUqTwtyktyPUrtoUmtFNOfSeQmz7aKx7K4E1tLvpyQzbSkCrkJxlOVG+D6zl9jtYUMiJghkOzKS4t70KBwVy/6S6n9aZgbj/YbrRoLkzxNa5TigCeRG7D9DD6Bcs+50JS0o4T9Z5ppSRVyE4ynJTcC1z0SoJkOMU/YcAu1N2c+Ez/qw9VPkDcuevzpgW7pSjqkEFG1G7hQbMWBBr+rYiQMr6FWjLwxYAYmbdkOroAaMHI94uCYmalMUOaYrBU4b+pMaZ/G4xFyE4xnWG7OEsQhcY58SCGkWdzNkQvkcBTVGmQrWdeHkJtgPL8uuTlB7JpuMFs5hYTcBOMJuVkFLAPtd0yryaemJeQmGE/IzSpg4aZa896Ih80nSMhNMJ6Qm9m59+yVTW3aL16fWkJugvGE3MwIa6jz23tWa9Y0tYGQm2A8ITcTg6AgK+8e/YvxUt6u/8d1p5+Qm2A8ITcT4yRGC1ozx+swKyPkJhhPyM3EOJWR8tHm7vrmNULITTCekJuJ0fee2X6y/cPVB8/X8WvvnJcvXz59+jT/81FB0E/ITRAEKyLkJgiCFRFyEwTBSnjz5n+Bsg0wC+hiuAAAAABJRU5ErkJggg==</BG_Image>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="27">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="450" y="66" width="300" height="40" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Weekly Challenge #103</Text>
+          <Font name="Microsoft Sans Serif" size="16.2" style="0" />
+          <TextColor name="Gray" />
+          <FillColor name="White" />
+          <Shape shape="3" />
+          <Justification Justification="0" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="28">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="54" y="114" width="672" height="204" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text><![CDATA[Is the Super Bowl just another game?  Let's use predictive analytics to test that idea! Using the 2016 and 2017 season data from the New England Patriots, develop a linear regression model to compare its efficacy in predicting the number of points that the Patriots will score during the Super Bowl versus a regular season game.  
+
+First, parse the given data.  To see its original format, visit this site:  https://www.pro-football-reference.com/teams/nwe/2017.htm  The table labeled "Schedule and Game Results" is the data used for this Challenge.  
+
+Then, investigate your data to select your predictor variables.  I chose four (4) variables from the "Score", "Offense" and "Defense" categories of data with the lowest p-values with respect to the number of points the Patriots scored (variable name: Tm).  You may choose another approach to develop your model!
+
+We're assuming that the values from 2016 and 2017 can be combined together.  Develop your linear regression model on all regular season and post-season games from the 2016 and 2017 season with a few exceptions: the Super Bowl games and one pair of regular season games.  You'll want to have values that were not used in model development for scoring. 
+
+How well does your model predict the number of points the Patriots score during Super Bowl Games?  Is it really just another game?
+
+ 
+
+  ]]></Text>
+          <Font name="Microsoft Sans Serif" size="7.8" style="0" />
+          <TextColor name="Gray" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="3" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="52">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="450" y="318" width="240" height="336" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text><![CDATA[Output
+(Depending on your selected predictor variables in your linear regression model, these values may not match). ]]></Text>
+          <Font name="Segoe UI" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="53">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="78" y="318" width="240" height="336" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Input</Text>
+          <Font name="Segoe UI" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="98">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="234" y="402" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\ProgramData\Alteryx\Engine\Engine_7040_bc003b1beba04daea4615fe3a4239f02_\Engine_2716_3efcc44ec42e4eb68a95334b5e814273_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="100">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="606" y="402" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\ProgramData\Alteryx\Engine\Engine_7040_bc003b1beba04daea4615fe3a4239f02_\Engine_2716_73f65cb80e084d98bc6eae0062be25c2_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="101">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+        <Position x="102" y="402" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <NumRows value="23" />
+          <Fields>
+            <Field name="Field_1" />
+          </Fields>
+          <Data>
+            <r>
+              <c>,,,,,,,,,,Score,Score,Offense,Offense,Offense,Offense,Offense,Defense,Defense,Defense,Defense,Defense,Expected Points,Expected Points,Expected Points</c>
+            </r>
+            <r>
+              <c>Week,Day,Date,,,,OT,Rec,,Opp,Tm,Opp,1stD,TotYd,PassY,RushY,TO,1stD,TotYd,PassY,RushY,TO,Offense,Defense,Sp. Tms</c>
+            </r>
+            <r>
+              <c>1,Thu,September 7,8:30PM ET,boxscore,L,,0-1,,Kansas City Chiefs,27,42,25,371,247,124,,26,537,352,185,1,5.92,-23.18,0.73</c>
+            </r>
+            <r>
+              <c>2,Sun,September 17,1:00PM ET,boxscore,W,,1-1,@,New Orleans Saints,36,20,29,555,436,119,,20,429,348,81,,27.58,-12.16,-2.32</c>
+            </r>
+            <r>
+              <c>3,Sun,September 24,1:00PM ET,boxscore,W,,2-1,,Houston Texans,36,33,21,396,337,59,1,23,417,292,125,2,11.52,-7.08,-1.48</c>
+            </r>
+            <r>
+              <c>4,Sun,October 1,1:00PM ET,boxscore,L,,2-2,,Carolina Panthers,30,33,24,373,293,80,,28,444,304,140,2,18.56,-24.18,2.62</c>
+            </r>
+            <r>
+              <c>5,Thu,October 5,8:25PM ET,boxscore,W,,3-2,@,Tampa Bay Buccaneers,19,14,23,402,289,113,2,26,409,319,90,,-0.71,-10.33,14.94</c>
+            </r>
+            <r>
+              <c>6,Sun,October 15,1:00PM ET,boxscore,W,,4-2,@,New York Jets,24,17,23,375,257,118,2,23,408,334,74,3,10.44,0.33,-2.19</c>
+            </r>
+            <r>
+              <c>7,Sun,October 22,8:30PM ET,boxscore,W,,5-2,,Atlanta Falcons,23,7,25,403,241,162,,21,343,223,120,,15.29,-6.18,6.42</c>
+            </r>
+            <r>
+              <c>8,Sun,October 29,1:00PM ET,boxscore,W,,6-2,,Los Angeles Chargers,21,13,27,414,317,97,,16,349,192,157,1,9.64,-8.46,5.70</c>
+            </r>
+            <r>
+              <c>9,,,,,,,,,Bye Week,,,,,,,,,,,,,,,</c>
+            </r>
+            <r>
+              <c>10,Sun,November 12,8:30PM ET,boxscore,W,,7-2,@,Denver Broncos,41,16,28,396,297,99,,17,339,221,118,2,14.71,-3.58,13.56</c>
+            </r>
+            <r>
+              <c>11,Sun,November 19,4:25PM ET,boxscore,W,,8-2,@,Oakland Raiders,33,8,25,421,332,89,,21,344,235,109,2,23.44,-1.26,2.48</c>
+            </r>
+            <r>
+              <c>12,Sun,November 26,1:00PM ET,boxscore,W,,9-2,,Miami Dolphins,35,17,25,417,221,196,2,15,221,154,67,3,9.46,11.65,-4.69</c>
+            </r>
+            <r>
+              <c>13,Sun,December 3,1:00PM ET,boxscore,W,,10-2,@,Buffalo Bills,23,3,23,435,244,191,1,16,268,85,183,1,10.85,14.27,-2.35</c>
+            </r>
+            <r>
+              <c>14,Mon,December 11,8:30PM ET,boxscore,L,,10-3,@,Miami Dolphins,20,27,14,248,223,25,2,21,362,242,120,,-3.59,-7.02,2.39</c>
+            </r>
+            <r>
+              <c>15,Sun,December 17,4:25PM ET,boxscore,W,,11-3,@,Pittsburgh Steelers,27,24,21,360,283,77,1,21,413,270,143,1,15.30,-12.04,-0.66</c>
+            </r>
+            <r>
+              <c>16,Sun,December 24,1:00PM ET,boxscore,W,,12-3,,Buffalo Bills,37,16,28,411,218,193,1,17,326,242,84,,21.06,2.94,-0.79</c>
+            </r>
+            <r>
+              <c>17,Sun,December 31,1:00PM ET,boxscore,W,,13-3,,New York Jets,26,6,28,330,183,147,,14,247,207,40,,9.07,8.84,1.73</c>
+            </r>
+            <r>
+              <c>,,Playoffs,,,,,,,,,,,,,,,,,,,,,,</c>
+            </r>
+            <r>
+              <c>Division,Sat,January 13,8:15PM ET,boxscore,W,,14-3,,Tennessee Titans,35,14,31,438,337,101,,15,267,202,65,,25.58,2.00,-7.65</c>
+            </r>
+            <r>
+              <c>Conf. Champ.,Sun,January 21,3:05PM ET,boxscore,W,,15-3,,Jacksonville Jaguars,24,20,22,344,298,46,1,22,374,273,101,,10.37,-3.55,-1.40</c>
+            </r>
+            <r>
+              <c>SuperBowl,Sun,February 4,6:30PM ET,boxscore,L,,15-4,N,Philadelphia Eagles,33,41,29,613,500,113,1,25,538,374,164,1,27.61,-29.59,-4.32</c>
+            </r>
+          </Data>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>2017 Patriots Data</AnnotationText>
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+    </Node>
+    <Node ToolID="102">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+        <Position x="102" y="534" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <NumRows value="23" />
+          <Fields>
+            <Field name="Field_1" />
+          </Fields>
+          <Data>
+            <r>
+              <c>,,,,,,,,,,Score,Score,Offense,Offense,Offense,Offense,Offense,Defense,Defense,Defense,Defense,Defense,Expected Points,Expected Points,Expected Points</c>
+            </r>
+            <r>
+              <c>Week,Day,Date,,,,OT,Rec,,Opp,Tm,Opp,1stD,TotYd,PassY,RushY,TO,1stD,TotYd,PassY,RushY,TO,Offense,Defense,Sp. Tms</c>
+            </r>
+            <r>
+              <c>1,Sun,September 11,8:30PM ET,boxscore,W,,1-0,@,Arizona Cardinals,23,21,19,363,257,106,2,21,344,252,92,,5.61,-11.42,9.08</c>
+            </r>
+            <r>
+              <c>2,Sun,September 18,1:02PM ET,boxscore,W,,2-0,,Miami Dolphins,31,24,29,463,302,161,1,23,457,387,70,4,17.47,-6.98,-3.95</c>
+            </r>
+            <r>
+              <c>3,Thu,September 22,8:26PM ET,boxscore,W,,3-0,,Houston Texans,27,0,15,282,97,185,,19,284,175,109,3,1.19,14.60,10.11</c>
+            </r>
+            <r>
+              <c>4,Sun,October 2,1:02PM ET,boxscore,L,,3-1,,Buffalo Bills,0,16,13,277,187,90,1,24,378,244,134,,-10.11,-6.11,3.66</c>
+            </r>
+            <r>
+              <c>5,Sun,October 9,1:02PM ET,boxscore,W,,4-1,@,Cleveland Browns,33,13,24,501,403,98,,17,262,235,27,1,17.05,4.26,-3.15</c>
+            </r>
+            <r>
+              <c>6,Sun,October 16,1:02PM ET,boxscore,W,,5-1,,Cincinnati Bengals,35,17,25,437,358,79,,20,357,237,120,,21.68,-8.15,3.28</c>
+            </r>
+            <r>
+              <c>7,Sun,October 23,4:25PM ET,boxscore,W,,6-1,@,Pittsburgh Steelers,27,16,21,362,222,140,2,17,375,281,94,1,12.52,4.28,-6.81</c>
+            </r>
+            <r>
+              <c>8,Sun,October 30,1:02PM ET,boxscore,W,,7-1,@,Buffalo Bills,41,25,23,357,285,72,,25,376,209,167,,22.71,-13.72,6.16</c>
+            </r>
+            <r>
+              <c>9,,,,,,,,,Bye Week,,,,,,,,,,,,,,,</c>
+            </r>
+            <r>
+              <c>10,Sun,November 13,8:30PM ET,boxscore,L,,7-2,,Seattle Seahawks,24,31,25,385,304,81,2,23,420,324,96,,11.93,-17.85,-1.92</c>
+            </r>
+            <r>
+              <c>11,Sun,November 20,4:25PM ET,boxscore,W,,8-2,@,San Francisco 49ers,30,17,28,444,273,171,,20,299,177,122,,17.09,-1.68,1.82</c>
+            </r>
+            <r>
+              <c>12,Sun,November 27,4:25PM ET,boxscore,W,,9-2,@,New York Jets,22,17,26,377,286,91,,16,333,269,64,2,11.44,-0.93,-2.73</c>
+            </r>
+            <r>
+              <c>13,Sun,December 4,1:00PM ET,boxscore,W,,10-2,,Los Angeles Rams,26,10,20,402,269,133,,7,162,126,36,2,3.25,18.27,-6.34</c>
+            </r>
+            <r>
+              <c>14,Mon,December 12,8:30PM ET,boxscore,W,,11-2,,Baltimore Ravens,30,23,20,496,401,95,3,17,348,306,42,1,16.83,2.31,-8.57</c>
+            </r>
+            <r>
+              <c>15,Sun,December 18,4:25PM ET,boxscore,W,,12-2,@,Denver Broncos,16,3,20,313,177,136,,15,309,251,58,3,-4.97,14.82,2.33</c>
+            </r>
+            <r>
+              <c>16,Sat,December 24,1:00PM ET,boxscore,W,,13-2,,New York Jets,41,3,21,325,211,114,,14,239,128,111,4,16.02,18.13,2.07</c>
+            </r>
+            <r>
+              <c>17,Sun,January 1,1:00PM ET,boxscore,W,,14-2,@,Miami Dolphins,35,14,22,396,276,120,,16,280,205,75,2,19.55,3.73,-6.78</c>
+            </r>
+            <r>
+              <c>,,Playoffs,,,,,,,,,,,,,,,,,,,,,,</c>
+            </r>
+            <r>
+              <c>Division,Sat,January 14,8:15PM ET,boxscore,W,,15-2,,Houston Texans,34,16,20,377,279,98,3,14,302,197,105,3,2.26,20.16,-2.22</c>
+            </r>
+            <r>
+              <c>Conf. Champ.,Sun,January 22,6:40PM ET,boxscore,W,,16-2,,Pittsburgh Steelers,36,17,26,431,374,57,,22,368,314,54,2,20.62,-2.88,2.03</c>
+            </r>
+            <r>
+              <c>SuperBowl,Sun,February 5,6:30PM ET,boxscore,W,OT,17-2,N,Atlanta Falcons,34,28,37,546,442,104,2,17,344,240,104,1,15.60,-7.42,1.22</c>
+            </r>
+          </Data>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>2016 Patriots Data</AnnotationText>
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+    </Node>
+    <Node ToolID="103">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="234" y="534" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\ProgramData\Alteryx\Engine\Engine_7040_bc003b1beba04daea4615fe3a4239f02_\Engine_2716_d2baf4147a9443e3a03b3a03cc506ee6_.yxdb</TempFile>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="105">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+        <Position x="474" y="402" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <NumRows value="2" />
+          <Fields>
+            <Field name="Week" />
+            <Field name="Points Scored" />
+            <Field name="Predicted Score" />
+          </Fields>
+          <Data>
+            <r>
+              <c>SuperBowl</c>
+              <c>33</c>
+              <c>40.3120578110302</c>
+            </r>
+            <r>
+              <c>SuperBowl</c>
+              <c>34</c>
+              <c>43.9307031132482</c>
+            </r>
+          </Data>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>Superbowl Model Results</AnnotationText>
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+    </Node>
+    <Node ToolID="106">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+        <Position x="474" y="534" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <NumRows value="2" />
+          <Fields>
+            <Field name="Week" />
+            <Field name="Points Scored" />
+            <Field name="TotYd" />
+            <Field name="TO" />
+            <Field name="DefPassY2" />
+            <Field name="Predicted Sore" />
+          </Fields>
+          <Data>
+            <r>
+              <c>13</c>
+              <c>26</c>
+              <c>402</c>
+              <c>0</c>
+              <c>126</c>
+              <c>27.6855666919335</c>
+            </r>
+            <r>
+              <c>13</c>
+              <c>23</c>
+              <c>435</c>
+              <c>1</c>
+              <c>85</c>
+              <c>27.3553631256612</c>
+            </r>
+          </Data>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>Week 13 (Regular Season Game) Model Results</AnnotationText>
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+    </Node>
+    <Node ToolID="107">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="606" y="534" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\ProgramData\Alteryx\Engine\Engine_7040_bc003b1beba04daea4615fe3a4239f02_\Engine_2716_50f654b5b7fa455597927b4c3e19b468_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="101" Connection="Output" />
+      <Destination ToolID="98" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="102" Connection="Output" />
+      <Destination ToolID="103" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="105" Connection="Output" />
+      <Destination ToolID="100" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="106" Connection="Output" />
+      <Destination ToolID="107" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>challenge_103_start_file</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>

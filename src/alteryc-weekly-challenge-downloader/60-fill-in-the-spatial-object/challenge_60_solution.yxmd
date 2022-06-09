@@ -1,0 +1,379 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="9.0">
+  <Nodes>
+    <Node ToolID="6">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="30" y="234" width="216" height="204" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Input</Text>
+          <Font name="Lato" size="7.8" style="0" />
+          <TextColor name="Gray" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+        <Position x="54" y="306" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <NumRows value="5" />
+          <Fields>
+            <Field name="Label" />
+            <Field name="SpatialObj" />
+          </Fields>
+          <Data>
+            <r>
+              <c>pol1</c>
+              <c>{ "type": "Polygon", "coordinates": [ [ [ -104.106445, 44.995883 ], [ -104.194336, 41.079351 ], [ -111.049805, 41.079351 ], [ -111.049805, 45.026950 ], [ -110.961914, 45.026950 ], [ -104.106445, 44.995883 ] ], [ [ -106.544406, 43.937196 ], [ -106.523438, 43.961191 ], [ -106.699219, 44.024422 ], [ -106.544406, 43.937196 ] ], [ [ -105.117188, 43.133061 ], [ -106.544406, 43.937196 ], [ -107.753906, 42.553080 ], [ -106.083984, 42.423457 ], [ -105.117188, 43.133061 ] ] ] }</c>
+            </r>
+            <r>
+              <c>pol2</c>
+              <c>{ "type": "Polygon", "coordinates": [ [ [ -90.175781, 41.902277 ], [ -90.483398, 41.705729 ], [ -91.054688, 41.310824 ], [ -91.010742, 40.913513 ], [ -91.538086, 40.480381 ], [ -91.713867, 40.647304 ], [ -95.800781, 40.647304 ], [ -95.844727, 40.913513 ], [ -96.064453, 41.705729 ], [ -96.240234, 42.130821 ], [ -96.591797, 42.682435 ], [ -96.503906, 43.068888 ], [ -96.459961, 43.484812 ], [ -91.230469, 43.580391 ], [ -91.098633, 43.293200 ], [ -91.230469, 43.068888 ], [ -90.966797, 42.811522 ], [ -90.703125, 42.617791 ], [ -90.351563, 42.358544 ], [ -90.175781, 41.902277 ] ], [ [ -93.344098, 42.662306 ], [ -93.317871, 42.682435 ], [ -93.405762, 42.682435 ], [ -93.344098, 42.662306 ] ], [ [ -91.516113, 42.065607 ], [ -93.344098, 42.662306 ], [ -94.526367, 41.754922 ], [ -93.449707, 41.029643 ], [ -91.911621, 41.228249 ], [ -91.516113, 42.065607 ] ] ] }</c>
+            </r>
+            <r>
+              <c>pol3</c>
+              <c>{ "type": "MultiPolygon", "coordinates": [ [ [ [ -109.028320, 37.002553 ], [ -109.028321, 37.002363 ], [ -109.050293, 37.002553 ], [ -109.028320, 37.002553 ] ], [ [ -102.963867, 36.949892 ], [ -103.073730, 36.580247 ], [ -103.117676, 32.008076 ], [ -106.589355, 31.989442 ], [ -106.589355, 31.784217 ], [ -108.237305, 31.765537 ], [ -108.237305, 31.372399 ], [ -109.050293, 31.353637 ], [ -109.028321, 37.002363 ], [ -102.963867, 36.949892 ] ], [ [ -106.014920, 33.423173 ], [ -107.666016, 34.452218 ], [ -107.666016, 34.234512 ], [ -107.841797, 32.620870 ], [ -106.014920, 33.423173 ] ], [ [ -104.589844, 34.741612 ], [ -105.205078, 35.675147 ], [ -106.962891, 35.532226 ], [ -107.578125, 34.597042 ], [ -105.996094, 33.431441 ], [ -106.014920, 33.423173 ], [ -105.556641, 33.137551 ], [ -104.941406, 33.578015 ], [ -104.589844, 34.741612 ] ] ] ] }</c>
+            </r>
+            <r>
+              <c>pol4</c>
+              <c>{ "type": "Polygon", "coordinates": [ [ [ -114.257813, 34.379713 ], [ -114.367676, 34.052659 ], [ -114.477539, 33.815666 ], [ -114.477539, 33.596319 ], [ -114.653320, 33.284620 ], [ -114.543457, 33.063924 ], [ -114.411621, 32.953368 ], [ -114.565430, 32.787275 ], [ -117.092285, 32.546813 ], [ -117.202148, 32.750323 ], [ -117.927246, 33.632916 ], [ -118.476562, 33.724340 ], [ -118.937988, 33.833920 ], [ -119.245605, 34.107256 ], [ -119.443359, 34.343436 ], [ -120.432129, 34.452218 ], [ -120.717773, 34.867905 ], [ -120.827637, 35.209722 ], [ -121.311035, 35.692995 ], [ -121.926270, 36.332828 ], [ -121.860352, 36.756490 ], [ -121.882324, 37.037640 ], [ -122.211914, 37.055177 ], [ -122.519531, 37.265310 ], [ -122.497559, 37.649034 ], [ -122.541504, 37.822802 ], [ -123.112793, 38.220920 ], [ -123.486328, 38.788345 ], [ -123.728027, 38.993572 ], [ -123.793945, 39.537940 ], [ -124.079590, 40.027614 ], [ -124.387207, 40.279526 ], [ -124.255371, 40.797177 ], [ -124.145508, 41.079351 ], [ -124.145508, 41.918629 ], [ -120.058594, 41.983994 ], [ -120.036621, 42.000325 ], [ -119.992676, 38.993572 ], [ -114.565430, 35.065973 ], [ -114.653320, 34.849875 ], [ -114.389648, 34.651285 ], [ -114.257813, 34.379713 ] ], [ [ -120.036621, 38.169114 ], [ -120.366211, 39.774769 ], [ -121.816406, 39.232253 ], [ -121.926270, 39.198205 ], [ -121.376953, 38.548165 ], [ -120.937500, 39.044786 ], [ -120.036621, 38.169114 ] ] ] }</c>
+            </r>
+            <r>
+              <c>pol5</c>
+              <c>{ "type": "Polygon", "coordinates": [ [ [ -82.507324, 43.020714 ], [ -82.683105, 42.714732 ], [ -82.946777, 42.391009 ], [ -83.386230, 41.804078 ], [ -83.474121, 41.771312 ], [ -86.682129, 41.738528 ], [ -86.264648, 42.391009 ], [ -86.242676, 43.020714 ], [ -86.440430, 43.468868 ], [ -86.528320, 43.691708 ], [ -86.506348, 43.977005 ], [ -86.462402, 44.182204 ], [ -86.286621, 44.574817 ], [ -86.022949, 44.840291 ], [ -85.671387, 45.151053 ], [ -85.605469, 44.902578 ], [ -85.319824, 45.135555 ], [ -85.297852, 45.336702 ], [ -84.946289, 45.398450 ], [ -85.144043, 45.537137 ], [ -84.902344, 45.736860 ], [ -84.528809, 45.721522 ], [ -84.155273, 45.552525 ], [ -83.803711, 45.490946 ], [ -83.430176, 45.228481 ], [ -83.342285, 44.871443 ], [ -83.276367, 44.574817 ], [ -83.430176, 44.276671 ], [ -83.693848, 44.071800 ], [ -83.957520, 43.818675 ], [ -83.803711, 43.675818 ], [ -83.474121, 43.739352 ], [ -83.210449, 43.961191 ], [ -82.880859, 43.992815 ], [ -82.661133, 43.739352 ], [ -82.573242, 43.309191 ], [ -82.507324, 43.020714 ] ], [ [ -85.012207, 43.133061 ], [ -85.319824, 43.189158 ], [ -85.567017, 43.229195 ], [ -85.885620, 43.141078 ], [ -85.545044, 43.096972 ], [ -85.605469, 42.827639 ], [ -85.413208, 42.944360 ], [ -85.407715, 42.952402 ], [ -85.473633, 43.068888 ], [ -85.264893, 43.032761 ], [ -85.012207, 43.133061 ] ] ] }</c>
+            </r>
+          </Data>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+    </Node>
+    <Node ToolID="2">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="162" y="306" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\ProgramData\Alteryx\Engine\Engine_5992_5b502f40df5248f7966f9c3961bd00f9_\Engine_11372_bda84d5e3f3d445aad1b81e2f0d87d6e_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Map</DefaultTab>
+              <Hints>
+                <Map>
+                  <BaseMap>[No Base Map]</BaseMap>
+                </Map>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="3">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="30" y="18" width="324" height="72" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text />
+          <Font name="Segoe UI" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="3" />
+          <Justification Justification="4" />
+          <BG_Image>iVBORw0KGgoAAAANSUhEUgAAAXoAAAA0CAIAAAAL52RvAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnEAABJxAfPceo4AAAASdEVYdFNvZnR3YXJlAEdyZWVuc2hvdF5VCAUAAA0cSURBVHhe7Z3fjhXHEYf9Bs4bxG+A38B+A/sN7DdI3sBccYcSKXBhCQkuLPliibGEfcNeJGKvFiFhNgoKijFai+BVEPJCIrAlS+TbU72V2uo/02dn5uyedX1qjU7XVPd0D1O/qZ4zZ3nrTRAEwUoIuQmCYEWE3ARBsCJORm7+8uQ/Nx7tp0qwDjx58uTu3bu7u7upHgTLs2q5efzi5/e/+PatP31DSaZgHQi5CcazUrm59+zVbz79m2jNsnLz40+/nN/eQ6oQrGQKVkjITTCelcrNJ9s/qNYsJTdWp1iIJWuwQkJugvGsh9y8/emOtgq5ORFCboLxrIfc2FYhNydCyE0wnpCboIuQm2A8ITdBFyE3wXhCboIuQm6C8YTcBF2E3ATjGZCbH3/65Y/fPPt48/v3v/jWvjJDeffzh9jZe+/Zq+Q9xMnKDeM8v733+9v/Yi5s+fzloxdpXzBEyE0wngG5+eCr72yo18o71x4QwIMv4C0lN3+49290gYKu2VZoHEphy6AAXX3w3GmlFuz0gKom1xLs/euT/0pJpsXvMES5RLySdQG71L/ds6JNrHbzWftJpgp2hDO9BhlyE4xnQG4+2tx18dkohG5qVmEpubGe7fLen/+Z2mQQh06tigWfhi5YzUUE8URi1CIluS6wdk5gstZBDdX/t9f+nqxH3zb63e0nyZrh5thzxGMQchOMZ0BuuOty0RPPhBxiYQsWGw9S2okGraxzslawnu3SkJtzn/8jd5bi7ERsapNhnZl1nii5AVh5GpRgsIPkFCXrIr9TO6V2blEi67bW2c3+/j6HAD4kU5PXr1+LPyRTnU43RQbDIVJ9wbKd7O3tuU7EwjbVSxR9BluBjNmdPSzWKNUexH9Cxj4qdgoyodzkSlErNkQt7nBUbQrDZxeotX5ybXLFJRQ3Hu3bve3fvqMO1tmJhT0JrFjzFIwTrg6U2hTGM6vcEAk3b968fPnyBQPVzc1NF+0Cxq2trStXriTXQ7Ds7OwkpwzxuXXrVqo3efjwofi7KYuR0aZ6k9u3b4u/7eSzzz7DwjbVSxR9Fj1duH//fqqXkCOyTfUF0lCNUu1BTsLFixcbMscucb5z504y1RkrN+5yn1BulKUOobgwJlNIO45iFYd4Ttaj5HJDWofEMJJ7z16xzVWANZE6t1c3NoVxWRLQv+6luCUVx2XMuhdtSjtmYD65IX7kei3Ctc5Fn1wXcH1jTLsXEJbWgugUwyPtvnBhMEeAS5cuiXNRbmDwVKCJOqoJ5aYd/NPKDc6Dox10sJxZubE6Yh+IOIhYdaMUO3dyQ1TbB7pFXN6U65Fihenqg+fJanAnzY7QHWVwVGOYSW64JS4u7AOIBxtIHIskAvvGxkYyHdUa9lp/UiR6kL3FmJRWMBgbVgFrcjPYiUS+MKHcAHpaTPpADqrKIkgrZ1QYmzgU/3E5q7K3mFXpiWoooOXMyo19rlRLbQSrJowwWQ3WgW57otrlVkUdAZu80HNNlYpLKndaiiOfkDnkhmtULtbGHRu7DS1dQLmUR8FfFAfPZDoEo0pVYyKalUiC4zwXrVM/jXVNo5ORciPd1lZzk8sNSJ+sbZ3G6Rw716dwNuXm2KP64KvvktVg5SZf79SwGlHsFmx60lhzuenIksr2T4rUSKAmYQ65kaCCznuj3ktrkSNo/Dg5ECOxwZbgSdYMiS7cZHhuygddLAbAttGJ5GVs806KUuIo+mABPQlFsZOBufMj/rWTpqer8Y8roul6kGOhOE6GGpxNuXHf6SRrBTuqopocT27s19uUohzYFKw9L7du+vDrx7bac05GMrncaJZeu1HnSGrTc303wlXvycVwlb1yCOmkKDfaSTGGZWo48CHvpDg2R9EHC/BBtAxymRYJcKMS5+JQoUdu1IcZiUX/+WppZpGzKTdkCrZJslaYSW7QF21FyddT9gusxtMlgd7sUx5bJNmZm8nlRu/SndcrES7+PfKkj4RSfYFaGrdliWSJzFwp4KCLRScy/mN0UpQSR9EHC/CBI4ry5gscmZpTlkW7UXIDGxsb+Fy/fl2qPbPI6ZIbrvUvH704v73HTVXeo9XiXqI7JXJjBYLixuyK/XJnQrkBq3ocKFkPsXt7JMOdBykrWEYJk8uNBAZ0rqQ0KmphYymGkFjkc3F1IHdsdkkMS0S5KR90cbQT9+RCU5taJz2BWvTBAvJZH1Fp/AtyVt28Fu3Gyg3zkiPipk002elkQG4ev/j5483v3SXeKKdTbvrLtHLjXsCx79S43Me9blPDLakoK/sPLeaTm1QfQi/xWthY1NkOWCzyWXMTGzByA9dFVq4UcNDFYSd6FNuJtNKXUPJOilLiKPpggVSpPMmSs+pOUe5mKZ6rIpIzMioZXs8/hKMlN+T/tZ8a1coccuMegswqN8XntceWG7ArIPsFmZ3Uue73ZZzy9ryyPBXzyU3nHVKjoucqL4aQWFLlMKR1aSZNSFikCuLgpnzQRdaJphg9nYiFbaqXKPpggVRZII+9QfuXs+pOkfjUzpuMGdxMi+g3g5oDLkVVbrjfOq0hKtALCndUrnst1odqal/ieHLjWrUPIViBYNg61MGS2h9ljNzYwdvfSdg+88c6NZiLtpJC/2nfzMwnN519snwQ/x65kddhwWqZWFLFhJms5mq64Ia3aPH/TnRU4iZNND+CWrdsU71E0QcLpMoh7vH53HKjJ3apJ8RKVW7sD3/aL5uoG6UWscKJyM34FGCM3LgXcGTR5IydD1/cedAy69t9yuRyoxduj3wI8qwkf6EmR277NsuAxdGOhKusnohqWZi48JaYd1M+6OJoJ/JgGGeJ28FO9KCpXkJaOR8skCqHoKfySEVOy9xys5RzTlVu7AXdfk3Oep5CuaEk63EZIzdgm8uZtN/TN163sdgXAl1p/Lh0QiaXG5A4aby94pDAHrzWuc9Lz7pQEqRtqiwgVsUo/u6hda4UsHD3nehE2Dr/vBNRBJqkegkR1qJqpIpBhRuRXUu5IaTtBd2O8H7PlcmNazLyu5uRcmMf08jPsuyaqPNZr21CsuleLGK+yW825pAbiQ2oRYJD1YE7eePBgaqSXUmBGFPlEH384bQJOuUGdCIuH4G8E11/2TWXRUPayZ8YU+UoOgtZW6233CRrBeu5lNwcbxHRIzdu/P0PR4qMlBumaV/ns+oz+LqN4MRFUiQ7KsrcS6o55EbTEKj9nphAskKggU1cOTUBOrx+/bo45B2KPVUOkTFA3lu/3CzbiRjxz88nEoOdvblyHRy4IjcgfQrrLTftCO/3PIZwgAu2nnTAfc2cv/OyFCPlBtxrh1p6Xrdxz+x1ANitis29pJpDbkCjC1iMoBEcQuCzLE9cGGvyAojL1tYWqwm22LWrPFUB2ZUqBsQCUsXQLzewVCdMR4fKFHZ2dhYz3t3c3BQje11qA7IrVTI4uva5ZnLjnhQ0sgP31LOtIPbGTul8bOG0r7OVi/AxCc54uXFT0CJPjtvYo6Mvtkkx65mJmeQGiCtZAhQhXPPAYxkiTzdysNcWKeKQKh0sJTc1ip1AY9ZMIZ8yyN5UKaFasGZyA/bO+c61B3lgIEn5G4DcY+XvB5NQ5BGeP+/EU3omH5EXl/NFgVM0iv5dZLb9rXArLt8ahxbGyw3kP0E41/G6jROU/BmNHRtJkJyWOZhPbgQyFFISgpNbNPHGB5ZR7cPRhBDa2NjAmS2fsaR9JXCDVOmAAeDvIn+SThSUkZGL7jBrPte0EnoOzRnIO5GGtZ4ZmzjUBmlZyjmnKjf5C6woiPwHBh9+/di++F8rxW+gaz/80TL4m+xiKS4l3NpNCp4yEflBhp1IbT0yidzkgxlMuNAOu4wqypNT1ZHLxgZzy03wa6AqN9zzB6WBgk9DC/J8obas0FIUqTwtyktyPUrtoUmtFNOfSeQmz7aKx7K4E1tLvpyQzbSkCrkJxlOVG+D6zl9jtYUMiJghkOzKS4t70KBwVy/6S6n9aZgbj/YbrRoLkzxNa5TigCeRG7D9DD6Bcs+50JS0o4T9Z5ppSRVyE4ynJTcC1z0SoJkOMU/YcAu1N2c+Ez/qw9VPkDcuevzpgW7pSjqkEFG1G7hQbMWBBr+rYiQMr6FWjLwxYAYmbdkOroAaMHI94uCYmalMUOaYrBU4b+pMaZ/G4xFyE4xnWG7OEsQhcY58SCGkWdzNkQvkcBTVGmQrWdeHkJtgPL8uuTlB7JpuMFs5hYTcBOMJuVkFLAPtd0yryaemJeQmGE/IzSpg4aZa896Ih80nSMhNMJ6Qm9m59+yVTW3aL16fWkJugvGE3MwIa6jz23tWa9Y0tYGQm2A8ITcTg6AgK+8e/YvxUt6u/8d1p5+Qm2A8ITcT4yRGC1ozx+swKyPkJhhPyM3EOJWR8tHm7vrmNULITTCekJuJ0fee2X6y/cPVB8/X8WvvnJcvXz59+jT/81FB0E/ITRAEKyLkJgiCFRFyEwTBSnjz5n+Bsg0wC+hiuAAAAABJRU5ErkJggg==</BG_Image>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="4">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="426" y="42" width="300" height="40" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Weekly Challenge #60</Text>
+          <Font name="Lato" size="16.2" style="0" />
+          <TextColor name="Gray" />
+          <FillColor name="White" />
+          <Shape shape="3" />
+          <Justification Justification="0" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="5">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="30" y="78" width="612" height="132" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>This week's challenge can be considered to be difficult, yet simple. In the beginning dataset, we have some ploygons that roughly outline states. However, there are a few gaps in the polygons. Our job is to "fill" the holes to make one solid-like polygon.</Text>
+          <Font name="Lato" size="7.8" style="0" />
+          <TextColor name="Gray" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="0" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="7">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="426" y="234" width="216" height="204" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Output</Text>
+          <Font name="Lato" size="7.8" style="0" />
+          <TextColor name="Gray" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="8">
+      <GuiSettings Plugin="AlteryxSpatialPluginsGui.PolySplit.PolySplit">
+        <Position x="150" y="474" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SpatialObj field="SpatialObj" />
+          <SplitTo type="Region" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxPolySplit" />
+    </Node>
+    <Node ToolID="9">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="342" y="474" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\ProgramData\Alteryx\Engine\Engine_5992_5b502f40df5248f7966f9c3961bd00f9_\Engine_11372_d6a1d3643fe2442dbaeaefd2859c4491_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Map</DefaultTab>
+              <Hints>
+                <Map>
+                  <BaseMap>[No Base Map]</BaseMap>
+                </Map>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="10">
+      <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+        <Position x="246" y="474" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SummarizeFields>
+            <SummarizeField field="Label" action="GroupBy" rename="Label" />
+            <SummarizeField field="Split_SpatialObj" action="SpatialObjCombine" rename="Spatial Object Final" />
+          </SummarizeFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+    </Node>
+    <Node ToolID="11">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+        <Position x="450" y="306" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <NumRows value="5" />
+          <Fields>
+            <Field name="Label" />
+            <Field name="Spatial Object Final" />
+          </Fields>
+          <Data>
+            <r>
+              <c>pol1</c>
+              <c>{ "type": "Polygon", "coordinates": [ [ [ -104.106445, 44.995883 ], [ -104.194336, 41.079351 ], [ -111.049805, 41.079351 ], [ -111.049805, 45.026950 ], [ -110.961914, 45.026950 ], [ -104.106445, 44.995883 ] ] ] }</c>
+            </r>
+            <r>
+              <c>pol2</c>
+              <c>{ "type": "Polygon", "coordinates": [ [ [ -90.175781, 41.902277 ], [ -90.483398, 41.705729 ], [ -91.054688, 41.310824 ], [ -91.010742, 40.913513 ], [ -91.538086, 40.480381 ], [ -91.713867, 40.647304 ], [ -95.800781, 40.647304 ], [ -95.844727, 40.913513 ], [ -96.064453, 41.705729 ], [ -96.240234, 42.130821 ], [ -96.591797, 42.682435 ], [ -96.503906, 43.068888 ], [ -96.459961, 43.484812 ], [ -91.230469, 43.580391 ], [ -91.098633, 43.293200 ], [ -91.230469, 43.068888 ], [ -90.966797, 42.811522 ], [ -90.703125, 42.617791 ], [ -90.351563, 42.358544 ], [ -90.175781, 41.902277 ] ] ] }</c>
+            </r>
+            <r>
+              <c>pol3</c>
+              <c>{ "type": "MultiPolygon", "coordinates": [ [ [ [ -109.028320, 37.002553 ], [ -109.028321, 37.002363 ], [ -109.050293, 37.002553 ], [ -109.028320, 37.002553 ] ], [ [ -102.963867, 36.949892 ], [ -103.073730, 36.580247 ], [ -103.117676, 32.008076 ], [ -106.589355, 31.989442 ], [ -106.589355, 31.784217 ], [ -108.237305, 31.765537 ], [ -108.237305, 31.372399 ], [ -109.050293, 31.353637 ], [ -109.028321, 37.002363 ], [ -102.963867, 36.949892 ] ] ] ] }</c>
+            </r>
+            <r>
+              <c>pol4</c>
+              <c>{ "type": "Polygon", "coordinates": [ [ [ -114.257813, 34.379713 ], [ -114.367676, 34.052659 ], [ -114.477539, 33.815666 ], [ -114.477539, 33.596319 ], [ -114.653320, 33.284620 ], [ -114.543457, 33.063924 ], [ -114.411621, 32.953368 ], [ -114.565430, 32.787275 ], [ -117.092285, 32.546813 ], [ -117.202148, 32.750323 ], [ -117.927246, 33.632916 ], [ -118.476562, 33.724340 ], [ -118.937988, 33.833920 ], [ -119.245605, 34.107256 ], [ -119.443359, 34.343436 ], [ -120.432129, 34.452218 ], [ -120.717773, 34.867905 ], [ -120.827637, 35.209722 ], [ -121.311035, 35.692995 ], [ -121.926270, 36.332828 ], [ -121.860352, 36.756490 ], [ -121.882324, 37.037640 ], [ -122.211914, 37.055177 ], [ -122.519531, 37.265310 ], [ -122.497559, 37.649034 ], [ -122.541504, 37.822802 ], [ -123.112793, 38.220920 ], [ -123.486328, 38.788345 ], [ -123.728027, 38.993572 ], [ -123.793945, 39.537940 ], [ -124.079590, 40.027614 ], [ -124.387207, 40.279526 ], [ -124.255371, 40.797177 ], [ -124.145508, 41.079351 ], [ -124.145508, 41.918629 ], [ -120.058594, 41.983994 ], [ -120.036621, 42.000325 ], [ -119.992676, 38.993572 ], [ -114.565430, 35.065973 ], [ -114.653320, 34.849875 ], [ -114.389648, 34.651285 ], [ -114.257813, 34.379713 ] ] ] }</c>
+            </r>
+            <r>
+              <c>pol5</c>
+              <c>{ "type": "Polygon", "coordinates": [ [ [ -82.507324, 43.020714 ], [ -82.683105, 42.714732 ], [ -82.946777, 42.391009 ], [ -83.386230, 41.804078 ], [ -83.474121, 41.771312 ], [ -86.682129, 41.738528 ], [ -86.264648, 42.391009 ], [ -86.242676, 43.020714 ], [ -86.440430, 43.468868 ], [ -86.528320, 43.691708 ], [ -86.506348, 43.977005 ], [ -86.462402, 44.182204 ], [ -86.286621, 44.574817 ], [ -86.022949, 44.840291 ], [ -85.671387, 45.151053 ], [ -85.605469, 44.902578 ], [ -85.319824, 45.135555 ], [ -85.297852, 45.336702 ], [ -84.946289, 45.398450 ], [ -85.144043, 45.537137 ], [ -84.902344, 45.736860 ], [ -84.528809, 45.721522 ], [ -84.155273, 45.552525 ], [ -83.803711, 45.490946 ], [ -83.430176, 45.228481 ], [ -83.342285, 44.871443 ], [ -83.276367, 44.574817 ], [ -83.430176, 44.276671 ], [ -83.693848, 44.071800 ], [ -83.957520, 43.818675 ], [ -83.803711, 43.675818 ], [ -83.474121, 43.739352 ], [ -83.210449, 43.961191 ], [ -82.880859, 43.992815 ], [ -82.661133, 43.739352 ], [ -82.573242, 43.309191 ], [ -82.507324, 43.020714 ] ] ] }</c>
+            </r>
+          </Data>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+    </Node>
+    <Node ToolID="12">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="546" y="306" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\ProgramData\Alteryx\Engine\Engine_5992_5b502f40df5248f7966f9c3961bd00f9_\Engine_11372_6fe9dc7f4a2c4f99b71a7e3743592090_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Map</DefaultTab>
+              <Hints>
+                <Map>
+                  <BaseMap>[No Base Map]</BaseMap>
+                </Map>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="2" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="8" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="8" Connection="Output" />
+      <Destination ToolID="10" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="10" Connection="Output" />
+      <Destination ToolID="9" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="11" Connection="Output" />
+      <Destination ToolID="12" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>challenge_60_solution</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>

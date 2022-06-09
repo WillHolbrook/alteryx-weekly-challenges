@@ -1,0 +1,1571 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2018.1">
+  <Nodes>
+    <Node ToolID="17">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="390" y="138" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="Field1" selected="False" />
+            <SelectField field="DownloadData" selected="False" />
+            <SelectField field="DownloadHeaders" selected="False" />
+            <SelectField field="program" selected="False" />
+            <SelectField field="id" selected="False" />
+            <SelectField field="id_OuterXML" selected="False" />
+            <SelectField field="programID_OuterXML" selected="False" />
+            <SelectField field="orchestra_OuterXML" selected="False" />
+            <SelectField field="season_OuterXML" selected="False" />
+            <SelectField field="concertInfo_2" selected="False" />
+            <SelectField field="concertInfo_2_OuterXML" selected="False" />
+            <SelectField field="worksInfo" selected="False" />
+            <SelectField field="concertInfo_3" selected="False" />
+            <SelectField field="concertInfo_3_OuterXML" selected="False" />
+            <SelectField field="concertInfo_4" selected="False" />
+            <SelectField field="concertInfo_4_OuterXML" selected="False" />
+            <SelectField field="concertInfo_5" selected="False" />
+            <SelectField field="concertInfo_5_OuterXML" selected="False" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="21">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.XMLParse.XMLParse">
+        <Position x="510" y="138" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <XMLField>concertInfo_OuterXML</XMLField>
+          <XMLElement />
+          <ChildValues value="True" />
+          <OuterXML value="False" />
+          <ParseRoot value="True" />
+          <IgnoreErrors value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="programID" size="5" type="V_String" />
+            <Field name="orchestra" size="40" type="V_String" />
+            <Field name="season" size="7" type="V_String" />
+            <Field name="concertInfo" size="74" type="V_String" />
+            <Field name="concertInfo_OuterXML" size="324" type="V_String" />
+            <Field name="worksInfo_OuterXML" size="69243" type="V_WString" />
+            <Field name="program_OuterXML" size="69740" type="V_WString" />
+            <Field name="concertInfo2" size="74" type="V_String" />
+            <Field name="eventType" size="35" type="V_String" />
+            <Field name="Location" size="22" type="V_String" />
+            <Field name="Venue" size="70" type="V_String" />
+            <Field name="Date" size="20" type="V_String" />
+            <Field name="Time" size="7" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxXMLParse" />
+    </Node>
+    <Node ToolID="22">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.XMLParse.XMLParse">
+        <Position x="690" y="138" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <XMLField>worksInfo_OuterXML</XMLField>
+          <XMLElement />
+          <ChildValues value="True" />
+          <OuterXML value="True" />
+          <ParseRoot value="True" />
+          <IgnoreErrors value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="programID" size="5" type="V_String" />
+            <Field name="orchestra" size="40" type="V_String" />
+            <Field name="season" size="7" type="V_String" />
+            <Field name="concertInfo" size="74" type="V_String" />
+            <Field name="concertInfo_OuterXML" size="324" type="V_String" />
+            <Field name="worksInfo_OuterXML" size="69243" type="V_WString" />
+            <Field name="program_OuterXML" size="69740" type="V_WString" />
+            <Field name="concertInfo2" size="74" type="V_String" />
+            <Field name="eventType" size="35" type="V_String" />
+            <Field name="Location" size="22" type="V_String" />
+            <Field name="Venue" size="70" type="V_String" />
+            <Field name="Date" size="20" type="V_String" />
+            <Field name="Time" size="7" type="V_String" />
+            <Field name="worksInfo" size="477" type="V_String" />
+            <Field name="work" size="98" type="V_String" />
+            <Field name="work_ID" size="8" type="V_String" />
+            <Field name="work_OuterXML" size="10401" type="V_WString" />
+            <Field name="work_2" size="98" type="V_String" />
+            <Field name="work_2_ID" size="8" type="V_String" />
+            <Field name="work_2_OuterXML" size="5136" type="V_WString" />
+            <Field name="worksInfo_OuterXML2" size="69243" type="V_WString" />
+            <Field name="work_3" size="98" type="V_String" />
+            <Field name="work_3_ID" size="8" type="V_String" />
+            <Field name="work_3_OuterXML" size="5166" type="V_WString" />
+            <Field name="work_4" size="98" type="V_String" />
+            <Field name="work_4_ID" size="8" type="V_String" />
+            <Field name="work_4_OuterXML" size="4090" type="V_WString" />
+            <Field name="work_5" size="98" type="V_String" />
+            <Field name="work_5_ID" size="8" type="V_String" />
+            <Field name="work_5_OuterXML" size="4106" type="V_WString" />
+            <Field name="work_6" size="98" type="V_String" />
+            <Field name="work_6_ID" size="8" type="V_String" />
+            <Field name="work_6_OuterXML" size="14186" type="V_WString" />
+            <Field name="work_7" size="98" type="V_String" />
+            <Field name="work_7_ID" size="8" type="V_String" />
+            <Field name="work_7_OuterXML" size="14178" type="V_WString" />
+            <Field name="work_8" size="98" type="V_String" />
+            <Field name="work_8_ID" size="7" type="V_String" />
+            <Field name="work_8_OuterXML" size="18298" type="V_WString" />
+            <Field name="work_9" size="98" type="V_String" />
+            <Field name="work_9_ID" size="8" type="V_String" />
+            <Field name="work_9_OuterXML" size="5143" type="V_WString" />
+            <Field name="work_10" size="98" type="V_String" />
+            <Field name="work_10_ID" size="7" type="V_String" />
+            <Field name="work_10_OuterXML" size="5139" type="V_String" />
+            <Field name="work_11" size="98" type="V_String" />
+            <Field name="work_11_ID" size="7" type="V_String" />
+            <Field name="work_11_OuterXML" size="5150" type="V_String" />
+            <Field name="work_12" size="98" type="V_String" />
+            <Field name="work_12_ID" size="8" type="V_String" />
+            <Field name="work_12_OuterXML" size="4090" type="V_WString" />
+            <Field name="work_13" size="98" type="V_String" />
+            <Field name="work_13_ID" size="8" type="V_String" />
+            <Field name="work_13_OuterXML" size="5143" type="V_String" />
+            <Field name="work_14" size="98" type="V_String" />
+            <Field name="work_14_ID" size="8" type="V_String" />
+            <Field name="work_14_OuterXML" size="5168" type="V_String" />
+            <Field name="work_15" size="98" type="V_String" />
+            <Field name="work_15_ID" size="8" type="V_String" />
+            <Field name="work_15_OuterXML" size="5150" type="V_String" />
+            <Field name="work_16" size="98" type="V_String" />
+            <Field name="work_16_ID" size="7" type="V_String" />
+            <Field name="work_16_OuterXML" size="5172" type="V_String" />
+            <Field name="work_17" size="98" type="V_String" />
+            <Field name="work_17_ID" size="7" type="V_String" />
+            <Field name="work_17_OuterXML" size="5131" type="V_String" />
+            <Field name="work_18" size="98" type="V_String" />
+            <Field name="work_18_ID" size="7" type="V_String" />
+            <Field name="work_18_OuterXML" size="3593" type="V_String" />
+            <Field name="work_19" size="98" type="V_String" />
+            <Field name="work_19_ID" size="7" type="V_String" />
+            <Field name="work_19_OuterXML" size="1493" type="V_String" />
+            <Field name="work_20" size="98" type="V_String" />
+            <Field name="work_20_ID" size="7" type="V_String" />
+            <Field name="work_20_OuterXML" size="2808" type="V_String" />
+            <Field name="work_21" size="98" type="V_String" />
+            <Field name="work_21_ID" size="7" type="V_String" />
+            <Field name="work_21_OuterXML" size="2806" type="V_String" />
+            <Field name="work_22" size="98" type="V_String" />
+            <Field name="work_22_ID" size="7" type="V_String" />
+            <Field name="work_22_OuterXML" size="3137" type="V_String" />
+            <Field name="work_23" size="98" type="V_String" />
+            <Field name="work_23_ID" size="8" type="V_String" />
+            <Field name="work_23_OuterXML" size="2797" type="V_String" />
+            <Field name="work_24" size="98" type="V_String" />
+            <Field name="work_24_ID" size="7" type="V_String" />
+            <Field name="work_24_OuterXML" size="2812" type="V_String" />
+            <Field name="work_25" size="98" type="V_String" />
+            <Field name="work_25_ID" size="7" type="V_String" />
+            <Field name="work_25_OuterXML" size="2827" type="V_String" />
+            <Field name="work_26" size="98" type="V_String" />
+            <Field name="work_26_ID" size="7" type="V_String" />
+            <Field name="work_26_OuterXML" size="3051" type="V_String" />
+            <Field name="work_27" size="81" type="V_String" />
+            <Field name="work_27_ID" size="6" type="V_String" />
+            <Field name="work_27_OuterXML" size="2804" type="V_String" />
+            <Field name="work_28" size="81" type="V_String" />
+            <Field name="work_28_ID" size="7" type="V_String" />
+            <Field name="work_28_OuterXML" size="301" type="V_String" />
+            <Field name="work_29" size="81" type="V_String" />
+            <Field name="work_29_ID" size="6" type="V_String" />
+            <Field name="work_29_OuterXML" size="272" type="V_String" />
+            <Field name="work_30" size="81" type="V_String" />
+            <Field name="work_30_ID" size="6" type="V_String" />
+            <Field name="work_30_OuterXML" size="274" type="V_String" />
+            <Field name="work_31" size="81" type="V_String" />
+            <Field name="work_31_ID" size="5" type="V_String" />
+            <Field name="work_31_OuterXML" size="797" type="V_String" />
+            <Field name="work_32" size="81" type="V_String" />
+            <Field name="work_32_ID" size="6" type="V_String" />
+            <Field name="work_32_OuterXML" size="273" type="V_String" />
+            <Field name="work_33" size="81" type="V_String" />
+            <Field name="work_33_ID" size="6" type="V_String" />
+            <Field name="work_33_OuterXML" size="272" type="V_String" />
+            <Field name="work_34" size="81" type="V_String" />
+            <Field name="work_34_ID" size="5" type="V_String" />
+            <Field name="work_34_OuterXML" size="1070" type="V_String" />
+            <Field name="work_35" size="81" type="V_String" />
+            <Field name="work_35_ID" size="5" type="V_String" />
+            <Field name="work_35_OuterXML" size="1057" type="V_String" />
+            <Field name="work_36" size="98" type="V_String" />
+            <Field name="work_36_ID" size="6" type="V_String" />
+            <Field name="work_36_OuterXML" size="1105" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxXMLParse" />
+    </Node>
+    <Node ToolID="23">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="786" y="210" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\ProgramData\Alteryx\Engine\Engine_2724_4ef5b0132ea04de29fe9be799598e89b_\Engine_6612_6281c560f9644419a1b9ab119d64595f_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="32">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.XMLParse.XMLParse">
+        <Position x="786" y="138" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <XMLField>worksInfo_OuterXML</XMLField>
+          <XMLElement />
+          <ChildValues value="True" />
+          <OuterXML value="True" />
+          <ParseRoot value="False" />
+          <IgnoreErrors value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="programID" size="5" type="V_String" />
+            <Field name="orchestra" size="40" type="V_String" />
+            <Field name="season" size="7" type="V_String" />
+            <Field name="concertInfo" size="74" type="V_String" />
+            <Field name="concertInfo_OuterXML" size="324" type="V_String" />
+            <Field name="worksInfo_OuterXML" size="69243" type="V_WString" />
+            <Field name="program_OuterXML" size="69740" type="V_WString" />
+            <Field name="concertInfo2" size="74" type="V_String" />
+            <Field name="eventType" size="35" type="V_String" />
+            <Field name="Location" size="22" type="V_String" />
+            <Field name="Venue" size="70" type="V_String" />
+            <Field name="Date" size="20" type="V_String" />
+            <Field name="Time" size="7" type="V_String" />
+            <Field name="worksInfo" size="477" type="V_String" />
+            <Field name="work" size="98" type="V_String" />
+            <Field name="work_ID" size="8" type="V_String" />
+            <Field name="work_OuterXML" size="10401" type="V_WString" />
+            <Field name="work_2" size="98" type="V_String" />
+            <Field name="work_2_ID" size="8" type="V_String" />
+            <Field name="work_2_OuterXML" size="5136" type="V_WString" />
+            <Field name="worksInfo_OuterXML2" size="69243" type="V_WString" />
+            <Field name="work_3" size="98" type="V_String" />
+            <Field name="work_3_ID" size="8" type="V_String" />
+            <Field name="work_3_OuterXML" size="5166" type="V_WString" />
+            <Field name="work_4" size="98" type="V_String" />
+            <Field name="work_4_ID" size="8" type="V_String" />
+            <Field name="work_4_OuterXML" size="4090" type="V_WString" />
+            <Field name="work_5" size="98" type="V_String" />
+            <Field name="work_5_ID" size="8" type="V_String" />
+            <Field name="work_5_OuterXML" size="4106" type="V_WString" />
+            <Field name="work_6" size="98" type="V_String" />
+            <Field name="work_6_ID" size="8" type="V_String" />
+            <Field name="work_6_OuterXML" size="14186" type="V_WString" />
+            <Field name="work_7" size="98" type="V_String" />
+            <Field name="work_7_ID" size="8" type="V_String" />
+            <Field name="work_7_OuterXML" size="14178" type="V_WString" />
+            <Field name="work_8" size="98" type="V_String" />
+            <Field name="work_8_ID" size="7" type="V_String" />
+            <Field name="work_8_OuterXML" size="18298" type="V_WString" />
+            <Field name="work_9" size="98" type="V_String" />
+            <Field name="work_9_ID" size="8" type="V_String" />
+            <Field name="work_9_OuterXML" size="5143" type="V_WString" />
+            <Field name="work_10" size="98" type="V_String" />
+            <Field name="work_10_ID" size="7" type="V_String" />
+            <Field name="work_10_OuterXML" size="5139" type="V_String" />
+            <Field name="work_11" size="98" type="V_String" />
+            <Field name="work_11_ID" size="7" type="V_String" />
+            <Field name="work_11_OuterXML" size="5150" type="V_String" />
+            <Field name="work_12" size="98" type="V_String" />
+            <Field name="work_12_ID" size="8" type="V_String" />
+            <Field name="work_12_OuterXML" size="4090" type="V_WString" />
+            <Field name="work_13" size="98" type="V_String" />
+            <Field name="work_13_ID" size="8" type="V_String" />
+            <Field name="work_13_OuterXML" size="5143" type="V_String" />
+            <Field name="work_14" size="98" type="V_String" />
+            <Field name="work_14_ID" size="8" type="V_String" />
+            <Field name="work_14_OuterXML" size="5168" type="V_String" />
+            <Field name="work_15" size="98" type="V_String" />
+            <Field name="work_15_ID" size="8" type="V_String" />
+            <Field name="work_15_OuterXML" size="5150" type="V_String" />
+            <Field name="work_16" size="98" type="V_String" />
+            <Field name="work_16_ID" size="7" type="V_String" />
+            <Field name="work_16_OuterXML" size="5172" type="V_String" />
+            <Field name="work_17" size="98" type="V_String" />
+            <Field name="work_17_ID" size="7" type="V_String" />
+            <Field name="work_17_OuterXML" size="5131" type="V_String" />
+            <Field name="work_18" size="98" type="V_String" />
+            <Field name="work_18_ID" size="7" type="V_String" />
+            <Field name="work_18_OuterXML" size="3593" type="V_String" />
+            <Field name="work_19" size="98" type="V_String" />
+            <Field name="work_19_ID" size="7" type="V_String" />
+            <Field name="work_19_OuterXML" size="1493" type="V_String" />
+            <Field name="work_20" size="98" type="V_String" />
+            <Field name="work_20_ID" size="7" type="V_String" />
+            <Field name="work_20_OuterXML" size="2808" type="V_String" />
+            <Field name="work_21" size="98" type="V_String" />
+            <Field name="work_21_ID" size="7" type="V_String" />
+            <Field name="work_21_OuterXML" size="2806" type="V_String" />
+            <Field name="work_22" size="98" type="V_String" />
+            <Field name="work_22_ID" size="7" type="V_String" />
+            <Field name="work_22_OuterXML" size="3137" type="V_String" />
+            <Field name="work_23" size="98" type="V_String" />
+            <Field name="work_23_ID" size="8" type="V_String" />
+            <Field name="work_23_OuterXML" size="2797" type="V_String" />
+            <Field name="work_24" size="98" type="V_String" />
+            <Field name="work_24_ID" size="7" type="V_String" />
+            <Field name="work_24_OuterXML" size="2812" type="V_String" />
+            <Field name="work_25" size="98" type="V_String" />
+            <Field name="work_25_ID" size="7" type="V_String" />
+            <Field name="work_25_OuterXML" size="2827" type="V_String" />
+            <Field name="work_26" size="98" type="V_String" />
+            <Field name="work_26_ID" size="7" type="V_String" />
+            <Field name="work_26_OuterXML" size="3051" type="V_String" />
+            <Field name="work_27" size="81" type="V_String" />
+            <Field name="work_27_ID" size="6" type="V_String" />
+            <Field name="work_27_OuterXML" size="2804" type="V_String" />
+            <Field name="work_28" size="81" type="V_String" />
+            <Field name="work_28_ID" size="7" type="V_String" />
+            <Field name="work_28_OuterXML" size="301" type="V_String" />
+            <Field name="work_29" size="81" type="V_String" />
+            <Field name="work_29_ID" size="6" type="V_String" />
+            <Field name="work_29_OuterXML" size="272" type="V_String" />
+            <Field name="work_30" size="81" type="V_String" />
+            <Field name="work_30_ID" size="6" type="V_String" />
+            <Field name="work_30_OuterXML" size="274" type="V_String" />
+            <Field name="work_31" size="81" type="V_String" />
+            <Field name="work_31_ID" size="5" type="V_String" />
+            <Field name="work_31_OuterXML" size="797" type="V_String" />
+            <Field name="work_32" size="81" type="V_String" />
+            <Field name="work_32_ID" size="6" type="V_String" />
+            <Field name="work_32_OuterXML" size="273" type="V_String" />
+            <Field name="work_33" size="81" type="V_String" />
+            <Field name="work_33_ID" size="6" type="V_String" />
+            <Field name="work_33_OuterXML" size="272" type="V_String" />
+            <Field name="work_34" size="81" type="V_String" />
+            <Field name="work_34_ID" size="5" type="V_String" />
+            <Field name="work_34_OuterXML" size="1070" type="V_String" />
+            <Field name="work_35" size="81" type="V_String" />
+            <Field name="work_35_ID" size="5" type="V_String" />
+            <Field name="work_35_OuterXML" size="1057" type="V_String" />
+            <Field name="work_36" size="98" type="V_String" />
+            <Field name="work_36_ID" size="6" type="V_String" />
+            <Field name="work_36_OuterXML" size="1105" type="V_String" />
+            <Field name="work2" size="98" type="V_String" />
+            <Field name="ID" size="8" type="V_String" />
+            <Field name="composerName" size="55" type="V_WString" />
+            <Field name="composerName_OuterXML" size="87" type="V_WString" />
+            <Field name="workTitle" size="98" type="V_WString" />
+            <Field name="workTitle_OuterXML" size="131" type="V_WString" />
+            <Field name="conductorName" size="76" type="V_WString" />
+            <Field name="conductorName_OuterXML" size="107" type="V_WString" />
+            <Field name="work_OuterXML2" size="18298" type="V_WString" />
+            <Field name="interval" size="19" type="V_String" />
+            <Field name="interval_OuterXML" size="40" type="V_String" />
+            <Field name="movement" size="112" type="V_WString" />
+            <Field name="movement_OuterXML" size="138" type="V_WString" />
+            <Field name="soloists" size="1508" type="V_String" />
+            <Field name="soloists_OuterXML" size="18037" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxXMLParse" />
+    </Node>
+    <Node ToolID="33">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.XMLParse.XMLParse">
+        <Position x="882" y="138" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <XMLField>soloists_OuterXML</XMLField>
+          <XMLElement />
+          <ChildValues value="True" />
+          <OuterXML value="False" />
+          <ParseRoot value="False" />
+          <IgnoreErrors value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="programID" size="5" type="V_String" />
+            <Field name="orchestra" size="40" type="V_String" />
+            <Field name="season" size="7" type="V_String" />
+            <Field name="concertInfo" size="74" type="V_String" />
+            <Field name="concertInfo_OuterXML" size="324" type="V_String" />
+            <Field name="worksInfo_OuterXML" size="69243" type="V_WString" />
+            <Field name="program_OuterXML" size="69740" type="V_WString" />
+            <Field name="concertInfo2" size="74" type="V_String" />
+            <Field name="eventType" size="35" type="V_String" />
+            <Field name="Location" size="22" type="V_String" />
+            <Field name="Venue" size="70" type="V_String" />
+            <Field name="Date" size="20" type="V_String" />
+            <Field name="Time" size="7" type="V_String" />
+            <Field name="worksInfo" size="477" type="V_String" />
+            <Field name="work" size="98" type="V_String" />
+            <Field name="work_ID" size="8" type="V_String" />
+            <Field name="work_OuterXML" size="10401" type="V_WString" />
+            <Field name="work_2" size="98" type="V_String" />
+            <Field name="work_2_ID" size="8" type="V_String" />
+            <Field name="work_2_OuterXML" size="5136" type="V_WString" />
+            <Field name="worksInfo_OuterXML2" size="69243" type="V_WString" />
+            <Field name="work_3" size="98" type="V_String" />
+            <Field name="work_3_ID" size="8" type="V_String" />
+            <Field name="work_3_OuterXML" size="5166" type="V_WString" />
+            <Field name="work_4" size="98" type="V_String" />
+            <Field name="work_4_ID" size="8" type="V_String" />
+            <Field name="work_4_OuterXML" size="4090" type="V_WString" />
+            <Field name="work_5" size="98" type="V_String" />
+            <Field name="work_5_ID" size="8" type="V_String" />
+            <Field name="work_5_OuterXML" size="4106" type="V_WString" />
+            <Field name="work_6" size="98" type="V_String" />
+            <Field name="work_6_ID" size="8" type="V_String" />
+            <Field name="work_6_OuterXML" size="14186" type="V_WString" />
+            <Field name="work_7" size="98" type="V_String" />
+            <Field name="work_7_ID" size="8" type="V_String" />
+            <Field name="work_7_OuterXML" size="14178" type="V_WString" />
+            <Field name="work_8" size="98" type="V_String" />
+            <Field name="work_8_ID" size="7" type="V_String" />
+            <Field name="work_8_OuterXML" size="18298" type="V_WString" />
+            <Field name="work_9" size="98" type="V_String" />
+            <Field name="work_9_ID" size="8" type="V_String" />
+            <Field name="work_9_OuterXML" size="5143" type="V_WString" />
+            <Field name="work_10" size="98" type="V_String" />
+            <Field name="work_10_ID" size="7" type="V_String" />
+            <Field name="work_10_OuterXML" size="5139" type="V_String" />
+            <Field name="work_11" size="98" type="V_String" />
+            <Field name="work_11_ID" size="7" type="V_String" />
+            <Field name="work_11_OuterXML" size="5150" type="V_String" />
+            <Field name="work_12" size="98" type="V_String" />
+            <Field name="work_12_ID" size="8" type="V_String" />
+            <Field name="work_12_OuterXML" size="4090" type="V_WString" />
+            <Field name="work_13" size="98" type="V_String" />
+            <Field name="work_13_ID" size="8" type="V_String" />
+            <Field name="work_13_OuterXML" size="5143" type="V_String" />
+            <Field name="work_14" size="98" type="V_String" />
+            <Field name="work_14_ID" size="8" type="V_String" />
+            <Field name="work_14_OuterXML" size="5168" type="V_String" />
+            <Field name="work_15" size="98" type="V_String" />
+            <Field name="work_15_ID" size="8" type="V_String" />
+            <Field name="work_15_OuterXML" size="5150" type="V_String" />
+            <Field name="work_16" size="98" type="V_String" />
+            <Field name="work_16_ID" size="7" type="V_String" />
+            <Field name="work_16_OuterXML" size="5172" type="V_String" />
+            <Field name="work_17" size="98" type="V_String" />
+            <Field name="work_17_ID" size="7" type="V_String" />
+            <Field name="work_17_OuterXML" size="5131" type="V_String" />
+            <Field name="work_18" size="98" type="V_String" />
+            <Field name="work_18_ID" size="7" type="V_String" />
+            <Field name="work_18_OuterXML" size="3593" type="V_String" />
+            <Field name="work_19" size="98" type="V_String" />
+            <Field name="work_19_ID" size="7" type="V_String" />
+            <Field name="work_19_OuterXML" size="1493" type="V_String" />
+            <Field name="work_20" size="98" type="V_String" />
+            <Field name="work_20_ID" size="7" type="V_String" />
+            <Field name="work_20_OuterXML" size="2808" type="V_String" />
+            <Field name="work_21" size="98" type="V_String" />
+            <Field name="work_21_ID" size="7" type="V_String" />
+            <Field name="work_21_OuterXML" size="2806" type="V_String" />
+            <Field name="work_22" size="98" type="V_String" />
+            <Field name="work_22_ID" size="7" type="V_String" />
+            <Field name="work_22_OuterXML" size="3137" type="V_String" />
+            <Field name="work_23" size="98" type="V_String" />
+            <Field name="work_23_ID" size="8" type="V_String" />
+            <Field name="work_23_OuterXML" size="2797" type="V_String" />
+            <Field name="work_24" size="98" type="V_String" />
+            <Field name="work_24_ID" size="7" type="V_String" />
+            <Field name="work_24_OuterXML" size="2812" type="V_String" />
+            <Field name="work_25" size="98" type="V_String" />
+            <Field name="work_25_ID" size="7" type="V_String" />
+            <Field name="work_25_OuterXML" size="2827" type="V_String" />
+            <Field name="work_26" size="98" type="V_String" />
+            <Field name="work_26_ID" size="7" type="V_String" />
+            <Field name="work_26_OuterXML" size="3051" type="V_String" />
+            <Field name="work_27" size="81" type="V_String" />
+            <Field name="work_27_ID" size="6" type="V_String" />
+            <Field name="work_27_OuterXML" size="2804" type="V_String" />
+            <Field name="work_28" size="81" type="V_String" />
+            <Field name="work_28_ID" size="7" type="V_String" />
+            <Field name="work_28_OuterXML" size="301" type="V_String" />
+            <Field name="work_29" size="81" type="V_String" />
+            <Field name="work_29_ID" size="6" type="V_String" />
+            <Field name="work_29_OuterXML" size="272" type="V_String" />
+            <Field name="work_30" size="81" type="V_String" />
+            <Field name="work_30_ID" size="6" type="V_String" />
+            <Field name="work_30_OuterXML" size="274" type="V_String" />
+            <Field name="work_31" size="81" type="V_String" />
+            <Field name="work_31_ID" size="5" type="V_String" />
+            <Field name="work_31_OuterXML" size="797" type="V_String" />
+            <Field name="work_32" size="81" type="V_String" />
+            <Field name="work_32_ID" size="6" type="V_String" />
+            <Field name="work_32_OuterXML" size="273" type="V_String" />
+            <Field name="work_33" size="81" type="V_String" />
+            <Field name="work_33_ID" size="6" type="V_String" />
+            <Field name="work_33_OuterXML" size="272" type="V_String" />
+            <Field name="work_34" size="81" type="V_String" />
+            <Field name="work_34_ID" size="5" type="V_String" />
+            <Field name="work_34_OuterXML" size="1070" type="V_String" />
+            <Field name="work_35" size="81" type="V_String" />
+            <Field name="work_35_ID" size="5" type="V_String" />
+            <Field name="work_35_OuterXML" size="1057" type="V_String" />
+            <Field name="work_36" size="98" type="V_String" />
+            <Field name="work_36_ID" size="6" type="V_String" />
+            <Field name="work_36_OuterXML" size="1105" type="V_String" />
+            <Field name="work2" size="98" type="V_String" />
+            <Field name="ID" size="8" type="V_String" />
+            <Field name="composerName" size="55" type="V_WString" />
+            <Field name="composerName_OuterXML" size="87" type="V_WString" />
+            <Field name="workTitle" size="98" type="V_WString" />
+            <Field name="workTitle_OuterXML" size="131" type="V_WString" />
+            <Field name="conductorName" size="76" type="V_WString" />
+            <Field name="conductorName_OuterXML" size="107" type="V_WString" />
+            <Field name="work_OuterXML2" size="18298" type="V_WString" />
+            <Field name="interval" size="19" type="V_String" />
+            <Field name="interval_OuterXML" size="40" type="V_String" />
+            <Field name="movement" size="112" type="V_WString" />
+            <Field name="movement_OuterXML" size="138" type="V_WString" />
+            <Field name="soloists" size="1508" type="V_String" />
+            <Field name="soloists_OuterXML" size="18037" type="V_WString" />
+            <Field name="soloist" size="96" type="V_String" />
+            <Field name="soloistName" size="140" type="V_WString" />
+            <Field name="soloistInstrument" size="29" type="V_String" />
+            <Field name="soloistRoles" size="4" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxXMLParse" />
+    </Node>
+    <Node ToolID="45">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="1074" y="138" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="concertInfo" selected="False" />
+            <SelectField field="concertInfo_OuterXML" selected="False" />
+            <SelectField field="worksInfo_OuterXML" selected="False" />
+            <SelectField field="program_OuterXML" selected="False" />
+            <SelectField field="worksInfo" selected="False" />
+            <SelectField field="work" selected="False" />
+            <SelectField field="work_ID" selected="False" />
+            <SelectField field="work_OuterXML" selected="False" />
+            <SelectField field="work_2" selected="False" />
+            <SelectField field="work_2_ID" selected="False" />
+            <SelectField field="work_2_OuterXML" selected="False" />
+            <SelectField field="worksInfo_OuterXML2" selected="False" />
+            <SelectField field="work_3" selected="False" />
+            <SelectField field="work_3_ID" selected="False" />
+            <SelectField field="work_3_OuterXML" selected="False" />
+            <SelectField field="work_4" selected="False" />
+            <SelectField field="work_4_ID" selected="False" />
+            <SelectField field="work_4_OuterXML" selected="False" />
+            <SelectField field="work_5" selected="False" />
+            <SelectField field="work_5_ID" selected="False" />
+            <SelectField field="work_5_OuterXML" selected="False" />
+            <SelectField field="work_6" selected="False" />
+            <SelectField field="work_6_ID" selected="False" />
+            <SelectField field="work_6_OuterXML" selected="False" />
+            <SelectField field="work_7" selected="False" />
+            <SelectField field="work_7_ID" selected="False" />
+            <SelectField field="work_7_OuterXML" selected="False" />
+            <SelectField field="work_8" selected="False" />
+            <SelectField field="work_8_ID" selected="False" />
+            <SelectField field="work_8_OuterXML" selected="False" />
+            <SelectField field="work_9" selected="False" />
+            <SelectField field="work_9_ID" selected="False" />
+            <SelectField field="work_9_OuterXML" selected="False" />
+            <SelectField field="work_10" selected="False" />
+            <SelectField field="work_10_ID" selected="False" />
+            <SelectField field="work_10_OuterXML" selected="False" />
+            <SelectField field="work_11" selected="False" />
+            <SelectField field="work_11_ID" selected="False" />
+            <SelectField field="work_11_OuterXML" selected="False" />
+            <SelectField field="work_12" selected="False" />
+            <SelectField field="work_12_ID" selected="False" />
+            <SelectField field="work_12_OuterXML" selected="False" />
+            <SelectField field="work_13" selected="False" />
+            <SelectField field="work_13_ID" selected="False" />
+            <SelectField field="work_13_OuterXML" selected="False" />
+            <SelectField field="work_14" selected="False" />
+            <SelectField field="work_14_ID" selected="False" />
+            <SelectField field="work_14_OuterXML" selected="False" />
+            <SelectField field="work_15" selected="False" />
+            <SelectField field="work_15_ID" selected="False" />
+            <SelectField field="work_15_OuterXML" selected="False" />
+            <SelectField field="work_16" selected="False" />
+            <SelectField field="work_16_ID" selected="False" />
+            <SelectField field="work_16_OuterXML" selected="False" />
+            <SelectField field="work_17" selected="False" />
+            <SelectField field="work_17_ID" selected="False" />
+            <SelectField field="work_17_OuterXML" selected="False" />
+            <SelectField field="work_18" selected="False" />
+            <SelectField field="work_18_ID" selected="False" />
+            <SelectField field="work_18_OuterXML" selected="False" />
+            <SelectField field="work_19" selected="False" />
+            <SelectField field="work_19_ID" selected="False" />
+            <SelectField field="work_19_OuterXML" selected="False" />
+            <SelectField field="work_20" selected="False" />
+            <SelectField field="work_20_ID" selected="False" />
+            <SelectField field="work_20_OuterXML" selected="False" />
+            <SelectField field="work_21" selected="False" />
+            <SelectField field="work_21_ID" selected="False" />
+            <SelectField field="work_21_OuterXML" selected="False" />
+            <SelectField field="work_22" selected="False" />
+            <SelectField field="work_22_ID" selected="False" />
+            <SelectField field="work_22_OuterXML" selected="False" />
+            <SelectField field="work_23" selected="False" />
+            <SelectField field="work_23_ID" selected="False" />
+            <SelectField field="work_23_OuterXML" selected="False" />
+            <SelectField field="work_24" selected="False" />
+            <SelectField field="work_24_ID" selected="False" />
+            <SelectField field="work_24_OuterXML" selected="False" />
+            <SelectField field="work_25" selected="False" />
+            <SelectField field="work_25_ID" selected="False" />
+            <SelectField field="work_25_OuterXML" selected="False" />
+            <SelectField field="work_26" selected="False" />
+            <SelectField field="work_26_ID" selected="False" />
+            <SelectField field="work_26_OuterXML" selected="False" />
+            <SelectField field="work_27" selected="False" />
+            <SelectField field="work_27_ID" selected="False" />
+            <SelectField field="work_27_OuterXML" selected="False" />
+            <SelectField field="work_28" selected="False" />
+            <SelectField field="work_28_ID" selected="False" />
+            <SelectField field="work_28_OuterXML" selected="False" />
+            <SelectField field="work_29" selected="False" />
+            <SelectField field="work_29_ID" selected="False" />
+            <SelectField field="work_29_OuterXML" selected="False" />
+            <SelectField field="work_30" selected="False" />
+            <SelectField field="work_30_ID" selected="False" />
+            <SelectField field="work_30_OuterXML" selected="False" />
+            <SelectField field="work_31" selected="False" />
+            <SelectField field="work_31_ID" selected="False" />
+            <SelectField field="work_31_OuterXML" selected="False" />
+            <SelectField field="work_32" selected="False" />
+            <SelectField field="work_32_ID" selected="False" />
+            <SelectField field="work_32_OuterXML" selected="False" />
+            <SelectField field="work_33" selected="False" />
+            <SelectField field="work_33_ID" selected="False" />
+            <SelectField field="work_33_OuterXML" selected="False" />
+            <SelectField field="work_34" selected="False" />
+            <SelectField field="work_34_ID" selected="False" />
+            <SelectField field="work_34_OuterXML" selected="False" />
+            <SelectField field="work_35" selected="False" />
+            <SelectField field="work_35_ID" selected="False" />
+            <SelectField field="work_35_OuterXML" selected="False" />
+            <SelectField field="work_36" selected="False" />
+            <SelectField field="work_36_ID" selected="False" />
+            <SelectField field="work_36_OuterXML" selected="False" />
+            <SelectField field="work2" selected="False" />
+            <SelectField field="composerName_OuterXML" selected="False" />
+            <SelectField field="workTitle_OuterXML" selected="False" />
+            <SelectField field="conductorName_OuterXML" selected="False" />
+            <SelectField field="work_OuterXML2" selected="False" />
+            <SelectField field="interval_OuterXML" selected="False" />
+            <SelectField field="movement_OuterXML" selected="False" />
+            <SelectField field="soloists" selected="False" />
+            <SelectField field="soloists_OuterXML" selected="False" />
+            <SelectField field="soloist" selected="False" />
+            <SelectField field="soloistName" selected="True" size="2000" />
+            <SelectField field="soloistInstrument" selected="True" size="2000" />
+            <SelectField field="soloistRoles" selected="False" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="46">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="1170" y="66" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="[soloistName]+&quot;, (&quot;+[soloistInstrument]+&quot;)&quot;" field="soloistInstrument" size="2000" type="V_String" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText><![CDATA[soloistInstrument = [soloistName]+", ("+[soloistInstrument]+")"
+]]></DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="47">
+      <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+        <Position x="1266" y="66" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SummarizeFields>
+            <SummarizeField field="programID" action="GroupBy" rename="programID" />
+            <SummarizeField field="ID" action="GroupBy" rename="ID" />
+            <SummarizeField field="soloistInstrument" action="Concat" rename="Soloists">
+              <Concat_Start />
+              <Separator><![CDATA[, ]]></Separator>
+              <Concat_End />
+            </SummarizeField>
+          </SummarizeFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+    </Node>
+    <Node ToolID="48">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="1362" y="66" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Expression>[Soloists] != ", ()"</Expression>
+          <Mode>Simple</Mode>
+          <Simple>
+            <Operator>!=</Operator>
+            <Field>Soloists</Field>
+            <Operands>
+              <IgnoreTimeInDateTime>True</IgnoreTimeInDateTime>
+              <DateType>fixed</DateType>
+              <PeriodDate>2018-05-13 21:30:04</PeriodDate>
+              <PeriodType>
+              </PeriodType>
+              <PeriodCount>0</PeriodCount>
+              <Operand>, ()</Operand>
+              <StartDate>2018-05-13 21:30:04</StartDate>
+              <EndDate>2018-05-13 21:30:04</EndDate>
+            </Operands>
+          </Simple>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>[Soloists] != ", ()"</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="49">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="1458" y="66" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="False">
+          <JoinInfo connection="Left">
+            <Field field="programID" />
+            <Field field="ID" />
+          </JoinInfo>
+          <JoinInfo connection="Right">
+            <Field field="programID" />
+            <Field field="ID" />
+          </JoinInfo>
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="True" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Left_programID" selected="True" />
+                <SelectField field="Left_ID" selected="True" />
+                <SelectField field="Right_programID" selected="False" />
+                <SelectField field="Right_orchestra" selected="True" />
+                <SelectField field="Right_season" selected="True" />
+                <SelectField field="Right_concertInfo2" selected="True" />
+                <SelectField field="Right_eventType" selected="True" />
+                <SelectField field="Right_Location" selected="True" />
+                <SelectField field="Right_Venue" selected="True" />
+                <SelectField field="Right_Date" selected="True" />
+                <SelectField field="Right_Time" selected="True" />
+                <SelectField field="Right_ID" selected="False" />
+                <SelectField field="Right_conductorName" selected="True" />
+                <SelectField field="Right_composerName" selected="True" />
+                <SelectField field="Right_workTitle" selected="True" />
+                <SelectField field="Right_interval" selected="False" />
+                <SelectField field="Right_movement" selected="True" />
+                <SelectField field="Left_Soloists" selected="True" />
+                <SelectField field="Right_soloistName" selected="False" />
+                <SelectField field="Right_soloistInstrument" selected="False" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+    <Node ToolID="50">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Unique.Unique">
+        <Position x="1686" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <UniqueFields>
+            <Field field="programID" />
+            <Field field="ID" />
+            <Field field="orchestra" />
+            <Field field="season" />
+            <Field field="concertInfo2" />
+            <Field field="Location" />
+            <Field field="Venue" />
+            <Field field="Date" />
+            <Field field="Time" />
+            <Field field="movement" />
+            <Field field="Soloists" />
+          </UniqueFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Unique: programID, ID, orchestra, season, concertInfo2, Location, Venue, Date, Time, movement, Soloists</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnique" />
+    </Node>
+    <Node ToolID="57">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Union.Union">
+        <Position x="1554" y="66" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <AutoResetMode>ByName</AutoResetMode>
+          <MultiMetaInfo>
+            <MetaInfo name="#1">
+              <RecordInfo>
+                <Field name="programID" size="5" source="Summarize: GroupBy - programID" type="V_String" column="1" />
+                <Field name="ID" size="8" source="Summarize: GroupBy - ID" type="V_String" column="2" />
+                <Field name="orchestra" size="40" type="V_String" column="3" />
+                <Field name="season" size="7" type="V_String" column="4" />
+                <Field name="concertInfo2" size="74" type="V_String" column="5" />
+                <Field name="eventType" size="35" type="V_String" column="6" />
+                <Field name="Location" size="22" type="V_String" column="7" />
+                <Field name="Venue" size="70" type="V_String" column="8" />
+                <Field name="Date" size="20" type="V_String" column="9" />
+                <Field name="Time" size="7" type="V_String" column="10" />
+                <Field name="conductorName" size="76" type="V_WString" column="11" />
+                <Field name="composerName" size="55" type="V_WString" column="12" />
+                <Field name="workTitle" size="98" type="V_WString" column="13" />
+                <Field name="movement" size="112" type="V_WString" column="14" />
+                <Field name="Soloists" size="2147483647" source="Summarize: Concat - soloistInstrument" type="V_String" column="15" />
+              </RecordInfo>
+            </MetaInfo>
+            <MetaInfo name="#2">
+              <RecordInfo>
+                <Field name="programID" size="5" type="V_String" column="1" />
+                <Field name="ID" size="8" type="V_String" column="2" />
+                <Field name="orchestra" size="40" type="V_String" column="3" />
+                <Field name="season" size="7" type="V_String" column="4" />
+                <Field name="concertInfo2" size="74" type="V_String" column="5" />
+                <Field name="eventType" size="35" type="V_String" column="6" />
+                <Field name="Location" size="22" type="V_String" column="7" />
+                <Field name="Venue" size="70" type="V_String" column="8" />
+                <Field name="Date" size="20" type="V_String" column="9" />
+                <Field name="Time" size="7" type="V_String" column="10" />
+                <Field name="conductorName" size="76" type="V_WString" column="11" />
+                <Field name="composerName" size="55" type="V_WString" column="12" />
+                <Field name="workTitle" size="98" type="V_WString" column="13" />
+                <Field name="movement" size="112" type="V_WString" column="14" />
+                <Field name="interval" size="19" type="V_String" column="16" />
+                <Field name="soloistName" size="2000" type="V_WString" column="17" />
+                <Field name="soloistInstrument" size="2000" type="V_String" column="18" />
+              </RecordInfo>
+            </MetaInfo>
+          </MultiMetaInfo>
+          <ByName_ErrorMode>Warning</ByName_ErrorMode>
+          <ByName_OutputMode>All</ByName_OutputMode>
+          <Mode>ManualDelayed</Mode>
+          <SetOutputOrder value="True" />
+          <OutputOrder>
+            <Connection>#1</Connection>
+            <Connection>#2</Connection>
+          </OutputOrder>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnion" />
+    </Node>
+    <Node ToolID="58">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="1578" y="222" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\ProgramData\Alteryx\Engine\Engine_2724_4ef5b0132ea04de29fe9be799598e89b_\Engine_6612_c4acad8ba3eb4e7282998646d05cb7f9_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="6">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+        <Position x="54" y="126" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <NumRows value="1" />
+          <Fields>
+            <Field name="Field1" />
+          </Fields>
+          <Data>
+            <r>
+              <c>https://raw.githubusercontent.com/nyphilarchive/PerformanceHistory/master/Programs/xml/2011-12_TO_NOW.xml</c>
+            </r>
+          </Data>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+    </Node>
+    <Node ToolID="7">
+      <GuiSettings Plugin="AlteryxConnectorGui.Download.Download">
+        <Position x="174" y="126" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <URLField>Field1</URLField>
+          <OutputMode>String</OutputMode>
+          <CodePage>65001</CodePage>
+          <EncodeURLs value="True" />
+          <Headers>
+            <NameValues />
+            <Fields orderChanged="False">
+              <Field name="Field1" selected="False" />
+              <Field name="*Unknown" selected="False" />
+            </Fields>
+          </Headers>
+          <Payload>
+            <HTTPAction>GET</HTTPAction>
+            <QueryStringBodyMode>Compose</QueryStringBodyMode>
+            <ComposeNameValues />
+            <ComposeFields orderChanged="False">
+              <Field name="Field1" selected="False" />
+              <Field name="*Unknown" selected="False" />
+            </ComposeFields>
+          </Payload>
+          <UserName />
+          <Password />
+          <numConnections>2</numConnections>
+          <Timeout>600</Timeout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxConnectorEngine.dll" EngineDllEntryPoint="AlteryxDownload" />
+    </Node>
+    <Node ToolID="8">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="294" y="90" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\ProgramData\Alteryx\Engine\Engine_2724_4ef5b0132ea04de29fe9be799598e89b_\Engine_6612_a517d99911494dd4ba8c14625f2e661f_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="9">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.XMLParse.XMLParse">
+        <Position x="294" y="138" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <XMLField>DownloadData</XMLField>
+          <XMLElement />
+          <ChildValues value="True" />
+          <OuterXML value="True" />
+          <ParseRoot value="False" />
+          <IgnoreErrors value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Field1" size="105" source="TextInput:" type="String" />
+            <Field name="DownloadData" size="1073741823" source="Download" type="V_WString" />
+            <Field name="DownloadHeaders" size="2147483647" source="Download" type="V_String" />
+            <Field name="program" size="95" type="V_String" />
+            <Field name="id" size="40" type="V_String" />
+            <Field name="id_OuterXML" size="49" type="V_String" />
+            <Field name="programID" size="5" type="V_String" />
+            <Field name="programID_OuterXML" size="28" type="V_String" />
+            <Field name="orchestra" size="40" type="V_String" />
+            <Field name="orchestra_OuterXML" size="63" type="V_String" />
+            <Field name="season" size="7" type="V_String" />
+            <Field name="season_OuterXML" size="24" type="V_String" />
+            <Field name="concertInfo" size="74" type="V_String" />
+            <Field name="concertInfo_OuterXML" size="324" type="V_String" />
+            <Field name="concertInfo_2" size="74" type="V_String" />
+            <Field name="concertInfo_2_OuterXML" size="283" type="V_String" />
+            <Field name="worksInfo" size="477" type="V_String" />
+            <Field name="worksInfo_OuterXML" size="69243" type="V_WString" />
+            <Field name="program_OuterXML" size="69740" type="V_WString" />
+            <Field name="concertInfo_3" size="74" type="V_String" />
+            <Field name="concertInfo_3_OuterXML" size="277" type="V_String" />
+            <Field name="concertInfo_4" size="74" type="V_String" />
+            <Field name="concertInfo_4_OuterXML" size="262" type="V_String" />
+            <Field name="concertInfo_5" size="74" type="V_String" />
+            <Field name="concertInfo_5_OuterXML" size="261" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxXMLParse" />
+    </Node>
+    <Node ToolID="61">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="606" y="138" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\ProgramData\Alteryx\Engine\Engine_2724_4ef5b0132ea04de29fe9be799598e89b_\Engine_6612_29e5819b88654a3f84621fdbbfab4559_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="63">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="978" y="138" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\ProgramData\Alteryx\Engine\Engine_2724_4ef5b0132ea04de29fe9be799598e89b_\Engine_6612_a7437389b7f74f56bc95b324b4ea27dd_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="65">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="1866" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="Left([Date], 10)" field="Date" size="20" type="V_String" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText><![CDATA[Date = Left([Date], 10)
+]]></DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="66">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DateTime.DateTime">
+        <Position x="1974" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <IsFrom value="False" />
+          <InputFieldName>Date</InputFieldName>
+          <Format>yyyy-MM-dd</Format>
+          <OutputFieldName>Performance Date</OutputFieldName>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Convert Date From:
+yyyy-MM-dd</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDateTime" />
+    </Node>
+    <Node ToolID="68">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="2070" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="69">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Sort.Sort">
+        <Position x="2334" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SortInfo locale="0">
+            <Field field="programID" order="Ascending" />
+            <Field field="Performance Date" order="Ascending" />
+          </SortInfo>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>programID - Ascending
+Performance Date - Ascending</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSort" />
+    </Node>
+    <Node ToolID="70">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="2442" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="True" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="programID" selected="True" rename="Program ID" />
+            <SelectField field="ID" selected="True" rename="Piece ID" />
+            <SelectField field="orchestra" selected="True" rename="Ensemble" />
+            <SelectField field="season" selected="True" rename="Season" />
+            <SelectField field="concertInfo2" selected="False" />
+            <SelectField field="Location" selected="True" />
+            <SelectField field="Venue" selected="True" />
+            <SelectField field="eventType" selected="True" rename="Event Type" />
+            <SelectField field="Performance Date" selected="True" />
+            <SelectField field="Date" selected="False" />
+            <SelectField field="Time" selected="True" />
+            <SelectField field="conductorName" selected="True" rename="Conductor" />
+            <SelectField field="composerName" selected="True" rename="Composer" />
+            <SelectField field="workTitle" selected="True" rename="Work" />
+            <SelectField field="movement" selected="True" rename="Movement" />
+            <SelectField field="Soloists" selected="True" />
+            <SelectField field="interval" selected="False" />
+            <SelectField field="soloistName" selected="False" />
+            <SelectField field="soloistInstrument" selected="False" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="71">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="2538" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\ProgramData\Alteryx\Engine\Engine_2724_4ef5b0132ea04de29fe9be799598e89b_\Engine_6612_54f1d9c59ff7493a9dacd31683e499f8_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="72">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Unique.Unique">
+        <Position x="2514" y="114" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <UniqueFields>
+            <Field field="Program ID" />
+          </UniqueFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Unique: Program ID</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnique" />
+    </Node>
+    <Node ToolID="73">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="2670" y="114" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="False">
+          <JoinInfo connection="Left">
+            <Field field="Program ID" />
+          </JoinInfo>
+          <JoinInfo connection="Right">
+            <Field field="programID" />
+          </JoinInfo>
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Right_season" selected="True" rename="Right_season" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+    <Node ToolID="74">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="2166" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Expression>[interval] != "intermission"</Expression>
+          <Mode>Simple</Mode>
+          <Simple>
+            <Operator>!=</Operator>
+            <Field>interval</Field>
+            <Operands>
+              <IgnoreTimeInDateTime>True</IgnoreTimeInDateTime>
+              <DateType>fixed</DateType>
+              <PeriodDate>2018-05-14 13:19:30</PeriodDate>
+              <PeriodType>
+              </PeriodType>
+              <PeriodCount>0</PeriodCount>
+              <Operand>intermission</Operand>
+              <StartDate>2018-05-14 13:19:30</StartDate>
+              <EndDate>2018-05-14 13:19:30</EndDate>
+            </Operands>
+          </Simple>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>[interval] != "intermission"</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="17" Connection="Output" />
+      <Destination ToolID="21" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="21" Connection="Output" />
+      <Destination ToolID="22" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="21" Connection="Output" />
+      <Destination ToolID="61" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="22" Connection="Output" />
+      <Destination ToolID="23" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="22" Connection="Output" />
+      <Destination ToolID="32" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="32" Connection="Output" />
+      <Destination ToolID="33" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="33" Connection="Output" />
+      <Destination ToolID="45" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="33" Connection="Output" />
+      <Destination ToolID="63" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="45" Connection="Output" />
+      <Destination ToolID="46" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="45" Connection="Output" />
+      <Destination ToolID="49" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="48" Connection="True" />
+      <Destination ToolID="49" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="46" Connection="Output" />
+      <Destination ToolID="47" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="47" Connection="Output" />
+      <Destination ToolID="48" Connection="Input" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="49" Connection="Join" />
+      <Destination ToolID="57" Connection="Input" />
+    </Connection>
+    <Connection name="#2">
+      <Origin ToolID="49" Connection="Right" />
+      <Destination ToolID="57" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="50" Connection="Unique" />
+      <Destination ToolID="65" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="57" Connection="Output" />
+      <Destination ToolID="50" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="57" Connection="Output" />
+      <Destination ToolID="58" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="6" Connection="Output" />
+      <Destination ToolID="7" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="7" Connection="Output" />
+      <Destination ToolID="8" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="7" Connection="Output" />
+      <Destination ToolID="9" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="9" Connection="Output" />
+      <Destination ToolID="17" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="9" Connection="Output" />
+      <Destination ToolID="73" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="72" Connection="Unique" />
+      <Destination ToolID="73" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="65" Connection="Output" />
+      <Destination ToolID="66" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="66" Connection="Output" />
+      <Destination ToolID="68" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="68" Connection="Output" />
+      <Destination ToolID="74" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="69" Connection="Output" />
+      <Destination ToolID="70" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="70" Connection="Output" />
+      <Destination ToolID="71" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="70" Connection="Output" />
+      <Destination ToolID="72" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="74" Connection="True" />
+      <Destination ToolID="69" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="False" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>challenge_116_solution</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>

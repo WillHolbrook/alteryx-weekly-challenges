@@ -1,0 +1,954 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2018.1">
+  <Nodes>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Transpose.Transpose">
+        <Position x="246" y="378" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <ErrorWarn>Warn</ErrorWarn>
+          <KeyFields>
+            <Field field="RecordId" />
+          </KeyFields>
+          <DataFields>
+            <Field field="RecordId" selected="False" />
+            <Field field="email" selected="True" />
+            <Field field="mobile" selected="True" />
+            <Field field="category" selected="True" />
+            <Field field="cityPreference" selected="True" />
+            <Field field="numberOfTransactions" selected="True" />
+            <Field field="ticketQuantity" selected="True" />
+            <Field field="totalAmtTicket" selected="True" />
+            <Field field="totalRevenue" selected="True" />
+            <Field field="totalDiscountAvailed" selected="True" />
+            <Field field="Offer_Fav" selected="True" />
+            <Field field="totalNoOfOfferAvailed" selected="True" />
+            <Field field="acquisitionAmtFirst_Txn" selected="True" />
+            <Field field="preferredShowTime" selected="True" />
+            <Field field="bookingGenre" selected="True" />
+            <Field field="firstTransactionDate" selected="True" />
+            <Field field="lastTransactionDate" selected="True" />
+            <Field field="preferredModeOfPayment" selected="True" />
+            <Field field="Member_lngId" selected="True" />
+            <Field field="dateOfBirth" selected="True" />
+            <Field field="dateOfAnniversary" selected="True" />
+            <Field field="hasQuickPay" selected="True" />
+            <Field field="isRefundToWalletEnabled" selected="True" />
+            <Field field="Event_strLanguage" selected="True" />
+            <Field field="Event_strType" selected="True" />
+            <Field field="Appl_Name" selected="True" />
+            <Field field="Show_Day" selected="True" />
+            <Field field="Weekday/Weekend" selected="True" />
+            <Field field="Fav_Cinema_FReg_Movie" selected="True" />
+            <Field field="Fav_Cinema_FReg_NM" selected="True" />
+            <Field field="Fav_Movie_Genre" selected="True" />
+            <Field field="State" selected="True" />
+            <Field field="*Unknown" selected="True" />
+          </DataFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTranspose" />
+    </Node>
+    <Node ToolID="2">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.JSONBuild.JSONBuild">
+        <Position x="546" y="378" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Name_Field>Name</Name_Field>
+          <StringValue_Field>Value</StringValue_Field>
+          <IntValue_Field />
+          <FloatValue_Field />
+          <BoolValue_Field />
+          <GroupFields orderChanged="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJSONBuild" />
+    </Node>
+    <Node ToolID="3">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.RecordID.RecordID">
+        <Position x="150" y="378" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FieldName>RecordId</FieldName>
+          <StartValue>1</StartValue>
+          <FieldType>Int32</FieldType>
+          <FieldSize>6</FieldSize>
+          <Position>0</Position>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxRecordID" />
+    </Node>
+    <Node ToolID="4">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="414" y="378" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="&quot;Record&quot; + &quot;.&quot; + ToString([RecordId]) + &quot;.&quot; + [Name]" field="Name" size="500" type="V_WString" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText><![CDATA[Name = "Record" + "." + ToString([RecordId]) + "." + [Name]
+]]></DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="5">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="318" y="378" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="Name" selected="True" type="V_WString" size="500" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="7">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="798" y="474" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File MaxRecords="" FileFormat="0">.\CorrectOutput.json</File>
+          <Passwords />
+          <FormatSpecificOptions>
+            <LineEndStyle>CRLF</LineEndStyle>
+            <Delimeter>\0</Delimeter>
+            <ForceQuotes>False</ForceQuotes>
+            <HeaderRow>True</HeaderRow>
+            <CodePage>UTF16</CodePage>
+            <WriteBOM>True</WriteBOM>
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>Correct.json</AnnotationText>
+          <DefaultAnnotationText>CorrectOutput.json</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+    <Node ToolID="11">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+        <Position x="66" y="378" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <NumRows value="2" />
+          <Fields>
+            <Field name="email" />
+            <Field name="mobile" />
+            <Field name="category" />
+            <Field name="cityPreference" />
+            <Field name="numberOfTransactions" />
+            <Field name="ticketQuantity" />
+            <Field name="totalAmtTicket" />
+            <Field name="totalRevenue" />
+            <Field name="totalDiscountAvailed" />
+            <Field name="Offer_Fav" />
+            <Field name="totalNoOfOfferAvailed" />
+            <Field name="acquisitionAmtFirst_Txn" />
+            <Field name="preferredShowTime" />
+            <Field name="bookingGenre" />
+            <Field name="firstTransactionDate" />
+            <Field name="lastTransactionDate" />
+            <Field name="preferredModeOfPayment" />
+            <Field name="Member_lngId" />
+            <Field name="dateOfBirth" />
+            <Field name="dateOfAnniversary" />
+            <Field name="hasQuickPay" />
+            <Field name="isRefundToWalletEnabled" />
+            <Field name="Event_strLanguage" />
+            <Field name="Event_strType" />
+            <Field name="Appl_Name" />
+            <Field name="Show_Day" />
+            <Field name="Weekday/Weekend" />
+            <Field name="Fav_Cinema_FReg_Movie" />
+            <Field name="Fav_Cinema_FReg_NM" />
+            <Field name="Fav_Movie_Genre" />
+            <Field name="State" />
+            <Field name="Country" />
+          </Fields>
+          <Data>
+            <r>
+              <c>ThinkLikeaCSE@alteryx.com</c>
+              <c>1-800-ALT-ERYX</c>
+              <c>Active</c>
+              <c>Irvine</c>
+              <c>20</c>
+              <c>50</c>
+              <c>10558.48</c>
+              <c>512.15</c>
+              <c>150</c>
+              <c>Y</c>
+              <c>1</c>
+              <c>260</c>
+              <c>Evening-Night</c>
+              <c>DRAMA|SPORTS|COMEDY</c>
+              <c>2013-05-15 21:20:32</c>
+              <c>2018-04-05 17:45:20</c>
+              <c>Credit Card</c>
+              <c>456AYX</c>
+              <c>1990-02-14</c>
+              <c />
+              <c>YES</c>
+              <c>YES</c>
+              <c>ENG/FR</c>
+              <c>Movie/Show</c>
+              <c>Apple iOS</c>
+              <c>Friday</c>
+              <c>Weekend</c>
+              <c>AMC</c>
+              <c>Assembly Road</c>
+              <c>COMEDY|ACTION|DRAMA|HORROR|ADVENTURE FILM</c>
+              <c>Irvine</c>
+              <c>USA</c>
+            </r>
+            <r>
+              <c>Alteryx#Inspire@alteryx.com</c>
+              <c>1-800-INS-PIRE</c>
+              <c>Not-Active</c>
+              <c>Anaheim</c>
+              <c>1</c>
+              <c>9000</c>
+              <c>1000000</c>
+              <c>9000000000</c>
+              <c>10000</c>
+              <c>Y</c>
+              <c>0</c>
+              <c>0</c>
+              <c>Evening</c>
+              <c>DRAMA|SPORTS|COMEDY</c>
+              <c>2014-03-12 24:20:59</c>
+              <c>2018-03-08 15:21:13</c>
+              <c>Credit Card</c>
+              <c>INSPIRE9000</c>
+              <c />
+              <c>2018-03-12</c>
+              <c>YES</c>
+              <c>YES</c>
+              <c>ENG/FR/GER/AUS</c>
+              <c>Movie</c>
+              <c>Apple iOS</c>
+              <c>Saturday</c>
+              <c>Weekend</c>
+              <c>AMC</c>
+              <c>Tustin</c>
+              <c>COMEDY|ACTION|DRAMA|HORROR|ADVENTURE FILM</c>
+              <c>Irvine</c>
+              <c>USA</c>
+            </r>
+          </Data>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+    </Node>
+    <Node ToolID="17">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="630" y="378" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="19">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="558" y="486" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File FileFormat="54" MaxRecords="">.\Test.json</File>
+          <Passwords />
+          <FormatSpecificOptions>
+            <CodePage>28591</CodePage>
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Test.json</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+    <Node ToolID="20">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="654" y="474" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File MaxRecords="" FileFormat="0">.\DiffFormat.csv</File>
+          <Passwords />
+          <FormatSpecificOptions>
+            <LineEndStyle>CRLF</LineEndStyle>
+            <Delimeter>,</Delimeter>
+            <ForceQuotes>False</ForceQuotes>
+            <HeaderRow>True</HeaderRow>
+            <CodePage>UTF16</CodePage>
+            <WriteBOM>True</WriteBOM>
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>DiffFormat.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+    <Node ToolID="25">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Transpose.Transpose">
+        <Position x="330" y="630" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <ErrorWarn>Warn</ErrorWarn>
+          <KeyFields>
+            <Field field="RecordId" />
+          </KeyFields>
+          <DataFields>
+            <Field field="RecordId" selected="False" />
+            <Field field="email" selected="True" />
+            <Field field="mobile" selected="True" />
+            <Field field="category" selected="True" />
+            <Field field="cityPreference" selected="True" />
+            <Field field="numberOfTransactions" selected="True" />
+            <Field field="ticketQuantity" selected="True" />
+            <Field field="totalAmtTicket" selected="True" />
+            <Field field="totalRevenue" selected="True" />
+            <Field field="totalDiscountAvailed" selected="True" />
+            <Field field="Offer_Fav" selected="True" />
+            <Field field="totalNoOfOfferAvailed" selected="True" />
+            <Field field="acquisitionAmtFirst_Txn" selected="True" />
+            <Field field="preferredShowTime" selected="True" />
+            <Field field="bookingGenre" selected="True" />
+            <Field field="firstTransactionDate" selected="True" />
+            <Field field="lastTransactionDate" selected="True" />
+            <Field field="preferredModeOfPayment" selected="True" />
+            <Field field="Member_lngId" selected="True" />
+            <Field field="dateOfBirth" selected="True" />
+            <Field field="dateOfAnniversary" selected="True" />
+            <Field field="hasQuickPay" selected="True" />
+            <Field field="isRefundToWalletEnabled" selected="True" />
+            <Field field="Event_strLanguage" selected="True" />
+            <Field field="Event_strType" selected="True" />
+            <Field field="Appl_Name" selected="True" />
+            <Field field="Show_Day" selected="True" />
+            <Field field="Weekday/Weekend" selected="True" />
+            <Field field="Fav_Cinema_FReg_Movie" selected="True" />
+            <Field field="Fav_Cinema_FReg_NM" selected="True" />
+            <Field field="Fav_Movie_Genre" selected="True" />
+            <Field field="State" selected="True" />
+            <Field field="Country" selected="True" />
+            <Field field="*Unknown" selected="True" />
+          </DataFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTranspose" />
+    </Node>
+    <Node ToolID="26">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.JSONBuild.JSONBuild">
+        <Position x="570" y="630" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Name_Field>Name</Name_Field>
+          <StringValue_Field>Value</StringValue_Field>
+          <IntValue_Field />
+          <FloatValue_Field />
+          <BoolValue_Field />
+          <GroupFields orderChanged="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJSONBuild" />
+    </Node>
+    <Node ToolID="27">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.RecordID.RecordID">
+        <Position x="246" y="630" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FieldName>RecordId</FieldName>
+          <StartValue>1</StartValue>
+          <FieldType>Int32</FieldType>
+          <FieldSize>6</FieldSize>
+          <Position>0</Position>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxRecordID" />
+    </Node>
+    <Node ToolID="28">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="486" y="630" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="&quot;Record&quot; + &quot;.&quot; + ToString([RecordId]) + &quot;.&quot; + [Name]" field="Name" size="500" type="V_WString" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText><![CDATA[Name = "Record" + "." + ToString([RecordId]) + "." + [Name]
+]]></DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="29">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="402" y="630" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="Name" selected="True" type="V_WString" size="500" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="30">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+        <Position x="150" y="630" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <NumRows value="2" />
+          <Fields>
+            <Field name="email" />
+            <Field name="mobile" />
+            <Field name="category" />
+            <Field name="cityPreference" />
+            <Field name="numberOfTransactions" />
+            <Field name="ticketQuantity" />
+            <Field name="totalAmtTicket" />
+            <Field name="totalRevenue" />
+            <Field name="totalDiscountAvailed" />
+            <Field name="Offer_Fav" />
+            <Field name="totalNoOfOfferAvailed" />
+            <Field name="acquisitionAmtFirst_Txn" />
+            <Field name="preferredShowTime" />
+            <Field name="bookingGenre" />
+            <Field name="firstTransactionDate" />
+            <Field name="lastTransactionDate" />
+            <Field name="preferredModeOfPayment" />
+            <Field name="Member_lngId" />
+            <Field name="dateOfBirth" />
+            <Field name="dateOfAnniversary" />
+            <Field name="hasQuickPay" />
+            <Field name="isRefundToWalletEnabled" />
+            <Field name="Event_strLanguage" />
+            <Field name="Event_strType" />
+            <Field name="Appl_Name" />
+            <Field name="Show_Day" />
+            <Field name="Weekday/Weekend" />
+            <Field name="Fav_Cinema_FReg_Movie" />
+            <Field name="Fav_Cinema_FReg_NM" />
+            <Field name="Fav_Movie_Genre" />
+            <Field name="State" />
+            <Field name="Country" />
+          </Fields>
+          <Data>
+            <r>
+              <c>ThinkLikeaCSE@alteryx.com</c>
+              <c>1-800-ALT-ERYX</c>
+              <c>Active</c>
+              <c>Irvine</c>
+              <c>20</c>
+              <c>50</c>
+              <c>10558.48</c>
+              <c>512.15</c>
+              <c>150</c>
+              <c>Y</c>
+              <c>1</c>
+              <c>260</c>
+              <c>Evening-Night</c>
+              <c>DRAMA|SPORTS|COMEDY</c>
+              <c>2013-05-15 21:20:32</c>
+              <c>2018-04-05 17:45:20</c>
+              <c>Credit Card</c>
+              <c>456AYX</c>
+              <c>1990-02-14</c>
+              <c />
+              <c>YES</c>
+              <c>YES</c>
+              <c>ENG/FR</c>
+              <c>Movie/Show</c>
+              <c>Apple iOS</c>
+              <c>Friday</c>
+              <c>Weekend</c>
+              <c>AMC</c>
+              <c>Assembly Road</c>
+              <c>COMEDY|ACTION|DRAMA|HORROR|ADVENTURE FILM</c>
+              <c>Irvine</c>
+              <c>USA</c>
+            </r>
+            <r>
+              <c>Alteryx#Inspire@alteryx.com</c>
+              <c>1-800-INS-PIRE</c>
+              <c>Not-Active</c>
+              <c>Anaheim</c>
+              <c>1</c>
+              <c>9000</c>
+              <c>1000000</c>
+              <c>9000000000</c>
+              <c>10000</c>
+              <c>Y</c>
+              <c>0</c>
+              <c>0</c>
+              <c>Evening</c>
+              <c>DRAMA|SPORTS|COMEDY</c>
+              <c>2014-03-12 24:20:59</c>
+              <c>2018-03-08 15:21:13</c>
+              <c>Credit Card</c>
+              <c>INSPIRE9000</c>
+              <c />
+              <c>2018-03-12</c>
+              <c>YES</c>
+              <c>YES</c>
+              <c>ENG/FR/GER/AUS</c>
+              <c>Movie</c>
+              <c>Apple iOS</c>
+              <c>Saturday</c>
+              <c>Weekend</c>
+              <c>AMC</c>
+              <c>Tustin</c>
+              <c>COMEDY|ACTION|DRAMA|HORROR|ADVENTURE FILM</c>
+              <c>Irvine</c>
+              <c>USA</c>
+            </r>
+          </Data>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+    </Node>
+    <Node ToolID="31">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="654" y="630" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="32">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="726" y="630" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File FileFormat="54" MaxRecords="">.\NotWorking.json</File>
+          <Passwords />
+          <FormatSpecificOptions>
+            <CodePage>UTF16</CodePage>
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText><![CDATA[NotWorking.json
+Open the .json file with notepad and you will see '\' inside. ]]></AnnotationText>
+          <DefaultAnnotationText>NotWorking.json</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+    <Node ToolID="33">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="318" y="54" width="744" height="300" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text><![CDATA[JSON Output Want
+JSON
+{"Record":[{"email":"ThinkLikeaCSE@alteryx.com","mobile":"1-800-ALT-ERYX","category":"Active","cityPreference":"Irvine","numberOfTransactions":"20","ticketQuantity":"50","totalAmtTicket":"10558.48","totalRevenue":"512.15","totalDiscountAvailed":"150","Offer_Fav":"Y","totalNoOfOfferAvailed":"1","acquisitionAmtFirst_Txn":"260","preferredShowTime":"Evening-Night","bookingGenre":"DRAMA SPORTS COMEDY","firstTransactionDate":"2013-05-15 21:20:32","lastTransactionDate":"2018-04-05 17:45:20","preferredModeOfPayment":"Credit Card","Member_lngId":"456AYX","dateOfBirth":"1990-02-14","dateOfAnniversary":"","hasQuickPay":"YES","isRefundToWalletEnabled":"YES","Event_strLanguage":"ENG/FR","Event_strType":"Movie/Show","Appl_Name":"Apple iOS","Show_Day":"Friday","Weekday/Weekend":"Weekend","Fav_Cinema_FReg_Movie":"AMC","Fav_Cinema_FReg_NM":"Assembly Road","Fav_Movie_Genre":"COMEDY ACTION DRAMA HORROR ADVENTURE FILM","State":"Irvine","Country":"USA"},
+
+{"email":"Alteryx#Inspire@alteryx.com","mobile":"1-800-INS-PIRE","category":"Not-Active","cityPreference":"Anaheim","numberOfTransactions":"1","ticketQuantity":"9000","totalAmtTicket":"1000000","totalRevenue":"9000000000","totalDiscountAvailed":"10000","Offer_Fav":"Y","totalNoOfOfferAvailed":"0","acquisitionAmtFirst_Txn":"0","preferredShowTime":"Evening","bookingGenre":"DRAMA SPORTS COMEDY","firstTransactionDate":"2014-03-12 24:20:59","lastTransactionDate":"2018-03-08 15:21:13","preferredModeOfPayment":"Credit Card","Member_lngId":"INSPIRE9000","dateOfBirth":"","dateOfAnniversary":"2018-03-12","hasQuickPay":"YES","isRefundToWalletEnabled":"YES","Event_strLanguage":"ENG/FR/GER/AUS","Event_strType":"Movie","Appl_Name":"Apple iOS","Show_Day":"Saturday","Weekday/Weekend":"Weekend","Fav_Cinema_FReg_Movie":"AMC","Fav_Cinema_FReg_NM":"Tustin","Fav_Movie_Genre":"COMEDY ACTION DRAMA HORROR ADVENTURE FILM","State":"Irvine","Country":"USA"}]}
+]]></Text>
+          <Font name="Segoe UI" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="Silver" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="36">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="54" y="139" width="205" height="127" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>Input</Caption>
+          <Style TextColor="#314c4a" FillColor="#c0c0c0" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="False" />
+          <Folded value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="34">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+            <Position x="79" y="182" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <NumRows value="2" />
+              <Fields>
+                <Field name="email" />
+                <Field name="mobile" />
+                <Field name="category" />
+                <Field name="cityPreference" />
+                <Field name="numberOfTransactions" />
+                <Field name="ticketQuantity" />
+                <Field name="totalAmtTicket" />
+                <Field name="totalRevenue" />
+                <Field name="totalDiscountAvailed" />
+                <Field name="Offer_Fav" />
+                <Field name="totalNoOfOfferAvailed" />
+                <Field name="acquisitionAmtFirst_Txn" />
+                <Field name="preferredShowTime" />
+                <Field name="bookingGenre" />
+                <Field name="firstTransactionDate" />
+                <Field name="lastTransactionDate" />
+                <Field name="preferredModeOfPayment" />
+                <Field name="Member_lngId" />
+                <Field name="dateOfBirth" />
+                <Field name="dateOfAnniversary" />
+                <Field name="hasQuickPay" />
+                <Field name="isRefundToWalletEnabled" />
+                <Field name="Event_strLanguage" />
+                <Field name="Event_strType" />
+                <Field name="Appl_Name" />
+                <Field name="Show_Day" />
+                <Field name="Weekday/Weekend" />
+                <Field name="Fav_Cinema_FReg_Movie" />
+                <Field name="Fav_Cinema_FReg_NM" />
+                <Field name="Fav_Movie_Genre" />
+                <Field name="State" />
+                <Field name="Country" />
+              </Fields>
+              <Data>
+                <r>
+                  <c>ThinkLikeaCSE@alteryx.com</c>
+                  <c>1-800-ALT-ERYX</c>
+                  <c>Active</c>
+                  <c>Irvine</c>
+                  <c>20</c>
+                  <c>50</c>
+                  <c>10558.48</c>
+                  <c>512.15</c>
+                  <c>150</c>
+                  <c>Y</c>
+                  <c>1</c>
+                  <c>260</c>
+                  <c>Evening-Night</c>
+                  <c>DRAMA|SPORTS|COMEDY</c>
+                  <c>2013-05-15 21:20:32</c>
+                  <c>2018-04-05 17:45:20</c>
+                  <c>Credit Card</c>
+                  <c>456AYX</c>
+                  <c>1990-02-14</c>
+                  <c />
+                  <c>YES</c>
+                  <c>YES</c>
+                  <c>ENG/FR</c>
+                  <c>Movie/Show</c>
+                  <c>Apple iOS</c>
+                  <c>Friday</c>
+                  <c>Weekend</c>
+                  <c>AMC</c>
+                  <c>Assembly Road</c>
+                  <c>COMEDY|ACTION|DRAMA|HORROR|ADVENTURE FILM</c>
+                  <c>Irvine</c>
+                  <c>USA</c>
+                </r>
+                <r>
+                  <c>Alteryx#Inspire@alteryx.com</c>
+                  <c>1-800-INS-PIRE</c>
+                  <c>Not-Active</c>
+                  <c>Anaheim</c>
+                  <c>1</c>
+                  <c>9000</c>
+                  <c>1000000</c>
+                  <c>9000000000</c>
+                  <c>10000</c>
+                  <c>Y</c>
+                  <c>0</c>
+                  <c>0</c>
+                  <c>Evening</c>
+                  <c>DRAMA|SPORTS|COMEDY</c>
+                  <c>2014-03-12 24:20:59</c>
+                  <c>2018-03-08 15:21:13</c>
+                  <c>Credit Card</c>
+                  <c>INSPIRE9000</c>
+                  <c />
+                  <c>2018-03-12</c>
+                  <c>YES</c>
+                  <c>YES</c>
+                  <c>ENG/FR/GER/AUS</c>
+                  <c>Movie</c>
+                  <c>Apple iOS</c>
+                  <c>Saturday</c>
+                  <c>Weekend</c>
+                  <c>AMC</c>
+                  <c>Tustin</c>
+                  <c>COMEDY|ACTION|DRAMA|HORROR|ADVENTURE FILM</c>
+                  <c>Irvine</c>
+                  <c>USA</c>
+                </r>
+              </Data>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+        </Node>
+        <Node ToolID="35">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+            <Position x="175" y="182" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <TempFile>C:\ProgramData\Alteryx\Engine\Engine_6248_8ef72b3a2068476c8cf9446e695f07e0_\Engine_13708_72ffc4695cc4421caaf21d30325c1795_.yxdb</TempFile>
+              <TempFileDataProfiling />
+              <Layout>
+                <ViewMode>Single</ViewMode>
+                <ViewSize value="100" />
+                <View1>
+                  <DefaultTab>Profile</DefaultTab>
+                  <Hints>
+                    <Table />
+                  </Hints>
+                </View1>
+                <View2 />
+              </Layout>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+        </Node>
+      </ChildNodes>
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="5" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="2" Connection="Output" />
+      <Destination ToolID="17" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="3" Connection="Output" />
+      <Destination ToolID="1" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="4" Connection="Output" />
+      <Destination ToolID="2" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="4" Connection="Output" />
+      <Destination ToolID="19" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="5" Connection="Output" />
+      <Destination ToolID="4" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="11" Connection="Output" />
+      <Destination ToolID="3" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="17" Connection="Output" />
+      <Destination ToolID="7" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="17" Connection="Output" />
+      <Destination ToolID="20" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="25" Connection="Output" />
+      <Destination ToolID="29" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="26" Connection="Output" />
+      <Destination ToolID="31" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="27" Connection="Output" />
+      <Destination ToolID="25" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="28" Connection="Output" />
+      <Destination ToolID="26" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="29" Connection="Output" />
+      <Destination ToolID="28" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="30" Connection="Output" />
+      <Destination ToolID="27" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="31" Connection="Output" />
+      <Destination ToolID="32" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="34" Connection="Output" />
+      <Destination ToolID="35" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>challenge_114_solution</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>

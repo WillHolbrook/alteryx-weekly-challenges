@@ -1,0 +1,1337 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2019.3">
+  <Nodes>
+    <Node ToolID="45">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="54" y="318" width="240" height="156" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Input</Text>
+          <Font name="Segoe UI" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="26">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.MultiRowFormula.MultiRowFormula">
+        <Position x="1314" y="570" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <UpdateField value="True" />
+          <UpdateField_Name>Field_145</UpdateField_Name>
+          <CreateField_Name />
+          <CreateField_Type>Int32</CreateField_Type>
+          <CreateField_Size>4</CreateField_Size>
+          <OtherRows>Empty</OtherRows>
+          <NumRows value="1" />
+          <Expression>IF RIGHT(TRIM([Field_145]),1) == '-' THEN '-'+ Replace(TRIM([Field_145]),'-','')  ELSE [Field_145] ENDIF</Expression>
+          <GroupByFields />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText />
+          <DefaultAnnotationText>IF RIGHT(TRIM([Field_145]),1) == '-' THEN '-'+ Replace(TRIM([...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxMultiRowFormula" />
+    </Node>
+    <Node ToolID="27">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.MultiRowFormula.MultiRowFormula">
+        <Position x="1410" y="570" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <UpdateField value="True" />
+          <UpdateField_Name>Field_147</UpdateField_Name>
+          <CreateField_Name>New Field</CreateField_Name>
+          <CreateField_Type>Int32</CreateField_Type>
+          <CreateField_Size>4</CreateField_Size>
+          <OtherRows>Empty</OtherRows>
+          <NumRows value="1" />
+          <Expression>IF RIGHT(TRIM([Field_147]),1) == '-' THEN '-'+ Replace(TRIM([Field_147]),'-','')  ELSE [Field_147] ENDIF</Expression>
+          <GroupByFields />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText />
+          <DefaultAnnotationText>IF RIGHT(TRIM([Field_147]),1) == '-' THEN '-'+ Replace(TRIM([...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxMultiRowFormula" />
+    </Node>
+    <Node ToolID="41">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="54" y="54" width="324" height="72" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text />
+          <Font name="Segoe UI" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="3" />
+          <Justification Justification="4" />
+          <BG_Image>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</BG_Image>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="42">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="450" y="66" width="300" height="40" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Weekly Challenge #188</Text>
+          <Font name="Microsoft Sans Serif" size="16.2" style="0" />
+          <TextColor name="Gray" />
+          <FillColor name="White" />
+          <Shape shape="3" />
+          <Justification Justification="0" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="43">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="54" y="114" width="672" height="120" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text><![CDATA[Your tax group has advised you that the information they need is available only in a .TXT report.   To properly import the data into a subsequent system, they need the data filtered and in a specified format.
+
+First, match the ID no. from the totals rows to the corresponding detail lines.  Then filter to only detail rows with a tax codes of P1 or P9.  Format, sort order and field names on the output file must match the given output for the file to load correctly.
+
+
+
+ 
+
+  ]]></Text>
+          <Font name="Microsoft Sans Serif" size="7.8" style="0" />
+          <TextColor name="Gray" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="3" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="44">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="486" y="318" width="240" height="156" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text><![CDATA[Output
+]]></Text>
+          <Font name="Segoe UI" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="47">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="210" y="378" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\ProgramData\Alteryx\Engine\Engine_14908_c81241db3a564c8d9111d2258def3ed4_\Engine_11108_1e98323bcede495180d2d1c15f7beca2_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="48">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="642" y="378" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\ProgramData\Alteryx\Engine\Engine_14908_c81241db3a564c8d9111d2258def3ed4_\Engine_11108_31868f426cad4219ba7229049caf9d68_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="50">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+        <Position x="498" y="378" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <NumRows value="46" />
+          <Fields>
+            <Field name="VAT No." />
+            <Field name="Post date" />
+            <Field name="Doc number" />
+            <Field name="Document Dt" />
+            <Field name="Type" />
+            <Field name="Base amt" />
+            <Field name="Tax amt" />
+            <Field name="Tax Code" />
+          </Fields>
+          <Data>
+            <r>
+              <c>111-81-41019</c>
+              <c>06/30/2019</c>
+              <c>1910007001</c>
+              <c>06/17/2019</c>
+              <c>KR</c>
+              <c>6960950</c>
+              <c>696095</c>
+              <c>P1</c>
+            </r>
+            <r>
+              <c>111-81-41019</c>
+              <c>06/30/2019</c>
+              <c>1910026000</c>
+              <c>07/12/2019</c>
+              <c>KR</c>
+              <c>15485620</c>
+              <c>1548562</c>
+              <c>P1</c>
+            </r>
+            <r>
+              <c>111-81-41019</c>
+              <c>06/30/2019</c>
+              <c>1910261006</c>
+              <c>07/01/2019</c>
+              <c>KR</c>
+              <c>14626760</c>
+              <c>1462676</c>
+              <c>P1</c>
+            </r>
+            <r>
+              <c>111-81-41019</c>
+              <c>06/30/2019</c>
+              <c>5110006019</c>
+              <c>07/12/2019</c>
+              <c>RE</c>
+              <c>96541270</c>
+              <c>9654127</c>
+              <c>P1</c>
+            </r>
+            <r>
+              <c>111-81-41019</c>
+              <c>06/30/2019</c>
+              <c>5110029001</c>
+              <c>07/25/2019</c>
+              <c>RE</c>
+              <c>104791530</c>
+              <c>10479153</c>
+              <c>P1</c>
+            </r>
+            <r>
+              <c>111-81-41019</c>
+              <c>06/30/2019</c>
+              <c>5110466063</c>
+              <c>07/01/2019</c>
+              <c>RE</c>
+              <c>102625940</c>
+              <c>10262594</c>
+              <c>P1</c>
+            </r>
+            <r>
+              <c>116-85-36080</c>
+              <c>06/16/2019</c>
+              <c>5140482033</c>
+              <c>07/01/2019</c>
+              <c>RE</c>
+              <c>2640000</c>
+              <c>264000</c>
+              <c>P1</c>
+            </r>
+            <r>
+              <c>117-86-38534</c>
+              <c>06/01/2019</c>
+              <c>5160429030</c>
+              <c>06/26/2019</c>
+              <c>RE</c>
+              <c>56000</c>
+              <c>5600</c>
+              <c>P1</c>
+            </r>
+            <r>
+              <c>117-86-38534</c>
+              <c>06/24/2019</c>
+              <c>5148466117</c>
+              <c>06/29/2019</c>
+              <c>RE</c>
+              <c>60000</c>
+              <c>6000</c>
+              <c>P1</c>
+            </r>
+            <r>
+              <c>117-86-38534</c>
+              <c>06/16/2019</c>
+              <c>5800476217</c>
+              <c>06/01/2019</c>
+              <c>RE</c>
+              <c>840000</c>
+              <c>84000</c>
+              <c>P1</c>
+            </r>
+            <r>
+              <c>118-81-03897</c>
+              <c>06/02/2019</c>
+              <c>5400446089</c>
+              <c>06/12/2019</c>
+              <c>RE</c>
+              <c>8717721</c>
+              <c>871772</c>
+              <c>P1</c>
+            </r>
+            <r>
+              <c>118-81-03897</c>
+              <c>06/01/2019</c>
+              <c>5140446090</c>
+              <c>06/12/2019</c>
+              <c>RE</c>
+              <c>5500000</c>
+              <c>550000</c>
+              <c>P1</c>
+            </r>
+            <r>
+              <c>119-81-52311</c>
+              <c>06/20/2019</c>
+              <c>5100089038</c>
+              <c>06/30/2019</c>
+              <c>RE</c>
+              <c>187000</c>
+              <c>18700</c>
+              <c>P1</c>
+            </r>
+            <r>
+              <c>119-81-52311</c>
+              <c>06/03/2019</c>
+              <c>5180474010</c>
+              <c>06/15/2019</c>
+              <c>RE</c>
+              <c>5739000</c>
+              <c>573900</c>
+              <c>P1</c>
+            </r>
+            <r>
+              <c>119-81-77493</c>
+              <c>06/30/2019</c>
+              <c>5110006036</c>
+              <c>07/13/2019</c>
+              <c>RE</c>
+              <c>112769579</c>
+              <c>11276958</c>
+              <c>P1</c>
+            </r>
+            <r>
+              <c>119-81-77493</c>
+              <c>06/30/2019</c>
+              <c>5107466049</c>
+              <c>07/29/2019</c>
+              <c>RE</c>
+              <c>118361369</c>
+              <c>11836136</c>
+              <c>P1</c>
+            </r>
+            <r>
+              <c>123-43-92508</c>
+              <c>06/30/2019</c>
+              <c>1780003001</c>
+              <c>06/30/2019</c>
+              <c>KG</c>
+              <c>-6909960</c>
+              <c>-690990</c>
+              <c>P1</c>
+            </r>
+            <r>
+              <c>123-43-92508</c>
+              <c>06/30/2019</c>
+              <c>1708013000</c>
+              <c>07/15/2019</c>
+              <c>KG</c>
+              <c>-10</c>
+              <c>-1</c>
+              <c>P1</c>
+            </r>
+            <r>
+              <c>123-43-92508</c>
+              <c>06/17/2019</c>
+              <c>1704076001</c>
+              <c>06/30/2019</c>
+              <c>KG</c>
+              <c>-141719460</c>
+              <c>-14171950</c>
+              <c>P1</c>
+            </r>
+            <r>
+              <c>123-43-92508</c>
+              <c>06/30/2019</c>
+              <c>1707076006</c>
+              <c>06/30/2019</c>
+              <c>KG</c>
+              <c>-10</c>
+              <c>-1</c>
+              <c>P1</c>
+            </r>
+            <r>
+              <c>123-43-92508</c>
+              <c>06/30/2019</c>
+              <c>1720082001</c>
+              <c>07/31/2019</c>
+              <c>KG</c>
+              <c>-100249420</c>
+              <c>-10024940</c>
+              <c>P1</c>
+            </r>
+            <r>
+              <c>123-43-92508</c>
+              <c>06/10/2019</c>
+              <c>1901004000</c>
+              <c>06/10/2019</c>
+              <c>KR</c>
+              <c>736238700</c>
+              <c>73623870</c>
+              <c>P1</c>
+            </r>
+            <r>
+              <c>123-43-92508</c>
+              <c>06/30/2019</c>
+              <c>1903027000</c>
+              <c>07/15/2019</c>
+              <c>KR</c>
+              <c>8642</c>
+              <c>1</c>
+              <c>P1</c>
+            </r>
+            <r>
+              <c>123-43-92508</c>
+              <c>06/10/2019</c>
+              <c>1900007001</c>
+              <c>07/15/2019</c>
+              <c>KR</c>
+              <c>118482</c>
+              <c>11850</c>
+              <c>P1</c>
+            </r>
+            <r>
+              <c>123-43-92508</c>
+              <c>06/11/2019</c>
+              <c>1900209004</c>
+              <c>06/11/2019</c>
+              <c>KR</c>
+              <c>4465995000</c>
+              <c>446599500</c>
+              <c>P1</c>
+            </r>
+            <r>
+              <c>174-06-37093</c>
+              <c>06/02/2019</c>
+              <c>1908807006</c>
+              <c>06/26/2018</c>
+              <c>KR</c>
+              <c>825500</c>
+              <c>82550</c>
+              <c>P9</c>
+            </r>
+            <r>
+              <c>174-06-37093</c>
+              <c>06/01/2019</c>
+              <c>1940257043</c>
+              <c>06/30/2018</c>
+              <c>KR</c>
+              <c>1411000</c>
+              <c>141100</c>
+              <c>P9</c>
+            </r>
+            <r>
+              <c>174-06-37093</c>
+              <c>06/02/2019</c>
+              <c>1970268016</c>
+              <c>06/30/2018</c>
+              <c>KR</c>
+              <c>875000</c>
+              <c>87500</c>
+              <c>P9</c>
+            </r>
+            <r>
+              <c>191-01-77441</c>
+              <c>06/23/2019</c>
+              <c>1900257027</c>
+              <c>06/30/2019</c>
+              <c>KR</c>
+              <c>22164000</c>
+              <c>2216400</c>
+              <c>P1</c>
+            </r>
+            <r>
+              <c>192-82-04066</c>
+              <c>06/07/2019</c>
+              <c>1900406000</c>
+              <c>06/13/2019</c>
+              <c>KR</c>
+              <c>4250000000</c>
+              <c>425000000</c>
+              <c>P1</c>
+            </r>
+            <r>
+              <c>192-82-04066</c>
+              <c>06/26/2019</c>
+              <c>1800256000</c>
+              <c>06/30/2019</c>
+              <c>KR</c>
+              <c>556479040</c>
+              <c>55647904</c>
+              <c>P1</c>
+            </r>
+            <r>
+              <c>192-82-04066</c>
+              <c>06/29/2019</c>
+              <c>1900268001</c>
+              <c>06/30/2019</c>
+              <c>KR</c>
+              <c>881163058</c>
+              <c>88116305</c>
+              <c>P1</c>
+            </r>
+            <r>
+              <c>204-71-37125</c>
+              <c>06/29/2019</c>
+              <c>1904013007</c>
+              <c>06/30/2019</c>
+              <c>KR</c>
+              <c>51812290</c>
+              <c>5181229</c>
+              <c>P1</c>
+            </r>
+            <r>
+              <c>204-71-37125</c>
+              <c>06/30/2019</c>
+              <c>1910249007</c>
+              <c>06/30/2019</c>
+              <c>KR</c>
+              <c>9005940</c>
+              <c>900594</c>
+              <c>P1</c>
+            </r>
+            <r>
+              <c>204-71-37125</c>
+              <c>06/28/2019</c>
+              <c>1900257007</c>
+              <c>07/31/2019</c>
+              <c>KR</c>
+              <c>14173910</c>
+              <c>1417391</c>
+              <c>P1</c>
+            </r>
+            <r>
+              <c>407-86-09872</c>
+              <c>06/29/2019</c>
+              <c>5100110015</c>
+              <c>07/28/2019</c>
+              <c>RE</c>
+              <c>1827273</c>
+              <c>182727</c>
+              <c>P1</c>
+            </r>
+            <r>
+              <c>407-86-09872</c>
+              <c>06/01/2019</c>
+              <c>5100112000</c>
+              <c>06/04/2019</c>
+              <c>RE</c>
+              <c>535922230</c>
+              <c>53592223</c>
+              <c>P1</c>
+            </r>
+            <r>
+              <c>407-86-09872</c>
+              <c>06/01/2019</c>
+              <c>5100144003</c>
+              <c>06/02/2019</c>
+              <c>RE</c>
+              <c>529659150</c>
+              <c>52965915</c>
+              <c>P1</c>
+            </r>
+            <r>
+              <c>814-81-61910</c>
+              <c>06/18/2019</c>
+              <c>1980005001</c>
+              <c>06/26/2018</c>
+              <c>KR</c>
+              <c>830000</c>
+              <c>83000</c>
+              <c>P1</c>
+            </r>
+            <r>
+              <c>814-81-61910</c>
+              <c>06/18/2019</c>
+              <c>1908248004</c>
+              <c>06/30/2018</c>
+              <c>KR</c>
+              <c>830000</c>
+              <c>83000</c>
+              <c>P1</c>
+            </r>
+            <r>
+              <c>814-81-61910</c>
+              <c>06/17/2019</c>
+              <c>1400253005</c>
+              <c>06/28/2018</c>
+              <c>KR</c>
+              <c>830000</c>
+              <c>83000</c>
+              <c>P1</c>
+            </r>
+            <r>
+              <c>814-81-61910</c>
+              <c>06/22/2019</c>
+              <c>5400029011</c>
+              <c>06/25/2018</c>
+              <c>RE</c>
+              <c>1800000</c>
+              <c>180000</c>
+              <c>P1</c>
+            </r>
+            <r>
+              <c>814-81-61910</c>
+              <c>06/17/2019</c>
+              <c>5104485003</c>
+              <c>06/29/2018</c>
+              <c>RE</c>
+              <c>180000</c>
+              <c>18000</c>
+              <c>P1</c>
+            </r>
+            <r>
+              <c>814-81-61910</c>
+              <c>06/17/2019</c>
+              <c>5107485004</c>
+              <c>06/29/2018</c>
+              <c>RE</c>
+              <c>18760000</c>
+              <c>1876000</c>
+              <c>P1</c>
+            </r>
+            <r>
+              <c>814-81-61910</c>
+              <c>06/17/2019</c>
+              <c>5120485005</c>
+              <c>06/29/2018</c>
+              <c>RE</c>
+              <c>15176000</c>
+              <c>1517600</c>
+              <c>P1</c>
+            </r>
+            <r>
+              <c>814-81-61910</c>
+              <c>06/24/2019</c>
+              <c>5900485036</c>
+              <c>06/29/2018</c>
+              <c>RE</c>
+              <c>9200000</c>
+              <c>920000</c>
+              <c>P1</c>
+            </r>
+          </Data>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+    </Node>
+    <Node ToolID="51">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+        <Position x="78" y="378" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <NumRows value="185" />
+          <Fields>
+            <Field name="Field_1" />
+          </Fields>
+          <Data>
+            <r>
+              <c>----------------------------------------------------------------------------------------------------</c>
+            </r>
+            <r>
+              <c>(21)(  1  )Pag.</c>
+            </r>
+            <r>
+              <c />
+            </r>
+            <r>
+              <c />
+            </r>
+            <r>
+              <c />
+            </r>
+            <r>
+              <c />
+            </r>
+            <r>
+              <c>[Report Name 20 Form 3 (1)] (2002.4.12. Revised)</c>
+            </r>
+            <r>
+              <c>----------------------------------------------------------------------------------------------------</c>
+            </r>
+            <r>
+              <c>|                             Tax Invoice Summary by Vendor (BB)                                   |</c>
+            </r>
+            <r>
+              <c>|                                                                                                  |</c>
+            </r>
+            <r>
+              <c>|                                                                                                  |</c>
+            </r>
+            <r>
+              <c>|                                      (    Ye   Pe   )                                            |</c>
+            </r>
+            <r>
+              <c>|  1. Reporter Details (Company Code Details)                                                      |</c>
+            </r>
+            <r>
+              <c>----------------------------------------------------------------------------------------------------</c>
+            </r>
+            <r>
+              <c>|(1)ID no.       |111-22-33333    |(2)Co. name    |Company LLC                                 |</c>
+            </r>
+            <r>
+              <c>----------------------------------------------------------------------------------------------------</c>
+            </r>
+            <r>
+              <c>|(3)Rep.          |######    |(4)Location    |## ## #### 152 (&gt;                      |</c>
+            </r>
+            <r>
+              <c>----------------------------------------------------------------------------------------------------</c>
+            </r>
+            <r>
+              <c>|(5)Transaction   |2019YY 06MM 01DD ~ 2019YY 06MM 30DD|(6)Report.d|19YY 07MM 04DD                  |</c>
+            </r>
+            <r>
+              <c>----------------------------------------------------------------------------------------------------</c>
+            </r>
+            <r>
+              <c>|  2. Grand Total of Taxes                                                                         |</c>
+            </r>
+            <r>
+              <c>|---------------------------------------------------------------------------------------------------</c>
+            </r>
+            <r>
+              <c>|</c>
+            </r>
+            <r>
+              <c>|                                                                                                  |</c>
+            </r>
+            <r>
+              <c>|                    0001        0001      | | | |1|3|0|7|4|8|8|0|6|6|9| | | | |1|3|0|7|4|8|7|2|0|6|</c>
+            </r>
+            <r>
+              <c>|--------------------------------------------------------------------------------------------------|</c>
+            </r>
+            <r>
+              <c>|                                          | | | | | | | | | | | | | | | | | | | | | | | | | | | | |</c>
+            </r>
+            <r>
+              <c>|                    0000          0       | | | | | | | | | | | | | |0| | | | | | | | | | | | | |0|</c>
+            </r>
+            <r>
+              <c>|                                                                                                  |</c>
+            </r>
+            <r>
+              <c>|                                          | | | | | | | | | | | | | | | | | | | | | | | | | | | | |</c>
+            </r>
+            <r>
+              <c>|                    0000          0       | | | | | | | | | | | | | |0| | | | | | | | | | | | | |0|</c>
+            </r>
+            <r>
+              <c>|                                                                                                  |</c>
+            </r>
+            <r>
+              <c>|                    0000        0000      | | | | | | | | | | | | | |0| | | | | | | | | | | | | |0|</c>
+            </r>
+            <r>
+              <c>|--------------------------------------------------------------------------------------------------|</c>
+            </r>
+            <r>
+              <c>|                                          | | | | | | | | | | | | | | | | | | | | | | | | | | | | |</c>
+            </r>
+            <r>
+              <c>|                    0001        0001      | | | |1|3|0|7|4|8|8|0|6|6|9| | | | |1|3|0|7|4|8|7|2|0|6|</c>
+            </r>
+            <r>
+              <c>|                                                                                                  |</c>
+            </r>
+            <r>
+              <c>|                                          | | | | | | | | | | | | | | | | | | | | | | | | | | | | |</c>
+            </r>
+            <r>
+              <c>|                    0000        0000      | | | | | | | | | | | | | |0| | | | | | | | | | | | | |0|</c>
+            </r>
+            <r>
+              <c>|                                                                                                  |</c>
+            </r>
+            <r>
+              <c>|                    0001       0001      | | | |1|3|0|7|4|8|8|0|6|6|9| | | | |1|3|0|7|4|8|7|2|0|6|</c>
+            </r>
+            <r>
+              <c>|--------------------------------------------------------------------------------------------------|</c>
+            </r>
+            <r>
+              <c>|---------------------------------------------------------------------------------------------------</c>
+            </r>
+            <r>
+              <c>|(11) |(12)        |(13)Vendor   |(14) |(15)Base amount            |(16)Tax amount            |Rema|</c>
+            </r>
+            <r>
+              <c>|Seq. |ID no.     |    Name     | No. | Tr   TeHM  HuTt   Th  On  | Tr   TeHM  HuTt   Th  On |rks |</c>
+            </r>
+            <r>
+              <c>|---------------------------------------------------------------------------------------------------</c>
+            </r>
+            <r>
+              <c>|  1  |191-01-77441|#.####&gt; | 1   | | | | | | |2|2|1|6|4|0|0|0| | | | | | |2|2|1|6|4|0|0 |    |</c>
+            </r>
+            <r>
+              <c>----------------------------------------------------------------------------------------------------</c>
+            </r>
+            <r>
+              <c>|  Doc number   Type    Post date  Document Dt             Base amt    Tax Code      Tax amt       |</c>
+            </r>
+            <r>
+              <c>----------------------------------------------------------------------------------------------------</c>
+            </r>
+            <r>
+              <c>| 1900257027     KR    2019-06-23  2019-06-30           22,164,000      P1       2,216,400         |</c>
+            </r>
+            <r>
+              <c>----------------------------------------------------------------------------------------------------</c>
+            </r>
+            <r>
+              <c>|  2  |192-82-04066|#### #&gt; | 4   | | | | |5|7|7|2|6|8|0|4|9|8| | | | |5|7|7|2|6|8|0|4|9 |    |</c>
+            </r>
+            <r>
+              <c>----------------------------------------------------------------------------------------------------</c>
+            </r>
+            <r>
+              <c>|  Doc number   Type    Post date  Document Dt             Base amt    Tax Code      Tax amt       |</c>
+            </r>
+            <r>
+              <c>----------------------------------------------------------------------------------------------------</c>
+            </r>
+            <r>
+              <c>| 1900406000     KR    2019-06-07  2019-06-13        4,250,000,000      P1     425,000,000         |</c>
+            </r>
+            <r>
+              <c>| 1900013009     KR    2019-06-28  2019-06-30           85,038,400      P2       8,503,840         |</c>
+            </r>
+            <r>
+              <c>| 1800256000     KR    2019-06-26  2019-06-30          556,479,040      P1      55,647,904         |</c>
+            </r>
+            <r>
+              <c>| 1900268001     KR    2019-06-29  2019-06-30          881,163,058      P1      88,116,305         |</c>
+            </r>
+            <r>
+              <c>----------------------------------------------------------------------------------------------------</c>
+            </r>
+            <r>
+              <c>|  3  |204-71-37125|######&gt;| 4   | | | | | | |7|7|1|7|0|7|9|5| | | | | | |7|7|1|7|0|7|8 |    |</c>
+            </r>
+            <r>
+              <c>----------------------------------------------------------------------------------------------------</c>
+            </r>
+            <r>
+              <c>|  Doc number   Type    Post date  Document Dt             Base amt    Tax Code      Tax amt       |</c>
+            </r>
+            <r>
+              <c>----------------------------------------------------------------------------------------------------</c>
+            </r>
+            <r>
+              <c>| 1904013007     KR    2019-06-29  2019-06-30           51,812,290      P1       5,181,229         |</c>
+            </r>
+            <r>
+              <c>| 1900013216     KR    2019-06-30  2019-07-14            2,178,655      P6         217,864         |</c>
+            </r>
+            <r>
+              <c>| 1910249007     KR    2019-06-30  2019-06-30            9,005,940      P1         900,594         |</c>
+            </r>
+            <r>
+              <c>| 1900257007     KR    2019-06-28  2019-07-31           14,173,910      P1       1,417,391         |</c>
+            </r>
+            <r>
+              <c>----------------------------------------------------------------------------------------------------</c>
+            </r>
+            <r>
+              <c>|  4  |186-01-58638|#### #&gt; | 2   | | | | | | | |6|2|8|7|7|3|7| | | | | | | | | | | | |0 |    |</c>
+            </r>
+            <r>
+              <c>----------------------------------------------------------------------------------------------------</c>
+            </r>
+            <r>
+              <c>|  Doc number   Type    Post date  Document Dt             Base amt    Tax Code      Tax amt       |</c>
+            </r>
+            <r>
+              <c>----------------------------------------------------------------------------------------------------</c>
+            </r>
+            <r>
+              <c>| 1702007002     KG    2019-06-30  2019-07-12                   10-     P0               0         |</c>
+            </r>
+            <r>
+              <c>| 1900035007     KR    2019-06-30  2019-07-12            6,287,747      P0               0         |</c>
+            </r>
+            <r>
+              <c>----------------------------------------------------------------------------------------------------</c>
+            </r>
+            <r>
+              <c>|  5  |102-82-00168|#### #&gt; |       | | | | | | | | | | | | |0| | | | | | | | | | | | | |0 |    |</c>
+            </r>
+            <r>
+              <c>|---------------------------------------------------------------------------------------------------</c>
+            </r>
+            <r>
+              <c>| Doc number Type Post date  Tax Inv No  Tax Inv Dt         Base amt       Tax Code   Tax amt      |</c>
+            </r>
+            <r>
+              <c>----------------------------------------------------------------------------------------------------</c>
+            </r>
+            <r>
+              <c>|  6  |407-86-09872|######&gt;| 4   | | | | |1|5|9|7|4|1|3|1|7|3| | | | |1|5|9|7|4|1|3|1|7 |    |</c>
+            </r>
+            <r>
+              <c>----------------------------------------------------------------------------------------------------</c>
+            </r>
+            <r>
+              <c>|  Doc number   Type    Post date  Document Dt             Base amt    Tax Code      Tax amt       |</c>
+            </r>
+            <r>
+              <c>----------------------------------------------------------------------------------------------------</c>
+            </r>
+            <r>
+              <c>| 5100110015     RE    2019-06-29  2019-07-28            1,827,273      P1         182,727         |</c>
+            </r>
+            <r>
+              <c>| 5100112000     RE    2019-06-01  2019-06-04          535,922,230      P1      53,592,223         |</c>
+            </r>
+            <r>
+              <c>| 5100144003     RE    2019-06-01  2019-06-02          529,659,150      P1      52,965,915         |</c>
+            </r>
+            <r>
+              <c>| 5100182032     RE    2018-06-01  2019-06-07          530,004,520      P7      53,000,452         |</c>
+            </r>
+            <r>
+              <c>----------------------------------------------------------------------------------------------------</c>
+            </r>
+            <r>
+              <c>|  7  |117-86-38534|#### #&gt; | 3   | | | | | | | | |9|5|6|0|0|0| | | | | | | | |9|5|6|0|0 |    |</c>
+            </r>
+            <r>
+              <c>----------------------------------------------------------------------------------------------------</c>
+            </r>
+            <r>
+              <c>|  Doc number   Type    Post date  Document Dt             Base amt    Tax Code      Tax amt       |</c>
+            </r>
+            <r>
+              <c>----------------------------------------------------------------------------------------------------</c>
+            </r>
+            <r>
+              <c>----------------------------------------------------------------------------------------------------</c>
+            </r>
+            <r>
+              <c>(21)(  2  )Pag.</c>
+            </r>
+            <r>
+              <c />
+            </r>
+            <r>
+              <c />
+            </r>
+            <r>
+              <c />
+            </r>
+            <r>
+              <c />
+            </r>
+            <r>
+              <c>[Report Name 20 Form 3 (1)] (2002.4.12. Revised)</c>
+            </r>
+            <r>
+              <c>----------------------------------------------------------------------------------------------------</c>
+            </r>
+            <r>
+              <c>|                             Tax Invoice Summary by Vendor (BB)                                   |</c>
+            </r>
+            <r>
+              <c>|                                                                                                  |</c>
+            </r>
+            <r>
+              <c>|                                                                                                  |</c>
+            </r>
+            <r>
+              <c>|                                      (    Ye   Pe   )                                            |</c>
+            </r>
+            <r>
+              <c>|  1. Reporter Details (Company Code Details)                                                      |</c>
+            </r>
+            <r>
+              <c>| 5160429030     RE    2019-06-01  2019-06-26               56,000      P1           5,600         |</c>
+            </r>
+            <r>
+              <c>| 5148466117     RE    2019-06-24  2019-06-29               60,000      P1           6,000         |</c>
+            </r>
+            <r>
+              <c>| 5800476217     RE    2019-06-16  2019-06-01              840,000      P1          84,000         |</c>
+            </r>
+            <r>
+              <c>----------------------------------------------------------------------------------------------------</c>
+            </r>
+            <r>
+              <c>|  8  |814-81-61910|(#)#### | 9   | | | | | | |5|2|9|5|6|0|0|0| | | | | | |5|2|9|5|6|0|0 |    |</c>
+            </r>
+            <r>
+              <c>----------------------------------------------------------------------------------------------------</c>
+            </r>
+            <r>
+              <c>|  Doc number   Type    Post date  Document Dt             Base amt    Tax Code      Tax amt       |</c>
+            </r>
+            <r>
+              <c>----------------------------------------------------------------------------------------------------</c>
+            </r>
+            <r>
+              <c>| 1980005001     KR    2019-06-18  2018-06-26              830,000      P1          83,000         |</c>
+            </r>
+            <r>
+              <c>| 1908248004     KR    2019-06-18  2018-06-30              830,000      P1          83,000         |</c>
+            </r>
+            <r>
+              <c>| 1400253005     KR    2019-06-17  2018-06-28              830,000      P1          83,000         |</c>
+            </r>
+            <r>
+              <c>| 5400029011     RE    2019-06-22  2018-06-25            1,800,000      P1         180,000         |</c>
+            </r>
+            <r>
+              <c>| 5140478015     RE    2019-06-18  2018-06-01            5,350,000      P7         535,000         |</c>
+            </r>
+            <r>
+              <c>| 5104485003     RE    2019-06-17  2018-06-29              180,000      P1          18,000         |</c>
+            </r>
+            <r>
+              <c>| 5107485004     RE    2019-06-17  2018-06-29           18,760,000      P1       1,876,000         |</c>
+            </r>
+            <r>
+              <c>| 5120485005     RE    2019-06-17  2018-06-29           15,176,000      P1       1,517,600         |</c>
+            </r>
+            <r>
+              <c>| 5900485036     RE    2019-06-24  2018-06-29            9,200,000      P1         920,000         |</c>
+            </r>
+            <r>
+              <c>----------------------------------------------------------------------------------------------------</c>
+            </r>
+            <r>
+              <c>|  9  |174-06-37093|######&gt;| 3   | | | | | | | |3|1|1|1|5|0|0| | | | | | | |3|1|1|1|5|0 |    |</c>
+            </r>
+            <r>
+              <c>----------------------------------------------------------------------------------------------------</c>
+            </r>
+            <r>
+              <c>|  Doc number   Type    Post date  Document Dt             Base amt    Tax Code      Tax amt       |</c>
+            </r>
+            <r>
+              <c>----------------------------------------------------------------------------------------------------</c>
+            </r>
+            <r>
+              <c>| 1908807006     KR    2019-06-02  2018-06-26              825,500      P9          82,550         |</c>
+            </r>
+            <r>
+              <c>| 1940257043     KR    2019-06-01  2018-06-30            1,411,000      P9         141,100         |</c>
+            </r>
+            <r>
+              <c>| 1970268016     KR    2019-06-02  2018-06-30              875,000      P9          87,500         |</c>
+            </r>
+            <r>
+              <c>----------------------------------------------------------------------------------------------------</c>
+            </r>
+            <r>
+              <c>|  10  |118-81-03897|######&gt;| 2   | | | | | | |1|4|2|1|7|7|2|1| | | | | | |1|4|2|1|7|7|2 |    |</c>
+            </r>
+            <r>
+              <c>----------------------------------------------------------------------------------------------------</c>
+            </r>
+            <r>
+              <c>|  Doc number   Type    Post date  Document Dt             Base amt    Tax Code      Tax amt       |</c>
+            </r>
+            <r>
+              <c>----------------------------------------------------------------------------------------------------</c>
+            </r>
+            <r>
+              <c>| 5400446089     RE    2019-06-02  2019-06-12            8,717,721      P1         871,772         |</c>
+            </r>
+            <r>
+              <c>| 5140446090     RE    2019-06-01  2019-06-12            5,500,000      P1         550,000         |</c>
+            </r>
+            <r>
+              <c>----------------------------------------------------------------------------------------------------</c>
+            </r>
+            <r>
+              <c>| 11  |116-85-36080|(#)####&gt;| 1   | | | | | | | |2|6|4|0|0|0|0| | | | | | | |2|6|4|0|0|0 |    |</c>
+            </r>
+            <r>
+              <c>----------------------------------------------------------------------------------------------------</c>
+            </r>
+            <r>
+              <c>|  Doc number   Type    Post date  Document Dt             Base amt    Tax Code      Tax amt       |</c>
+            </r>
+            <r>
+              <c>----------------------------------------------------------------------------------------------------</c>
+            </r>
+            <r>
+              <c>| 5140482033     RE    2019-06-16  2019-07-01            2,640,000      P1         264,000         |</c>
+            </r>
+            <r>
+              <c>----------------------------------------------------------------------------------------------------</c>
+            </r>
+            <r>
+              <c>| 12  |111-81-41019|(#)####&gt;| 6   | | | | | |3|4|1|0|3|2|0|7|0| | | | | |3|4|1|0|3|2|0|7 |    |</c>
+            </r>
+            <r>
+              <c>----------------------------------------------------------------------------------------------------</c>
+            </r>
+            <r>
+              <c>|  Doc number   Type    Post date  Document Dt             Base amt    Tax Code      Tax amt       |</c>
+            </r>
+            <r>
+              <c>----------------------------------------------------------------------------------------------------</c>
+            </r>
+            <r>
+              <c>| 1910007001     KR    2019-06-30  2019-06-17            6,960,950      P1         696,095         |</c>
+            </r>
+            <r>
+              <c>| 1910026000     KR    2019-06-30  2019-07-12           15,485,620      P1       1,548,562         |</c>
+            </r>
+            <r>
+              <c>| 1910261006     KR    2019-06-30  2019-07-01           14,626,760      P1       1,462,676         |</c>
+            </r>
+            <r>
+              <c>| 5110006019     RE    2019-06-30  2019-07-12           96,541,270      P1       9,654,127         |</c>
+            </r>
+            <r>
+              <c>| 5110029001     RE    2019-06-30  2019-07-25          104,791,530      P1      10,479,153         |</c>
+            </r>
+            <r>
+              <c>| 5110466063     RE    2019-06-30  2019-07-01          102,625,940      P1      10,262,594         |</c>
+            </r>
+            <r>
+              <c>----------------------------------------------------------------------------------------------------</c>
+            </r>
+            <r>
+              <c>| 13  |119-81-52311|(#)####&gt;| 2   | | | | | | | |5|9|2|6|0|0|0| | | | | | | |5|9|2|6|0|0 |    |</c>
+            </r>
+            <r>
+              <c>----------------------------------------------------------------------------------------------------</c>
+            </r>
+            <r>
+              <c>|  Doc number   Type    Post date  Document Dt             Base amt    Tax Code      Tax amt       |</c>
+            </r>
+            <r>
+              <c>----------------------------------------------------------------------------------------------------</c>
+            </r>
+            <r>
+              <c>| 5100089038     RE    2019-06-20  2019-06-30              187,000      P1          18,700         |</c>
+            </r>
+            <r>
+              <c>| 5180474010     RE    2019-06-03  2019-06-15            5,739,000      P1         573,900         |</c>
+            </r>
+            <r>
+              <c>----------------------------------------------------------------------------------------------------</c>
+            </r>
+            <r>
+              <c>| 14  |119-81-77493|######&gt;| 2   | | | | | |2|3|1|1|3|0|9|4|8| | | | | |2|3|1|1|3|0|9|4 |    |</c>
+            </r>
+            <r>
+              <c>----------------------------------------------------------------------------------------------------</c>
+            </r>
+            <r>
+              <c>|  Doc number   Type    Post date  Document Dt             Base amt    Tax Code      Tax amt       |</c>
+            </r>
+            <r>
+              <c>----------------------------------------------------------------------------------------------------</c>
+            </r>
+            <r>
+              <c>| 5110006036     RE    2019-06-30  2019-07-13          112,769,579      P1      11,276,958         |</c>
+            </r>
+            <r>
+              <c>| 5107466049     RE    2019-06-30  2019-07-29          118,361,369      P1      11,836,136         |</c>
+            </r>
+            <r>
+              <c>----------------------------------------------------------------------------------------------------</c>
+            </r>
+            <r>
+              <c>| 15  |123-43-92508|####     | 15  | | |1|4|9|1|6|8|1|8|2|9|1|9| | |1|4|9|1|6|8|1|5|8|2|0 |    |</c>
+            </r>
+            <r>
+              <c>----------------------------------------------------------------------------------------------------</c>
+            </r>
+            <r>
+              <c>|  Doc number   Type    Post date  Document Dt             Base amt    Tax Code      Tax amt       |</c>
+            </r>
+            <r>
+              <c>----------------------------------------------------------------------------------------------------</c>
+            </r>
+            <r>
+              <c>| 1780003001     KG    2019-06-30  2019-06-30            6,909,960-     P1         690,990-        |</c>
+            </r>
+            <r>
+              <c>| 1708013000     KG    2019-06-30  2019-07-15                   10-     P1               1-        |</c>
+            </r>
+            <r>
+              <c>| 1704076001     KG    2019-06-17  2019-06-30          141,719,460-     P1      14,171,950-        |</c>
+            </r>
+            <r>
+              <c>| 1707076006     KG    2019-06-30  2019-06-30                   10-     P1               1-        |</c>
+            </r>
+            <r>
+              <c>| 1720082001     KG    2019-06-30  2019-07-31          100,249,420-     P1      10,024,940-        |</c>
+            </r>
+            <r>
+              <c>| 1901004000     KR    2019-06-10  2019-06-10          736,238,700      P1      73,623,870         |</c>
+            </r>
+            <r>
+              <c>| 1903027000     KR    2019-06-30  2019-07-15                8,642      P1               1         |</c>
+            </r>
+            <r>
+              <c>| 1900007001     KR    2019-06-10  2019-07-15              118,482      P1          11,850         |</c>
+            </r>
+            <r>
+              <c>| 1900209004     KR    2019-06-11  2019-06-11        4,465,995,000      P1     446,599,500         |</c>
+            </r>
+            <r>
+              <c>----------------------------------------------------------------------------------------------------</c>
+            </r>
+          </Data>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="26" Connection="Output" />
+      <Destination ToolID="27" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="50" Connection="Output" />
+      <Destination ToolID="48" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="51" Connection="Output" />
+      <Destination ToolID="47" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>challenge_188_start_file</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>

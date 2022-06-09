@@ -1,0 +1,317 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2019.2">
+  <Nodes>
+    <Node ToolID="14">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="54" y="48" width="708" height="234" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>Converting Blob Objects to Report Snippet</Caption>
+          <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="False" />
+          <Folded value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="4">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+            <Position x="79" y="152" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <NumRows value="9" />
+              <Fields>
+                <Field name="Movie" />
+                <Field name="Image Number" />
+                <Field name="URL" />
+              </Fields>
+              <Data>
+                <r>
+                  <c>The Blob</c>
+                  <c>1</c>
+                  <c>http://img.moviepostershop.com/the-blob-movie-poster-1958-1020143964.jpg</c>
+                </r>
+                <r>
+                  <c>Creature from the Black Lagoon</c>
+                  <c>2</c>
+                  <c>http://psd.fanextra.com/wp-content/uploads/2009/10/movie1.jpg</c>
+                </r>
+                <r>
+                  <c>The Undead</c>
+                  <c>3</c>
+                  <c>http://www.grayflannelsuit.net/blog/wp-content/uploads/2013/10/vintage-horror-movie-poster_the-undead-1957.jpg</c>
+                </r>
+                <r>
+                  <c>The Brain Eaters</c>
+                  <c>4</c>
+                  <c>http://www.sickchirpse.com/wp-content/uploads/2015/05/Old-Retro-Horror-Film-Posters-Brain-Eaters.jpg</c>
+                </r>
+                <r>
+                  <c>The Invisible Man</c>
+                  <c>5</c>
+                  <c>https://d39a3h63xew422.cloudfront.net/wp-content/uploads/2014/10/20160757/these-vintage-horror-movie-posters-are-a-treat-1476934682659.jpg</c>
+                </r>
+                <r>
+                  <c>Tarantula!</c>
+                  <c>6</c>
+                  <c>https://s-media-cache-ak0.pinimg.com/originals/e1/f4/8d/e1f48da89f36aadef7cfd26c4809ed3e.jpg</c>
+                </r>
+                <r>
+                  <c>King Kong</c>
+                  <c>7</c>
+                  <c>http://i2.wp.com/weheartvintage.co/wp-content/uploads/2013/10/King_Kong_1933_Danish_movie_poster.jpg?resize=660%2C908</c>
+                </r>
+                <r>
+                  <c>The Crawling Eye</c>
+                  <c>8</c>
+                  <c>https://d39a3h63xew422.cloudfront.net/wp-content/uploads/2014/10/20160139/these-vintage-horror-movie-posters-are-a-treat-1476934682779.jpg</c>
+                </r>
+                <r>
+                  <c>The Birds</c>
+                  <c>9</c>
+                  <c>https://thesouloftheplot.files.wordpress.com/2013/01/poster7.jpg</c>
+                </r>
+              </Data>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+        </Node>
+        <Node ToolID="5">
+          <GuiSettings Plugin="AlteryxConnectorGui.Download.Download">
+            <Position x="212" y="151" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <URLField>URL</URLField>
+              <OutputMode>Blob</OutputMode>
+              <EncodeURLs value="True" />
+              <Headers>
+                <NameValues />
+                <Fields orderChanged="False">
+                  <Field name="Movie" selected="False" />
+                  <Field name="Image Number" selected="False" />
+                  <Field name="URL" selected="False" />
+                  <Field name="*Unknown" selected="False" />
+                </Fields>
+              </Headers>
+              <Payload>
+                <HTTPAction>GET</HTTPAction>
+                <QueryStringBodyMode>Compose</QueryStringBodyMode>
+                <ComposeNameValues />
+                <ComposeFields orderChanged="False">
+                  <Field name="Movie" selected="False" />
+                  <Field name="Image Number" selected="False" />
+                  <Field name="URL" selected="False" />
+                  <Field name="*Unknown" selected="False" />
+                </ComposeFields>
+              </Payload>
+              <UserName />
+              <Password />
+              <numConnections>2</numConnections>
+              <Timeout>600</Timeout>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxConnectorEngine.dll" EngineDllEntryPoint="AlteryxDownload" />
+        </Node>
+        <Node ToolID="6">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.BlobConvert.BlobConvert">
+            <Position x="344" y="152" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <ToBlob value="False" />
+              <from_Field>DownloadData</from_Field>
+              <from_Mode>ReportSnippet</from_Mode>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBlobConvert" />
+        </Node>
+        <Node ToolID="7">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+            <Position x="678" y="150" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <TempFile>C:\ProgramData\Alteryx\Engine\Engine_2564_f1cfb3343cc34ded98695c1016ca6643_\Engine_10324_e6901098e32243949890190ed44d3f60_.yxdb</TempFile>
+              <TempFileDataProfiling />
+              <Layout>
+                <ViewMode>Single</ViewMode>
+                <ViewSize value="100" />
+                <View1>
+                  <DefaultTab>Report</DefaultTab>
+                  <Hints>
+                    <Table />
+                  </Hints>
+                </View1>
+                <View2 />
+              </Layout>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+        </Node>
+        <Node ToolID="8">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Sort.Sort">
+            <Position x="486" y="150" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <SortInfo locale="0">
+                <Field field="Image Number" order="Ascending" />
+              </SortInfo>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>Image Number - Ascending</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSort" />
+        </Node>
+        <Node ToolID="15">
+          <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+            <Position x="151" y="97" width="492" height="48" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Text><![CDATA[Use the Download tool to output object to a Blob.  Use the Blob Convert tool to convert the image to a report snippet.  Sort the images to the original output order (optional), then add a Browse tool to view the snippets. ]]></Text>
+              <Font name="Segoe UI" size="8.25" style="0" />
+              <TextColor name="Black" />
+              <FillColor r="51" g="189" b="255" />
+              <Shape shape="0" />
+              <Justification Justification="4" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+        </Node>
+        <Node ToolID="18">
+          <GuiSettings Plugin="PortfolioPluginsGui.ComposerRender.PortfolioComposerRender">
+            <Position x="594" y="198" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <TempFileType>pdf</TempFileType>
+              <BatchMode value="False" />
+              <DataField>DownloadData</DataField>
+              <Separator>Continuous</Separator>
+              <EmbedDependencies value="False" />
+              <ShowHeader value="False" />
+              <ShowFooter value="False" />
+              <PortraitMode value="True" />
+              <PaperType Width="612" Height="792" Left="36" Right="36" Top="36" Bottom="36" />
+              <DefaultStyles>
+                <Style Name="TextStyle" FontName="Arial" FontSize="14" Justify="Left" ForeColor="#000000" Locale="1033" />
+              </DefaultStyles>
+              <PNGResolution>1</PNGResolution>
+              <PNGLargerAction>squeeze</PNGLargerAction>
+              <PNGLargerThanPageChoice>warning</PNGLargerThanPageChoice>
+              <PNGTransparentBG value="False" />
+              <PNGBackColor value="#ffffff" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="PortfolioPluginsEngine.dll" EngineDllEntryPoint="AlteryxPortfolioComposerRenderPlugin" />
+        </Node>
+      </ChildNodes>
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="4" Connection="Output" />
+      <Destination ToolID="5" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="5" Connection="Output" />
+      <Destination ToolID="6" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="6" Connection="Output" />
+      <Destination ToolID="8" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="8" Connection="Output" />
+      <Destination ToolID="18" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="8" Connection="Output" />
+      <Destination ToolID="7" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <PredictiveToolsCodePage value="1252" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>challenge_92_solution</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+      <WorkflowId value="4b1727f4-476c-4520-b4f4-760a225cde2f" />
+      <Telemetry>
+        <PreviousWorkflowId value="4afbdd8e-1c4d-4995-bc2d-4c143e150755" />
+        <OriginWorkflowId value="4b1727f4-476c-4520-b4f4-760a225cde2f" />
+      </Telemetry>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>
