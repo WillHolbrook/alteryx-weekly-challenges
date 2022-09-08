@@ -1,0 +1,1724 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="10.0">
+  <Nodes>
+    <Node ToolID="38">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="450" y="282" width="216" height="204" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Output</Text>
+          <Font name="Lato" size="7.8" style="0" />
+          <TextColor name="Gray" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="34">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="54" y="282" width="216" height="324" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Input</Text>
+          <Font name="Lato" size="7.8" style="0" />
+          <TextColor name="Gray" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="5">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+        <Position x="66" y="306" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <NumRows value="17" />
+          <Fields>
+            <Field name="Cards" />
+          </Fields>
+          <Data>
+            <r>
+              <c>Question: How long until rescue comes?</c>
+            </r>
+            <r>
+              <c>0</c>
+            </r>
+            <r>
+              <c>1</c>
+            </r>
+            <r>
+              <c>2</c>
+            </r>
+            <r>
+              <c>3</c>
+            </r>
+            <r>
+              <c>4</c>
+            </r>
+            <r>
+              <c>5</c>
+            </r>
+            <r>
+              <c>6</c>
+            </r>
+            <r>
+              <c>7</c>
+            </r>
+            <r>
+              <c>8</c>
+            </r>
+            <r>
+              <c>9</c>
+            </r>
+            <r>
+              <c>A</c>
+            </r>
+            <r>
+              <c>B</c>
+            </r>
+            <r>
+              <c>C</c>
+            </r>
+            <r>
+              <c>D</c>
+            </r>
+            <r>
+              <c>E</c>
+            </r>
+            <r>
+              <c>F</c>
+            </r>
+          </Data>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>Cards</AnnotationText>
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+    </Node>
+    <Node ToolID="10">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+        <Position x="66" y="378" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <NumRows value="1" />
+          <Fields>
+            <Field name="Reponse" />
+          </Fields>
+          <Data>
+            <r>
+              <c>We are sending another mission. It will take 42 months.</c>
+            </r>
+          </Data>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>Response</AnnotationText>
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+    </Node>
+    <Node ToolID="14">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+        <Position x="66" y="450" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <NumRows value="129" />
+          <Fields>
+            <Field name="Field1" />
+            <Field name="Field2" />
+            <Field name="Field3" />
+            <Field name="Field4" />
+            <Field name="Field5" />
+            <Field name="Field6" />
+            <Field name="Field7" />
+            <Field name="Field8" />
+          </Fields>
+          <Data>
+            <r>
+              <c>DEC</c>
+              <c>OCT</c>
+              <c>HEX</c>
+              <c>BIN</c>
+              <c>Symbol</c>
+              <c>HTML Number</c>
+              <c>HTML Name</c>
+              <c>Description</c>
+            </r>
+            <r>
+              <c>0</c>
+              <c>0</c>
+              <c>0</c>
+              <c>0</c>
+              <c>NUL</c>
+              <c>&amp;#000;</c>
+              <c />
+              <c>Null char</c>
+            </r>
+            <r>
+              <c>1</c>
+              <c>1</c>
+              <c>1</c>
+              <c>1</c>
+              <c>SOH</c>
+              <c>&amp;#001;</c>
+              <c />
+              <c>Start of Heading</c>
+            </r>
+            <r>
+              <c>2</c>
+              <c>2</c>
+              <c>2</c>
+              <c>10</c>
+              <c>STX</c>
+              <c>&amp;#002;</c>
+              <c />
+              <c>Start of Text</c>
+            </r>
+            <r>
+              <c>3</c>
+              <c>3</c>
+              <c>3</c>
+              <c>11</c>
+              <c>ETX</c>
+              <c>&amp;#003;</c>
+              <c />
+              <c>End of Text</c>
+            </r>
+            <r>
+              <c>4</c>
+              <c>4</c>
+              <c>4</c>
+              <c>100</c>
+              <c>EOT</c>
+              <c>&amp;#004;</c>
+              <c />
+              <c>End of Transmission</c>
+            </r>
+            <r>
+              <c>5</c>
+              <c>5</c>
+              <c>5</c>
+              <c>101</c>
+              <c>ENQ</c>
+              <c>&amp;#005;</c>
+              <c />
+              <c>Enquiry</c>
+            </r>
+            <r>
+              <c>6</c>
+              <c>6</c>
+              <c>6</c>
+              <c>110</c>
+              <c>ACK</c>
+              <c>&amp;#006;</c>
+              <c />
+              <c>Acknowledgment</c>
+            </r>
+            <r>
+              <c>7</c>
+              <c>7</c>
+              <c>7</c>
+              <c>111</c>
+              <c>BEL</c>
+              <c>&amp;#007;</c>
+              <c />
+              <c>Bell</c>
+            </r>
+            <r>
+              <c>8</c>
+              <c>10</c>
+              <c>8</c>
+              <c>1000</c>
+              <c>BS</c>
+              <c>&amp;#008;</c>
+              <c />
+              <c>Back Space</c>
+            </r>
+            <r>
+              <c>9</c>
+              <c>11</c>
+              <c>9</c>
+              <c>1001</c>
+              <c>HT</c>
+              <c>&amp;#009;</c>
+              <c />
+              <c>Horizontal Tab</c>
+            </r>
+            <r>
+              <c>10</c>
+              <c>12</c>
+              <c>0A</c>
+              <c>1010</c>
+              <c>LF</c>
+              <c>&amp;#010;</c>
+              <c />
+              <c>Line Feed</c>
+            </r>
+            <r>
+              <c>11</c>
+              <c>13</c>
+              <c>0B</c>
+              <c>1011</c>
+              <c>VT</c>
+              <c>&amp;#011;</c>
+              <c />
+              <c>Vertical Tab</c>
+            </r>
+            <r>
+              <c>12</c>
+              <c>14</c>
+              <c>0C</c>
+              <c>1100</c>
+              <c>FF</c>
+              <c>&amp;#012;</c>
+              <c />
+              <c>Form Feed</c>
+            </r>
+            <r>
+              <c>13</c>
+              <c>15</c>
+              <c>0D</c>
+              <c>1101</c>
+              <c>CR</c>
+              <c>&amp;#013;</c>
+              <c />
+              <c>Carriage Return</c>
+            </r>
+            <r>
+              <c>14</c>
+              <c>16</c>
+              <c>0E</c>
+              <c>1110</c>
+              <c>SO</c>
+              <c>&amp;#014;</c>
+              <c />
+              <c>Shift Out / X-On</c>
+            </r>
+            <r>
+              <c>15</c>
+              <c>17</c>
+              <c>0F</c>
+              <c>1111</c>
+              <c>SI</c>
+              <c>&amp;#015;</c>
+              <c />
+              <c>Shift In / X-Off</c>
+            </r>
+            <r>
+              <c>16</c>
+              <c>20</c>
+              <c>10</c>
+              <c>10000</c>
+              <c>DLE</c>
+              <c>&amp;#016;</c>
+              <c />
+              <c>Data Line Escape</c>
+            </r>
+            <r>
+              <c>17</c>
+              <c>21</c>
+              <c>11</c>
+              <c>10001</c>
+              <c>DC1</c>
+              <c>&amp;#017;</c>
+              <c />
+              <c>Device Control 1 (oft. XON)</c>
+            </r>
+            <r>
+              <c>18</c>
+              <c>22</c>
+              <c>12</c>
+              <c>10010</c>
+              <c>DC2</c>
+              <c>&amp;#018;</c>
+              <c />
+              <c>Device Control 2</c>
+            </r>
+            <r>
+              <c>19</c>
+              <c>23</c>
+              <c>13</c>
+              <c>10011</c>
+              <c>DC3</c>
+              <c>&amp;#019;</c>
+              <c />
+              <c>Device Control 3 (oft. XOFF)</c>
+            </r>
+            <r>
+              <c>20</c>
+              <c>24</c>
+              <c>14</c>
+              <c>10100</c>
+              <c>DC4</c>
+              <c>&amp;#020;</c>
+              <c />
+              <c>Device Control 4</c>
+            </r>
+            <r>
+              <c>21</c>
+              <c>25</c>
+              <c>15</c>
+              <c>10101</c>
+              <c>NAK</c>
+              <c>&amp;#021;</c>
+              <c />
+              <c>Negative Acknowledgement</c>
+            </r>
+            <r>
+              <c>22</c>
+              <c>26</c>
+              <c>16</c>
+              <c>10110</c>
+              <c>SYN</c>
+              <c>&amp;#022;</c>
+              <c />
+              <c>Synchronous Idle</c>
+            </r>
+            <r>
+              <c>23</c>
+              <c>27</c>
+              <c>17</c>
+              <c>10111</c>
+              <c>ETB</c>
+              <c>&amp;#023;</c>
+              <c />
+              <c>End of Transmit Block</c>
+            </r>
+            <r>
+              <c>24</c>
+              <c>30</c>
+              <c>18</c>
+              <c>11000</c>
+              <c>CAN</c>
+              <c>&amp;#024;</c>
+              <c />
+              <c>Cancel</c>
+            </r>
+            <r>
+              <c>25</c>
+              <c>31</c>
+              <c>19</c>
+              <c>11001</c>
+              <c>EM</c>
+              <c>&amp;#025;</c>
+              <c />
+              <c>End of Medium</c>
+            </r>
+            <r>
+              <c>26</c>
+              <c>32</c>
+              <c>1A</c>
+              <c>11010</c>
+              <c>SUB</c>
+              <c>&amp;#026;</c>
+              <c />
+              <c>Substitute</c>
+            </r>
+            <r>
+              <c>27</c>
+              <c>33</c>
+              <c>1B</c>
+              <c>11011</c>
+              <c>ESC</c>
+              <c>&amp;#027;</c>
+              <c />
+              <c>Escape</c>
+            </r>
+            <r>
+              <c>28</c>
+              <c>34</c>
+              <c>1C</c>
+              <c>11100</c>
+              <c>FS</c>
+              <c>&amp;#028;</c>
+              <c />
+              <c>File Separator</c>
+            </r>
+            <r>
+              <c>29</c>
+              <c>35</c>
+              <c>1D</c>
+              <c>11101</c>
+              <c>GS</c>
+              <c>&amp;#029;</c>
+              <c />
+              <c>Group Separator</c>
+            </r>
+            <r>
+              <c>30</c>
+              <c>36</c>
+              <c>1E</c>
+              <c>11110</c>
+              <c>RS</c>
+              <c>&amp;#030;</c>
+              <c />
+              <c>Record Separator</c>
+            </r>
+            <r>
+              <c>31</c>
+              <c>37</c>
+              <c>1F</c>
+              <c>11111</c>
+              <c>US</c>
+              <c>&amp;#031;</c>
+              <c />
+              <c>Unit Separator</c>
+            </r>
+            <r>
+              <c>32</c>
+              <c>40</c>
+              <c>20</c>
+              <c>100000</c>
+              <c><![CDATA[ ]]></c>
+              <c>&amp;#32;</c>
+              <c />
+              <c>Space</c>
+            </r>
+            <r>
+              <c>33</c>
+              <c>41</c>
+              <c>21</c>
+              <c>100001</c>
+              <c>!</c>
+              <c>&amp;#33;</c>
+              <c />
+              <c>Exclamation mark</c>
+            </r>
+            <r>
+              <c>34</c>
+              <c>42</c>
+              <c>22</c>
+              <c>100010</c>
+              <c>"</c>
+              <c>&amp;#34;</c>
+              <c>&amp;quot;</c>
+              <c>Double quotes (or speech marks)</c>
+            </r>
+            <r>
+              <c>35</c>
+              <c>43</c>
+              <c>23</c>
+              <c>100011</c>
+              <c>#</c>
+              <c>&amp;#35;</c>
+              <c />
+              <c>Number</c>
+            </r>
+            <r>
+              <c>36</c>
+              <c>44</c>
+              <c>24</c>
+              <c>100100</c>
+              <c>$</c>
+              <c>&amp;#36;</c>
+              <c />
+              <c>Dollar</c>
+            </r>
+            <r>
+              <c>37</c>
+              <c>45</c>
+              <c>25</c>
+              <c>100101</c>
+              <c>%</c>
+              <c>&amp;#37;</c>
+              <c />
+              <c>Procenttecken</c>
+            </r>
+            <r>
+              <c>38</c>
+              <c>46</c>
+              <c>26</c>
+              <c>100110</c>
+              <c>&amp;</c>
+              <c>&amp;#38;</c>
+              <c>&amp;amp;</c>
+              <c>Ampersand</c>
+            </r>
+            <r>
+              <c>39</c>
+              <c>47</c>
+              <c>27</c>
+              <c>100111</c>
+              <c>'</c>
+              <c>&amp;#39;</c>
+              <c />
+              <c>Single quote</c>
+            </r>
+            <r>
+              <c>40</c>
+              <c>50</c>
+              <c>28</c>
+              <c>101000</c>
+              <c>(</c>
+              <c>&amp;#40;</c>
+              <c />
+              <c>Open parenthesis (or open bracket)</c>
+            </r>
+            <r>
+              <c>41</c>
+              <c>51</c>
+              <c>29</c>
+              <c>101001</c>
+              <c>)</c>
+              <c>&amp;#41;</c>
+              <c />
+              <c>Close parenthesis (or close bracket)</c>
+            </r>
+            <r>
+              <c>42</c>
+              <c>52</c>
+              <c>2A</c>
+              <c>101010</c>
+              <c>*</c>
+              <c>&amp;#42;</c>
+              <c />
+              <c>Asterisk</c>
+            </r>
+            <r>
+              <c>43</c>
+              <c>53</c>
+              <c>2B</c>
+              <c>101011</c>
+              <c>+</c>
+              <c>&amp;#43;</c>
+              <c />
+              <c>Plus</c>
+            </r>
+            <r>
+              <c>44</c>
+              <c>54</c>
+              <c>2C</c>
+              <c>101100</c>
+              <c>,</c>
+              <c>&amp;#44;</c>
+              <c />
+              <c>Comma</c>
+            </r>
+            <r>
+              <c>45</c>
+              <c>55</c>
+              <c>2D</c>
+              <c>101101</c>
+              <c>-</c>
+              <c>&amp;#45;</c>
+              <c />
+              <c>Hyphen</c>
+            </r>
+            <r>
+              <c>46</c>
+              <c>56</c>
+              <c>2E</c>
+              <c>101110</c>
+              <c>.</c>
+              <c>&amp;#46;</c>
+              <c />
+              <c>Period, dot or full stop</c>
+            </r>
+            <r>
+              <c>47</c>
+              <c>57</c>
+              <c>2F</c>
+              <c>101111</c>
+              <c>/</c>
+              <c>&amp;#47;</c>
+              <c />
+              <c>Slash or divide</c>
+            </r>
+            <r>
+              <c>48</c>
+              <c>60</c>
+              <c>30</c>
+              <c>110000</c>
+              <c>0</c>
+              <c>&amp;#48;</c>
+              <c />
+              <c>Zero</c>
+            </r>
+            <r>
+              <c>49</c>
+              <c>61</c>
+              <c>31</c>
+              <c>110001</c>
+              <c>1</c>
+              <c>&amp;#49;</c>
+              <c />
+              <c>One</c>
+            </r>
+            <r>
+              <c>50</c>
+              <c>62</c>
+              <c>32</c>
+              <c>110010</c>
+              <c>2</c>
+              <c>&amp;#50;</c>
+              <c />
+              <c>Two</c>
+            </r>
+            <r>
+              <c>51</c>
+              <c>63</c>
+              <c>33</c>
+              <c>110011</c>
+              <c>3</c>
+              <c>&amp;#51;</c>
+              <c />
+              <c>Three</c>
+            </r>
+            <r>
+              <c>52</c>
+              <c>64</c>
+              <c>34</c>
+              <c>110100</c>
+              <c>4</c>
+              <c>&amp;#52;</c>
+              <c />
+              <c>Four</c>
+            </r>
+            <r>
+              <c>53</c>
+              <c>65</c>
+              <c>35</c>
+              <c>110101</c>
+              <c>5</c>
+              <c>&amp;#53;</c>
+              <c />
+              <c>Five</c>
+            </r>
+            <r>
+              <c>54</c>
+              <c>66</c>
+              <c>36</c>
+              <c>110110</c>
+              <c>6</c>
+              <c>&amp;#54;</c>
+              <c />
+              <c>Six</c>
+            </r>
+            <r>
+              <c>55</c>
+              <c>67</c>
+              <c>37</c>
+              <c>110111</c>
+              <c>7</c>
+              <c>&amp;#55;</c>
+              <c />
+              <c>Seven</c>
+            </r>
+            <r>
+              <c>56</c>
+              <c>70</c>
+              <c>38</c>
+              <c>111000</c>
+              <c>8</c>
+              <c>&amp;#56;</c>
+              <c />
+              <c>Eight</c>
+            </r>
+            <r>
+              <c>57</c>
+              <c>71</c>
+              <c>39</c>
+              <c>111001</c>
+              <c>9</c>
+              <c>&amp;#57;</c>
+              <c />
+              <c>Nine</c>
+            </r>
+            <r>
+              <c>58</c>
+              <c>72</c>
+              <c>3A</c>
+              <c>111010</c>
+              <c>:</c>
+              <c>&amp;#58;</c>
+              <c />
+              <c>Colon</c>
+            </r>
+            <r>
+              <c>59</c>
+              <c>73</c>
+              <c>3B</c>
+              <c>111011</c>
+              <c>;</c>
+              <c>&amp;#59;</c>
+              <c />
+              <c>Semicolon</c>
+            </r>
+            <r>
+              <c>60</c>
+              <c>74</c>
+              <c>3C</c>
+              <c>111100</c>
+              <c>&lt;</c>
+              <c>&amp;#60;</c>
+              <c>&amp;lt;</c>
+              <c>Less than (or open angled bracket)</c>
+            </r>
+            <r>
+              <c>61</c>
+              <c>75</c>
+              <c>3D</c>
+              <c>111101</c>
+              <c>=</c>
+              <c>&amp;#61;</c>
+              <c />
+              <c>Equals</c>
+            </r>
+            <r>
+              <c>62</c>
+              <c>76</c>
+              <c>3E</c>
+              <c>111110</c>
+              <c>&gt;</c>
+              <c>&amp;#62;</c>
+              <c>&amp;gt;</c>
+              <c>Greater than (or close angled bracket)</c>
+            </r>
+            <r>
+              <c>63</c>
+              <c>77</c>
+              <c>3F</c>
+              <c>111111</c>
+              <c>?</c>
+              <c>&amp;#63;</c>
+              <c />
+              <c>Question mark</c>
+            </r>
+            <r>
+              <c>64</c>
+              <c>100</c>
+              <c>40</c>
+              <c>1000000</c>
+              <c>@</c>
+              <c>&amp;#64;</c>
+              <c />
+              <c>At symbol</c>
+            </r>
+            <r>
+              <c>65</c>
+              <c>101</c>
+              <c>41</c>
+              <c>1000001</c>
+              <c>A</c>
+              <c>&amp;#65;</c>
+              <c />
+              <c>Uppercase A</c>
+            </r>
+            <r>
+              <c>66</c>
+              <c>102</c>
+              <c>42</c>
+              <c>1000010</c>
+              <c>B</c>
+              <c>&amp;#66;</c>
+              <c />
+              <c>Uppercase B</c>
+            </r>
+            <r>
+              <c>67</c>
+              <c>103</c>
+              <c>43</c>
+              <c>1000011</c>
+              <c>C</c>
+              <c>&amp;#67;</c>
+              <c />
+              <c>Uppercase C</c>
+            </r>
+            <r>
+              <c>68</c>
+              <c>104</c>
+              <c>44</c>
+              <c>1000100</c>
+              <c>D</c>
+              <c>&amp;#68;</c>
+              <c />
+              <c>Uppercase D</c>
+            </r>
+            <r>
+              <c>69</c>
+              <c>105</c>
+              <c>45</c>
+              <c>1000101</c>
+              <c>E</c>
+              <c>&amp;#69;</c>
+              <c />
+              <c>Uppercase E</c>
+            </r>
+            <r>
+              <c>70</c>
+              <c>106</c>
+              <c>46</c>
+              <c>1000110</c>
+              <c>F</c>
+              <c>&amp;#70;</c>
+              <c />
+              <c>Uppercase F</c>
+            </r>
+            <r>
+              <c>71</c>
+              <c>107</c>
+              <c>47</c>
+              <c>1000111</c>
+              <c>G</c>
+              <c>&amp;#71;</c>
+              <c />
+              <c>Uppercase G</c>
+            </r>
+            <r>
+              <c>72</c>
+              <c>110</c>
+              <c>48</c>
+              <c>1001000</c>
+              <c>H</c>
+              <c>&amp;#72;</c>
+              <c />
+              <c>Uppercase H</c>
+            </r>
+            <r>
+              <c>73</c>
+              <c>111</c>
+              <c>49</c>
+              <c>1001001</c>
+              <c>I</c>
+              <c>&amp;#73;</c>
+              <c />
+              <c>Uppercase I</c>
+            </r>
+            <r>
+              <c>74</c>
+              <c>112</c>
+              <c>4A</c>
+              <c>1001010</c>
+              <c>J</c>
+              <c>&amp;#74;</c>
+              <c />
+              <c>Uppercase J</c>
+            </r>
+            <r>
+              <c>75</c>
+              <c>113</c>
+              <c>4B</c>
+              <c>1001011</c>
+              <c>K</c>
+              <c>&amp;#75;</c>
+              <c />
+              <c>Uppercase K</c>
+            </r>
+            <r>
+              <c>76</c>
+              <c>114</c>
+              <c>4C</c>
+              <c>1001100</c>
+              <c>L</c>
+              <c>&amp;#76;</c>
+              <c />
+              <c>Uppercase L</c>
+            </r>
+            <r>
+              <c>77</c>
+              <c>115</c>
+              <c>4D</c>
+              <c>1001101</c>
+              <c>M</c>
+              <c>&amp;#77;</c>
+              <c />
+              <c>Uppercase M</c>
+            </r>
+            <r>
+              <c>78</c>
+              <c>116</c>
+              <c>4E</c>
+              <c>1001110</c>
+              <c>N</c>
+              <c>&amp;#78;</c>
+              <c />
+              <c>Uppercase N</c>
+            </r>
+            <r>
+              <c>79</c>
+              <c>117</c>
+              <c>4F</c>
+              <c>1001111</c>
+              <c>O</c>
+              <c>&amp;#79;</c>
+              <c />
+              <c>Uppercase O</c>
+            </r>
+            <r>
+              <c>80</c>
+              <c>120</c>
+              <c>50</c>
+              <c>1010000</c>
+              <c>P</c>
+              <c>&amp;#80;</c>
+              <c />
+              <c>Uppercase P</c>
+            </r>
+            <r>
+              <c>81</c>
+              <c>121</c>
+              <c>51</c>
+              <c>1010001</c>
+              <c>Q</c>
+              <c>&amp;#81;</c>
+              <c />
+              <c>Uppercase Q</c>
+            </r>
+            <r>
+              <c>82</c>
+              <c>122</c>
+              <c>52</c>
+              <c>1010010</c>
+              <c>R</c>
+              <c>&amp;#82;</c>
+              <c />
+              <c>Uppercase R</c>
+            </r>
+            <r>
+              <c>83</c>
+              <c>123</c>
+              <c>53</c>
+              <c>1010011</c>
+              <c>S</c>
+              <c>&amp;#83;</c>
+              <c />
+              <c>Uppercase S</c>
+            </r>
+            <r>
+              <c>84</c>
+              <c>124</c>
+              <c>54</c>
+              <c>1010100</c>
+              <c>T</c>
+              <c>&amp;#84;</c>
+              <c />
+              <c>Uppercase T</c>
+            </r>
+            <r>
+              <c>85</c>
+              <c>125</c>
+              <c>55</c>
+              <c>1010101</c>
+              <c>U</c>
+              <c>&amp;#85;</c>
+              <c />
+              <c>Uppercase U</c>
+            </r>
+            <r>
+              <c>86</c>
+              <c>126</c>
+              <c>56</c>
+              <c>1010110</c>
+              <c>V</c>
+              <c>&amp;#86;</c>
+              <c />
+              <c>Uppercase V</c>
+            </r>
+            <r>
+              <c>87</c>
+              <c>127</c>
+              <c>57</c>
+              <c>1010111</c>
+              <c>W</c>
+              <c>&amp;#87;</c>
+              <c />
+              <c>Uppercase W</c>
+            </r>
+            <r>
+              <c>88</c>
+              <c>130</c>
+              <c>58</c>
+              <c>1011000</c>
+              <c>X</c>
+              <c>&amp;#88;</c>
+              <c />
+              <c>Uppercase X</c>
+            </r>
+            <r>
+              <c>89</c>
+              <c>131</c>
+              <c>59</c>
+              <c>1011001</c>
+              <c>Y</c>
+              <c>&amp;#89;</c>
+              <c />
+              <c>Uppercase Y</c>
+            </r>
+            <r>
+              <c>90</c>
+              <c>132</c>
+              <c>5A</c>
+              <c>1011010</c>
+              <c>Z</c>
+              <c>&amp;#90;</c>
+              <c />
+              <c>Uppercase Z</c>
+            </r>
+            <r>
+              <c>91</c>
+              <c>133</c>
+              <c>5B</c>
+              <c>1011011</c>
+              <c>[</c>
+              <c>&amp;#91;</c>
+              <c />
+              <c>Opening bracket</c>
+            </r>
+            <r>
+              <c>92</c>
+              <c>134</c>
+              <c>5C</c>
+              <c>1011100</c>
+              <c>\</c>
+              <c>&amp;#92;</c>
+              <c />
+              <c>Backslash</c>
+            </r>
+            <r>
+              <c>93</c>
+              <c>135</c>
+              <c>5D</c>
+              <c>1011101</c>
+              <c>]</c>
+              <c>&amp;#93;</c>
+              <c />
+              <c>Closing bracket</c>
+            </r>
+            <r>
+              <c>94</c>
+              <c>136</c>
+              <c>5E</c>
+              <c>1011110</c>
+              <c>^</c>
+              <c>&amp;#94;</c>
+              <c />
+              <c>Caret - circumflex</c>
+            </r>
+            <r>
+              <c>95</c>
+              <c>137</c>
+              <c>5F</c>
+              <c>1011111</c>
+              <c>_</c>
+              <c>&amp;#95;</c>
+              <c />
+              <c>Underscore</c>
+            </r>
+            <r>
+              <c>96</c>
+              <c>140</c>
+              <c>60</c>
+              <c>1100000</c>
+              <c>`</c>
+              <c>&amp;#96;</c>
+              <c />
+              <c>Grave accent</c>
+            </r>
+            <r>
+              <c>97</c>
+              <c>141</c>
+              <c>61</c>
+              <c>1100001</c>
+              <c>a</c>
+              <c>&amp;#97;</c>
+              <c />
+              <c>Lowercase a</c>
+            </r>
+            <r>
+              <c>98</c>
+              <c>142</c>
+              <c>62</c>
+              <c>1100010</c>
+              <c>b</c>
+              <c>&amp;#98;</c>
+              <c />
+              <c>Lowercase b</c>
+            </r>
+            <r>
+              <c>99</c>
+              <c>143</c>
+              <c>63</c>
+              <c>1100011</c>
+              <c>c</c>
+              <c>&amp;#99;</c>
+              <c />
+              <c>Lowercase c</c>
+            </r>
+            <r>
+              <c>100</c>
+              <c>144</c>
+              <c>64</c>
+              <c>1100100</c>
+              <c>d</c>
+              <c>&amp;#100;</c>
+              <c />
+              <c>Lowercase d</c>
+            </r>
+            <r>
+              <c>101</c>
+              <c>145</c>
+              <c>65</c>
+              <c>1100101</c>
+              <c>e</c>
+              <c>&amp;#101;</c>
+              <c />
+              <c>Lowercase e</c>
+            </r>
+            <r>
+              <c>102</c>
+              <c>146</c>
+              <c>66</c>
+              <c>1100110</c>
+              <c>f</c>
+              <c>&amp;#102;</c>
+              <c />
+              <c>Lowercase f</c>
+            </r>
+            <r>
+              <c>103</c>
+              <c>147</c>
+              <c>67</c>
+              <c>1100111</c>
+              <c>g</c>
+              <c>&amp;#103;</c>
+              <c />
+              <c>Lowercase g</c>
+            </r>
+            <r>
+              <c>104</c>
+              <c>150</c>
+              <c>68</c>
+              <c>1101000</c>
+              <c>h</c>
+              <c>&amp;#104;</c>
+              <c />
+              <c>Lowercase h</c>
+            </r>
+            <r>
+              <c>105</c>
+              <c>151</c>
+              <c>69</c>
+              <c>1101001</c>
+              <c>i</c>
+              <c>&amp;#105;</c>
+              <c />
+              <c>Lowercase i</c>
+            </r>
+            <r>
+              <c>106</c>
+              <c>152</c>
+              <c>6A</c>
+              <c>1101010</c>
+              <c>j</c>
+              <c>&amp;#106;</c>
+              <c />
+              <c>Lowercase j</c>
+            </r>
+            <r>
+              <c>107</c>
+              <c>153</c>
+              <c>6B</c>
+              <c>1101011</c>
+              <c>k</c>
+              <c>&amp;#107;</c>
+              <c />
+              <c>Lowercase k</c>
+            </r>
+            <r>
+              <c>108</c>
+              <c>154</c>
+              <c>6C</c>
+              <c>1101100</c>
+              <c>l</c>
+              <c>&amp;#108;</c>
+              <c />
+              <c>Lowercase l</c>
+            </r>
+            <r>
+              <c>109</c>
+              <c>155</c>
+              <c>6D</c>
+              <c>1101101</c>
+              <c>m</c>
+              <c>&amp;#109;</c>
+              <c />
+              <c>Lowercase m</c>
+            </r>
+            <r>
+              <c>110</c>
+              <c>156</c>
+              <c>6E</c>
+              <c>1101110</c>
+              <c>n</c>
+              <c>&amp;#110;</c>
+              <c />
+              <c>Lowercase n</c>
+            </r>
+            <r>
+              <c>111</c>
+              <c>157</c>
+              <c>6F</c>
+              <c>1101111</c>
+              <c>o</c>
+              <c>&amp;#111;</c>
+              <c />
+              <c>Lowercase o</c>
+            </r>
+            <r>
+              <c>112</c>
+              <c>160</c>
+              <c>70</c>
+              <c>1110000</c>
+              <c>p</c>
+              <c>&amp;#112;</c>
+              <c />
+              <c>Lowercase p</c>
+            </r>
+            <r>
+              <c>113</c>
+              <c>161</c>
+              <c>71</c>
+              <c>1110001</c>
+              <c>q</c>
+              <c>&amp;#113;</c>
+              <c />
+              <c>Lowercase q</c>
+            </r>
+            <r>
+              <c>114</c>
+              <c>162</c>
+              <c>72</c>
+              <c>1110010</c>
+              <c>r</c>
+              <c>&amp;#114;</c>
+              <c />
+              <c>Lowercase r</c>
+            </r>
+            <r>
+              <c>115</c>
+              <c>163</c>
+              <c>73</c>
+              <c>1110011</c>
+              <c>s</c>
+              <c>&amp;#115;</c>
+              <c />
+              <c>Lowercase s</c>
+            </r>
+            <r>
+              <c>116</c>
+              <c>164</c>
+              <c>74</c>
+              <c>1110100</c>
+              <c>t</c>
+              <c>&amp;#116;</c>
+              <c />
+              <c>Lowercase t</c>
+            </r>
+            <r>
+              <c>117</c>
+              <c>165</c>
+              <c>75</c>
+              <c>1110101</c>
+              <c>u</c>
+              <c>&amp;#117;</c>
+              <c />
+              <c>Lowercase u</c>
+            </r>
+            <r>
+              <c>118</c>
+              <c>166</c>
+              <c>76</c>
+              <c>1110110</c>
+              <c>v</c>
+              <c>&amp;#118;</c>
+              <c />
+              <c>Lowercase v</c>
+            </r>
+            <r>
+              <c>119</c>
+              <c>167</c>
+              <c>77</c>
+              <c>1110111</c>
+              <c>w</c>
+              <c>&amp;#119;</c>
+              <c />
+              <c>Lowercase w</c>
+            </r>
+            <r>
+              <c>120</c>
+              <c>170</c>
+              <c>78</c>
+              <c>1111000</c>
+              <c>x</c>
+              <c>&amp;#120;</c>
+              <c />
+              <c>Lowercase x</c>
+            </r>
+            <r>
+              <c>121</c>
+              <c>171</c>
+              <c>79</c>
+              <c>1111001</c>
+              <c>y</c>
+              <c>&amp;#121;</c>
+              <c />
+              <c>Lowercase y</c>
+            </r>
+            <r>
+              <c>122</c>
+              <c>172</c>
+              <c>7A</c>
+              <c>1111010</c>
+              <c>z</c>
+              <c>&amp;#122;</c>
+              <c />
+              <c>Lowercase z</c>
+            </r>
+            <r>
+              <c>123</c>
+              <c>173</c>
+              <c>7B</c>
+              <c>1111011</c>
+              <c>{</c>
+              <c>&amp;#123;</c>
+              <c />
+              <c>Opening brace</c>
+            </r>
+            <r>
+              <c>124</c>
+              <c>174</c>
+              <c>7C</c>
+              <c>1111100</c>
+              <c>|</c>
+              <c>&amp;#124;</c>
+              <c />
+              <c>Vertical bar</c>
+            </r>
+            <r>
+              <c>125</c>
+              <c>175</c>
+              <c>7D</c>
+              <c>1111101</c>
+              <c>}</c>
+              <c>&amp;#125;</c>
+              <c />
+              <c>Closing brace</c>
+            </r>
+            <r>
+              <c>126</c>
+              <c>176</c>
+              <c>7E</c>
+              <c>1111110</c>
+              <c>~</c>
+              <c>&amp;#126;</c>
+              <c />
+              <c>Equivalency sign - tilde</c>
+            </r>
+            <r>
+              <c>127</c>
+              <c>177</c>
+              <c>7F</c>
+              <c>1111111</c>
+              <c />
+              <c>&amp;#127;</c>
+              <c />
+              <c>Delete</c>
+            </r>
+          </Data>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>HEX Table</AnnotationText>
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+    </Node>
+    <Node ToolID="27">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+        <Position x="66" y="522" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <NumRows value="1" />
+          <Fields>
+            <Field name="Camera Turn Degrees/Second" />
+          </Fields>
+          <Data>
+            <r>
+              <c>4</c>
+            </r>
+          </Data>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>Camera pan speed</AnnotationText>
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+    </Node>
+    <Node ToolID="35">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="54" y="54" width="324" height="72" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text />
+          <Font name="Segoe UI" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="3" />
+          <Justification Justification="4" />
+          <BG_Image>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</BG_Image>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="36">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="450" y="78" width="300" height="40" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Weekly Challenge #61</Text>
+          <Font name="Lato" size="16.2" style="0" />
+          <TextColor name="Gray" />
+          <FillColor name="White" />
+          <Shape shape="3" />
+          <Justification Justification="0" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="37">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="54" y="114" width="612" height="156" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text><![CDATA[In the novel, “The Martian”, astronaut Mark Watney is stranded on Mars. After getting a rover that transmits video back to earth, Watney communicates with mission control by setting up cards on sticks surrounding the rover – knowing the rover can rotate the camera 360 degrees. His method would be to show the rover camera a question, then record the letters that the mission control then points the rover camera at to assemble a response. However, knowing that there are 26 letters in the English alphabet, he realized that the letters surrounding the rover would only be separated by 13 degrees – making it more difficult to understand what the rover is pointing at. As a solution, he then decides to set up the surrounding cards using the hexadecimal characters 0-9, A-F (16 cards + 1 card stranding as the question). If the question card is sitting at 0 degrees and the 16 other letters 0-9, A-F are ordered around the rover, the camera can only pan at 4 degrees per second, how long will it take for the rover to return the following message: “We are sending another mission. It will take 42 months.”?
+
+Note: Assume the camera starts on the question card and ends on the last letter.
+]]></Text>
+          <Font name="Lato" size="7.8" style="0" />
+          <TextColor name="Gray" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="0" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="39">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="162" y="522" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\ProgramData\Alteryx\Engine\Engine_9488_b7866753aea143af93c3f340c8b4c64e_\Engine_5968_fd112bf5b72d4ea1b3dfe6cf31d58075_.yxdb</TempFile>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="40">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="162" y="450" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\ProgramData\Alteryx\Engine\Engine_9488_b7866753aea143af93c3f340c8b4c64e_\Engine_5968_115be6eb0cbb43baac21b0cc0367fbea_.yxdb</TempFile>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="41">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="162" y="378" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\ProgramData\Alteryx\Engine\Engine_9488_b7866753aea143af93c3f340c8b4c64e_\Engine_5968_667ebd74ece64d0ea0abdefe79ad42ca_.yxdb</TempFile>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="42">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="162" y="306" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\ProgramData\Alteryx\Engine\Engine_9488_b7866753aea143af93c3f340c8b4c64e_\Engine_5968_40b81dbafa904d5daf100cf6745e0750_.yxdb</TempFile>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="43">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+        <Position x="474" y="342" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <NumRows value="1" />
+          <Fields>
+            <Field name="Total seconds" />
+            <Field name="Total Minutes" />
+          </Fields>
+          <Data>
+            <r>
+              <c>2435.29411764706</c>
+              <c>40.5882352941177</c>
+            </r>
+          </Data>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+    </Node>
+    <Node ToolID="44">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="570" y="342" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\ProgramData\Alteryx\Engine\Engine_9488_b7866753aea143af93c3f340c8b4c64e_\Engine_5968_7e3f6f03f3704a05a241c0aee9172710_.yxdb</TempFile>
+          <Layout>
+            <View1>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="5" Connection="Output" />
+      <Destination ToolID="42" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="10" Connection="Output" />
+      <Destination ToolID="41" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="14" Connection="Output" />
+      <Destination ToolID="40" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="27" Connection="Output" />
+      <Destination ToolID="39" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="43" Connection="Output" />
+      <Destination ToolID="44" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>challenge_61_start_file</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>

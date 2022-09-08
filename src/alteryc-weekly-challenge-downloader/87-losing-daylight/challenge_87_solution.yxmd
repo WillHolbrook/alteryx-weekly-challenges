@@ -1,0 +1,614 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="11.3">
+  <Nodes>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+        <Position x="66" y="174" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <NumRows value="31" />
+          <Fields>
+            <Field name="Sep" />
+            <Field name="Sunrise" />
+            <Field name="Sunset" />
+          </Fields>
+          <Data>
+            <r>
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>1</c>
+              <c>6:28 am ↑ (79°)</c>
+              <c>7:30 pm ↑ (281°)</c>
+            </r>
+            <r>
+              <c>2</c>
+              <c>6:29 am ↑ (79°)</c>
+              <c>7:29 pm ↑ (281°)</c>
+            </r>
+            <r>
+              <c>3</c>
+              <c>6:30 am ↑ (80°)</c>
+              <c>7:27 pm ↑ (280°)</c>
+            </r>
+            <r>
+              <c>4</c>
+              <c>6:31 am ↑ (80°)</c>
+              <c>7:25 pm ↑ (280°)</c>
+            </r>
+            <r>
+              <c>5</c>
+              <c>6:32 am ↑ (81°)</c>
+              <c>7:24 pm ↑ (279°)</c>
+            </r>
+            <r>
+              <c>6</c>
+              <c>6:32 am ↑ (81°)</c>
+              <c>7:22 pm ↑ (279°)</c>
+            </r>
+            <r>
+              <c>7</c>
+              <c>6:33 am ↑ (82°)</c>
+              <c>7:21 pm ↑ (278°)</c>
+            </r>
+            <r>
+              <c>8</c>
+              <c>6:34 am ↑ (82°)</c>
+              <c>7:19 pm ↑ (278°)</c>
+            </r>
+            <r>
+              <c>9</c>
+              <c>6:35 am ↑ (83°)</c>
+              <c>7:17 pm ↑ (277°)</c>
+            </r>
+            <r>
+              <c>10</c>
+              <c>6:36 am ↑ (83°)</c>
+              <c>7:16 pm ↑ (277°)</c>
+            </r>
+            <r>
+              <c>11</c>
+              <c>6:37 am ↑ (84°)</c>
+              <c>7:14 pm ↑ (276°)</c>
+            </r>
+            <r>
+              <c>12</c>
+              <c>6:38 am ↑ (84°)</c>
+              <c>7:12 pm ↑ (276°)</c>
+            </r>
+            <r>
+              <c>13</c>
+              <c>6:39 am ↑ (85°)</c>
+              <c>7:11 pm ↑ (275°)</c>
+            </r>
+            <r>
+              <c>14</c>
+              <c>6:40 am ↑ (85°)</c>
+              <c>7:09 pm ↑ (275°)</c>
+            </r>
+            <r>
+              <c>15</c>
+              <c>6:41 am ↑ (86°)</c>
+              <c>7:07 pm ↑ (274°)</c>
+            </r>
+            <r>
+              <c>16</c>
+              <c>6:42 am ↑ (86°)</c>
+              <c>7:06 pm ↑ (274°)</c>
+            </r>
+            <r>
+              <c>17</c>
+              <c>6:43 am ↑ (87°)</c>
+              <c>7:04 pm ↑ (273°)</c>
+            </r>
+            <r>
+              <c>18</c>
+              <c>6:44 am ↑ (87°)</c>
+              <c>7:03 pm ↑ (273°)</c>
+            </r>
+            <r>
+              <c>19</c>
+              <c>6:45 am ↑ (88°)</c>
+              <c>7:01 pm ↑ (272°)</c>
+            </r>
+            <r>
+              <c>20</c>
+              <c>6:46 am ↑ (88°)</c>
+              <c>6:59 pm ↑ (272°)</c>
+            </r>
+            <r>
+              <c>21</c>
+              <c>6:46 am ↑ (89°)</c>
+              <c>6:58 pm ↑ (271°)</c>
+            </r>
+            <r>
+              <c>22</c>
+              <c>6:47 am ↑ (89°)</c>
+              <c>6:56 pm ↑ (271°)</c>
+            </r>
+            <r>
+              <c>23</c>
+              <c>6:48 am ↑ (90°)</c>
+              <c>6:54 pm ↑ (270°)</c>
+            </r>
+            <r>
+              <c>24</c>
+              <c>6:49 am ↑ (90°)</c>
+              <c>6:53 pm ↑ (270°)</c>
+            </r>
+            <r>
+              <c>25</c>
+              <c>6:50 am ↑ (91°)</c>
+              <c>6:51 pm ↑ (269°)</c>
+            </r>
+            <r>
+              <c>26</c>
+              <c>6:51 am ↑ (91°)</c>
+              <c>6:49 pm ↑ (269°)</c>
+            </r>
+            <r>
+              <c>27</c>
+              <c>6:52 am ↑ (92°)</c>
+              <c>6:48 pm ↑ (268°)</c>
+            </r>
+            <r>
+              <c>28</c>
+              <c>6:53 am ↑ (92°)</c>
+              <c>6:46 pm ↑ (268°)</c>
+            </r>
+            <r>
+              <c>29</c>
+              <c>6:54 am ↑ (93°)</c>
+              <c>6:45 pm ↑ (267°)</c>
+            </r>
+            <r>
+              <c>30</c>
+              <c>6:55 am ↑ (93°)</c>
+              <c>6:43 pm ↑ (267°)</c>
+            </r>
+          </Data>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+    </Node>
+    <Node ToolID="4">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Sample.Sample">
+        <Position x="162" y="174" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <GroupFields orderChanged="False" />
+          <Mode>Skip</Mode>
+          <N>1</N>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Skip 1st 1</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSample" />
+    </Node>
+    <Node ToolID="6">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="450" y="174" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="&quot;0&quot;+Left([Sunrise], 4)" field="Sunrise_Time" size="2147483647" type="V_String" />
+            <FormulaField expression="tostring(ToNumber(Left([Sunset], 2))+12)+ Right([Sunset], 3)" field="Sunset_Time" size="1073741823" type="V_WString" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Sunrise_Time = "0"+Left([Sunrise], 4)
+Sunset_Time = tostring(ToNumber(Left([Suns...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="7">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DateTime.DateTime">
+        <Position x="546" y="174" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <IsFrom value="False" />
+          <InputFieldName>Sunrise</InputFieldName>
+          <Format>hh:mm</Format>
+          <OutputFieldName>DateTime_Sunrise</OutputFieldName>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Convert Sunrise From:
+Custom</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDateTime" />
+    </Node>
+    <Node ToolID="8">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.MultiFieldFormula.MultiFieldFormula">
+        <Position x="282" y="174" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FieldType>Text</FieldType>
+          <Fields orderChanged="False">
+            <Field name="Sunrise" />
+            <Field name="Sunset" />
+            <Field name="*Unknown" selected="False" />
+          </Fields>
+          <CopyOutput value="False" />
+          <Expression>left([_CurrentField_], 4)</Expression>
+          <ChangeFieldType value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>left([_CurrentField_], 4)</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxMultiFieldFormula" />
+    </Node>
+    <Node ToolID="9">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DateTime.DateTime">
+        <Position x="642" y="174" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <IsFrom value="False" />
+          <InputFieldName>Sunset_Time</InputFieldName>
+          <Format>hh:mm</Format>
+          <OutputFieldName>DateTime_Sunset</OutputFieldName>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Convert Sunset_Time From:
+Custom</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDateTime" />
+    </Node>
+    <Node ToolID="10">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="738" y="174" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="DateTimeDiff([DateTime_Sunset],[DateTime_Sunrise],'minutes')" field="Day Length (minutes)" size="8" type="Double" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Day Length (minutes) = DateTimeDiff([DateTime_Sunset],[DateTime_Sunrise],'minute...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="11">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.MultiRowFormula.MultiRowFormula">
+        <Position x="822" y="174" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <UpdateField value="False" />
+          <UpdateField_Name>Sep</UpdateField_Name>
+          <CreateField_Name>Day Length Diff</CreateField_Name>
+          <CreateField_Type>Int32</CreateField_Type>
+          <CreateField_Size>4</CreateField_Size>
+          <OtherRows>Empty</OtherRows>
+          <NumRows value="1" />
+          <Expression>if [Sep]&gt;1 then [Day Length (minutes)]-[Row-1:Day Length (minutes)] else null() endif</Expression>
+          <GroupByFields />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>if [Sep]&gt;1 then [Day Length (minutes)]-[Row-1:Day Length (min...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxMultiRowFormula" />
+    </Node>
+    <Node ToolID="13">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Sample.Sample">
+        <Position x="918" y="126" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <GroupFields orderChanged="False" />
+          <Mode>First</Mode>
+          <N>1</N>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>First 1</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSample" />
+    </Node>
+    <Node ToolID="14">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Sample.Sample">
+        <Position x="930" y="282" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <GroupFields orderChanged="False" />
+          <Mode>Last</Mode>
+          <N>1</N>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Last 1</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSample" />
+    </Node>
+    <Node ToolID="17">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="1038" y="198" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="True">
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Right_RecordID" selected="True" rename="Right_RecordID" />
+                <SelectField field="Right_Sep" selected="False" rename="Right_Sep" />
+                <SelectField field="Right_Sunrise" selected="False" rename="Right_Sunrise" />
+                <SelectField field="Right_Sunset" selected="False" rename="Right_Sunset" />
+                <SelectField field="Right_Sunrise_Time" selected="False" rename="Right_Sunrise_Time" />
+                <SelectField field="Right_Sunset_Time" selected="False" rename="Right_Sunset_Time" />
+                <SelectField field="Right_DateTime_Sunrise" selected="False" rename="Right_DateTime_Sunrise" />
+                <SelectField field="Right_DateTime_Sunset" selected="False" rename="Right_DateTime_Sunset" />
+                <SelectField field="Right_Day Length (minutes)" selected="True" rename="Right_Day Length (minutes)" />
+                <SelectField field="Right_Day Length Diff" selected="False" rename="Right_Day Length Diff" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+    <Node ToolID="18">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="1134" y="198" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="([Day Length (minutes)]-[Right_Day Length (minutes)])*-1" field="September Diff" size="1073741823" type="V_WString" />
+            <FormulaField expression="&quot;September Total&quot;" field="September Total" size="1073741823" type="V_WString" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>September Diff = ([Day Length (minutes)]-[Right_Day Length (minutes)])*-1
+Septem...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="19">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="1230" y="198" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="Sep" selected="False" type="Int32" size="4" />
+            <SelectField field="September Diff" selected="True" />
+            <SelectField field="September Total" selected="True" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="20">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Union.Union">
+        <Position x="1326" y="198" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <AutoResetMode>Custom</AutoResetMode>
+          <MultiMetaInfo>
+            <MetaInfo name="#1">
+              <RecordInfo>
+                <Field name="Sep" source="TextInput:" type="Byte" column="2" />
+                <Field name="Sunrise" size="15" source="Formula: left([_CurrentField_], 4)" type="WString" column="3" />
+                <Field name="Sunset" size="16" source="Formula: left([_CurrentField_], 4)" type="WString" column="4" />
+                <Field name="Sunrise_Time" size="2147483647" source="Formula: &quot;0&quot;+Left([Sunrise], 4)" type="V_String" column="5" />
+                <Field name="Sunset_Time" size="1073741823" source="Formula: tostring(ToNumber(Left([Sunset], 2))+12)+ Right([Sunset], 3)" type="V_WString" column="6" />
+                <Field name="DateTime_Sunrise" source="DateTime: To hh:mm" type="Time" column="7" />
+                <Field name="DateTime_Sunset" source="DateTime: To hh:mm" type="Time" column="8" />
+                <Field name="Day Length (minutes)" source="Formula: DateTimeDiff([DateTime_Sunset],[DateTime_Sunrise],'minutes')" type="Double" column="9" />
+                <Field description="Formula: if [Sep]&gt;1 then [Day Length (minutes)]-[Row-1:Day Length (minutes)] else null() endif" name="Day Length Diff" source="Formula: if [Sep]&gt;1 then [Day Length (minutes)]-[Row-1:Day Length (minutes)] else null() endif" type="Int32" column="10" />
+              </RecordInfo>
+            </MetaInfo>
+            <MetaInfo name="#2">
+              <RecordInfo>
+                <Field name="September Total" size="1073741823" source="Formula: &quot;September Total&quot;" type="V_WString" column="2" />
+                <Field name="September Diff" size="1073741823" source="Formula: ([Day Length (minutes)]-[Right_Day Length (minutes)])*-1" type="V_WString" column="10" />
+              </RecordInfo>
+            </MetaInfo>
+          </MultiMetaInfo>
+          <ByName_ErrorMode>Warning</ByName_ErrorMode>
+          <ByName_OutputMode>All</ByName_OutputMode>
+          <Mode>ManualDelayed</Mode>
+          <SetOutputOrder value="True" />
+          <OutputOrder>
+            <Connection>#1</Connection>
+            <Connection>#2</Connection>
+          </OutputOrder>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnion" />
+    </Node>
+    <Node ToolID="21">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="1410" y="198" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="Sunrise_Time" selected="False" />
+            <SelectField field="Sunset_Time" selected="False" />
+            <SelectField field="DateTime_Sunrise" selected="False" />
+            <SelectField field="DateTime_Sunset" selected="False" />
+            <SelectField field="RecordID" selected="False" rename="Date" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="4" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="4" Connection="Output" />
+      <Destination ToolID="8" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="6" Connection="Output" />
+      <Destination ToolID="7" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="7" Connection="Output" />
+      <Destination ToolID="9" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="8" Connection="Output" />
+      <Destination ToolID="6" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="9" Connection="Output" />
+      <Destination ToolID="10" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="10" Connection="Output" />
+      <Destination ToolID="11" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="11" Connection="Output" />
+      <Destination ToolID="13" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="11" Connection="Output" />
+      <Destination ToolID="14" Connection="Input" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="11" Connection="Output" />
+      <Destination ToolID="20" Connection="Input" />
+    </Connection>
+    <Connection name="#2">
+      <Origin ToolID="19" Connection="Output" />
+      <Destination ToolID="20" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="13" Connection="Output" />
+      <Destination ToolID="17" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="14" Connection="Output" />
+      <Destination ToolID="17" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="17" Connection="Join" />
+      <Destination ToolID="18" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="18" Connection="Output" />
+      <Destination ToolID="19" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="20" Connection="Output" />
+      <Destination ToolID="21" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>challenge_87_solution</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>

@@ -1,0 +1,649 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2019.4">
+  <Nodes>
+    <Node ToolID="2">
+      <GuiSettings Plugin="AlteryxSpatialPluginsGui.CreatePoints.CreatePoints">
+        <Position x="210" y="162" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Fields fieldX="Longitude" fieldY="Latitude" />
+          <Mode>Double</Mode>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>Centroids for homes</AnnotationText>
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxCreatePoints" />
+    </Node>
+    <Node ToolID="5">
+      <GuiSettings Plugin="AlteryxSpatialPluginsGui.CreatePoints.CreatePoints">
+        <Position x="210" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Fields fieldX="Longitude" fieldY="Latitude" />
+          <Mode>Double</Mode>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>Centroids for Theater Locations</AnnotationText>
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxCreatePoints" />
+    </Node>
+    <Node ToolID="6">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AppendFields.AppendFields">
+        <Position x="342" y="66" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <CartesianMode>Error</CartesianMode>
+          <SelectConfiguration>
+            <Configuration outputConnection="Output">
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Target_Latitude" selected="False" input="Target_" />
+                <SelectField field="Target_Longitude" selected="False" input="Target_" />
+                <SelectField field="Target_Centroid" selected="True" rename="Theater Centroid" input="Target_" />
+                <SelectField field="Source_Latitude" selected="False" rename="Source_Latitude" input="Source_" />
+                <SelectField field="Source_Longitude" selected="False" rename="Source_Longitude" input="Source_" />
+                <SelectField field="Source_Centroid" selected="True" rename="Name Centroid" input="Source_" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>Append home centroids to theaters</AnnotationText>
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxAppendFields" />
+    </Node>
+    <Node ToolID="7">
+      <GuiSettings Plugin="AlteryxSpatialPluginsGui.Distance.Distance">
+        <Position x="438" y="66" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OutputDistance value="True" />
+          <ReturnNearest value="False" />
+          <DistToInsideEdge value="False" />
+          <OutputDriveTimeAndDistance value="False" />
+          <SpatialObjSource>Theater Centroid</SpatialObjSource>
+          <SpatialObjDest>Name Centroid</SpatialObjDest>
+          <DriveTimeDataSet>Latest</DriveTimeDataSet>
+          <AllowReverseRoute value="True" />
+          <MaxDriveTime value="30" />
+          <DriveDistanceOnly value="False" />
+          <OutputCardinalDirection value="False" />
+          <OutputDirectionDegrees value="False" />
+          <IsMetric value="False" />
+          <OutputUnits>Miles</OutputUnits>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>Get distance between each theater and home</AnnotationText>
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxDistance" />
+    </Node>
+    <Node ToolID="8">
+      <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+        <Position x="546" y="66" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SummarizeFields>
+            <SummarizeField field="Theater Name" action="GroupBy" rename="Theater Name" />
+            <SummarizeField field="DistanceMiles" action="Sum" rename="Sum_DistanceMiles" />
+            <SummarizeField field="Theater Centroid" action="First" rename="Centroid" />
+          </SummarizeFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>Total distance</AnnotationText>
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+    </Node>
+    <Node ToolID="9">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Sort.Sort">
+        <Position x="642" y="66" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SortInfo locale="0">
+            <Field field="Sum_DistanceMiles" order="Ascending" />
+          </SortInfo>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>Sort ascending</AnnotationText>
+          <DefaultAnnotationText>Sum_DistanceMiles - Ascending</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSort" />
+    </Node>
+    <Node ToolID="26">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+        <Position x="54" y="162" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <NumRows value="11" />
+          <Fields>
+            <Field name="Friend" />
+            <Field name="Latitude" />
+            <Field name="Longitude" />
+          </Fields>
+          <Data>
+            <r>
+              <c>Antonio</c>
+              <c>33.377925</c>
+              <c>-111.94721</c>
+            </r>
+            <r>
+              <c>Burt</c>
+              <c>33.399393</c>
+              <c>-111.863567</c>
+            </r>
+            <r>
+              <c>Cassie</c>
+              <c>33.669451</c>
+              <c>-112.107561</c>
+            </r>
+            <r>
+              <c>Emily</c>
+              <c>33.652568</c>
+              <c>-112.102059</c>
+            </r>
+            <r>
+              <c>Jennifer</c>
+              <c>33.412613</c>
+              <c>-111.877753</c>
+            </r>
+            <r>
+              <c>Laurel</c>
+              <c>33.668787</c>
+              <c>-112.038704</c>
+            </r>
+            <r>
+              <c>Megan</c>
+              <c>33.413347</c>
+              <c>-111.882337</c>
+            </r>
+            <r>
+              <c>Percy</c>
+              <c>33.406457</c>
+              <c>-111.719661</c>
+            </r>
+            <r>
+              <c>Robert</c>
+              <c><![CDATA[ 33.644939]]></c>
+              <c>-112.225286</c>
+            </r>
+            <r>
+              <c>Stella</c>
+              <c><![CDATA[ 33.508165]]></c>
+              <c>-112.061675</c>
+            </r>
+            <r>
+              <c>Terry</c>
+              <c><![CDATA[ 33.477242]]></c>
+              <c>-111.911069</c>
+            </r>
+          </Data>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>Friends' Locations</AnnotationText>
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+    </Node>
+    <Node ToolID="29">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+        <Position x="54" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <NumRows value="17" />
+          <Fields>
+            <Field name="Theater Name" />
+            <Field name="Latitude" />
+            <Field name="Longitude" />
+          </Fields>
+          <Data>
+            <r>
+              <c>AMC Arizona Center</c>
+              <c>33.452867</c>
+              <c>-112.069882</c>
+            </r>
+            <r>
+              <c>AMC Arrowhead</c>
+              <c>33.638369</c>
+              <c>-112.226408</c>
+            </r>
+            <r>
+              <c>AMC Centerpoint (Mill Ave)</c>
+              <c>33.422516</c>
+              <c>-111.941561</c>
+            </r>
+            <r>
+              <c>AMC Deer Valley</c>
+              <c>33.66156</c>
+              <c>-112.124032</c>
+            </r>
+            <r>
+              <c>AMC Desert Ridge</c>
+              <c>33.675103</c>
+              <c>-111.970742</c>
+            </r>
+            <r>
+              <c>AMC Esplanade</c>
+              <c>33.50807</c>
+              <c>-112.027892</c>
+            </r>
+            <r>
+              <c>AMC Mesa Grand</c>
+              <c>33.384176</c>
+              <c>-111.802073</c>
+            </r>
+            <r>
+              <c>Cinemark Riverview</c>
+              <c>33.435009</c>
+              <c>-111.863257</c>
+            </r>
+            <r>
+              <c>Harkins AZ Mills</c>
+              <c>33.384571</c>
+              <c>-111.965886</c>
+            </r>
+            <r>
+              <c>Harkins Christown</c>
+              <c>33.520506</c>
+              <c>-112.094793</c>
+            </r>
+            <r>
+              <c>Harkins Fashion Square</c>
+              <c>33.503729</c>
+              <c>-111.927341</c>
+            </r>
+            <r>
+              <c>Harkins MetroCenter</c>
+              <c>33.571287</c>
+              <c>-112.121605</c>
+            </r>
+            <r>
+              <c>Harkins Norterra</c>
+              <c>33.711052</c>
+              <c>-112.115823</c>
+            </r>
+            <r>
+              <c>Harkins North Valley</c>
+              <c>33.640879</c>
+              <c>-112.008425</c>
+            </r>
+            <r>
+              <c>Harkins Superstition Springs</c>
+              <c>33.385396</c>
+              <c>-111.680872</c>
+            </r>
+            <r>
+              <c>Harkins Tempe Marketplace</c>
+              <c>33.433782</c>
+              <c>-111.90146</c>
+            </r>
+            <r>
+              <c>Paradise Valley</c>
+              <c>33.600207</c>
+              <c>-111.984572</c>
+            </r>
+          </Data>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>Theater Locations</AnnotationText>
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+    </Node>
+    <Node ToolID="32">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Sample.Sample">
+        <Position x="762" y="66" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Mode>First</Mode>
+          <N>3</N>
+          <GroupFields orderChanged="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>First 3</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSample" />
+    </Node>
+    <Node ToolID="33">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="1170" y="66" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\ProgramData\Alteryx\Engine\Engine_13936_713bf1bd4ab44230b0bed10684cd39bd_\Engine_9504_87b13a803a1542b4a7dfdabc59fc3315_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>List Output</AnnotationText>
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="34">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="882" y="210" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="[Theater Name] +&quot; - &quot;+ tostring([Sum_DistanceMiles],0)+&quot; Total Miles&quot;" field="Map Label" size="1073741823" type="V_WString" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>Map label</AnnotationText>
+          <DefaultAnnotationText>Map Label = [Theater Name] +" - "+ tostring([Sum_DistanceMiles],0)+" Total Miles...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="35">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="870" y="66" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="Centroid" selected="False" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>Drop fields</AnnotationText>
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="36">
+      <GuiSettings Plugin="AlteryxSpatialPluginsGui.ReportMap.ReportMap">
+        <Position x="1074" y="210" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TemporaryFileLocationXML>C:\ProgramData\Alteryx\Engine\Engine_13936_713bf1bd4ab44230b0bed10684cd39bd_\Engine_9504_b07eb719f6b142c981a895dcf21cb36b_.xml</TemporaryFileLocationXML>
+          <IsMetric value="False" />
+          <ImageWidth>8</ImageWidth>
+          <ImageHeight>6</ImageHeight>
+          <ImageResolution>1</ImageResolution>
+          <ReferenceMap>Latest:CloudMade</ReferenceMap>
+          <BackgroundColor>#fdfeff</BackgroundColor>
+          <DropShadow>False</DropShadow>
+          <ScaleUnits>Miles</ScaleUnits>
+          <ExpandExtent>20</ExpandExtent>
+          <MinimumWidth>1</MinimumWidth>
+          <DataConnections>
+            <DataConnection name="#1">
+              <ConnectionType>IncomingConnection</ConnectionType>
+              <Connection>#1</Connection>
+              <FileName />
+              <SpatialObj>Centroid</SpatialObj>
+              <GroupField />
+              <ThemeField />
+              <LabelField>Map Label</LabelField>
+            </DataConnection>
+            <DataConnection name="#2">
+              <ConnectionType>IncomingConnection</ConnectionType>
+              <Connection>#2</Connection>
+              <FileName />
+              <SpatialObj>Centroid</SpatialObj>
+              <GroupField />
+              <ThemeField />
+              <LabelField>Friend</LabelField>
+            </DataConnection>
+          </DataConnections>
+          <Layers>
+            <Layer name="1" order="0">
+              <LayerType>Points</LayerType>
+              <isBaseLayer value="False" />
+              <isReorderedBaseLayer value="False" />
+              <isRestlyedBaseLayer value="False" />
+              <baseLabelOverriden value="False" />
+              <isThemeLayer value="False" />
+              <DisplayName>Theater Locations</DisplayName>
+              <DataConnection>#1</DataConnection>
+              <ShowInLegend value="True" />
+              <ZoomToLayer value="False" />
+              <Disable value="False" />
+              <PointStyle Color="#ff0000" StockPointStyle="circle" />
+              <ThemeStyle ColorMethod="Ramp" EndColor="#ff0000" ManualTiles="" NoneSpecificValuesAction="Color" NumTiles="5" SpecificValues="" StartColor="#0000ff" TileMethod="SmartTile" UniqueColors="#dc143c,#6495ed,#f0e68c,#228b22,#a9a9a9,#ffa500,#ba55d3,#a0522d,#ff69b4,#4b0082,#d3d3d3,#9acd32,#00ffff,#808000,#ffb6c1" UpperCutoffIncludedExcluded="Excluded" />
+              <LabelStyle Disabled="false" />
+            </Layer>
+            <Layer name="2" order="1">
+              <LayerType>Points</LayerType>
+              <isBaseLayer value="False" />
+              <isReorderedBaseLayer value="False" />
+              <isRestlyedBaseLayer value="False" />
+              <baseLabelOverriden value="False" />
+              <isThemeLayer value="False" />
+              <DisplayName>Friends' Apartments</DisplayName>
+              <DataConnection>#2</DataConnection>
+              <ShowInLegend value="True" />
+              <ZoomToLayer value="True" />
+              <Disable value="False" />
+              <PointStyle StockPointStyle="house" />
+              <ThemeStyle ColorMethod="Ramp" EndColor="#ff0000" ManualTiles="" NoneSpecificValuesAction="Color" NumTiles="5" SpecificValues="" StartColor="#0000ff" TileMethod="SmartTile" UniqueColors="#dc143c,#6495ed,#f0e68c,#228b22,#a9a9a9,#ffa500,#ba55d3,#a0522d,#ff69b4,#4b0082,#d3d3d3,#9acd32,#00ffff,#808000,#ffb6c1" UpperCutoffIncludedExcluded="Excluded" />
+              <LabelStyle Disabled="false" />
+            </Layer>
+            <Layer name="Base Layers - Points" order="2">
+              <DisplayName>Base Layers - Points</DisplayName>
+              <DataConnection />
+              <LayerType>Placeholder</LayerType>
+              <ShowLabel value="False" />
+            </Layer>
+            <Layer name="Base Layers - Lines" order="3">
+              <DisplayName>Base Layers - Lines</DisplayName>
+              <DataConnection />
+              <LayerType>Placeholder</LayerType>
+              <ShowLabel value="False" />
+            </Layer>
+            <Layer name="Base Layers - Polygons" order="4">
+              <DisplayName>Base Layers - Polygons</DisplayName>
+              <DataConnection />
+              <LayerType>Placeholder</LayerType>
+              <ShowLabel value="False" />
+            </Layer>
+          </Layers>
+          <Legend>
+            <LegendStyle Position="Right" UseCommaSeparators="false" />
+          </Legend>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>Create map</AnnotationText>
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxReportMap" />
+    </Node>
+    <Node ToolID="37">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="1170" y="210" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\ProgramData\Alteryx\Engine\Engine_13936_713bf1bd4ab44230b0bed10684cd39bd_\Engine_9504_dcc8602349f6436881606266bb657e82_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Report</DefaultTab>
+              <Hints>
+                <Map>
+                  <BaseMap>[No Base Map]</BaseMap>
+                </Map>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>Map output</AnnotationText>
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="2" Connection="Output" />
+      <Destination ToolID="6" Connection="Source" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="5" Connection="Output" />
+      <Destination ToolID="6" Connection="Targets" />
+    </Connection>
+    <Connection name="#2">
+      <Origin ToolID="2" Connection="Output" />
+      <Destination ToolID="36" Connection="Input" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="34" Connection="Output" />
+      <Destination ToolID="36" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="6" Connection="Output" />
+      <Destination ToolID="7" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="7" Connection="Output" />
+      <Destination ToolID="8" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="8" Connection="Output" />
+      <Destination ToolID="9" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="9" Connection="Output" />
+      <Destination ToolID="32" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="26" Connection="Output" />
+      <Destination ToolID="2" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="29" Connection="Output" />
+      <Destination ToolID="5" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="32" Connection="Output" />
+      <Destination ToolID="35" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="32" Connection="Output" />
+      <Destination ToolID="34" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="35" Connection="Output" />
+      <Destination ToolID="33" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="36" Connection="Output" />
+      <Destination ToolID="37" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>challenge_199_solution</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>

@@ -1,0 +1,2157 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2019.3">
+  <Nodes>
+    <Node ToolID="3">
+      <GuiSettings Plugin="AlteryxSpatialPluginsGui.CreatePoints.CreatePoints">
+        <Position x="138" y="90" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Fields fieldX="Longitude" fieldY="Latitude" />
+          <Mode>Double</Mode>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxCreatePoints" />
+    </Node>
+    <Node ToolID="4">
+      <GuiSettings Plugin="AlteryxSpatialPluginsGui.CreatePoints.CreatePoints">
+        <Position x="138" y="234" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Fields fieldX="Lon" fieldY="Lat" />
+          <Mode>Double</Mode>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxCreatePoints" />
+    </Node>
+    <Node ToolID="5">
+      <GuiSettings Plugin="AlteryxSpatialPluginsGui.TradeArea.TradeArea">
+        <Position x="234" y="90" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SpatialObj field="Centroid" includeOut="True" />
+          <Units units="Miles" />
+          <Radius_FromField value="False" />
+          <Radii>0-5, 5-8</Radii>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>0-5, 5-8 Miles</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxTradeArea" />
+    </Node>
+    <Node ToolID="8">
+      <GuiSettings Plugin="AlteryxSpatialPluginsGui.SpatialMatch.SpatialMatch">
+        <Position x="354" y="150" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Target SpatialObj="Centroid" />
+          <Universe SpatialObj="SpatialObject_TradeArea" />
+          <Method method="Within" />
+          <SelectConfiguration>
+            <Configuration outputConnection="Matched">
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Universe_Centroid" selected="True" rename="Universe_Centroid" input="Universe_" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Centroid Where Target Within Universe SpatialObject_TradeArea</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSpatialMatch" />
+    </Node>
+    <Node ToolID="10">
+      <GuiSettings Plugin="AlteryxSpatialPluginsGui.SpatialInfo.SpatialInfo">
+        <Position x="486" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SpatialObj field="SpatialObject_TradeArea" />
+          <SelectedItems>
+            <Item name="AreaMi" />
+          </SelectedItems>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSpatialInfo" />
+    </Node>
+    <Node ToolID="18">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="426" y="90" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\ProgramData\Alteryx\Engine\Engine_14192_34ca500bee6b4a9dbfbb5596f19406b0_\Engine_21160_db732db8217e4434b46bd00b08c47898_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Map</DefaultTab>
+              <Hints>
+                <Map>
+                  <BaseMap>Latest:CloudMade</BaseMap>
+                </Map>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="32">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+        <Position x="54" y="234" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <NumRows value="333" />
+          <Fields>
+            <Field name="Customer Segment" />
+            <Field name="Lat" />
+            <Field name="Lon" />
+          </Fields>
+          <Data>
+            <r>
+              <c>Corporate</c>
+              <c>39.70973429</c>
+              <c>-104.9185817</c>
+            </r>
+            <r>
+              <c>Corporate</c>
+              <c>39.70092754</c>
+              <c>-105.0121759</c>
+            </r>
+            <r>
+              <c>Home Office</c>
+              <c>39.79392404</c>
+              <c>-105.0156447</c>
+            </r>
+            <r>
+              <c>Small Business</c>
+              <c>39.74162</c>
+              <c>-104.9661483</c>
+            </r>
+            <r>
+              <c>Home Office</c>
+              <c>39.60640164</c>
+              <c>-104.8492374</c>
+            </r>
+            <r>
+              <c>Home Office</c>
+              <c>39.58712514</c>
+              <c>-104.9624879</c>
+            </r>
+            <r>
+              <c>Home Office</c>
+              <c>39.77824295</c>
+              <c>-104.8297799</c>
+            </r>
+            <r>
+              <c>Home Office</c>
+              <c>39.72399287</c>
+              <c>-104.9592322</c>
+            </r>
+            <r>
+              <c>Home Office</c>
+              <c>39.770703</c>
+              <c>-105.0406465</c>
+            </r>
+            <r>
+              <c>Consumer</c>
+              <c>39.74690857</c>
+              <c>-105.0827543</c>
+            </r>
+            <r>
+              <c>Small Business</c>
+              <c>39.67431474</c>
+              <c>-104.8351535</c>
+            </r>
+            <r>
+              <c>Small Business</c>
+              <c>39.64023697</c>
+              <c>-104.7847741</c>
+            </r>
+            <r>
+              <c>Small Business</c>
+              <c>39.79408572</c>
+              <c>-105.0529001</c>
+            </r>
+            <r>
+              <c>Home Office</c>
+              <c>39.91804344</c>
+              <c>-105.0827848</c>
+            </r>
+            <r>
+              <c>Small Business</c>
+              <c>39.64495387</c>
+              <c>-104.8231472</c>
+            </r>
+            <r>
+              <c>Small Business</c>
+              <c>39.5682573</c>
+              <c>-104.7229533</c>
+            </r>
+            <r>
+              <c>Home Office</c>
+              <c>39.66467403</c>
+              <c>-104.7991489</c>
+            </r>
+            <r>
+              <c>Small Business</c>
+              <c>39.65318795</c>
+              <c>-104.9372413</c>
+            </r>
+            <r>
+              <c>Corporate</c>
+              <c>39.78560684</c>
+              <c>-105.0624615</c>
+            </r>
+            <r>
+              <c>Corporate</c>
+              <c>39.75764878</c>
+              <c>-104.9490184</c>
+            </r>
+            <r>
+              <c>Small Business</c>
+              <c>39.69200753</c>
+              <c>-104.8062074</c>
+            </r>
+            <r>
+              <c>Corporate</c>
+              <c>39.64866332</c>
+              <c>-104.7988369</c>
+            </r>
+            <r>
+              <c>Corporate</c>
+              <c>39.50485007</c>
+              <c>-104.7166958</c>
+            </r>
+            <r>
+              <c>Corporate</c>
+              <c>39.64264129</c>
+              <c>-104.8203724</c>
+            </r>
+            <r>
+              <c>Corporate</c>
+              <c>39.68175094</c>
+              <c>-104.8474956</c>
+            </r>
+            <r>
+              <c>Corporate</c>
+              <c>39.74292633</c>
+              <c>-104.8647983</c>
+            </r>
+            <r>
+              <c>Home Office</c>
+              <c>39.8650958</c>
+              <c>-105.0310238</c>
+            </r>
+            <r>
+              <c>Corporate</c>
+              <c>39.93704185</c>
+              <c>-105.0690498</c>
+            </r>
+            <r>
+              <c>Small Business</c>
+              <c>39.7548711</c>
+              <c>-105.0047775</c>
+            </r>
+            <r>
+              <c>Small Business</c>
+              <c>39.72275722</c>
+              <c>-104.9006243</c>
+            </r>
+            <r>
+              <c>Small Business</c>
+              <c>39.70482601</c>
+              <c>-105.0455814</c>
+            </r>
+            <r>
+              <c>Corporate</c>
+              <c>39.84229766</c>
+              <c>-105.0879327</c>
+            </r>
+            <r>
+              <c>Consumer</c>
+              <c>39.73780551</c>
+              <c>-105.0824317</c>
+            </r>
+            <r>
+              <c>Consumer</c>
+              <c>39.61856998</c>
+              <c>-104.806982</c>
+            </r>
+            <r>
+              <c>Home Office</c>
+              <c>39.909166</c>
+              <c>-105.0637395</c>
+            </r>
+            <r>
+              <c>Home Office</c>
+              <c>39.71437045</c>
+              <c>-104.909946</c>
+            </r>
+            <r>
+              <c>Corporate</c>
+              <c>39.66656811</c>
+              <c>-104.7803963</c>
+            </r>
+            <r>
+              <c>Corporate</c>
+              <c>39.63460064</c>
+              <c>-105.0440545</c>
+            </r>
+            <r>
+              <c>Corporate</c>
+              <c>39.77591079</c>
+              <c>-105.0955461</c>
+            </r>
+            <r>
+              <c>Home Office</c>
+              <c>39.82508519</c>
+              <c>-105.1283204</c>
+            </r>
+            <r>
+              <c>Corporate</c>
+              <c>39.69102105</c>
+              <c>-104.9321201</c>
+            </r>
+            <r>
+              <c>Home Office</c>
+              <c>39.6541081</c>
+              <c>-104.9736926</c>
+            </r>
+            <r>
+              <c>Consumer</c>
+              <c>39.8596447</c>
+              <c>-105.0457978</c>
+            </r>
+            <r>
+              <c>Consumer</c>
+              <c>39.71638695</c>
+              <c>-104.9848451</c>
+            </r>
+            <r>
+              <c>Small Business</c>
+              <c>39.73703486</c>
+              <c>-104.9662046</c>
+            </r>
+            <r>
+              <c>Small Business</c>
+              <c>39.65603845</c>
+              <c>-104.8814432</c>
+            </r>
+            <r>
+              <c>Small Business</c>
+              <c>39.61234758</c>
+              <c>-104.8095837</c>
+            </r>
+            <r>
+              <c>Corporate</c>
+              <c>39.85066515</c>
+              <c>-105.0571748</c>
+            </r>
+            <r>
+              <c>Corporate</c>
+              <c>39.83966844</c>
+              <c>-105.1307086</c>
+            </r>
+            <r>
+              <c>Small Business</c>
+              <c>39.85006158</c>
+              <c>-105.0944127</c>
+            </r>
+            <r>
+              <c>Corporate</c>
+              <c>39.94075922</c>
+              <c>-105.0828734</c>
+            </r>
+            <r>
+              <c>Corporate</c>
+              <c>39.87679188</c>
+              <c>-105.0386584</c>
+            </r>
+            <r>
+              <c>Small Business</c>
+              <c>39.59575897</c>
+              <c>-104.9338266</c>
+            </r>
+            <r>
+              <c>Corporate</c>
+              <c>39.70480335</c>
+              <c>-104.8834282</c>
+            </r>
+            <r>
+              <c>Corporate</c>
+              <c>39.63683093</c>
+              <c>-104.8082081</c>
+            </r>
+            <r>
+              <c>Corporate</c>
+              <c>39.81780287</c>
+              <c>-105.1002486</c>
+            </r>
+            <r>
+              <c>Small Business</c>
+              <c>39.77886803</c>
+              <c>-105.0140624</c>
+            </r>
+            <r>
+              <c>Small Business</c>
+              <c>39.65362269</c>
+              <c>-104.7836466</c>
+            </r>
+            <r>
+              <c>Small Business</c>
+              <c>39.88006062</c>
+              <c>-105.1222863</c>
+            </r>
+            <r>
+              <c>Small Business</c>
+              <c>39.61288871</c>
+              <c>-104.7811686</c>
+            </r>
+            <r>
+              <c>Small Business</c>
+              <c>39.79848815</c>
+              <c>-105.094007</c>
+            </r>
+            <r>
+              <c>Home Office</c>
+              <c>39.6273722</c>
+              <c>-104.7081787</c>
+            </r>
+            <r>
+              <c>Small Business</c>
+              <c>39.81115263</c>
+              <c>-105.1190579</c>
+            </r>
+            <r>
+              <c>Small Business</c>
+              <c>39.67258815</c>
+              <c>-105.1569541</c>
+            </r>
+            <r>
+              <c>Corporate</c>
+              <c>39.81663447</c>
+              <c>-105.0443269</c>
+            </r>
+            <r>
+              <c>Consumer</c>
+              <c>39.63012491</c>
+              <c>-104.9798981</c>
+            </r>
+            <r>
+              <c>Corporate</c>
+              <c>39.73597637</c>
+              <c>-104.8942342</c>
+            </r>
+            <r>
+              <c>Corporate</c>
+              <c>39.68188952</c>
+              <c>-104.8643949</c>
+            </r>
+            <r>
+              <c>Corporate</c>
+              <c>39.75233857</c>
+              <c>-104.9315216</c>
+            </r>
+            <r>
+              <c>Home Office</c>
+              <c>39.68442093</c>
+              <c>-104.8117754</c>
+            </r>
+            <r>
+              <c>Home Office</c>
+              <c>39.69336205</c>
+              <c>-104.7929904</c>
+            </r>
+            <r>
+              <c>Corporate</c>
+              <c>39.74327</c>
+              <c>-104.8871683</c>
+            </r>
+            <r>
+              <c>Corporate</c>
+              <c>39.63821689</c>
+              <c>-105.135579</c>
+            </r>
+            <r>
+              <c>Home Office</c>
+              <c>39.71713977</c>
+              <c>-104.9439265</c>
+            </r>
+            <r>
+              <c>Home Office</c>
+              <c>39.75109066</c>
+              <c>-104.8542484</c>
+            </r>
+            <r>
+              <c>Home Office</c>
+              <c>39.89419599</c>
+              <c>-105.0711527</c>
+            </r>
+            <r>
+              <c>Consumer</c>
+              <c>39.69809291</c>
+              <c>-104.8502257</c>
+            </r>
+            <r>
+              <c>Consumer</c>
+              <c>39.66677319</c>
+              <c>-104.9525641</c>
+            </r>
+            <r>
+              <c>Consumer</c>
+              <c>39.6954132</c>
+              <c>-104.8797582</c>
+            </r>
+            <r>
+              <c>Consumer</c>
+              <c>39.81623313</c>
+              <c>-105.1399792</c>
+            </r>
+            <r>
+              <c>Consumer</c>
+              <c>39.90762922</c>
+              <c>-104.9875588</c>
+            </r>
+            <r>
+              <c>Home Office</c>
+              <c>39.72334138</c>
+              <c>-104.925149</c>
+            </r>
+            <r>
+              <c>Consumer</c>
+              <c>39.89789228</c>
+              <c>-105.0162335</c>
+            </r>
+            <r>
+              <c>Consumer</c>
+              <c>39.75040356</c>
+              <c>-104.9256107</c>
+            </r>
+            <r>
+              <c>Consumer</c>
+              <c>39.69087662</c>
+              <c>-104.7749004</c>
+            </r>
+            <r>
+              <c>Consumer</c>
+              <c>39.72158318</c>
+              <c>-105.0628258</c>
+            </r>
+            <r>
+              <c>Small Business</c>
+              <c>39.70543187</c>
+              <c>-105.0777218</c>
+            </r>
+            <r>
+              <c>Consumer</c>
+              <c>39.58784828</c>
+              <c>-105.0242686</c>
+            </r>
+            <r>
+              <c>Consumer</c>
+              <c>39.71147038</c>
+              <c>-105.1040488</c>
+            </r>
+            <r>
+              <c>Consumer</c>
+              <c>39.67712082</c>
+              <c>-104.9677682</c>
+            </r>
+            <r>
+              <c>Consumer</c>
+              <c>39.65552206</c>
+              <c>-104.8094081</c>
+            </r>
+            <r>
+              <c>Home Office</c>
+              <c>39.75867633</c>
+              <c>-104.8743884</c>
+            </r>
+            <r>
+              <c>Home Office</c>
+              <c>39.63894753</c>
+              <c>-104.7840193</c>
+            </r>
+            <r>
+              <c>Home Office</c>
+              <c>39.69141034</c>
+              <c>-105.0412088</c>
+            </r>
+            <r>
+              <c>Home Office</c>
+              <c>39.7263701</c>
+              <c>-104.8506057</c>
+            </r>
+            <r>
+              <c>Corporate</c>
+              <c>39.66871788</c>
+              <c>-105.0296843</c>
+            </r>
+            <r>
+              <c>Corporate</c>
+              <c>39.53925087</c>
+              <c>-104.6531204</c>
+            </r>
+            <r>
+              <c>Home Office</c>
+              <c>39.58286</c>
+              <c>-105.0548579</c>
+            </r>
+            <r>
+              <c>Home Office</c>
+              <c>39.71468206</c>
+              <c>-105.0230181</c>
+            </r>
+            <r>
+              <c>Consumer</c>
+              <c>39.74042718</c>
+              <c>-104.9353258</c>
+            </r>
+            <r>
+              <c>Consumer</c>
+              <c>39.69418845</c>
+              <c>-104.8143024</c>
+            </r>
+            <r>
+              <c>Consumer</c>
+              <c>39.59070317</c>
+              <c>-104.7283021</c>
+            </r>
+            <r>
+              <c>Small Business</c>
+              <c>39.75122837</c>
+              <c>-104.9710584</c>
+            </r>
+            <r>
+              <c>Small Business</c>
+              <c>39.72420089</c>
+              <c>-105.0599721</c>
+            </r>
+            <r>
+              <c>Corporate</c>
+              <c>39.82083589</c>
+              <c>-105.1264409</c>
+            </r>
+            <r>
+              <c>Home Office</c>
+              <c>39.69679201</c>
+              <c>-104.8913107</c>
+            </r>
+            <r>
+              <c>Corporate</c>
+              <c>39.69738125</c>
+              <c>-104.9008414</c>
+            </r>
+            <r>
+              <c>Small Business</c>
+              <c>39.61651128</c>
+              <c>-104.8037943</c>
+            </r>
+            <r>
+              <c>Small Business</c>
+              <c>39.69285694</c>
+              <c>-105.0944861</c>
+            </r>
+            <r>
+              <c>Small Business</c>
+              <c>39.69457386</c>
+              <c>-105.0163467</c>
+            </r>
+            <r>
+              <c>Corporate</c>
+              <c>39.73216162</c>
+              <c>-104.9803783</c>
+            </r>
+            <r>
+              <c>Small Business</c>
+              <c>39.6986812</c>
+              <c>-104.8145703</c>
+            </r>
+            <r>
+              <c>Small Business</c>
+              <c>39.74110306</c>
+              <c>-104.9020917</c>
+            </r>
+            <r>
+              <c>Small Business</c>
+              <c>39.68701482</c>
+              <c>-104.9138708</c>
+            </r>
+            <r>
+              <c>Small Business</c>
+              <c>39.70208165</c>
+              <c>-105.032112</c>
+            </r>
+            <r>
+              <c>Small Business</c>
+              <c>39.6463231</c>
+              <c>-104.7643529</c>
+            </r>
+            <r>
+              <c>Small Business</c>
+              <c>39.78738897</c>
+              <c>-105.0955933</c>
+            </r>
+            <r>
+              <c>Small Business</c>
+              <c>39.68241021</c>
+              <c>-104.928881</c>
+            </r>
+            <r>
+              <c>Small Business</c>
+              <c>39.64381623</c>
+              <c>-104.7751917</c>
+            </r>
+            <r>
+              <c>Home Office</c>
+              <c>39.92751413</c>
+              <c>-105.0732571</c>
+            </r>
+            <r>
+              <c>Consumer</c>
+              <c>39.65655594</c>
+              <c>-104.792073</c>
+            </r>
+            <r>
+              <c>Consumer</c>
+              <c>39.66500914</c>
+              <c>-104.8531409</c>
+            </r>
+            <r>
+              <c>Small Business</c>
+              <c>39.69962976</c>
+              <c>-104.9269399</c>
+            </r>
+            <r>
+              <c>Corporate</c>
+              <c>39.60261478</c>
+              <c>-104.9270816</c>
+            </r>
+            <r>
+              <c>Corporate</c>
+              <c>39.83435458</c>
+              <c>-105.0481698</c>
+            </r>
+            <r>
+              <c>Consumer</c>
+              <c>39.74754713</c>
+              <c>-104.8654668</c>
+            </r>
+            <r>
+              <c>Small Business</c>
+              <c>39.72510933</c>
+              <c>-105.0943683</c>
+            </r>
+            <r>
+              <c>Home Office</c>
+              <c>39.63847287</c>
+              <c>-104.9008936</c>
+            </r>
+            <r>
+              <c>Home Office</c>
+              <c>39.61667239</c>
+              <c>-104.780084</c>
+            </r>
+            <r>
+              <c>Home Office</c>
+              <c>39.71621813</c>
+              <c>-105.0859617</c>
+            </r>
+            <r>
+              <c>Consumer</c>
+              <c>39.68092215</c>
+              <c>-104.8169889</c>
+            </r>
+            <r>
+              <c>Consumer</c>
+              <c>39.69285979</c>
+              <c>-104.9759655</c>
+            </r>
+            <r>
+              <c>Corporate</c>
+              <c>39.68834821</c>
+              <c>-104.8104607</c>
+            </r>
+            <r>
+              <c>Corporate</c>
+              <c>39.60862821</c>
+              <c>-104.7774022</c>
+            </r>
+            <r>
+              <c>Corporate</c>
+              <c>39.69594287</c>
+              <c>-104.776612</c>
+            </r>
+            <r>
+              <c>Corporate</c>
+              <c>39.63453713</c>
+              <c>-104.7900291</c>
+            </r>
+            <r>
+              <c>Corporate</c>
+              <c>39.69341933</c>
+              <c>-105.0485968</c>
+            </r>
+            <r>
+              <c>Small Business</c>
+              <c>39.66622557</c>
+              <c>-104.7859313</c>
+            </r>
+            <r>
+              <c>Small Business</c>
+              <c>39.67730081</c>
+              <c>-104.9958258</c>
+            </r>
+            <r>
+              <c>Consumer</c>
+              <c>39.70816942</c>
+              <c>-104.9062885</c>
+            </r>
+            <r>
+              <c>Small Business</c>
+              <c>39.77682326</c>
+              <c>-105.1192969</c>
+            </r>
+            <r>
+              <c>Small Business</c>
+              <c>39.91727915</c>
+              <c>-105.0806288</c>
+            </r>
+            <r>
+              <c>Corporate</c>
+              <c>39.83130398</c>
+              <c>-105.1512005</c>
+            </r>
+            <r>
+              <c>Small Business</c>
+              <c>39.52393991</c>
+              <c>-104.7326083</c>
+            </r>
+            <r>
+              <c>Small Business</c>
+              <c>39.75459386</c>
+              <c>-104.9337133</c>
+            </r>
+            <r>
+              <c>Small Business</c>
+              <c>39.74530716</c>
+              <c>-104.9940077</c>
+            </r>
+            <r>
+              <c>Small Business</c>
+              <c>39.81151303</c>
+              <c>-105.1939539</c>
+            </r>
+            <r>
+              <c>Corporate</c>
+              <c>39.83908526</c>
+              <c>-105.1233343</c>
+            </r>
+            <r>
+              <c>Corporate</c>
+              <c>39.74495575</c>
+              <c>-104.992735</c>
+            </r>
+            <r>
+              <c>Corporate</c>
+              <c>39.64100287</c>
+              <c>-104.9014014</c>
+            </r>
+            <r>
+              <c>Corporate</c>
+              <c>39.65491368</c>
+              <c>-104.7894154</c>
+            </r>
+            <r>
+              <c>Corporate</c>
+              <c>39.69549359</c>
+              <c>-104.8194197</c>
+            </r>
+            <r>
+              <c>Corporate</c>
+              <c>39.92079557</c>
+              <c>-105.085087</c>
+            </r>
+            <r>
+              <c>Small Business</c>
+              <c>39.70367799</c>
+              <c>-104.882566</c>
+            </r>
+            <r>
+              <c>Small Business</c>
+              <c>39.66952265</c>
+              <c>-104.923658</c>
+            </r>
+            <r>
+              <c>Small Business</c>
+              <c>39.72770629</c>
+              <c>-105.1688695</c>
+            </r>
+            <r>
+              <c>Home Office</c>
+              <c>39.65197444</c>
+              <c>-104.7961029</c>
+            </r>
+            <r>
+              <c>Corporate</c>
+              <c>39.62934218</c>
+              <c>-105.0462595</c>
+            </r>
+            <r>
+              <c>Corporate</c>
+              <c>39.66405795</c>
+              <c>-104.8260571</c>
+            </r>
+            <r>
+              <c>Corporate</c>
+              <c>39.68452822</c>
+              <c>-105.1132861</c>
+            </r>
+            <r>
+              <c>Consumer</c>
+              <c>39.70276652</c>
+              <c>-104.9036882</c>
+            </r>
+            <r>
+              <c>Home Office</c>
+              <c>39.6380121</c>
+              <c>-104.981775</c>
+            </r>
+            <r>
+              <c>Consumer</c>
+              <c>39.74825071</c>
+              <c>-105.0835504</c>
+            </r>
+            <r>
+              <c>Consumer</c>
+              <c>39.51490697</c>
+              <c>-104.7953057</c>
+            </r>
+            <r>
+              <c>Home Office</c>
+              <c>39.65105868</c>
+              <c>-104.7941933</c>
+            </r>
+            <r>
+              <c>Consumer</c>
+              <c>39.68412585</c>
+              <c>-105.1122861</c>
+            </r>
+            <r>
+              <c>Consumer</c>
+              <c>39.73666083</c>
+              <c>-104.9548769</c>
+            </r>
+            <r>
+              <c>Home Office</c>
+              <c>39.68755656</c>
+              <c>-105.0454059</c>
+            </r>
+            <r>
+              <c>Consumer</c>
+              <c>39.94262897</c>
+              <c>-105.1612603</c>
+            </r>
+            <r>
+              <c>Home Office</c>
+              <c>39.53829999</c>
+              <c>-104.8033804</c>
+            </r>
+            <r>
+              <c>Home Office</c>
+              <c>39.85446473</c>
+              <c>-105.1037006</c>
+            </r>
+            <r>
+              <c>Small Business</c>
+              <c>39.62267414</c>
+              <c>-105.0941087</c>
+            </r>
+            <r>
+              <c>Small Business</c>
+              <c>39.63006936</c>
+              <c>-104.8199443</c>
+            </r>
+            <r>
+              <c>Small Business</c>
+              <c>39.70647287</c>
+              <c>-105.0961707</c>
+            </r>
+            <r>
+              <c>Small Business</c>
+              <c>39.65825713</c>
+              <c>-104.8987277</c>
+            </r>
+            <r>
+              <c>Small Business</c>
+              <c>39.74657815</c>
+              <c>-105.0710915</c>
+            </r>
+            <r>
+              <c>Small Business</c>
+              <c>39.70748922</c>
+              <c>-104.8588783</c>
+            </r>
+            <r>
+              <c>Home Office</c>
+              <c>39.7529606</c>
+              <c>-105.1115486</c>
+            </r>
+            <r>
+              <c>Small Business</c>
+              <c>39.72638454</c>
+              <c>-105.1047694</c>
+            </r>
+            <r>
+              <c>Small Business</c>
+              <c>39.80301667</c>
+              <c>-105.0727785</c>
+            </r>
+            <r>
+              <c>Small Business</c>
+              <c>39.57827633</c>
+              <c>-104.9501818</c>
+            </r>
+            <r>
+              <c>Corporate</c>
+              <c>39.81655989</c>
+              <c>-105.1326112</c>
+            </r>
+            <r>
+              <c>Consumer</c>
+              <c>39.69067737</c>
+              <c>-105.0233392</c>
+            </r>
+            <r>
+              <c>Corporate</c>
+              <c>39.81214384</c>
+              <c>-105.1082965</c>
+            </r>
+            <r>
+              <c>Small Business</c>
+              <c>39.66515385</c>
+              <c>-104.8481557</c>
+            </r>
+            <r>
+              <c>Small Business</c>
+              <c>39.64496763</c>
+              <c>-104.7405674</c>
+            </r>
+            <r>
+              <c>Small Business</c>
+              <c>39.62059018</c>
+              <c>-104.7868782</c>
+            </r>
+            <r>
+              <c>Corporate</c>
+              <c>39.70346783</c>
+              <c>-105.0492775</c>
+            </r>
+            <r>
+              <c>Corporate</c>
+              <c>39.59191537</c>
+              <c>-104.9314755</c>
+            </r>
+            <r>
+              <c>Home Office</c>
+              <c>39.47500939</c>
+              <c>-104.9008852</c>
+            </r>
+            <r>
+              <c>Corporate</c>
+              <c>39.67942073</c>
+              <c>-104.9523976</c>
+            </r>
+            <r>
+              <c>Corporate</c>
+              <c>39.75833804</c>
+              <c>-105.0391407</c>
+            </r>
+            <r>
+              <c>Corporate</c>
+              <c>39.82856323</c>
+              <c>-105.1548349</c>
+            </r>
+            <r>
+              <c>Corporate</c>
+              <c>39.93173883</c>
+              <c>-105.077415</c>
+            </r>
+            <r>
+              <c>Home Office</c>
+              <c>39.7743193</c>
+              <c>-104.9380816</c>
+            </r>
+            <r>
+              <c>Home Office</c>
+              <c>39.64505371</c>
+              <c>-104.8227503</c>
+            </r>
+            <r>
+              <c>Home Office</c>
+              <c>39.67846713</c>
+              <c>-104.8998362</c>
+            </r>
+            <r>
+              <c>Consumer</c>
+              <c>39.79820287</c>
+              <c>-105.0165802</c>
+            </r>
+            <r>
+              <c>Small Business</c>
+              <c>39.71908446</c>
+              <c>-104.8626351</c>
+            </r>
+            <r>
+              <c>Corporate</c>
+              <c>39.85961298</c>
+              <c>-105.0865072</c>
+            </r>
+            <r>
+              <c>Home Office</c>
+              <c>39.74895688</c>
+              <c>-105.1455055</c>
+            </r>
+            <r>
+              <c>Home Office</c>
+              <c>39.74703556</c>
+              <c>-104.8942084</c>
+            </r>
+            <r>
+              <c>Corporate</c>
+              <c>39.68943713</c>
+              <c>-104.8837657</c>
+            </r>
+            <r>
+              <c>Corporate</c>
+              <c>39.86939945</c>
+              <c>-105.038036</c>
+            </r>
+            <r>
+              <c>Home Office</c>
+              <c>39.66653298</c>
+              <c>-104.7683863</c>
+            </r>
+            <r>
+              <c>Home Office</c>
+              <c>39.61473731</c>
+              <c>-104.8069679</c>
+            </r>
+            <r>
+              <c>Small Business</c>
+              <c>39.70270374</c>
+              <c>-104.8096804</c>
+            </r>
+            <r>
+              <c>Small Business</c>
+              <c>39.69642287</c>
+              <c>-105.08956</c>
+            </r>
+            <r>
+              <c>Home Office</c>
+              <c>39.66098411</c>
+              <c>-105.1010052</c>
+            </r>
+            <r>
+              <c>Corporate</c>
+              <c>39.69216558</c>
+              <c>-104.9849565</c>
+            </r>
+            <r>
+              <c>Corporate</c>
+              <c>39.52699018</c>
+              <c>-104.7902355</c>
+            </r>
+            <r>
+              <c>Corporate</c>
+              <c>39.85917726</c>
+              <c>-104.9404886</c>
+            </r>
+            <r>
+              <c>Corporate</c>
+              <c>39.729067</c>
+              <c>-104.9797417</c>
+            </r>
+            <r>
+              <c>Corporate</c>
+              <c>39.94965788</c>
+              <c>-105.0733492</c>
+            </r>
+            <r>
+              <c>Small Business</c>
+              <c>39.73293287</c>
+              <c>-105.0637</c>
+            </r>
+            <r>
+              <c>Corporate</c>
+              <c>39.82797596</c>
+              <c>-105.0849244</c>
+            </r>
+            <r>
+              <c>Home Office</c>
+              <c>39.9236051</c>
+              <c>-105.0359871</c>
+            </r>
+            <r>
+              <c>Corporate</c>
+              <c>39.6162599</c>
+              <c>-104.789752</c>
+            </r>
+            <r>
+              <c>Corporate</c>
+              <c>39.64078683</c>
+              <c>-104.7289887</c>
+            </r>
+            <r>
+              <c>Corporate</c>
+              <c>39.72955532</c>
+              <c>-104.9850387</c>
+            </r>
+            <r>
+              <c>Small Business</c>
+              <c>39.76815791</c>
+              <c>-105.0418445</c>
+            </r>
+            <r>
+              <c>Small Business</c>
+              <c>39.67327775</c>
+              <c>-105.1504882</c>
+            </r>
+            <r>
+              <c>Small Business</c>
+              <c>39.66348287</c>
+              <c>-104.8093726</c>
+            </r>
+            <r>
+              <c>Small Business</c>
+              <c>39.66605224</c>
+              <c>-104.7520336</c>
+            </r>
+            <r>
+              <c>Small Business</c>
+              <c>39.6836194</c>
+              <c>-105.0732955</c>
+            </r>
+            <r>
+              <c>Small Business</c>
+              <c>39.88880032</c>
+              <c>-105.1012245</c>
+            </r>
+            <r>
+              <c>Corporate</c>
+              <c>39.78025648</c>
+              <c>-104.745063</c>
+            </r>
+            <r>
+              <c>Corporate</c>
+              <c>39.77749857</c>
+              <c>-105.0453084</c>
+            </r>
+            <r>
+              <c>Corporate</c>
+              <c>39.62723307</c>
+              <c>-104.7664682</c>
+            </r>
+            <r>
+              <c>Consumer</c>
+              <c>39.69197382</c>
+              <c>-104.7621218</c>
+            </r>
+            <r>
+              <c>Corporate</c>
+              <c>39.80021446</c>
+              <c>-105.1057413</c>
+            </r>
+            <r>
+              <c>Corporate</c>
+              <c>39.61167576</c>
+              <c>-104.8851856</c>
+            </r>
+            <r>
+              <c>Consumer</c>
+              <c>39.88161697</c>
+              <c>-104.9305164</c>
+            </r>
+            <r>
+              <c>Corporate</c>
+              <c>39.70627026</c>
+              <c>-104.9607115</c>
+            </r>
+            <r>
+              <c>Consumer</c>
+              <c>39.66282531</c>
+              <c>-105.064384</c>
+            </r>
+            <r>
+              <c>Small Business</c>
+              <c>39.72921496</c>
+              <c>-105.1388656</c>
+            </r>
+            <r>
+              <c>Consumer</c>
+              <c>39.54415434</c>
+              <c>-105.0220888</c>
+            </r>
+            <r>
+              <c>Small Business</c>
+              <c>39.60291234</c>
+              <c>-105.0434175</c>
+            </r>
+            <r>
+              <c>Consumer</c>
+              <c>39.73258207</c>
+              <c>-104.8157086</c>
+            </r>
+            <r>
+              <c>Small Business</c>
+              <c>39.70483328</c>
+              <c>-105.0461217</c>
+            </r>
+            <r>
+              <c>Consumer</c>
+              <c>39.72918</c>
+              <c>-104.9129683</c>
+            </r>
+            <r>
+              <c>Consumer</c>
+              <c>39.89422287</c>
+              <c>-105.004901</c>
+            </r>
+            <r>
+              <c>Corporate</c>
+              <c>39.84418508</c>
+              <c>-105.137128</c>
+            </r>
+            <r>
+              <c>Corporate</c>
+              <c>39.58805895</c>
+              <c>-104.7256305</c>
+            </r>
+            <r>
+              <c>Home Office</c>
+              <c>39.71987983</c>
+              <c>-104.9065229</c>
+            </r>
+            <r>
+              <c>Corporate</c>
+              <c>39.85425191</c>
+              <c>-105.0845047</c>
+            </r>
+            <r>
+              <c>Corporate</c>
+              <c>39.82940909</c>
+              <c>-104.9994833</c>
+            </r>
+            <r>
+              <c>Corporate</c>
+              <c>39.83817131</c>
+              <c>-105.0721022</c>
+            </r>
+            <r>
+              <c>Consumer</c>
+              <c>39.72224828</c>
+              <c>-104.8767129</c>
+            </r>
+            <r>
+              <c>Home Office</c>
+              <c>39.74742287</c>
+              <c>-105.0761479</c>
+            </r>
+            <r>
+              <c>Corporate</c>
+              <c>39.63835623</c>
+              <c>-104.8081795</c>
+            </r>
+            <r>
+              <c>Consumer</c>
+              <c>39.81859771</c>
+              <c>-105.1000815</c>
+            </r>
+            <r>
+              <c>Consumer</c>
+              <c>39.71237977</c>
+              <c>-104.8926022</c>
+            </r>
+            <r>
+              <c>Home Office</c>
+              <c>39.85559771</c>
+              <c>-105.0950258</c>
+            </r>
+            <r>
+              <c>Home Office</c>
+              <c>39.68400075</c>
+              <c>-104.9817882</c>
+            </r>
+            <r>
+              <c>Home Office</c>
+              <c>39.57873413</c>
+              <c>-104.8067374</c>
+            </r>
+            <r>
+              <c>Home Office</c>
+              <c>39.88213001</c>
+              <c>-104.9633587</c>
+            </r>
+            <r>
+              <c>Home Office</c>
+              <c>39.85419174</c>
+              <c>-105.0835778</c>
+            </r>
+            <r>
+              <c>Corporate</c>
+              <c>39.6087558</c>
+              <c>-104.7196247</c>
+            </r>
+            <r>
+              <c>Corporate</c>
+              <c>39.63598904</c>
+              <c>-105.1383029</c>
+            </r>
+            <r>
+              <c>Small Business</c>
+              <c>39.78935713</c>
+              <c>-104.9837613</c>
+            </r>
+            <r>
+              <c>Corporate</c>
+              <c>39.70942713</c>
+              <c>-104.92457</c>
+            </r>
+            <r>
+              <c>Corporate</c>
+              <c>39.7499314</c>
+              <c>-105.128533</c>
+            </r>
+            <r>
+              <c>Corporate</c>
+              <c>39.69437482</c>
+              <c>-105.0568855</c>
+            </r>
+            <r>
+              <c>Corporate</c>
+              <c>39.89097911</c>
+              <c>-105.1108981</c>
+            </r>
+            <r>
+              <c>Corporate</c>
+              <c>39.66856304</c>
+              <c>-104.8915944</c>
+            </r>
+            <r>
+              <c>Corporate</c>
+              <c>39.76160918</c>
+              <c>-104.8348132</c>
+            </r>
+            <r>
+              <c>Corporate</c>
+              <c>39.88908585</c>
+              <c>-105.0470695</c>
+            </r>
+            <r>
+              <c>Corporate</c>
+              <c>39.64299934</c>
+              <c>-105.0485529</c>
+            </r>
+            <r>
+              <c>Corporate</c>
+              <c>39.6334616</c>
+              <c>-104.8008021</c>
+            </r>
+            <r>
+              <c>Corporate</c>
+              <c>39.63301168</c>
+              <c>-104.8089765</c>
+            </r>
+            <r>
+              <c>Home Office</c>
+              <c>39.6571</c>
+              <c>-104.8716905</c>
+            </r>
+            <r>
+              <c>Home Office</c>
+              <c>39.75915782</c>
+              <c>-104.8231605</c>
+            </r>
+            <r>
+              <c>Home Office</c>
+              <c>39.69945997</c>
+              <c>-104.8491973</c>
+            </r>
+            <r>
+              <c>Home Office</c>
+              <c>39.69191673</c>
+              <c>-104.9033703</c>
+            </r>
+            <r>
+              <c>Home Office</c>
+              <c>39.68706008</c>
+              <c>-104.9361308</c>
+            </r>
+            <r>
+              <c>Home Office</c>
+              <c>39.77548357</c>
+              <c>-105.0530416</c>
+            </r>
+            <r>
+              <c>Corporate</c>
+              <c>39.62215939</c>
+              <c>-104.794356</c>
+            </r>
+            <r>
+              <c>Corporate</c>
+              <c>39.82905356</c>
+              <c>-105.1313409</c>
+            </r>
+            <r>
+              <c>Small Business</c>
+              <c>39.77552291</c>
+              <c>-105.0148684</c>
+            </r>
+            <r>
+              <c>Small Business</c>
+              <c>39.6640749</c>
+              <c>-105.0566006</c>
+            </r>
+            <r>
+              <c>Small Business</c>
+              <c>39.85007023</c>
+              <c>-105.086031</c>
+            </r>
+            <r>
+              <c>Small Business</c>
+              <c>39.55934348</c>
+              <c>-104.9796327</c>
+            </r>
+            <r>
+              <c>Small Business</c>
+              <c>39.83066475</c>
+              <c>-105.0686425</c>
+            </r>
+            <r>
+              <c>Small Business</c>
+              <c>39.60056</c>
+              <c>-104.863702</c>
+            </r>
+            <r>
+              <c>Small Business</c>
+              <c>39.8968154</c>
+              <c>-105.065521</c>
+            </r>
+            <r>
+              <c>Small Business</c>
+              <c>39.73664158</c>
+              <c>-105.1186903</c>
+            </r>
+            <r>
+              <c>Corporate</c>
+              <c>39.63436632</c>
+              <c>-104.7906419</c>
+            </r>
+            <r>
+              <c>Corporate</c>
+              <c>39.91554673</c>
+              <c>-104.914249</c>
+            </r>
+            <r>
+              <c>Corporate</c>
+              <c>39.66706245</c>
+              <c>-105.034801</c>
+            </r>
+            <r>
+              <c>Corporate</c>
+              <c>39.69887464</c>
+              <c>-104.8503882</c>
+            </r>
+            <r>
+              <c>Small Business</c>
+              <c>39.74850185</c>
+              <c>-105.130338</c>
+            </r>
+            <r>
+              <c>Small Business</c>
+              <c>39.84157287</c>
+              <c>-105.0552057</c>
+            </r>
+            <r>
+              <c>Small Business</c>
+              <c>39.65335713</c>
+              <c>-105.0768925</c>
+            </r>
+            <r>
+              <c>Consumer</c>
+              <c>39.68583713</c>
+              <c>-104.9342092</c>
+            </r>
+            <r>
+              <c>Consumer</c>
+              <c>39.69396651</c>
+              <c>-104.8350217</c>
+            </r>
+            <r>
+              <c>Corporate</c>
+              <c>39.69677713</c>
+              <c>-104.8800532</c>
+            </r>
+            <r>
+              <c>Home Office</c>
+              <c>39.67361723</c>
+              <c>-105.0598093</c>
+            </r>
+            <r>
+              <c>Corporate</c>
+              <c>39.90158287</c>
+              <c>-105.0564514</c>
+            </r>
+            <r>
+              <c>Corporate</c>
+              <c>39.7439219</c>
+              <c>-105.0659017</c>
+            </r>
+            <r>
+              <c>Corporate</c>
+              <c>39.85747287</c>
+              <c>-105.1035122</c>
+            </r>
+            <r>
+              <c>Corporate</c>
+              <c>39.65557268</c>
+              <c>-104.7613867</c>
+            </r>
+            <r>
+              <c>Small Business</c>
+              <c>39.60342936</c>
+              <c>-104.673412</c>
+            </r>
+            <r>
+              <c>Corporate</c>
+              <c>39.77103303</c>
+              <c>-105.0556162</c>
+            </r>
+            <r>
+              <c>Corporate</c>
+              <c>39.74198132</c>
+              <c>-105.0733353</c>
+            </r>
+            <r>
+              <c>Corporate</c>
+              <c>39.8736576</c>
+              <c>-104.9258947</c>
+            </r>
+            <r>
+              <c>Small Business</c>
+              <c>39.85868861</c>
+              <c>-105.073418</c>
+            </r>
+            <r>
+              <c>Corporate</c>
+              <c>39.81622615</c>
+              <c>-105.1108502</c>
+            </r>
+            <r>
+              <c>Home Office</c>
+              <c>39.64228316</c>
+              <c>-104.7639149</c>
+            </r>
+            <r>
+              <c>Corporate</c>
+              <c>39.82139877</c>
+              <c>-105.0775185</c>
+            </r>
+            <r>
+              <c>Corporate</c>
+              <c>39.6778167</c>
+              <c>-105.0622284</c>
+            </r>
+            <r>
+              <c>Corporate</c>
+              <c>39.70847565</c>
+              <c>-104.8449444</c>
+            </r>
+            <r>
+              <c>Corporate</c>
+              <c>39.6171989</c>
+              <c>-104.7745621</c>
+            </r>
+            <r>
+              <c>Small Business</c>
+              <c>39.77739852</c>
+              <c>-105.0390884</c>
+            </r>
+            <r>
+              <c>Small Business</c>
+              <c>39.79632337</c>
+              <c>-105.0699124</c>
+            </r>
+            <r>
+              <c>Small Business</c>
+              <c>39.72262287</c>
+              <c>-104.8267373</c>
+            </r>
+            <r>
+              <c>Small Business</c>
+              <c>39.70123835</c>
+              <c>-104.8780201</c>
+            </r>
+            <r>
+              <c>Small Business</c>
+              <c>39.60724805</c>
+              <c>-104.7748197</c>
+            </r>
+            <r>
+              <c>Small Business</c>
+              <c>39.61021271</c>
+              <c>-105.0710485</c>
+            </r>
+            <r>
+              <c>Corporate</c>
+              <c>39.67547651</c>
+              <c>-104.7775311</c>
+            </r>
+            <r>
+              <c>Corporate</c>
+              <c>39.73670882</c>
+              <c>-105.182652</c>
+            </r>
+            <r>
+              <c>Consumer</c>
+              <c>39.87705368</c>
+              <c>-104.9921018</c>
+            </r>
+            <r>
+              <c>Consumer</c>
+              <c>39.69969857</c>
+              <c>-105.0353718</c>
+            </r>
+            <r>
+              <c>Consumer</c>
+              <c>39.70690145</c>
+              <c>-104.8321605</c>
+            </r>
+            <r>
+              <c>Consumer</c>
+              <c>39.69045096</c>
+              <c>-104.8757285</c>
+            </r>
+            <r>
+              <c>Consumer</c>
+              <c>39.85480159</c>
+              <c>-105.0710366</c>
+            </r>
+            <r>
+              <c>Small Business</c>
+              <c>39.70080287</c>
+              <c>-104.8550154</c>
+            </r>
+            <r>
+              <c>Small Business</c>
+              <c>39.78961876</c>
+              <c>-105.0601532</c>
+            </r>
+            <r>
+              <c>Small Business</c>
+              <c>39.91151086</c>
+              <c>-105.0247768</c>
+            </r>
+            <r>
+              <c>Small Business</c>
+              <c>39.64064195</c>
+              <c>-104.7655126</c>
+            </r>
+            <r>
+              <c>Small Business</c>
+              <c>39.92340981</c>
+              <c>-105.0562795</c>
+            </r>
+            <r>
+              <c>Small Business</c>
+              <c>39.65360999</c>
+              <c>-105.0657775</c>
+            </r>
+            <r>
+              <c>Small Business</c>
+              <c>39.76238245</c>
+              <c>-104.9657625</c>
+            </r>
+          </Data>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+    </Node>
+    <Node ToolID="33">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+        <Position x="54" y="90" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <NumRows value="1" />
+          <Fields>
+            <Field name="Label" />
+            <Field name="Latitude" />
+            <Field name="Longitude" />
+          </Fields>
+          <Data>
+            <r>
+              <c>Store</c>
+              <c>39.718457</c>
+              <c>-104.95127</c>
+            </r>
+          </Data>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+    </Node>
+    <Node ToolID="34">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="270" y="246" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\ProgramData\Alteryx\Engine\Engine_14192_34ca500bee6b4a9dbfbb5596f19406b0_\Engine_21160_6aa36e6e9bed4db6aa9eab026b36f647_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Map</DefaultTab>
+              <Hints>
+                <Map>
+                  <BaseMap>Latest:CloudMade</BaseMap>
+                </Map>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="43">
+      <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+        <Position x="486" y="138" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SummarizeFields>
+            <SummarizeField field="RadiusSize" action="GroupBy" rename="Group By_RadiusSize" />
+            <SummarizeField field="Customer Segment" action="GroupBy" rename="Group By_Customer Segment" />
+            <SummarizeField field="Customer Segment" action="Count" rename="Count" />
+          </SummarizeFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+    </Node>
+    <Node ToolID="44">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="570" y="102" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="False">
+          <JoinInfo connection="Left">
+            <Field field="RadiusSize" />
+          </JoinInfo>
+          <JoinInfo connection="Right">
+            <Field field="Group By_RadiusSize" />
+          </JoinInfo>
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="True" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Left_Label" selected="False" input="Left_" />
+                <SelectField field="Left_Latitude" selected="False" input="Left_" />
+                <SelectField field="Left_Longitude" selected="False" input="Left_" />
+                <SelectField field="Left_Centroid" selected="False" input="Left_" />
+                <SelectField field="Left_SpatialObject_TradeArea" selected="False" input="Left_" />
+                <SelectField field="Right_Group By_RadiusSize" selected="False" input="Right_" />
+                <SelectField field="Right_Group By_Customer Segment" selected="True" input="Right_" />
+                <SelectField field="Left_RadiusSize" selected="True" input="Left_" />
+                <SelectField field="Right_Count" selected="True" input="Right_" />
+                <SelectField field="Left_AreaSqMi" selected="True" input="Left_" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+    <Node ToolID="45">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="654" y="102" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="[Count]/[AreaSqMi]" field="Density" size="1073741823" type="V_WString" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText><![CDATA[Density = [Count]/[AreaSqMi]
+]]></DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="46">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Sort.Sort">
+        <Position x="750" y="102" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SortInfo locale="0">
+            <Field field="RadiusSize" order="Ascending" />
+            <Field field="Density" order="Descending" />
+          </SortInfo>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>RadiusSize - Ascending
+Density - Descending</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSort" />
+    </Node>
+    <Node ToolID="47">
+      <GuiSettings Plugin="PortfolioPluginsGui.ComposerTable.PortfolioComposerTable">
+        <Position x="846" y="102" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TableMode>Basic</TableMode>
+          <GroupingFields orderChanged="False">
+            <Field name="RadiusSize" />
+          </GroupingFields>
+          <Width>100%</Width>
+          <ShowHeader value="True" />
+          <ShowBarGraph value="False" />
+          <TableFields orderChanged="False">
+            <Field name="Group By_Customer Segment" selected="True" Alignment="Left" Alias="Customer Segment" Width="" />
+            <Field name="RadiusSize" selected="True" Alignment="Left" Alias="Radius Size" />
+            <Field name="Count" selected="True" Alignment="Left" Alias="# of Customers" />
+            <Field name="AreaSqMi" selected="True" Alignment="Left" Alias="Area in Square Miles" Places="1" />
+            <Field name="Density" selected="True" Alignment="Left" Alias="Customer Density" Width="" />
+            <Field name="*Unknown" selected="True" Alignment="Right" />
+          </TableFields>
+          <TableStyles>
+            <Style Name="Data" Font="Arial" Size="8" TextColor="#000000" BackColor="#ffffff" AltColor="#f0f0f0" RowGroup="1" />
+            <Style Name="Header" Font="Arial" Size="10" TextColor="#000000" BackColor="#dbdbdb" />
+            <Style Name="Borders" Width="1" DataColor="#000000" HeaderColor="#000000" RowBorder="None" BasicColBorder="Default (Use Per Column Setting)" />
+            <Style Name="Table" CellPadding="0" ColumnPadding="0" TableBorder="true" Width="1" BorderColor="#000000" />
+          </TableStyles>
+          <StyleRules />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Basic Table</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="PortfolioPluginsEngine.dll" EngineDllEntryPoint="AlteryxPortfolioComposerTablePlugin" />
+    </Node>
+    <Node ToolID="48">
+      <GuiSettings Plugin="PortfolioPluginsGui.ComposerRender.PortfolioComposerRender">
+        <Position x="930" y="102" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFileType />
+          <OutputFile>C:\Users\cbonthius\Desktop\Weekly Challenge -.pdf</OutputFile>
+          <BatchMode value="True" />
+          <GroupField>RadiusSize</GroupField>
+          <FilenameModifier>Append</FilenameModifier>
+          <DataField>Table</DataField>
+          <Separator>Breaking</Separator>
+          <EmbedDependencies value="False" />
+          <ShowHeader value="False" />
+          <ShowFooter value="False" />
+          <PortraitMode value="True" />
+          <PaperType Width="612" Height="792" Left="36" Right="36" Top="36" Bottom="36" />
+          <DefaultStyles>
+            <Style Name="TextStyle" FontName="Arial" FontSize="14" Justify="Left" ForeColor="#000000" Locale="1033" />
+          </DefaultStyles>
+          <PNGResolution>1</PNGResolution>
+          <PNGLargerAction>squeeze</PNGLargerAction>
+          <PNGLargerThanPageChoice>warning</PNGLargerThanPageChoice>
+          <PNGTransparentBG value="False" />
+          <PNGBackColor value="#ffffff" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+      </Properties>
+      <EngineSettings EngineDll="PortfolioPluginsEngine.dll" EngineDllEntryPoint="AlteryxPortfolioComposerRenderPlugin" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="3" Connection="Output" />
+      <Destination ToolID="5" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="4" Connection="Output" />
+      <Destination ToolID="34" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="4" Connection="Output" />
+      <Destination ToolID="8" Connection="Targets" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="5" Connection="Output" />
+      <Destination ToolID="8" Connection="Universe" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="5" Connection="Output" />
+      <Destination ToolID="10" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="8" Connection="Matched" />
+      <Destination ToolID="18" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="8" Connection="Matched" />
+      <Destination ToolID="43" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="10" Connection="Output" />
+      <Destination ToolID="44" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="43" Connection="Output" />
+      <Destination ToolID="44" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="32" Connection="Output" />
+      <Destination ToolID="4" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="33" Connection="Output" />
+      <Destination ToolID="3" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="44" Connection="Join" />
+      <Destination ToolID="45" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="45" Connection="Output" />
+      <Destination ToolID="46" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="46" Connection="Output" />
+      <Destination ToolID="47" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="47" Connection="Output" />
+      <Destination ToolID="48" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>challenge_197_solution</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>

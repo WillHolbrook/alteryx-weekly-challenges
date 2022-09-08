@@ -1,0 +1,4210 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="11.3">
+  <Nodes>
+    <Node ToolID="31">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="426" y="258" width="240" height="180" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Output</Text>
+          <Font name="Segoe UI" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="30">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="54" y="258" width="240" height="180" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Input</Text>
+          <Font name="Segoe UI" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="20">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="54" y="54" width="324" height="72" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text />
+          <Font name="Segoe UI" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="3" />
+          <Justification Justification="4" />
+          <BG_Image>iVBORw0KGgoAAAANSUhEUgAAAXoAAAA0CAIAAAAL52RvAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAScQAAEnEB89x6jgAAABJ0RVh0U29mdHdhcmUAR3JlZW5zaG90XlUIBQAADRxJREFUeF7tnd+OFccRh/0GzhvEb4DfwH4D+w3sN0jewFxxhxIpcGEJCS4s+WKJsYR9w14kYq8WIWE2CgqKMVqL4FUQ8kIisCVL5NtTvZXa6j/TZ2fm7J51fWqNTtdU93QPU7+pnjNneetNEATBSgi5CYJgRYTcBEGwIk5Gbv7y5D83Hu2nSrAOPHny5O7du7u7u6keBMuzarl5/OLn97/49q0/fUNJpmAdCLkJxrNSubn37NVvPv2baM2ycvPjT7+c395DqhCsZApWSMhNMJ6Vys0n2z+o1iwlN1anWIgla7BCQm6C8ayH3Lz96Y62Crk5EUJugvGsh9zYViE3J0LITTCekJugi5CbYDwhN0EXITfBeEJugi5CboLxhNwEXYTcBOMZkJsff/rlj988+3jz+/e/+Na+MkN59/OH2Nl779mr5D3EycoN4zy/vff72/9iLmz5/OWjF2lfMETITTCeAbn54KvvbKjXyjvXHhDAgy/gLSU3f7j3b3SBgq7ZVmgcSmHLoABdffDcaaUW7PSAqibXEuz965P/Skmmxe8wRLlEvJJ1AbvUv92zok2sdvNZ+0mmCnaEM70GGXITjGdAbj7a3HXx2SiEbmpWYSm5sZ7t8t6f/5naZBCHTq2KBZ+GLljNRQTxRGLUIiW5LrB2TmCy1kEN1f+31/6erEffNvrd7SfJmuHm2HPEYxByE4xnQG6463LRE8+EHGJhCxYbD1LaiQatrHOyVrCe7dKQm3Of/yN3luLsRGxqk2GdmXWeKLkBWHkalGCwg+QUJesiv1M7pXZuUSLrttbZzf7+PocAPiRTk9evX4s/JFOdTjdFBsMhUn3Bsp3s7e25TsTCNtVLFH0GW4GM2Z09LNYo1R7Ef0LGPip2CjKh3ORKUSs2RC3ucFRtCsNnF6i1fnJtcsUlFDce7du97d++ow7W2YmFPQmsWPMUjBOuDpTaFMYzq9wQCTdv3rx8+fIFA9XNzU0X7QLGra2tK1euJNdDsOzs7CSnDPG5detWqjd5+PCh+Lspi5HRpnqT27dvi7/t5LPPPsPCNtVLFH0WPV24f/9+qpeQI7JN9QXSUI1S7UFOwsWLFxsyxy5xvnPnTjLVGSs37nKfUG6UpQ6huDAmU0g7jmIVh3hO1qPkckNah8QwknvPXrHNVYA1kTq3Vzc2hXFZEtC/7qW4JRXHZcy6F21KO2ZgPrkhfuR6LcK1zkWfXBdwfWNMuxcQltaC6BTDI+2+cGEwR4BLly6Jc1FuYPBUoIk6qgnlph3808oNzoOjHXSwnFm5sTpiH4g4iFh1oxQ7d3JDVNsHukVc3pTrkWKF6eqD58lqcCfNjtAdZXBUY5hJbrglLi7sA4gHG0gciyQC+8bGRjId1Rr2Wn9SJHqQvcWYlFYwGBtWAWtyM9iJRL4wodwAelpM+kAOqsoiSCtnVBibOBT/cTmrsreYVemJaiig5czKjX2uVEttBKsmjDBZDdaBbnui2uVWRR0Bm7zQc02Viksqd1qKI5+QOeSGa1Qu1sYdG7sNLV1AuZRHwV8UB89kOgSjSlVjIpqVSILjPBetUz+NdU2jk5FyI93WVnOTyw1In6xtncbpHDvXp3A25ebYo/rgq++S1WDlJl/v1LAaUewWbHrSWHO56ciSyvZPitRIoCZhDrmRoILOe6PeS2uRI2j8ODkQI7HBluBJ1gyJLtxkeG7KB10sBsC20YnkZWzzTopS4ij6YAE9CUWxk4G58yP+tZOmp6vxjyui6XqQY6E4ToYanE25cd/pJGsFO6qimhxPbuzX25SiHNgUrD0vt2768OvHttpzTkYyudxoll67UedIatNzfTfCVe/JxXCVvXII6aQoN9pJMYZlajjwIe+kODZH0QcL8EG0DHKZFglwoxLn4lChR27UhxmJRf/5amlmkbMpN2QKtkmyVphJbtAXbUXJ11P2C6zG0yWB3uxTHlsk2ZmbyeVG79Kd1ysRLv498qSPhFJ9gVoat2WJZInMXCngoItFJzL+Y3RSlBJH0QcL8IEjivLmCxyZmlOWRbtRcgMbGxv4XL9+Xao9s8jpkhuu9S8fvTi/vcdNVd6j1eJeojslcmMFguLG7Ir9cmdCuQGrehwoWQ+xe3skw50HKStYRgmTy40EBnSupDQqamFjKYaQWORzcXUgd2x2SQxLRLkpH3RxtBP35EJTm1onPYFa9MEC8lkfUWn8C3JW3bwW7cbKDfOSI+KmTTTZ6WRAbh6/+Pnjze/dJd4op1Nu+su0cuNewLHv1Ljcx71uU8MtqSgr+w8t5pObVB9CL/Fa2FjU2Q5YLPJZcxMbMHID10VWrhRw0MVhJ3oU24m00pdQ8k6KUuIo+mCBVKk8yZKz6k5R7mYpnqsikjMyKhlezz+EoyU35P+1nxrVyhxy4x6CzCo3xee1x5YbsCsg+wWZndS57vdlnPL2vLI8FfPJTecdUqOi5yovhpBYUuUwpHVpJk1IWKQK4uCmfNBF1ommGD2diIVtqpco+mCBVFkgj71B+5ez6k6R+NTOm4wZ3EyL6DeDmgMuRVVuuN86rSEq0AsKd1Suey3Wh2pqX+J4cuNatQ8hWIFg2DrUwZLaH2WM3NjB299J2D7zxzo1mIu2kkL/ad/MzCc3nX2yfBD/HrmR12HBaplYUsWEmazmarrghrdo8f9OdFTiJk00P4Jat2xTvUTRBwukyiHu8fnccqMndqknxEpVbuwPf9ovm6gbpRaxwonIzfgUYIzcuBdwZNHkjJ0PX9x50DLr233K5HKjF26PfAjyrCR/oSZHbvs2y4DF0Y6Eq6yeiGpZmLjwlph3Uz7o4mgn8mAYZ4nbwU70oKleQlo5HyyQKoegp/JIRU7L3HKzlHNOVW7sBd1+Tc56nkK5oSTrcRkjN2Cby5m039M3Xrex2BcCXWn8uHRCJpcbkDhpvL3ikMAevNa5z0vPulASpG2qLCBWxSj+7qF1rhSwcPed6ETYOv+8E1EEmqR6CRHWomqkikGFG5FdS7khpO0F3Y7wfs+VyY1rMvK7m5FyYx/TyM+y7Jqo81mvbUKy6V4sYr7JbzbmkBuJDahFgkPVgTt548GBqpJdSYEYU+UQffzhtAk65QZ0Ii4fgbwTXX/ZNZdFQ9rJnxhT5Sg6C1lbrbfcJGsF67mU3BxvEdEjN278/Q9HioyUG6ZpX+ez6jP4uo3gxEVSJDsqytxLqjnkRtMQqP2emECyQqCBTVw5NQE6vH79ujjkHYo9VQ6RMUDeW7/cLNuJGPHPzycSg529uXIdHLgiNyB9CustN+0I7/c8hnCAC7aedMB9zZy/87IUI+UG3GuHWnpet3HP7HUA2K2Kzb2kmkNuQKMLWIygERxC4LMsT1wYa/ICiMvW1harCbbYtas8VQHZlSoGxAJSxdAvN7BUJ0xHh8oUdnZ2FjPe3dzcFCN7XWoDsitVMji69rlmcuOeFDSyA/fUs60g9sZO6Xxs4bSvs5WL8DEJzni5cVPQIk+O29ijoy+2STHrmYmZ5AaIK1kCFCFc88BjGSJPN3Kw1xYp4pAqHSwlNzWKnUBj1kwhnzLI3lQpoVqwZnID9s75zrUHeWAgSfkbgNxj5e8Hk1DkEZ4/78RTeiYfkReX80WBUzSK/l1ktv2tcCsu3xqHFsbLDeQ/QTjX8bqNE5T8GY0dG0mQnJY5mE9uBDIUUhKCk1s08cYHllHtw9GEENrY2MCZLZ+xpH0lcINU6YAB4O8if5JOFJSRkYvuMGs+17QSeg7NGcg7kYa1nhmbONQGaVnKOacqN/kLrCiI/AcGH3792L74XyvFb6BrP/zRMvib7GIpLiXc2k0KnjIR+UGGnUhtPTKJ3OSDGUy40A67jCrKk1PVkcvGBnPLTfBroCo33PMHpYGCT0ML8nyhtqzQUhSpPC3KS3I9Su2hSa0U059J5CbPtorHsrgTW0u+nJDNtKQKuQnGU5Ub4PrOX2O1hQyImCGQ7MpLi3vQoHBXL/pLqf1pmBuP9hutGguTPE1rlOKAJ5EbsP0MPoFyz7nQlLSjhP1nmmlJFXITjKclNwLXPRKgmQ4xT9hwC7U3Zz4TP+rD1U+QNy56/OmBbulKOqQQUbUbuFBsxYEGv6tiJAyvoVaMvDFgBiZt2Q6ugBowcj3i4JiZqUxQ5pisFThv6kxpn8bjEXITjGdYbs4SxCFxjnxIIaRZ3M2RC+RwFNUaZCtZ14eQm2A8vy65OUHsmm4wWzmFhNwE4wm5WQUsA+13TKvJp6Yl5CYYT8jNKmDhplrz3oiHzSdIyE0wnpCb2bn37JVNbdovXp9aQm6C8YTczAhrqPPbe1Zr1jS1gZCbYDwhNxODoCAr7x79i/FS3q7/x3Wnn5CbYDwhNxPjJEYLWjPH6zArI+QmGE/IzcQ4lZHy0ebu+uY1QshNMJ6Qm4nR957ZfrL9w9UHz9fxa++cly9fPn36NP/zUUHQT8hNEAQrIuQmCIIVEXITBMFKePPmf4GyDTAL6GK4AAAAAElFTkSuQmCC</BG_Image>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="21">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="414" y="69" width="252" height="40" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Weekly Challenge #83</Text>
+          <Font name="Microsoft Sans Serif" size="16.2" style="0" />
+          <TextColor name="Gray" />
+          <FillColor name="White" />
+          <Shape shape="3" />
+          <Justification Justification="0" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="22">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="54" y="126" width="612" height="120" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text><![CDATA[At a recent Tableau User Group a poll was conducted using SurveyMonkey and the data was exported to an Excel workbook.  Unfortunately, the data wasn't in a format that made it easy to work with in Tableau.  Fortunately, an Alteryx user was there to prep the data on their behalf.
+
+Within the survey data, there are repeating groups of Pop-Tart, Beer and Score values.  Yes, the TUG had samples of Pop-Tarts paired with the beers from Bell's brewery.  The ask was to create a single column for each of these values, allowing for repeating the balance of the survey results.
+
+Can you Normalize the output data?  For bonus play, can you analyze the data and provide insights from the sample data?
+
+The output should include:
+1. Name of the fiber
+2. The original spatial line object
+3. The new spatial line object 
+4. New length of line
+]]></Text>
+          <Font name="Microsoft Sans Serif" size="7.8" style="0" />
+          <TextColor name="Gray" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="3" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="23">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="594" y="318" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\jmiller\AppData\Local\Temp\Engine_27988_9f238693179a4270aa1881da0e0eb914_\Engine_6992_2078242b71584bdd99662f6cd0490729_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="26">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="222" y="318" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\jmiller\AppData\Local\Temp\Engine_27988_9f238693179a4270aa1881da0e0eb914_\Engine_6992_ca1a8b0bb1c24bbeaa5d69ca2670926a_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="27">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+        <Position x="66" y="318" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <NumRows value="40" />
+          <Fields>
+            <Field name="Respondent ID" />
+            <Field name="Start Date" />
+            <Field name="End Date" />
+            <Field name="Age range" />
+            <Field name="Zodiac sign" />
+            <Field name="Favorite sport" />
+            <Field name="Favorite Star Wars character" />
+            <Field name="Oarsman Ale with Wild Berry" />
+            <Field name="Oberon with Watermelon Jolly Rancher" />
+            <Field name="Amber Ale with Dunkin Donuts Vanilla Latte" />
+            <Field name="Kalamazoo Stout with Dunkin Donuts Chocolate Mocha" />
+            <Field name="Own Pairing 1 - Pop-Tart" />
+            <Field name="Own Pairing 1 - Beer" />
+            <Field name="Own Pairing 1 - Score" />
+            <Field name="Own Pairing 2 - Pop-Tart" />
+            <Field name="Own Pairing 2 - Beer" />
+            <Field name="Own Pairing 2 - Score" />
+            <Field name="Own Pairing 3 - Pop-Tart" />
+            <Field name="Own Pairing 3 - Beer" />
+            <Field name="Own Pairing 3 - Score" />
+            <Field name="Own Pairing 4 - Pop-Tart" />
+            <Field name="Own Pairing 4 - Beer" />
+            <Field name="Own Pairing 4 - Score" />
+          </Fields>
+          <Data>
+            <r>
+              <c>6299266094</c>
+              <c>2017-07-19 14:58:00</c>
+              <c>2017-07-19 14:59:00</c>
+              <c>30-39</c>
+              <c>Libra</c>
+              <c>Football</c>
+              <c>Darth Vader</c>
+              <c>6</c>
+              <c>10</c>
+              <c>6</c>
+              <c>5</c>
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>6299262033</c>
+              <c>2017-07-19 14:55:00</c>
+              <c>2017-07-19 14:56:00</c>
+              <c>50-59</c>
+              <c>Libra</c>
+              <c>Hockey</c>
+              <c>Rey</c>
+              <c>8</c>
+              <c>8</c>
+              <c>6</c>
+              <c>10</c>
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>6299257049</c>
+              <c>2017-07-19 13:18:00</c>
+              <c>2017-07-19 14:54:00</c>
+              <c>30-39</c>
+              <c>Pisces</c>
+              <c>Hockey</c>
+              <c>Darth Vader</c>
+              <c>6</c>
+              <c>4</c>
+              <c>10</c>
+              <c>10</c>
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>6299250717</c>
+              <c>2017-07-19 14:48:00</c>
+              <c>2017-07-19 14:50:00</c>
+              <c>21-29</c>
+              <c>Scorpio</c>
+              <c>Football</c>
+              <c>Yoda</c>
+              <c>4</c>
+              <c>9</c>
+              <c />
+              <c />
+              <c>Blueberry</c>
+              <c>Porter</c>
+              <c>10</c>
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>6299246554</c>
+              <c>2017-07-19 14:48:00</c>
+              <c>2017-07-19 14:48:00</c>
+              <c>21-29</c>
+              <c>Leo</c>
+              <c>Football</c>
+              <c>Leia Organa</c>
+              <c>5</c>
+              <c>3</c>
+              <c>7</c>
+              <c>6</c>
+              <c>Green Apple Jolly Rancher</c>
+              <c>Oarsman</c>
+              <c>4</c>
+              <c>Chocolatey Caramel</c>
+              <c>Larry's Latest Coffee Milk Stout</c>
+              <c>5</c>
+              <c>Chocolate Chip Cookie Dough</c>
+              <c>Kalamazoo Stout</c>
+              <c>10</c>
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>6299245059</c>
+              <c>2017-07-19 14:42:00</c>
+              <c>2017-07-19 14:47:00</c>
+              <c>21-29</c>
+              <c>Leo</c>
+              <c>Football</c>
+              <c>Leia Organa</c>
+              <c>5</c>
+              <c>3</c>
+              <c>7</c>
+              <c>6</c>
+              <c>Green Apple Jolly Rancher</c>
+              <c>Oarsman</c>
+              <c>4</c>
+              <c>Chocolatey Caramel</c>
+              <c>Larry's Latest Coffee Milk Stout</c>
+              <c>5</c>
+              <c>Chocolate Chip Cookie Dough</c>
+              <c>Kalamazoo Stout</c>
+              <c>10</c>
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>6299243083</c>
+              <c>2017-07-19 12:51:00</c>
+              <c>2017-07-19 14:46:00</c>
+              <c>30-39</c>
+              <c>Sagittarius</c>
+              <c>Soccer</c>
+              <c>Rey</c>
+              <c>8</c>
+              <c>5</c>
+              <c>3</c>
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>6299243027</c>
+              <c>2017-07-19 14:45:00</c>
+              <c>2017-07-19 14:46:00</c>
+              <c>30-39</c>
+              <c>Capricorn</c>
+              <c />
+              <c>Kylo Ren</c>
+              <c>8</c>
+              <c />
+              <c>7</c>
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>6299240951</c>
+              <c>2017-07-19 14:44:00</c>
+              <c>2017-07-19 14:45:00</c>
+              <c>40-49</c>
+              <c>Gemini</c>
+              <c>Golf</c>
+              <c>Han Solo</c>
+              <c>7</c>
+              <c>9</c>
+              <c>10</c>
+              <c>5</c>
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>6299240232</c>
+              <c>2017-07-19 14:41:00</c>
+              <c>2017-07-19 14:45:00</c>
+              <c>30-39</c>
+              <c>Scorpio</c>
+              <c>Baseball</c>
+              <c>Yoda</c>
+              <c>2</c>
+              <c>4</c>
+              <c>9</c>
+              <c>7</c>
+              <c>Chocolate Chip Cookie Dough</c>
+              <c>Larry's Latest Coffee Milk Stout</c>
+              <c>6</c>
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>6299239528</c>
+              <c>2017-07-19 14:41:00</c>
+              <c>2017-07-19 14:44:00</c>
+              <c>30-39</c>
+              <c>Scorpio</c>
+              <c>Baseball</c>
+              <c>Obi-Wan Kenobi</c>
+              <c>8</c>
+              <c>7</c>
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>6299238189</c>
+              <c>2017-07-19 12:51:00</c>
+              <c>2017-07-19 14:44:00</c>
+              <c>30-39</c>
+              <c>Libra</c>
+              <c>Soccer</c>
+              <c>Chewbacca</c>
+              <c>8</c>
+              <c>8</c>
+              <c />
+              <c>10</c>
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>6299237432</c>
+              <c>2017-07-19 14:17:00</c>
+              <c>2017-07-19 14:43:00</c>
+              <c>30-39</c>
+              <c>Cancer</c>
+              <c>Football</c>
+              <c>Obi-Wan Kenobi</c>
+              <c>6</c>
+              <c>3</c>
+              <c>7</c>
+              <c>8</c>
+              <c>Blueberry</c>
+              <c>Oarsman</c>
+              <c>8</c>
+              <c>Chocolate Chip</c>
+              <c>Kalamazoo Stout</c>
+              <c>7</c>
+              <c>Chocolatey Caramel</c>
+              <c>Porter</c>
+              <c>7</c>
+              <c>Strawberry</c>
+              <c>Oberon</c>
+              <c>8</c>
+            </r>
+            <r>
+              <c>6299236718</c>
+              <c>2017-07-19 14:41:00</c>
+              <c>2017-07-19 14:43:00</c>
+              <c>40-49</c>
+              <c>Sagittarius</c>
+              <c>Soccer</c>
+              <c>Han Solo</c>
+              <c>10</c>
+              <c>7</c>
+              <c>5</c>
+              <c>9</c>
+              <c>Watermelon Jolly Rancher</c>
+              <c />
+              <c />
+              <c>S'mores</c>
+              <c />
+              <c />
+              <c>Cherry Jolly Rancher</c>
+              <c />
+              <c />
+              <c>Wild Berry</c>
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>6299236465</c>
+              <c>2017-07-19 14:34:00</c>
+              <c>2017-07-19 14:43:00</c>
+              <c>30-39</c>
+              <c>Sagittarius</c>
+              <c>Soccer</c>
+              <c>Yoda</c>
+              <c>1</c>
+              <c>3</c>
+              <c>8</c>
+              <c>6</c>
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>6299235861</c>
+              <c>2017-07-19 14:39:00</c>
+              <c>2017-07-19 14:43:00</c>
+              <c>30-39</c>
+              <c>Gemini</c>
+              <c>Hockey</c>
+              <c>Yoda</c>
+              <c>2</c>
+              <c />
+              <c>5</c>
+              <c>6</c>
+              <c>Chocolate Chip Cookie Dough</c>
+              <c>Kalamazoo Stout</c>
+              <c>8</c>
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>6299234372</c>
+              <c>2017-07-19 14:39:00</c>
+              <c>2017-07-19 14:42:00</c>
+              <c>21-29</c>
+              <c>Capricorn</c>
+              <c>Basketball</c>
+              <c>Leia Organa</c>
+              <c>2</c>
+              <c />
+              <c>8</c>
+              <c>6</c>
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>6299233698</c>
+              <c>2017-07-19 14:27:00</c>
+              <c>2017-07-19 14:42:00</c>
+              <c>30-39</c>
+              <c>Leo</c>
+              <c>Hockey</c>
+              <c>Chewbacca</c>
+              <c>7</c>
+              <c>9</c>
+              <c>10</c>
+              <c>4</c>
+              <c>Strawberry</c>
+              <c>Oarsman</c>
+              <c>5</c>
+              <c>Green Apple Jolly Rancher</c>
+              <c>Oarsman</c>
+              <c>3</c>
+              <c>Chocolatey Caramel</c>
+              <c>Amber</c>
+              <c>8</c>
+              <c>Strawberry</c>
+              <c>Oberon</c>
+              <c>7</c>
+            </r>
+            <r>
+              <c>6299232749</c>
+              <c>2017-07-19 14:39:00</c>
+              <c>2017-07-19 14:41:00</c>
+              <c>50-59</c>
+              <c>Gemini</c>
+              <c>Soccer</c>
+              <c />
+              <c>6</c>
+              <c>3</c>
+              <c>8</c>
+              <c>5</c>
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>6299229841</c>
+              <c>2017-07-19 14:37:00</c>
+              <c>2017-07-19 14:40:00</c>
+              <c>40-49</c>
+              <c>Libra</c>
+              <c>Golf</c>
+              <c>Han Solo</c>
+              <c>2</c>
+              <c />
+              <c>10</c>
+              <c />
+              <c>Chocolate Chip Cookie Dough</c>
+              <c>Amber</c>
+              <c>7</c>
+              <c>Chocolatey Caramel</c>
+              <c>Amber</c>
+              <c>8</c>
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>6299228672</c>
+              <c>2017-07-19 14:37:00</c>
+              <c>2017-07-19 14:39:00</c>
+              <c>30-39</c>
+              <c>Cancer</c>
+              <c>Baseball</c>
+              <c>Chewbacca</c>
+              <c />
+              <c>3</c>
+              <c>8</c>
+              <c />
+              <c>Vanilla Latte</c>
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>6299228352</c>
+              <c>2017-07-19 14:18:00</c>
+              <c>2017-07-19 14:39:00</c>
+              <c>21-29</c>
+              <c>Aries</c>
+              <c>Baseball</c>
+              <c>Yoda</c>
+              <c>8</c>
+              <c>10</c>
+              <c>3</c>
+              <c>9</c>
+              <c>Strawberry</c>
+              <c>Oberon</c>
+              <c>8</c>
+              <c>Blueberry</c>
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>6299228284</c>
+              <c>2017-07-19 14:23:00</c>
+              <c>2017-07-19 14:39:00</c>
+              <c>30-39</c>
+              <c>Pisces</c>
+              <c>Hockey</c>
+              <c>Leia Organa</c>
+              <c>8</c>
+              <c>7</c>
+              <c>9</c>
+              <c>4</c>
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>6299228086</c>
+              <c>2017-07-19 14:19:00</c>
+              <c>2017-07-19 14:39:00</c>
+              <c>40-49</c>
+              <c>Gemini</c>
+              <c>Football</c>
+              <c>Han Solo</c>
+              <c>9</c>
+              <c>10</c>
+              <c />
+              <c>9</c>
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>6299226575</c>
+              <c>2017-07-19 14:30:00</c>
+              <c>2017-07-19 14:38:00</c>
+              <c>40-49</c>
+              <c>Libra</c>
+              <c>Hockey</c>
+              <c>Chewbacca</c>
+              <c />
+              <c>4</c>
+              <c>3</c>
+              <c>7</c>
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>6299226384</c>
+              <c>2017-07-19 14:18:00</c>
+              <c>2017-07-19 14:38:00</c>
+              <c>40-49</c>
+              <c>Taurus</c>
+              <c>Hockey</c>
+              <c>Obi-Wan Kenobi</c>
+              <c>4</c>
+              <c>6</c>
+              <c>6</c>
+              <c>7</c>
+              <c>Green Apple Jolly Rancher</c>
+              <c>Oarsman</c>
+              <c>8</c>
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>6299226298</c>
+              <c>2017-07-19 14:29:00</c>
+              <c>2017-07-19 14:38:00</c>
+              <c>30-39</c>
+              <c>Libra</c>
+              <c>Football</c>
+              <c>Darth Vader</c>
+              <c>3</c>
+              <c>9</c>
+              <c>7</c>
+              <c>7</c>
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>6299224660</c>
+              <c>2017-07-19 14:19:00</c>
+              <c>2017-07-19 14:37:00</c>
+              <c>30-39</c>
+              <c>Leo</c>
+              <c>Football</c>
+              <c>Yoda</c>
+              <c>7</c>
+              <c />
+              <c />
+              <c>9</c>
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>6299223141</c>
+              <c>2017-07-19 14:19:00</c>
+              <c>2017-07-19 14:36:00</c>
+              <c>40-49</c>
+              <c>Gemini</c>
+              <c>Football</c>
+              <c>Yoda</c>
+              <c />
+              <c />
+              <c>6</c>
+              <c />
+              <c>Brown Sugar Cinnamon</c>
+              <c />
+              <c />
+              <c>Chocolatey Caramel</c>
+              <c />
+              <c />
+              <c>Vanilla Latte</c>
+              <c />
+              <c />
+              <c>Hot Fudge Sundae</c>
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>6299220355</c>
+              <c>2017-07-19 14:34:00</c>
+              <c>2017-07-19 14:34:00</c>
+              <c>40-49</c>
+              <c>Leo</c>
+              <c>Soccer</c>
+              <c>Obi-Wan Kenobi</c>
+              <c />
+              <c />
+              <c>5</c>
+              <c>9</c>
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>6299217869</c>
+              <c>2017-07-19 14:32:00</c>
+              <c>2017-07-19 14:33:00</c>
+              <c>30-39</c>
+              <c>Capricorn</c>
+              <c>Soccer</c>
+              <c>Leia Organa</c>
+              <c>5</c>
+              <c>7</c>
+              <c>5</c>
+              <c>9</c>
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>6299215906</c>
+              <c>2017-07-19 14:24:00</c>
+              <c>2017-07-19 14:32:00</c>
+              <c>30-39</c>
+              <c>Gemini</c>
+              <c>Baseball</c>
+              <c>Yoda</c>
+              <c>9</c>
+              <c>7</c>
+              <c>7</c>
+              <c>6</c>
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>6299214777</c>
+              <c>2017-07-19 14:30:00</c>
+              <c>2017-07-19 14:32:00</c>
+              <c>30-39</c>
+              <c>Sagittarius</c>
+              <c>Golf</c>
+              <c>Chewbacca</c>
+              <c>9</c>
+              <c>3</c>
+              <c>6</c>
+              <c>8</c>
+              <c>Cherry</c>
+              <c>Kalamazoo Stout</c>
+              <c>10</c>
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>6299214668</c>
+              <c>2017-07-19 14:21:00</c>
+              <c>2017-07-19 14:31:00</c>
+              <c>30-39</c>
+              <c>Libra</c>
+              <c>Hockey</c>
+              <c>Chewbacca</c>
+              <c>8</c>
+              <c>5</c>
+              <c>9</c>
+              <c>7</c>
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>6299212833</c>
+              <c>2017-07-19 14:20:00</c>
+              <c>2017-07-19 14:31:00</c>
+              <c>50-59</c>
+              <c>Libra</c>
+              <c>Golf</c>
+              <c>Han Solo</c>
+              <c>8</c>
+              <c>5</c>
+              <c>5</c>
+              <c>10</c>
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>6299211156</c>
+              <c>2017-07-19 14:28:00</c>
+              <c>2017-07-19 14:30:00</c>
+              <c>40-49</c>
+              <c>Capricorn</c>
+              <c>Baseball</c>
+              <c>Han Solo</c>
+              <c>7</c>
+              <c>9</c>
+              <c>6</c>
+              <c>5</c>
+              <c>Blueberry</c>
+              <c />
+              <c />
+              <c>Blueberry</c>
+              <c />
+              <c />
+              <c>Cherry Jolly Rancher</c>
+              <c />
+              <c />
+              <c>Watermelon Jolly Rancher</c>
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>6299207103</c>
+              <c>2017-07-19 14:26:00</c>
+              <c>2017-07-19 14:28:00</c>
+              <c>50-59</c>
+              <c>Leo</c>
+              <c>Baseball</c>
+              <c>Darth Vader</c>
+              <c>7</c>
+              <c>8</c>
+              <c>4</c>
+              <c>5</c>
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>6299205461</c>
+              <c>2017-07-19 14:25:00</c>
+              <c>2017-07-19 14:27:00</c>
+              <c>50-59</c>
+              <c>Taurus</c>
+              <c>Soccer</c>
+              <c>Luke Skywalker</c>
+              <c>4</c>
+              <c>5</c>
+              <c>8</c>
+              <c>2</c>
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>6299201104</c>
+              <c>2017-07-19 14:19:00</c>
+              <c>2017-07-19 14:24:00</c>
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c>Cherry</c>
+              <c>Amber</c>
+              <c>10</c>
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>6299199567</c>
+              <c>2017-07-19 14:18:00</c>
+              <c>2017-07-19 14:24:00</c>
+              <c>30-39</c>
+              <c>Libra</c>
+              <c>Golf</c>
+              <c>Han Solo</c>
+              <c />
+              <c>8</c>
+              <c>7</c>
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+          </Data>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+    </Node>
+    <Node ToolID="29">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+        <Position x="438" y="318" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <NumRows value="197" />
+          <Fields>
+            <Field name="Respondent ID" />
+            <Field name="Start Date" />
+            <Field name="End Date" />
+            <Field name="Age range" />
+            <Field name="Zodiac sign" />
+            <Field name="Favorite sport" />
+            <Field name="Favorite Star Wars character" />
+            <Field name="Beer" />
+            <Field name="Pop_Tart" />
+            <Field name="Score" />
+          </Fields>
+          <Data>
+            <r>
+              <c>6299266094</c>
+              <c>2017-07-19 14:58:00</c>
+              <c>2017-07-19 14:59:00</c>
+              <c>30-39</c>
+              <c>Libra</c>
+              <c>Football</c>
+              <c>Darth Vader</c>
+              <c>Oarsman Ale</c>
+              <c>Wild Berry</c>
+              <c>6</c>
+            </r>
+            <r>
+              <c>6299266094</c>
+              <c>2017-07-19 14:58:00</c>
+              <c>2017-07-19 14:59:00</c>
+              <c>30-39</c>
+              <c>Libra</c>
+              <c>Football</c>
+              <c>Darth Vader</c>
+              <c>Oberon</c>
+              <c>Watermelon Jolly Rancher</c>
+              <c>10</c>
+            </r>
+            <r>
+              <c>6299266094</c>
+              <c>2017-07-19 14:58:00</c>
+              <c>2017-07-19 14:59:00</c>
+              <c>30-39</c>
+              <c>Libra</c>
+              <c>Football</c>
+              <c>Darth Vader</c>
+              <c>Amber Ale</c>
+              <c>Dunkin Donuts Vanilla Latte</c>
+              <c>6</c>
+            </r>
+            <r>
+              <c>6299266094</c>
+              <c>2017-07-19 14:58:00</c>
+              <c>2017-07-19 14:59:00</c>
+              <c>30-39</c>
+              <c>Libra</c>
+              <c>Football</c>
+              <c>Darth Vader</c>
+              <c>Kalamazoo Stout</c>
+              <c>Dunkin Donuts Chocolate Mocha</c>
+              <c>5</c>
+            </r>
+            <r>
+              <c>6299262033</c>
+              <c>2017-07-19 14:55:00</c>
+              <c>2017-07-19 14:56:00</c>
+              <c>50-59</c>
+              <c>Libra</c>
+              <c>Hockey</c>
+              <c>Rey</c>
+              <c>Oarsman Ale</c>
+              <c>Wild Berry</c>
+              <c>8</c>
+            </r>
+            <r>
+              <c>6299262033</c>
+              <c>2017-07-19 14:55:00</c>
+              <c>2017-07-19 14:56:00</c>
+              <c>50-59</c>
+              <c>Libra</c>
+              <c>Hockey</c>
+              <c>Rey</c>
+              <c>Oberon</c>
+              <c>Watermelon Jolly Rancher</c>
+              <c>8</c>
+            </r>
+            <r>
+              <c>6299262033</c>
+              <c>2017-07-19 14:55:00</c>
+              <c>2017-07-19 14:56:00</c>
+              <c>50-59</c>
+              <c>Libra</c>
+              <c>Hockey</c>
+              <c>Rey</c>
+              <c>Amber Ale</c>
+              <c>Dunkin Donuts Vanilla Latte</c>
+              <c>6</c>
+            </r>
+            <r>
+              <c>6299262033</c>
+              <c>2017-07-19 14:55:00</c>
+              <c>2017-07-19 14:56:00</c>
+              <c>50-59</c>
+              <c>Libra</c>
+              <c>Hockey</c>
+              <c>Rey</c>
+              <c>Kalamazoo Stout</c>
+              <c>Dunkin Donuts Chocolate Mocha</c>
+              <c>10</c>
+            </r>
+            <r>
+              <c>6299257049</c>
+              <c>2017-07-19 13:18:00</c>
+              <c>2017-07-19 14:54:00</c>
+              <c>30-39</c>
+              <c>Pisces</c>
+              <c>Hockey</c>
+              <c>Darth Vader</c>
+              <c>Oarsman Ale</c>
+              <c>Wild Berry</c>
+              <c>6</c>
+            </r>
+            <r>
+              <c>6299257049</c>
+              <c>2017-07-19 13:18:00</c>
+              <c>2017-07-19 14:54:00</c>
+              <c>30-39</c>
+              <c>Pisces</c>
+              <c>Hockey</c>
+              <c>Darth Vader</c>
+              <c>Oberon</c>
+              <c>Watermelon Jolly Rancher</c>
+              <c>4</c>
+            </r>
+            <r>
+              <c>6299257049</c>
+              <c>2017-07-19 13:18:00</c>
+              <c>2017-07-19 14:54:00</c>
+              <c>30-39</c>
+              <c>Pisces</c>
+              <c>Hockey</c>
+              <c>Darth Vader</c>
+              <c>Amber Ale</c>
+              <c>Dunkin Donuts Vanilla Latte</c>
+              <c>10</c>
+            </r>
+            <r>
+              <c>6299257049</c>
+              <c>2017-07-19 13:18:00</c>
+              <c>2017-07-19 14:54:00</c>
+              <c>30-39</c>
+              <c>Pisces</c>
+              <c>Hockey</c>
+              <c>Darth Vader</c>
+              <c>Kalamazoo Stout</c>
+              <c>Dunkin Donuts Chocolate Mocha</c>
+              <c>10</c>
+            </r>
+            <r>
+              <c>6299250717</c>
+              <c>2017-07-19 14:48:00</c>
+              <c>2017-07-19 14:50:00</c>
+              <c>21-29</c>
+              <c>Scorpio</c>
+              <c>Football</c>
+              <c>Yoda</c>
+              <c>Oarsman Ale</c>
+              <c>Wild Berry</c>
+              <c>4</c>
+            </r>
+            <r>
+              <c>6299250717</c>
+              <c>2017-07-19 14:48:00</c>
+              <c>2017-07-19 14:50:00</c>
+              <c>21-29</c>
+              <c>Scorpio</c>
+              <c>Football</c>
+              <c>Yoda</c>
+              <c>Oberon</c>
+              <c>Watermelon Jolly Rancher</c>
+              <c>9</c>
+            </r>
+            <r>
+              <c>6299250717</c>
+              <c>2017-07-19 14:48:00</c>
+              <c>2017-07-19 14:50:00</c>
+              <c>21-29</c>
+              <c>Scorpio</c>
+              <c>Football</c>
+              <c>Yoda</c>
+              <c>Amber Ale</c>
+              <c>Dunkin Donuts Vanilla Latte</c>
+              <c />
+            </r>
+            <r>
+              <c>6299250717</c>
+              <c>2017-07-19 14:48:00</c>
+              <c>2017-07-19 14:50:00</c>
+              <c>21-29</c>
+              <c>Scorpio</c>
+              <c>Football</c>
+              <c>Yoda</c>
+              <c>Kalamazoo Stout</c>
+              <c>Dunkin Donuts Chocolate Mocha</c>
+              <c />
+            </r>
+            <r>
+              <c>6299250717</c>
+              <c>2017-07-19 14:48:00</c>
+              <c>2017-07-19 14:50:00</c>
+              <c>21-29</c>
+              <c>Scorpio</c>
+              <c>Football</c>
+              <c>Yoda</c>
+              <c>Porter</c>
+              <c>Blueberry</c>
+              <c>10</c>
+            </r>
+            <r>
+              <c>6299246554</c>
+              <c>2017-07-19 14:48:00</c>
+              <c>2017-07-19 14:48:00</c>
+              <c>21-29</c>
+              <c>Leo</c>
+              <c>Football</c>
+              <c>Leia Organa</c>
+              <c>Oarsman Ale</c>
+              <c>Wild Berry</c>
+              <c>5</c>
+            </r>
+            <r>
+              <c>6299246554</c>
+              <c>2017-07-19 14:48:00</c>
+              <c>2017-07-19 14:48:00</c>
+              <c>21-29</c>
+              <c>Leo</c>
+              <c>Football</c>
+              <c>Leia Organa</c>
+              <c>Oberon</c>
+              <c>Watermelon Jolly Rancher</c>
+              <c>3</c>
+            </r>
+            <r>
+              <c>6299246554</c>
+              <c>2017-07-19 14:48:00</c>
+              <c>2017-07-19 14:48:00</c>
+              <c>21-29</c>
+              <c>Leo</c>
+              <c>Football</c>
+              <c>Leia Organa</c>
+              <c>Amber Ale</c>
+              <c>Dunkin Donuts Vanilla Latte</c>
+              <c>7</c>
+            </r>
+            <r>
+              <c>6299246554</c>
+              <c>2017-07-19 14:48:00</c>
+              <c>2017-07-19 14:48:00</c>
+              <c>21-29</c>
+              <c>Leo</c>
+              <c>Football</c>
+              <c>Leia Organa</c>
+              <c>Kalamazoo Stout</c>
+              <c>Dunkin Donuts Chocolate Mocha</c>
+              <c>6</c>
+            </r>
+            <r>
+              <c>6299246554</c>
+              <c>2017-07-19 14:48:00</c>
+              <c>2017-07-19 14:48:00</c>
+              <c>21-29</c>
+              <c>Leo</c>
+              <c>Football</c>
+              <c>Leia Organa</c>
+              <c>Oarsman</c>
+              <c>Green Apple Jolly Rancher</c>
+              <c>4</c>
+            </r>
+            <r>
+              <c>6299246554</c>
+              <c>2017-07-19 14:48:00</c>
+              <c>2017-07-19 14:48:00</c>
+              <c>21-29</c>
+              <c>Leo</c>
+              <c>Football</c>
+              <c>Leia Organa</c>
+              <c>Larry's Latest Coffee Milk Stout</c>
+              <c>Chocolatey Caramel</c>
+              <c>5</c>
+            </r>
+            <r>
+              <c>6299246554</c>
+              <c>2017-07-19 14:48:00</c>
+              <c>2017-07-19 14:48:00</c>
+              <c>21-29</c>
+              <c>Leo</c>
+              <c>Football</c>
+              <c>Leia Organa</c>
+              <c>Kalamazoo Stout</c>
+              <c>Chocolate Chip Cookie Dough</c>
+              <c>10</c>
+            </r>
+            <r>
+              <c>6299245059</c>
+              <c>2017-07-19 14:42:00</c>
+              <c>2017-07-19 14:47:00</c>
+              <c>21-29</c>
+              <c>Leo</c>
+              <c>Football</c>
+              <c>Leia Organa</c>
+              <c>Oarsman Ale</c>
+              <c>Wild Berry</c>
+              <c>5</c>
+            </r>
+            <r>
+              <c>6299245059</c>
+              <c>2017-07-19 14:42:00</c>
+              <c>2017-07-19 14:47:00</c>
+              <c>21-29</c>
+              <c>Leo</c>
+              <c>Football</c>
+              <c>Leia Organa</c>
+              <c>Oberon</c>
+              <c>Watermelon Jolly Rancher</c>
+              <c>3</c>
+            </r>
+            <r>
+              <c>6299245059</c>
+              <c>2017-07-19 14:42:00</c>
+              <c>2017-07-19 14:47:00</c>
+              <c>21-29</c>
+              <c>Leo</c>
+              <c>Football</c>
+              <c>Leia Organa</c>
+              <c>Amber Ale</c>
+              <c>Dunkin Donuts Vanilla Latte</c>
+              <c>7</c>
+            </r>
+            <r>
+              <c>6299245059</c>
+              <c>2017-07-19 14:42:00</c>
+              <c>2017-07-19 14:47:00</c>
+              <c>21-29</c>
+              <c>Leo</c>
+              <c>Football</c>
+              <c>Leia Organa</c>
+              <c>Kalamazoo Stout</c>
+              <c>Dunkin Donuts Chocolate Mocha</c>
+              <c>6</c>
+            </r>
+            <r>
+              <c>6299245059</c>
+              <c>2017-07-19 14:42:00</c>
+              <c>2017-07-19 14:47:00</c>
+              <c>21-29</c>
+              <c>Leo</c>
+              <c>Football</c>
+              <c>Leia Organa</c>
+              <c>Oarsman</c>
+              <c>Green Apple Jolly Rancher</c>
+              <c>4</c>
+            </r>
+            <r>
+              <c>6299245059</c>
+              <c>2017-07-19 14:42:00</c>
+              <c>2017-07-19 14:47:00</c>
+              <c>21-29</c>
+              <c>Leo</c>
+              <c>Football</c>
+              <c>Leia Organa</c>
+              <c>Larry's Latest Coffee Milk Stout</c>
+              <c>Chocolatey Caramel</c>
+              <c>5</c>
+            </r>
+            <r>
+              <c>6299245059</c>
+              <c>2017-07-19 14:42:00</c>
+              <c>2017-07-19 14:47:00</c>
+              <c>21-29</c>
+              <c>Leo</c>
+              <c>Football</c>
+              <c>Leia Organa</c>
+              <c>Kalamazoo Stout</c>
+              <c>Chocolate Chip Cookie Dough</c>
+              <c>10</c>
+            </r>
+            <r>
+              <c>6299243083</c>
+              <c>2017-07-19 12:51:00</c>
+              <c>2017-07-19 14:46:00</c>
+              <c>30-39</c>
+              <c>Sagittarius</c>
+              <c>Soccer</c>
+              <c>Rey</c>
+              <c>Oarsman Ale</c>
+              <c>Wild Berry</c>
+              <c>8</c>
+            </r>
+            <r>
+              <c>6299243083</c>
+              <c>2017-07-19 12:51:00</c>
+              <c>2017-07-19 14:46:00</c>
+              <c>30-39</c>
+              <c>Sagittarius</c>
+              <c>Soccer</c>
+              <c>Rey</c>
+              <c>Oberon</c>
+              <c>Watermelon Jolly Rancher</c>
+              <c>5</c>
+            </r>
+            <r>
+              <c>6299243083</c>
+              <c>2017-07-19 12:51:00</c>
+              <c>2017-07-19 14:46:00</c>
+              <c>30-39</c>
+              <c>Sagittarius</c>
+              <c>Soccer</c>
+              <c>Rey</c>
+              <c>Amber Ale</c>
+              <c>Dunkin Donuts Vanilla Latte</c>
+              <c>3</c>
+            </r>
+            <r>
+              <c>6299243083</c>
+              <c>2017-07-19 12:51:00</c>
+              <c>2017-07-19 14:46:00</c>
+              <c>30-39</c>
+              <c>Sagittarius</c>
+              <c>Soccer</c>
+              <c>Rey</c>
+              <c>Kalamazoo Stout</c>
+              <c>Dunkin Donuts Chocolate Mocha</c>
+              <c />
+            </r>
+            <r>
+              <c>6299243027</c>
+              <c>2017-07-19 14:45:00</c>
+              <c>2017-07-19 14:46:00</c>
+              <c>30-39</c>
+              <c>Capricorn</c>
+              <c />
+              <c>Kylo Ren</c>
+              <c>Oarsman Ale</c>
+              <c>Wild Berry</c>
+              <c>8</c>
+            </r>
+            <r>
+              <c>6299243027</c>
+              <c>2017-07-19 14:45:00</c>
+              <c>2017-07-19 14:46:00</c>
+              <c>30-39</c>
+              <c>Capricorn</c>
+              <c />
+              <c>Kylo Ren</c>
+              <c>Oberon</c>
+              <c>Watermelon Jolly Rancher</c>
+              <c />
+            </r>
+            <r>
+              <c>6299243027</c>
+              <c>2017-07-19 14:45:00</c>
+              <c>2017-07-19 14:46:00</c>
+              <c>30-39</c>
+              <c>Capricorn</c>
+              <c />
+              <c>Kylo Ren</c>
+              <c>Amber Ale</c>
+              <c>Dunkin Donuts Vanilla Latte</c>
+              <c>7</c>
+            </r>
+            <r>
+              <c>6299243027</c>
+              <c>2017-07-19 14:45:00</c>
+              <c>2017-07-19 14:46:00</c>
+              <c>30-39</c>
+              <c>Capricorn</c>
+              <c />
+              <c>Kylo Ren</c>
+              <c>Kalamazoo Stout</c>
+              <c>Dunkin Donuts Chocolate Mocha</c>
+              <c />
+            </r>
+            <r>
+              <c>6299240951</c>
+              <c>2017-07-19 14:44:00</c>
+              <c>2017-07-19 14:45:00</c>
+              <c>40-49</c>
+              <c>Gemini</c>
+              <c>Golf</c>
+              <c>Han Solo</c>
+              <c>Oarsman Ale</c>
+              <c>Wild Berry</c>
+              <c>7</c>
+            </r>
+            <r>
+              <c>6299240951</c>
+              <c>2017-07-19 14:44:00</c>
+              <c>2017-07-19 14:45:00</c>
+              <c>40-49</c>
+              <c>Gemini</c>
+              <c>Golf</c>
+              <c>Han Solo</c>
+              <c>Oberon</c>
+              <c>Watermelon Jolly Rancher</c>
+              <c>9</c>
+            </r>
+            <r>
+              <c>6299240951</c>
+              <c>2017-07-19 14:44:00</c>
+              <c>2017-07-19 14:45:00</c>
+              <c>40-49</c>
+              <c>Gemini</c>
+              <c>Golf</c>
+              <c>Han Solo</c>
+              <c>Amber Ale</c>
+              <c>Dunkin Donuts Vanilla Latte</c>
+              <c>10</c>
+            </r>
+            <r>
+              <c>6299240951</c>
+              <c>2017-07-19 14:44:00</c>
+              <c>2017-07-19 14:45:00</c>
+              <c>40-49</c>
+              <c>Gemini</c>
+              <c>Golf</c>
+              <c>Han Solo</c>
+              <c>Kalamazoo Stout</c>
+              <c>Dunkin Donuts Chocolate Mocha</c>
+              <c>5</c>
+            </r>
+            <r>
+              <c>6299240232</c>
+              <c>2017-07-19 14:41:00</c>
+              <c>2017-07-19 14:45:00</c>
+              <c>30-39</c>
+              <c>Scorpio</c>
+              <c>Baseball</c>
+              <c>Yoda</c>
+              <c>Oarsman Ale</c>
+              <c>Wild Berry</c>
+              <c>2</c>
+            </r>
+            <r>
+              <c>6299240232</c>
+              <c>2017-07-19 14:41:00</c>
+              <c>2017-07-19 14:45:00</c>
+              <c>30-39</c>
+              <c>Scorpio</c>
+              <c>Baseball</c>
+              <c>Yoda</c>
+              <c>Oberon</c>
+              <c>Watermelon Jolly Rancher</c>
+              <c>4</c>
+            </r>
+            <r>
+              <c>6299240232</c>
+              <c>2017-07-19 14:41:00</c>
+              <c>2017-07-19 14:45:00</c>
+              <c>30-39</c>
+              <c>Scorpio</c>
+              <c>Baseball</c>
+              <c>Yoda</c>
+              <c>Amber Ale</c>
+              <c>Dunkin Donuts Vanilla Latte</c>
+              <c>9</c>
+            </r>
+            <r>
+              <c>6299240232</c>
+              <c>2017-07-19 14:41:00</c>
+              <c>2017-07-19 14:45:00</c>
+              <c>30-39</c>
+              <c>Scorpio</c>
+              <c>Baseball</c>
+              <c>Yoda</c>
+              <c>Kalamazoo Stout</c>
+              <c>Dunkin Donuts Chocolate Mocha</c>
+              <c>7</c>
+            </r>
+            <r>
+              <c>6299240232</c>
+              <c>2017-07-19 14:41:00</c>
+              <c>2017-07-19 14:45:00</c>
+              <c>30-39</c>
+              <c>Scorpio</c>
+              <c>Baseball</c>
+              <c>Yoda</c>
+              <c>Larry's Latest Coffee Milk Stout</c>
+              <c>Chocolate Chip Cookie Dough</c>
+              <c>6</c>
+            </r>
+            <r>
+              <c>6299239528</c>
+              <c>2017-07-19 14:41:00</c>
+              <c>2017-07-19 14:44:00</c>
+              <c>30-39</c>
+              <c>Scorpio</c>
+              <c>Baseball</c>
+              <c>Obi-Wan Kenobi</c>
+              <c>Oarsman Ale</c>
+              <c>Wild Berry</c>
+              <c>8</c>
+            </r>
+            <r>
+              <c>6299239528</c>
+              <c>2017-07-19 14:41:00</c>
+              <c>2017-07-19 14:44:00</c>
+              <c>30-39</c>
+              <c>Scorpio</c>
+              <c>Baseball</c>
+              <c>Obi-Wan Kenobi</c>
+              <c>Oberon</c>
+              <c>Watermelon Jolly Rancher</c>
+              <c>7</c>
+            </r>
+            <r>
+              <c>6299239528</c>
+              <c>2017-07-19 14:41:00</c>
+              <c>2017-07-19 14:44:00</c>
+              <c>30-39</c>
+              <c>Scorpio</c>
+              <c>Baseball</c>
+              <c>Obi-Wan Kenobi</c>
+              <c>Amber Ale</c>
+              <c>Dunkin Donuts Vanilla Latte</c>
+              <c />
+            </r>
+            <r>
+              <c>6299239528</c>
+              <c>2017-07-19 14:41:00</c>
+              <c>2017-07-19 14:44:00</c>
+              <c>30-39</c>
+              <c>Scorpio</c>
+              <c>Baseball</c>
+              <c>Obi-Wan Kenobi</c>
+              <c>Kalamazoo Stout</c>
+              <c>Dunkin Donuts Chocolate Mocha</c>
+              <c />
+            </r>
+            <r>
+              <c>6299238189</c>
+              <c>2017-07-19 12:51:00</c>
+              <c>2017-07-19 14:44:00</c>
+              <c>30-39</c>
+              <c>Libra</c>
+              <c>Soccer</c>
+              <c>Chewbacca</c>
+              <c>Oarsman Ale</c>
+              <c>Wild Berry</c>
+              <c>8</c>
+            </r>
+            <r>
+              <c>6299238189</c>
+              <c>2017-07-19 12:51:00</c>
+              <c>2017-07-19 14:44:00</c>
+              <c>30-39</c>
+              <c>Libra</c>
+              <c>Soccer</c>
+              <c>Chewbacca</c>
+              <c>Oberon</c>
+              <c>Watermelon Jolly Rancher</c>
+              <c>8</c>
+            </r>
+            <r>
+              <c>6299238189</c>
+              <c>2017-07-19 12:51:00</c>
+              <c>2017-07-19 14:44:00</c>
+              <c>30-39</c>
+              <c>Libra</c>
+              <c>Soccer</c>
+              <c>Chewbacca</c>
+              <c>Amber Ale</c>
+              <c>Dunkin Donuts Vanilla Latte</c>
+              <c />
+            </r>
+            <r>
+              <c>6299238189</c>
+              <c>2017-07-19 12:51:00</c>
+              <c>2017-07-19 14:44:00</c>
+              <c>30-39</c>
+              <c>Libra</c>
+              <c>Soccer</c>
+              <c>Chewbacca</c>
+              <c>Kalamazoo Stout</c>
+              <c>Dunkin Donuts Chocolate Mocha</c>
+              <c>10</c>
+            </r>
+            <r>
+              <c>6299237432</c>
+              <c>2017-07-19 14:17:00</c>
+              <c>2017-07-19 14:43:00</c>
+              <c>30-39</c>
+              <c>Cancer</c>
+              <c>Football</c>
+              <c>Obi-Wan Kenobi</c>
+              <c>Oarsman Ale</c>
+              <c>Wild Berry</c>
+              <c>6</c>
+            </r>
+            <r>
+              <c>6299237432</c>
+              <c>2017-07-19 14:17:00</c>
+              <c>2017-07-19 14:43:00</c>
+              <c>30-39</c>
+              <c>Cancer</c>
+              <c>Football</c>
+              <c>Obi-Wan Kenobi</c>
+              <c>Oberon</c>
+              <c>Watermelon Jolly Rancher</c>
+              <c>3</c>
+            </r>
+            <r>
+              <c>6299237432</c>
+              <c>2017-07-19 14:17:00</c>
+              <c>2017-07-19 14:43:00</c>
+              <c>30-39</c>
+              <c>Cancer</c>
+              <c>Football</c>
+              <c>Obi-Wan Kenobi</c>
+              <c>Amber Ale</c>
+              <c>Dunkin Donuts Vanilla Latte</c>
+              <c>7</c>
+            </r>
+            <r>
+              <c>6299237432</c>
+              <c>2017-07-19 14:17:00</c>
+              <c>2017-07-19 14:43:00</c>
+              <c>30-39</c>
+              <c>Cancer</c>
+              <c>Football</c>
+              <c>Obi-Wan Kenobi</c>
+              <c>Kalamazoo Stout</c>
+              <c>Dunkin Donuts Chocolate Mocha</c>
+              <c>8</c>
+            </r>
+            <r>
+              <c>6299237432</c>
+              <c>2017-07-19 14:17:00</c>
+              <c>2017-07-19 14:43:00</c>
+              <c>30-39</c>
+              <c>Cancer</c>
+              <c>Football</c>
+              <c>Obi-Wan Kenobi</c>
+              <c>Oarsman</c>
+              <c>Blueberry</c>
+              <c>8</c>
+            </r>
+            <r>
+              <c>6299237432</c>
+              <c>2017-07-19 14:17:00</c>
+              <c>2017-07-19 14:43:00</c>
+              <c>30-39</c>
+              <c>Cancer</c>
+              <c>Football</c>
+              <c>Obi-Wan Kenobi</c>
+              <c>Kalamazoo Stout</c>
+              <c>Chocolate Chip</c>
+              <c>7</c>
+            </r>
+            <r>
+              <c>6299237432</c>
+              <c>2017-07-19 14:17:00</c>
+              <c>2017-07-19 14:43:00</c>
+              <c>30-39</c>
+              <c>Cancer</c>
+              <c>Football</c>
+              <c>Obi-Wan Kenobi</c>
+              <c>Porter</c>
+              <c>Chocolatey Caramel</c>
+              <c>7</c>
+            </r>
+            <r>
+              <c>6299237432</c>
+              <c>2017-07-19 14:17:00</c>
+              <c>2017-07-19 14:43:00</c>
+              <c>30-39</c>
+              <c>Cancer</c>
+              <c>Football</c>
+              <c>Obi-Wan Kenobi</c>
+              <c>Oberon</c>
+              <c>Strawberry</c>
+              <c>8</c>
+            </r>
+            <r>
+              <c>6299236718</c>
+              <c>2017-07-19 14:41:00</c>
+              <c>2017-07-19 14:43:00</c>
+              <c>40-49</c>
+              <c>Sagittarius</c>
+              <c>Soccer</c>
+              <c>Han Solo</c>
+              <c>Oarsman Ale</c>
+              <c>Wild Berry</c>
+              <c>10</c>
+            </r>
+            <r>
+              <c>6299236718</c>
+              <c>2017-07-19 14:41:00</c>
+              <c>2017-07-19 14:43:00</c>
+              <c>40-49</c>
+              <c>Sagittarius</c>
+              <c>Soccer</c>
+              <c>Han Solo</c>
+              <c>Oberon</c>
+              <c>Watermelon Jolly Rancher</c>
+              <c>7</c>
+            </r>
+            <r>
+              <c>6299236718</c>
+              <c>2017-07-19 14:41:00</c>
+              <c>2017-07-19 14:43:00</c>
+              <c>40-49</c>
+              <c>Sagittarius</c>
+              <c>Soccer</c>
+              <c>Han Solo</c>
+              <c>Amber Ale</c>
+              <c>Dunkin Donuts Vanilla Latte</c>
+              <c>5</c>
+            </r>
+            <r>
+              <c>6299236718</c>
+              <c>2017-07-19 14:41:00</c>
+              <c>2017-07-19 14:43:00</c>
+              <c>40-49</c>
+              <c>Sagittarius</c>
+              <c>Soccer</c>
+              <c>Han Solo</c>
+              <c>Kalamazoo Stout</c>
+              <c>Dunkin Donuts Chocolate Mocha</c>
+              <c>9</c>
+            </r>
+            <r>
+              <c>6299236718</c>
+              <c>2017-07-19 14:41:00</c>
+              <c>2017-07-19 14:43:00</c>
+              <c>40-49</c>
+              <c>Sagittarius</c>
+              <c>Soccer</c>
+              <c>Han Solo</c>
+              <c />
+              <c>Watermelon Jolly Rancher</c>
+              <c />
+            </r>
+            <r>
+              <c>6299236718</c>
+              <c>2017-07-19 14:41:00</c>
+              <c>2017-07-19 14:43:00</c>
+              <c>40-49</c>
+              <c>Sagittarius</c>
+              <c>Soccer</c>
+              <c>Han Solo</c>
+              <c />
+              <c>S'mores</c>
+              <c />
+            </r>
+            <r>
+              <c>6299236718</c>
+              <c>2017-07-19 14:41:00</c>
+              <c>2017-07-19 14:43:00</c>
+              <c>40-49</c>
+              <c>Sagittarius</c>
+              <c>Soccer</c>
+              <c>Han Solo</c>
+              <c />
+              <c>Cherry Jolly Rancher</c>
+              <c />
+            </r>
+            <r>
+              <c>6299236718</c>
+              <c>2017-07-19 14:41:00</c>
+              <c>2017-07-19 14:43:00</c>
+              <c>40-49</c>
+              <c>Sagittarius</c>
+              <c>Soccer</c>
+              <c>Han Solo</c>
+              <c />
+              <c>Wild Berry</c>
+              <c />
+            </r>
+            <r>
+              <c>6299236465</c>
+              <c>2017-07-19 14:34:00</c>
+              <c>2017-07-19 14:43:00</c>
+              <c>30-39</c>
+              <c>Sagittarius</c>
+              <c>Soccer</c>
+              <c>Yoda</c>
+              <c>Oarsman Ale</c>
+              <c>Wild Berry</c>
+              <c>1</c>
+            </r>
+            <r>
+              <c>6299236465</c>
+              <c>2017-07-19 14:34:00</c>
+              <c>2017-07-19 14:43:00</c>
+              <c>30-39</c>
+              <c>Sagittarius</c>
+              <c>Soccer</c>
+              <c>Yoda</c>
+              <c>Oberon</c>
+              <c>Watermelon Jolly Rancher</c>
+              <c>3</c>
+            </r>
+            <r>
+              <c>6299236465</c>
+              <c>2017-07-19 14:34:00</c>
+              <c>2017-07-19 14:43:00</c>
+              <c>30-39</c>
+              <c>Sagittarius</c>
+              <c>Soccer</c>
+              <c>Yoda</c>
+              <c>Amber Ale</c>
+              <c>Dunkin Donuts Vanilla Latte</c>
+              <c>8</c>
+            </r>
+            <r>
+              <c>6299236465</c>
+              <c>2017-07-19 14:34:00</c>
+              <c>2017-07-19 14:43:00</c>
+              <c>30-39</c>
+              <c>Sagittarius</c>
+              <c>Soccer</c>
+              <c>Yoda</c>
+              <c>Kalamazoo Stout</c>
+              <c>Dunkin Donuts Chocolate Mocha</c>
+              <c>6</c>
+            </r>
+            <r>
+              <c>6299235861</c>
+              <c>2017-07-19 14:39:00</c>
+              <c>2017-07-19 14:43:00</c>
+              <c>30-39</c>
+              <c>Gemini</c>
+              <c>Hockey</c>
+              <c>Yoda</c>
+              <c>Oarsman Ale</c>
+              <c>Wild Berry</c>
+              <c>2</c>
+            </r>
+            <r>
+              <c>6299235861</c>
+              <c>2017-07-19 14:39:00</c>
+              <c>2017-07-19 14:43:00</c>
+              <c>30-39</c>
+              <c>Gemini</c>
+              <c>Hockey</c>
+              <c>Yoda</c>
+              <c>Oberon</c>
+              <c>Watermelon Jolly Rancher</c>
+              <c />
+            </r>
+            <r>
+              <c>6299235861</c>
+              <c>2017-07-19 14:39:00</c>
+              <c>2017-07-19 14:43:00</c>
+              <c>30-39</c>
+              <c>Gemini</c>
+              <c>Hockey</c>
+              <c>Yoda</c>
+              <c>Amber Ale</c>
+              <c>Dunkin Donuts Vanilla Latte</c>
+              <c>5</c>
+            </r>
+            <r>
+              <c>6299235861</c>
+              <c>2017-07-19 14:39:00</c>
+              <c>2017-07-19 14:43:00</c>
+              <c>30-39</c>
+              <c>Gemini</c>
+              <c>Hockey</c>
+              <c>Yoda</c>
+              <c>Kalamazoo Stout</c>
+              <c>Dunkin Donuts Chocolate Mocha</c>
+              <c>6</c>
+            </r>
+            <r>
+              <c>6299235861</c>
+              <c>2017-07-19 14:39:00</c>
+              <c>2017-07-19 14:43:00</c>
+              <c>30-39</c>
+              <c>Gemini</c>
+              <c>Hockey</c>
+              <c>Yoda</c>
+              <c>Kalamazoo Stout</c>
+              <c>Chocolate Chip Cookie Dough</c>
+              <c>8</c>
+            </r>
+            <r>
+              <c>6299234372</c>
+              <c>2017-07-19 14:39:00</c>
+              <c>2017-07-19 14:42:00</c>
+              <c>21-29</c>
+              <c>Capricorn</c>
+              <c>Basketball</c>
+              <c>Leia Organa</c>
+              <c>Oarsman Ale</c>
+              <c>Wild Berry</c>
+              <c>2</c>
+            </r>
+            <r>
+              <c>6299234372</c>
+              <c>2017-07-19 14:39:00</c>
+              <c>2017-07-19 14:42:00</c>
+              <c>21-29</c>
+              <c>Capricorn</c>
+              <c>Basketball</c>
+              <c>Leia Organa</c>
+              <c>Oberon</c>
+              <c>Watermelon Jolly Rancher</c>
+              <c />
+            </r>
+            <r>
+              <c>6299234372</c>
+              <c>2017-07-19 14:39:00</c>
+              <c>2017-07-19 14:42:00</c>
+              <c>21-29</c>
+              <c>Capricorn</c>
+              <c>Basketball</c>
+              <c>Leia Organa</c>
+              <c>Amber Ale</c>
+              <c>Dunkin Donuts Vanilla Latte</c>
+              <c>8</c>
+            </r>
+            <r>
+              <c>6299234372</c>
+              <c>2017-07-19 14:39:00</c>
+              <c>2017-07-19 14:42:00</c>
+              <c>21-29</c>
+              <c>Capricorn</c>
+              <c>Basketball</c>
+              <c>Leia Organa</c>
+              <c>Kalamazoo Stout</c>
+              <c>Dunkin Donuts Chocolate Mocha</c>
+              <c>6</c>
+            </r>
+            <r>
+              <c>6299233698</c>
+              <c>2017-07-19 14:27:00</c>
+              <c>2017-07-19 14:42:00</c>
+              <c>30-39</c>
+              <c>Leo</c>
+              <c>Hockey</c>
+              <c>Chewbacca</c>
+              <c>Oarsman Ale</c>
+              <c>Wild Berry</c>
+              <c>7</c>
+            </r>
+            <r>
+              <c>6299233698</c>
+              <c>2017-07-19 14:27:00</c>
+              <c>2017-07-19 14:42:00</c>
+              <c>30-39</c>
+              <c>Leo</c>
+              <c>Hockey</c>
+              <c>Chewbacca</c>
+              <c>Oberon</c>
+              <c>Watermelon Jolly Rancher</c>
+              <c>9</c>
+            </r>
+            <r>
+              <c>6299233698</c>
+              <c>2017-07-19 14:27:00</c>
+              <c>2017-07-19 14:42:00</c>
+              <c>30-39</c>
+              <c>Leo</c>
+              <c>Hockey</c>
+              <c>Chewbacca</c>
+              <c>Amber Ale</c>
+              <c>Dunkin Donuts Vanilla Latte</c>
+              <c>10</c>
+            </r>
+            <r>
+              <c>6299233698</c>
+              <c>2017-07-19 14:27:00</c>
+              <c>2017-07-19 14:42:00</c>
+              <c>30-39</c>
+              <c>Leo</c>
+              <c>Hockey</c>
+              <c>Chewbacca</c>
+              <c>Kalamazoo Stout</c>
+              <c>Dunkin Donuts Chocolate Mocha</c>
+              <c>4</c>
+            </r>
+            <r>
+              <c>6299233698</c>
+              <c>2017-07-19 14:27:00</c>
+              <c>2017-07-19 14:42:00</c>
+              <c>30-39</c>
+              <c>Leo</c>
+              <c>Hockey</c>
+              <c>Chewbacca</c>
+              <c>Oarsman</c>
+              <c>Strawberry</c>
+              <c>5</c>
+            </r>
+            <r>
+              <c>6299233698</c>
+              <c>2017-07-19 14:27:00</c>
+              <c>2017-07-19 14:42:00</c>
+              <c>30-39</c>
+              <c>Leo</c>
+              <c>Hockey</c>
+              <c>Chewbacca</c>
+              <c>Oarsman</c>
+              <c>Green Apple Jolly Rancher</c>
+              <c>3</c>
+            </r>
+            <r>
+              <c>6299233698</c>
+              <c>2017-07-19 14:27:00</c>
+              <c>2017-07-19 14:42:00</c>
+              <c>30-39</c>
+              <c>Leo</c>
+              <c>Hockey</c>
+              <c>Chewbacca</c>
+              <c>Amber</c>
+              <c>Chocolatey Caramel</c>
+              <c>8</c>
+            </r>
+            <r>
+              <c>6299233698</c>
+              <c>2017-07-19 14:27:00</c>
+              <c>2017-07-19 14:42:00</c>
+              <c>30-39</c>
+              <c>Leo</c>
+              <c>Hockey</c>
+              <c>Chewbacca</c>
+              <c>Oberon</c>
+              <c>Strawberry</c>
+              <c>7</c>
+            </r>
+            <r>
+              <c>6299232749</c>
+              <c>2017-07-19 14:39:00</c>
+              <c>2017-07-19 14:41:00</c>
+              <c>50-59</c>
+              <c>Gemini</c>
+              <c>Soccer</c>
+              <c />
+              <c>Oarsman Ale</c>
+              <c>Wild Berry</c>
+              <c>6</c>
+            </r>
+            <r>
+              <c>6299232749</c>
+              <c>2017-07-19 14:39:00</c>
+              <c>2017-07-19 14:41:00</c>
+              <c>50-59</c>
+              <c>Gemini</c>
+              <c>Soccer</c>
+              <c />
+              <c>Oberon</c>
+              <c>Watermelon Jolly Rancher</c>
+              <c>3</c>
+            </r>
+            <r>
+              <c>6299232749</c>
+              <c>2017-07-19 14:39:00</c>
+              <c>2017-07-19 14:41:00</c>
+              <c>50-59</c>
+              <c>Gemini</c>
+              <c>Soccer</c>
+              <c />
+              <c>Amber Ale</c>
+              <c>Dunkin Donuts Vanilla Latte</c>
+              <c>8</c>
+            </r>
+            <r>
+              <c>6299232749</c>
+              <c>2017-07-19 14:39:00</c>
+              <c>2017-07-19 14:41:00</c>
+              <c>50-59</c>
+              <c>Gemini</c>
+              <c>Soccer</c>
+              <c />
+              <c>Kalamazoo Stout</c>
+              <c>Dunkin Donuts Chocolate Mocha</c>
+              <c>5</c>
+            </r>
+            <r>
+              <c>6299229841</c>
+              <c>2017-07-19 14:37:00</c>
+              <c>2017-07-19 14:40:00</c>
+              <c>40-49</c>
+              <c>Libra</c>
+              <c>Golf</c>
+              <c>Han Solo</c>
+              <c>Oarsman Ale</c>
+              <c>Wild Berry</c>
+              <c>2</c>
+            </r>
+            <r>
+              <c>6299229841</c>
+              <c>2017-07-19 14:37:00</c>
+              <c>2017-07-19 14:40:00</c>
+              <c>40-49</c>
+              <c>Libra</c>
+              <c>Golf</c>
+              <c>Han Solo</c>
+              <c>Oberon</c>
+              <c>Watermelon Jolly Rancher</c>
+              <c />
+            </r>
+            <r>
+              <c>6299229841</c>
+              <c>2017-07-19 14:37:00</c>
+              <c>2017-07-19 14:40:00</c>
+              <c>40-49</c>
+              <c>Libra</c>
+              <c>Golf</c>
+              <c>Han Solo</c>
+              <c>Amber Ale</c>
+              <c>Dunkin Donuts Vanilla Latte</c>
+              <c>10</c>
+            </r>
+            <r>
+              <c>6299229841</c>
+              <c>2017-07-19 14:37:00</c>
+              <c>2017-07-19 14:40:00</c>
+              <c>40-49</c>
+              <c>Libra</c>
+              <c>Golf</c>
+              <c>Han Solo</c>
+              <c>Kalamazoo Stout</c>
+              <c>Dunkin Donuts Chocolate Mocha</c>
+              <c />
+            </r>
+            <r>
+              <c>6299229841</c>
+              <c>2017-07-19 14:37:00</c>
+              <c>2017-07-19 14:40:00</c>
+              <c>40-49</c>
+              <c>Libra</c>
+              <c>Golf</c>
+              <c>Han Solo</c>
+              <c>Amber</c>
+              <c>Chocolate Chip Cookie Dough</c>
+              <c>7</c>
+            </r>
+            <r>
+              <c>6299229841</c>
+              <c>2017-07-19 14:37:00</c>
+              <c>2017-07-19 14:40:00</c>
+              <c>40-49</c>
+              <c>Libra</c>
+              <c>Golf</c>
+              <c>Han Solo</c>
+              <c>Amber</c>
+              <c>Chocolatey Caramel</c>
+              <c>8</c>
+            </r>
+            <r>
+              <c>6299228672</c>
+              <c>2017-07-19 14:37:00</c>
+              <c>2017-07-19 14:39:00</c>
+              <c>30-39</c>
+              <c>Cancer</c>
+              <c>Baseball</c>
+              <c>Chewbacca</c>
+              <c>Oarsman Ale</c>
+              <c>Wild Berry</c>
+              <c />
+            </r>
+            <r>
+              <c>6299228672</c>
+              <c>2017-07-19 14:37:00</c>
+              <c>2017-07-19 14:39:00</c>
+              <c>30-39</c>
+              <c>Cancer</c>
+              <c>Baseball</c>
+              <c>Chewbacca</c>
+              <c>Oberon</c>
+              <c>Watermelon Jolly Rancher</c>
+              <c>3</c>
+            </r>
+            <r>
+              <c>6299228672</c>
+              <c>2017-07-19 14:37:00</c>
+              <c>2017-07-19 14:39:00</c>
+              <c>30-39</c>
+              <c>Cancer</c>
+              <c>Baseball</c>
+              <c>Chewbacca</c>
+              <c>Amber Ale</c>
+              <c>Dunkin Donuts Vanilla Latte</c>
+              <c>8</c>
+            </r>
+            <r>
+              <c>6299228672</c>
+              <c>2017-07-19 14:37:00</c>
+              <c>2017-07-19 14:39:00</c>
+              <c>30-39</c>
+              <c>Cancer</c>
+              <c>Baseball</c>
+              <c>Chewbacca</c>
+              <c>Kalamazoo Stout</c>
+              <c>Dunkin Donuts Chocolate Mocha</c>
+              <c />
+            </r>
+            <r>
+              <c>6299228672</c>
+              <c>2017-07-19 14:37:00</c>
+              <c>2017-07-19 14:39:00</c>
+              <c>30-39</c>
+              <c>Cancer</c>
+              <c>Baseball</c>
+              <c>Chewbacca</c>
+              <c />
+              <c>Vanilla Latte</c>
+              <c />
+            </r>
+            <r>
+              <c>6299228352</c>
+              <c>2017-07-19 14:18:00</c>
+              <c>2017-07-19 14:39:00</c>
+              <c>21-29</c>
+              <c>Aries</c>
+              <c>Baseball</c>
+              <c>Yoda</c>
+              <c>Oarsman Ale</c>
+              <c>Wild Berry</c>
+              <c>8</c>
+            </r>
+            <r>
+              <c>6299228352</c>
+              <c>2017-07-19 14:18:00</c>
+              <c>2017-07-19 14:39:00</c>
+              <c>21-29</c>
+              <c>Aries</c>
+              <c>Baseball</c>
+              <c>Yoda</c>
+              <c>Oberon</c>
+              <c>Watermelon Jolly Rancher</c>
+              <c>10</c>
+            </r>
+            <r>
+              <c>6299228352</c>
+              <c>2017-07-19 14:18:00</c>
+              <c>2017-07-19 14:39:00</c>
+              <c>21-29</c>
+              <c>Aries</c>
+              <c>Baseball</c>
+              <c>Yoda</c>
+              <c>Amber Ale</c>
+              <c>Dunkin Donuts Vanilla Latte</c>
+              <c>3</c>
+            </r>
+            <r>
+              <c>6299228352</c>
+              <c>2017-07-19 14:18:00</c>
+              <c>2017-07-19 14:39:00</c>
+              <c>21-29</c>
+              <c>Aries</c>
+              <c>Baseball</c>
+              <c>Yoda</c>
+              <c>Kalamazoo Stout</c>
+              <c>Dunkin Donuts Chocolate Mocha</c>
+              <c>9</c>
+            </r>
+            <r>
+              <c>6299228352</c>
+              <c>2017-07-19 14:18:00</c>
+              <c>2017-07-19 14:39:00</c>
+              <c>21-29</c>
+              <c>Aries</c>
+              <c>Baseball</c>
+              <c>Yoda</c>
+              <c>Oberon</c>
+              <c>Strawberry</c>
+              <c>8</c>
+            </r>
+            <r>
+              <c>6299228352</c>
+              <c>2017-07-19 14:18:00</c>
+              <c>2017-07-19 14:39:00</c>
+              <c>21-29</c>
+              <c>Aries</c>
+              <c>Baseball</c>
+              <c>Yoda</c>
+              <c />
+              <c>Blueberry</c>
+              <c />
+            </r>
+            <r>
+              <c>6299228284</c>
+              <c>2017-07-19 14:23:00</c>
+              <c>2017-07-19 14:39:00</c>
+              <c>30-39</c>
+              <c>Pisces</c>
+              <c>Hockey</c>
+              <c>Leia Organa</c>
+              <c>Oarsman Ale</c>
+              <c>Wild Berry</c>
+              <c>8</c>
+            </r>
+            <r>
+              <c>6299228284</c>
+              <c>2017-07-19 14:23:00</c>
+              <c>2017-07-19 14:39:00</c>
+              <c>30-39</c>
+              <c>Pisces</c>
+              <c>Hockey</c>
+              <c>Leia Organa</c>
+              <c>Oberon</c>
+              <c>Watermelon Jolly Rancher</c>
+              <c>7</c>
+            </r>
+            <r>
+              <c>6299228284</c>
+              <c>2017-07-19 14:23:00</c>
+              <c>2017-07-19 14:39:00</c>
+              <c>30-39</c>
+              <c>Pisces</c>
+              <c>Hockey</c>
+              <c>Leia Organa</c>
+              <c>Amber Ale</c>
+              <c>Dunkin Donuts Vanilla Latte</c>
+              <c>9</c>
+            </r>
+            <r>
+              <c>6299228284</c>
+              <c>2017-07-19 14:23:00</c>
+              <c>2017-07-19 14:39:00</c>
+              <c>30-39</c>
+              <c>Pisces</c>
+              <c>Hockey</c>
+              <c>Leia Organa</c>
+              <c>Kalamazoo Stout</c>
+              <c>Dunkin Donuts Chocolate Mocha</c>
+              <c>4</c>
+            </r>
+            <r>
+              <c>6299228086</c>
+              <c>2017-07-19 14:19:00</c>
+              <c>2017-07-19 14:39:00</c>
+              <c>40-49</c>
+              <c>Gemini</c>
+              <c>Football</c>
+              <c>Han Solo</c>
+              <c>Oarsman Ale</c>
+              <c>Wild Berry</c>
+              <c>9</c>
+            </r>
+            <r>
+              <c>6299228086</c>
+              <c>2017-07-19 14:19:00</c>
+              <c>2017-07-19 14:39:00</c>
+              <c>40-49</c>
+              <c>Gemini</c>
+              <c>Football</c>
+              <c>Han Solo</c>
+              <c>Oberon</c>
+              <c>Watermelon Jolly Rancher</c>
+              <c>10</c>
+            </r>
+            <r>
+              <c>6299228086</c>
+              <c>2017-07-19 14:19:00</c>
+              <c>2017-07-19 14:39:00</c>
+              <c>40-49</c>
+              <c>Gemini</c>
+              <c>Football</c>
+              <c>Han Solo</c>
+              <c>Amber Ale</c>
+              <c>Dunkin Donuts Vanilla Latte</c>
+              <c />
+            </r>
+            <r>
+              <c>6299228086</c>
+              <c>2017-07-19 14:19:00</c>
+              <c>2017-07-19 14:39:00</c>
+              <c>40-49</c>
+              <c>Gemini</c>
+              <c>Football</c>
+              <c>Han Solo</c>
+              <c>Kalamazoo Stout</c>
+              <c>Dunkin Donuts Chocolate Mocha</c>
+              <c>9</c>
+            </r>
+            <r>
+              <c>6299226575</c>
+              <c>2017-07-19 14:30:00</c>
+              <c>2017-07-19 14:38:00</c>
+              <c>40-49</c>
+              <c>Libra</c>
+              <c>Hockey</c>
+              <c>Chewbacca</c>
+              <c>Oarsman Ale</c>
+              <c>Wild Berry</c>
+              <c />
+            </r>
+            <r>
+              <c>6299226575</c>
+              <c>2017-07-19 14:30:00</c>
+              <c>2017-07-19 14:38:00</c>
+              <c>40-49</c>
+              <c>Libra</c>
+              <c>Hockey</c>
+              <c>Chewbacca</c>
+              <c>Oberon</c>
+              <c>Watermelon Jolly Rancher</c>
+              <c>4</c>
+            </r>
+            <r>
+              <c>6299226575</c>
+              <c>2017-07-19 14:30:00</c>
+              <c>2017-07-19 14:38:00</c>
+              <c>40-49</c>
+              <c>Libra</c>
+              <c>Hockey</c>
+              <c>Chewbacca</c>
+              <c>Amber Ale</c>
+              <c>Dunkin Donuts Vanilla Latte</c>
+              <c>3</c>
+            </r>
+            <r>
+              <c>6299226575</c>
+              <c>2017-07-19 14:30:00</c>
+              <c>2017-07-19 14:38:00</c>
+              <c>40-49</c>
+              <c>Libra</c>
+              <c>Hockey</c>
+              <c>Chewbacca</c>
+              <c>Kalamazoo Stout</c>
+              <c>Dunkin Donuts Chocolate Mocha</c>
+              <c>7</c>
+            </r>
+            <r>
+              <c>6299226384</c>
+              <c>2017-07-19 14:18:00</c>
+              <c>2017-07-19 14:38:00</c>
+              <c>40-49</c>
+              <c>Taurus</c>
+              <c>Hockey</c>
+              <c>Obi-Wan Kenobi</c>
+              <c>Oarsman Ale</c>
+              <c>Wild Berry</c>
+              <c>4</c>
+            </r>
+            <r>
+              <c>6299226384</c>
+              <c>2017-07-19 14:18:00</c>
+              <c>2017-07-19 14:38:00</c>
+              <c>40-49</c>
+              <c>Taurus</c>
+              <c>Hockey</c>
+              <c>Obi-Wan Kenobi</c>
+              <c>Oberon</c>
+              <c>Watermelon Jolly Rancher</c>
+              <c>6</c>
+            </r>
+            <r>
+              <c>6299226384</c>
+              <c>2017-07-19 14:18:00</c>
+              <c>2017-07-19 14:38:00</c>
+              <c>40-49</c>
+              <c>Taurus</c>
+              <c>Hockey</c>
+              <c>Obi-Wan Kenobi</c>
+              <c>Amber Ale</c>
+              <c>Dunkin Donuts Vanilla Latte</c>
+              <c>6</c>
+            </r>
+            <r>
+              <c>6299226384</c>
+              <c>2017-07-19 14:18:00</c>
+              <c>2017-07-19 14:38:00</c>
+              <c>40-49</c>
+              <c>Taurus</c>
+              <c>Hockey</c>
+              <c>Obi-Wan Kenobi</c>
+              <c>Kalamazoo Stout</c>
+              <c>Dunkin Donuts Chocolate Mocha</c>
+              <c>7</c>
+            </r>
+            <r>
+              <c>6299226384</c>
+              <c>2017-07-19 14:18:00</c>
+              <c>2017-07-19 14:38:00</c>
+              <c>40-49</c>
+              <c>Taurus</c>
+              <c>Hockey</c>
+              <c>Obi-Wan Kenobi</c>
+              <c>Oarsman</c>
+              <c>Green Apple Jolly Rancher</c>
+              <c>8</c>
+            </r>
+            <r>
+              <c>6299226298</c>
+              <c>2017-07-19 14:29:00</c>
+              <c>2017-07-19 14:38:00</c>
+              <c>30-39</c>
+              <c>Libra</c>
+              <c>Football</c>
+              <c>Darth Vader</c>
+              <c>Oarsman Ale</c>
+              <c>Wild Berry</c>
+              <c>3</c>
+            </r>
+            <r>
+              <c>6299226298</c>
+              <c>2017-07-19 14:29:00</c>
+              <c>2017-07-19 14:38:00</c>
+              <c>30-39</c>
+              <c>Libra</c>
+              <c>Football</c>
+              <c>Darth Vader</c>
+              <c>Oberon</c>
+              <c>Watermelon Jolly Rancher</c>
+              <c>9</c>
+            </r>
+            <r>
+              <c>6299226298</c>
+              <c>2017-07-19 14:29:00</c>
+              <c>2017-07-19 14:38:00</c>
+              <c>30-39</c>
+              <c>Libra</c>
+              <c>Football</c>
+              <c>Darth Vader</c>
+              <c>Amber Ale</c>
+              <c>Dunkin Donuts Vanilla Latte</c>
+              <c>7</c>
+            </r>
+            <r>
+              <c>6299226298</c>
+              <c>2017-07-19 14:29:00</c>
+              <c>2017-07-19 14:38:00</c>
+              <c>30-39</c>
+              <c>Libra</c>
+              <c>Football</c>
+              <c>Darth Vader</c>
+              <c>Kalamazoo Stout</c>
+              <c>Dunkin Donuts Chocolate Mocha</c>
+              <c>7</c>
+            </r>
+            <r>
+              <c>6299224660</c>
+              <c>2017-07-19 14:19:00</c>
+              <c>2017-07-19 14:37:00</c>
+              <c>30-39</c>
+              <c>Leo</c>
+              <c>Football</c>
+              <c>Yoda</c>
+              <c>Oarsman Ale</c>
+              <c>Wild Berry</c>
+              <c>7</c>
+            </r>
+            <r>
+              <c>6299224660</c>
+              <c>2017-07-19 14:19:00</c>
+              <c>2017-07-19 14:37:00</c>
+              <c>30-39</c>
+              <c>Leo</c>
+              <c>Football</c>
+              <c>Yoda</c>
+              <c>Oberon</c>
+              <c>Watermelon Jolly Rancher</c>
+              <c />
+            </r>
+            <r>
+              <c>6299224660</c>
+              <c>2017-07-19 14:19:00</c>
+              <c>2017-07-19 14:37:00</c>
+              <c>30-39</c>
+              <c>Leo</c>
+              <c>Football</c>
+              <c>Yoda</c>
+              <c>Amber Ale</c>
+              <c>Dunkin Donuts Vanilla Latte</c>
+              <c />
+            </r>
+            <r>
+              <c>6299224660</c>
+              <c>2017-07-19 14:19:00</c>
+              <c>2017-07-19 14:37:00</c>
+              <c>30-39</c>
+              <c>Leo</c>
+              <c>Football</c>
+              <c>Yoda</c>
+              <c>Kalamazoo Stout</c>
+              <c>Dunkin Donuts Chocolate Mocha</c>
+              <c>9</c>
+            </r>
+            <r>
+              <c>6299223141</c>
+              <c>2017-07-19 14:19:00</c>
+              <c>2017-07-19 14:36:00</c>
+              <c>40-49</c>
+              <c>Gemini</c>
+              <c>Football</c>
+              <c>Yoda</c>
+              <c>Oarsman Ale</c>
+              <c>Wild Berry</c>
+              <c />
+            </r>
+            <r>
+              <c>6299223141</c>
+              <c>2017-07-19 14:19:00</c>
+              <c>2017-07-19 14:36:00</c>
+              <c>40-49</c>
+              <c>Gemini</c>
+              <c>Football</c>
+              <c>Yoda</c>
+              <c>Oberon</c>
+              <c>Watermelon Jolly Rancher</c>
+              <c />
+            </r>
+            <r>
+              <c>6299223141</c>
+              <c>2017-07-19 14:19:00</c>
+              <c>2017-07-19 14:36:00</c>
+              <c>40-49</c>
+              <c>Gemini</c>
+              <c>Football</c>
+              <c>Yoda</c>
+              <c>Amber Ale</c>
+              <c>Dunkin Donuts Vanilla Latte</c>
+              <c>6</c>
+            </r>
+            <r>
+              <c>6299223141</c>
+              <c>2017-07-19 14:19:00</c>
+              <c>2017-07-19 14:36:00</c>
+              <c>40-49</c>
+              <c>Gemini</c>
+              <c>Football</c>
+              <c>Yoda</c>
+              <c>Kalamazoo Stout</c>
+              <c>Dunkin Donuts Chocolate Mocha</c>
+              <c />
+            </r>
+            <r>
+              <c>6299223141</c>
+              <c>2017-07-19 14:19:00</c>
+              <c>2017-07-19 14:36:00</c>
+              <c>40-49</c>
+              <c>Gemini</c>
+              <c>Football</c>
+              <c>Yoda</c>
+              <c />
+              <c>Brown Sugar Cinnamon</c>
+              <c />
+            </r>
+            <r>
+              <c>6299223141</c>
+              <c>2017-07-19 14:19:00</c>
+              <c>2017-07-19 14:36:00</c>
+              <c>40-49</c>
+              <c>Gemini</c>
+              <c>Football</c>
+              <c>Yoda</c>
+              <c />
+              <c>Chocolatey Caramel</c>
+              <c />
+            </r>
+            <r>
+              <c>6299223141</c>
+              <c>2017-07-19 14:19:00</c>
+              <c>2017-07-19 14:36:00</c>
+              <c>40-49</c>
+              <c>Gemini</c>
+              <c>Football</c>
+              <c>Yoda</c>
+              <c />
+              <c>Vanilla Latte</c>
+              <c />
+            </r>
+            <r>
+              <c>6299223141</c>
+              <c>2017-07-19 14:19:00</c>
+              <c>2017-07-19 14:36:00</c>
+              <c>40-49</c>
+              <c>Gemini</c>
+              <c>Football</c>
+              <c>Yoda</c>
+              <c />
+              <c>Hot Fudge Sundae</c>
+              <c />
+            </r>
+            <r>
+              <c>6299220355</c>
+              <c>2017-07-19 14:34:00</c>
+              <c>2017-07-19 14:34:00</c>
+              <c>40-49</c>
+              <c>Leo</c>
+              <c>Soccer</c>
+              <c>Obi-Wan Kenobi</c>
+              <c>Oarsman Ale</c>
+              <c>Wild Berry</c>
+              <c />
+            </r>
+            <r>
+              <c>6299220355</c>
+              <c>2017-07-19 14:34:00</c>
+              <c>2017-07-19 14:34:00</c>
+              <c>40-49</c>
+              <c>Leo</c>
+              <c>Soccer</c>
+              <c>Obi-Wan Kenobi</c>
+              <c>Oberon</c>
+              <c>Watermelon Jolly Rancher</c>
+              <c />
+            </r>
+            <r>
+              <c>6299220355</c>
+              <c>2017-07-19 14:34:00</c>
+              <c>2017-07-19 14:34:00</c>
+              <c>40-49</c>
+              <c>Leo</c>
+              <c>Soccer</c>
+              <c>Obi-Wan Kenobi</c>
+              <c>Amber Ale</c>
+              <c>Dunkin Donuts Vanilla Latte</c>
+              <c>5</c>
+            </r>
+            <r>
+              <c>6299220355</c>
+              <c>2017-07-19 14:34:00</c>
+              <c>2017-07-19 14:34:00</c>
+              <c>40-49</c>
+              <c>Leo</c>
+              <c>Soccer</c>
+              <c>Obi-Wan Kenobi</c>
+              <c>Kalamazoo Stout</c>
+              <c>Dunkin Donuts Chocolate Mocha</c>
+              <c>9</c>
+            </r>
+            <r>
+              <c>6299217869</c>
+              <c>2017-07-19 14:32:00</c>
+              <c>2017-07-19 14:33:00</c>
+              <c>30-39</c>
+              <c>Capricorn</c>
+              <c>Soccer</c>
+              <c>Leia Organa</c>
+              <c>Oarsman Ale</c>
+              <c>Wild Berry</c>
+              <c>5</c>
+            </r>
+            <r>
+              <c>6299217869</c>
+              <c>2017-07-19 14:32:00</c>
+              <c>2017-07-19 14:33:00</c>
+              <c>30-39</c>
+              <c>Capricorn</c>
+              <c>Soccer</c>
+              <c>Leia Organa</c>
+              <c>Oberon</c>
+              <c>Watermelon Jolly Rancher</c>
+              <c>7</c>
+            </r>
+            <r>
+              <c>6299217869</c>
+              <c>2017-07-19 14:32:00</c>
+              <c>2017-07-19 14:33:00</c>
+              <c>30-39</c>
+              <c>Capricorn</c>
+              <c>Soccer</c>
+              <c>Leia Organa</c>
+              <c>Amber Ale</c>
+              <c>Dunkin Donuts Vanilla Latte</c>
+              <c>5</c>
+            </r>
+            <r>
+              <c>6299217869</c>
+              <c>2017-07-19 14:32:00</c>
+              <c>2017-07-19 14:33:00</c>
+              <c>30-39</c>
+              <c>Capricorn</c>
+              <c>Soccer</c>
+              <c>Leia Organa</c>
+              <c>Kalamazoo Stout</c>
+              <c>Dunkin Donuts Chocolate Mocha</c>
+              <c>9</c>
+            </r>
+            <r>
+              <c>6299215906</c>
+              <c>2017-07-19 14:24:00</c>
+              <c>2017-07-19 14:32:00</c>
+              <c>30-39</c>
+              <c>Gemini</c>
+              <c>Baseball</c>
+              <c>Yoda</c>
+              <c>Oarsman Ale</c>
+              <c>Wild Berry</c>
+              <c>9</c>
+            </r>
+            <r>
+              <c>6299215906</c>
+              <c>2017-07-19 14:24:00</c>
+              <c>2017-07-19 14:32:00</c>
+              <c>30-39</c>
+              <c>Gemini</c>
+              <c>Baseball</c>
+              <c>Yoda</c>
+              <c>Oberon</c>
+              <c>Watermelon Jolly Rancher</c>
+              <c>7</c>
+            </r>
+            <r>
+              <c>6299215906</c>
+              <c>2017-07-19 14:24:00</c>
+              <c>2017-07-19 14:32:00</c>
+              <c>30-39</c>
+              <c>Gemini</c>
+              <c>Baseball</c>
+              <c>Yoda</c>
+              <c>Amber Ale</c>
+              <c>Dunkin Donuts Vanilla Latte</c>
+              <c>7</c>
+            </r>
+            <r>
+              <c>6299215906</c>
+              <c>2017-07-19 14:24:00</c>
+              <c>2017-07-19 14:32:00</c>
+              <c>30-39</c>
+              <c>Gemini</c>
+              <c>Baseball</c>
+              <c>Yoda</c>
+              <c>Kalamazoo Stout</c>
+              <c>Dunkin Donuts Chocolate Mocha</c>
+              <c>6</c>
+            </r>
+            <r>
+              <c>6299214777</c>
+              <c>2017-07-19 14:30:00</c>
+              <c>2017-07-19 14:32:00</c>
+              <c>30-39</c>
+              <c>Sagittarius</c>
+              <c>Golf</c>
+              <c>Chewbacca</c>
+              <c>Oarsman Ale</c>
+              <c>Wild Berry</c>
+              <c>9</c>
+            </r>
+            <r>
+              <c>6299214777</c>
+              <c>2017-07-19 14:30:00</c>
+              <c>2017-07-19 14:32:00</c>
+              <c>30-39</c>
+              <c>Sagittarius</c>
+              <c>Golf</c>
+              <c>Chewbacca</c>
+              <c>Oberon</c>
+              <c>Watermelon Jolly Rancher</c>
+              <c>3</c>
+            </r>
+            <r>
+              <c>6299214777</c>
+              <c>2017-07-19 14:30:00</c>
+              <c>2017-07-19 14:32:00</c>
+              <c>30-39</c>
+              <c>Sagittarius</c>
+              <c>Golf</c>
+              <c>Chewbacca</c>
+              <c>Amber Ale</c>
+              <c>Dunkin Donuts Vanilla Latte</c>
+              <c>6</c>
+            </r>
+            <r>
+              <c>6299214777</c>
+              <c>2017-07-19 14:30:00</c>
+              <c>2017-07-19 14:32:00</c>
+              <c>30-39</c>
+              <c>Sagittarius</c>
+              <c>Golf</c>
+              <c>Chewbacca</c>
+              <c>Kalamazoo Stout</c>
+              <c>Dunkin Donuts Chocolate Mocha</c>
+              <c>8</c>
+            </r>
+            <r>
+              <c>6299214777</c>
+              <c>2017-07-19 14:30:00</c>
+              <c>2017-07-19 14:32:00</c>
+              <c>30-39</c>
+              <c>Sagittarius</c>
+              <c>Golf</c>
+              <c>Chewbacca</c>
+              <c>Kalamazoo Stout</c>
+              <c>Cherry</c>
+              <c>10</c>
+            </r>
+            <r>
+              <c>6299214668</c>
+              <c>2017-07-19 14:21:00</c>
+              <c>2017-07-19 14:31:00</c>
+              <c>30-39</c>
+              <c>Libra</c>
+              <c>Hockey</c>
+              <c>Chewbacca</c>
+              <c>Oarsman Ale</c>
+              <c>Wild Berry</c>
+              <c>8</c>
+            </r>
+            <r>
+              <c>6299214668</c>
+              <c>2017-07-19 14:21:00</c>
+              <c>2017-07-19 14:31:00</c>
+              <c>30-39</c>
+              <c>Libra</c>
+              <c>Hockey</c>
+              <c>Chewbacca</c>
+              <c>Oberon</c>
+              <c>Watermelon Jolly Rancher</c>
+              <c>5</c>
+            </r>
+            <r>
+              <c>6299214668</c>
+              <c>2017-07-19 14:21:00</c>
+              <c>2017-07-19 14:31:00</c>
+              <c>30-39</c>
+              <c>Libra</c>
+              <c>Hockey</c>
+              <c>Chewbacca</c>
+              <c>Amber Ale</c>
+              <c>Dunkin Donuts Vanilla Latte</c>
+              <c>9</c>
+            </r>
+            <r>
+              <c>6299214668</c>
+              <c>2017-07-19 14:21:00</c>
+              <c>2017-07-19 14:31:00</c>
+              <c>30-39</c>
+              <c>Libra</c>
+              <c>Hockey</c>
+              <c>Chewbacca</c>
+              <c>Kalamazoo Stout</c>
+              <c>Dunkin Donuts Chocolate Mocha</c>
+              <c>7</c>
+            </r>
+            <r>
+              <c>6299212833</c>
+              <c>2017-07-19 14:20:00</c>
+              <c>2017-07-19 14:31:00</c>
+              <c>50-59</c>
+              <c>Libra</c>
+              <c>Golf</c>
+              <c>Han Solo</c>
+              <c>Oarsman Ale</c>
+              <c>Wild Berry</c>
+              <c>8</c>
+            </r>
+            <r>
+              <c>6299212833</c>
+              <c>2017-07-19 14:20:00</c>
+              <c>2017-07-19 14:31:00</c>
+              <c>50-59</c>
+              <c>Libra</c>
+              <c>Golf</c>
+              <c>Han Solo</c>
+              <c>Oberon</c>
+              <c>Watermelon Jolly Rancher</c>
+              <c>5</c>
+            </r>
+            <r>
+              <c>6299212833</c>
+              <c>2017-07-19 14:20:00</c>
+              <c>2017-07-19 14:31:00</c>
+              <c>50-59</c>
+              <c>Libra</c>
+              <c>Golf</c>
+              <c>Han Solo</c>
+              <c>Amber Ale</c>
+              <c>Dunkin Donuts Vanilla Latte</c>
+              <c>5</c>
+            </r>
+            <r>
+              <c>6299212833</c>
+              <c>2017-07-19 14:20:00</c>
+              <c>2017-07-19 14:31:00</c>
+              <c>50-59</c>
+              <c>Libra</c>
+              <c>Golf</c>
+              <c>Han Solo</c>
+              <c>Kalamazoo Stout</c>
+              <c>Dunkin Donuts Chocolate Mocha</c>
+              <c>10</c>
+            </r>
+            <r>
+              <c>6299211156</c>
+              <c>2017-07-19 14:28:00</c>
+              <c>2017-07-19 14:30:00</c>
+              <c>40-49</c>
+              <c>Capricorn</c>
+              <c>Baseball</c>
+              <c>Han Solo</c>
+              <c>Oarsman Ale</c>
+              <c>Wild Berry</c>
+              <c>7</c>
+            </r>
+            <r>
+              <c>6299211156</c>
+              <c>2017-07-19 14:28:00</c>
+              <c>2017-07-19 14:30:00</c>
+              <c>40-49</c>
+              <c>Capricorn</c>
+              <c>Baseball</c>
+              <c>Han Solo</c>
+              <c>Oberon</c>
+              <c>Watermelon Jolly Rancher</c>
+              <c>9</c>
+            </r>
+            <r>
+              <c>6299211156</c>
+              <c>2017-07-19 14:28:00</c>
+              <c>2017-07-19 14:30:00</c>
+              <c>40-49</c>
+              <c>Capricorn</c>
+              <c>Baseball</c>
+              <c>Han Solo</c>
+              <c>Amber Ale</c>
+              <c>Dunkin Donuts Vanilla Latte</c>
+              <c>6</c>
+            </r>
+            <r>
+              <c>6299211156</c>
+              <c>2017-07-19 14:28:00</c>
+              <c>2017-07-19 14:30:00</c>
+              <c>40-49</c>
+              <c>Capricorn</c>
+              <c>Baseball</c>
+              <c>Han Solo</c>
+              <c>Kalamazoo Stout</c>
+              <c>Dunkin Donuts Chocolate Mocha</c>
+              <c>5</c>
+            </r>
+            <r>
+              <c>6299211156</c>
+              <c>2017-07-19 14:28:00</c>
+              <c>2017-07-19 14:30:00</c>
+              <c>40-49</c>
+              <c>Capricorn</c>
+              <c>Baseball</c>
+              <c>Han Solo</c>
+              <c />
+              <c>Blueberry</c>
+              <c />
+            </r>
+            <r>
+              <c>6299211156</c>
+              <c>2017-07-19 14:28:00</c>
+              <c>2017-07-19 14:30:00</c>
+              <c>40-49</c>
+              <c>Capricorn</c>
+              <c>Baseball</c>
+              <c>Han Solo</c>
+              <c />
+              <c>Blueberry</c>
+              <c />
+            </r>
+            <r>
+              <c>6299211156</c>
+              <c>2017-07-19 14:28:00</c>
+              <c>2017-07-19 14:30:00</c>
+              <c>40-49</c>
+              <c>Capricorn</c>
+              <c>Baseball</c>
+              <c>Han Solo</c>
+              <c />
+              <c>Cherry Jolly Rancher</c>
+              <c />
+            </r>
+            <r>
+              <c>6299211156</c>
+              <c>2017-07-19 14:28:00</c>
+              <c>2017-07-19 14:30:00</c>
+              <c>40-49</c>
+              <c>Capricorn</c>
+              <c>Baseball</c>
+              <c>Han Solo</c>
+              <c />
+              <c>Watermelon Jolly Rancher</c>
+              <c />
+            </r>
+            <r>
+              <c>6299207103</c>
+              <c>2017-07-19 14:26:00</c>
+              <c>2017-07-19 14:28:00</c>
+              <c>50-59</c>
+              <c>Leo</c>
+              <c>Baseball</c>
+              <c>Darth Vader</c>
+              <c>Oarsman Ale</c>
+              <c>Wild Berry</c>
+              <c>7</c>
+            </r>
+            <r>
+              <c>6299207103</c>
+              <c>2017-07-19 14:26:00</c>
+              <c>2017-07-19 14:28:00</c>
+              <c>50-59</c>
+              <c>Leo</c>
+              <c>Baseball</c>
+              <c>Darth Vader</c>
+              <c>Oberon</c>
+              <c>Watermelon Jolly Rancher</c>
+              <c>8</c>
+            </r>
+            <r>
+              <c>6299207103</c>
+              <c>2017-07-19 14:26:00</c>
+              <c>2017-07-19 14:28:00</c>
+              <c>50-59</c>
+              <c>Leo</c>
+              <c>Baseball</c>
+              <c>Darth Vader</c>
+              <c>Amber Ale</c>
+              <c>Dunkin Donuts Vanilla Latte</c>
+              <c>4</c>
+            </r>
+            <r>
+              <c>6299207103</c>
+              <c>2017-07-19 14:26:00</c>
+              <c>2017-07-19 14:28:00</c>
+              <c>50-59</c>
+              <c>Leo</c>
+              <c>Baseball</c>
+              <c>Darth Vader</c>
+              <c>Kalamazoo Stout</c>
+              <c>Dunkin Donuts Chocolate Mocha</c>
+              <c>5</c>
+            </r>
+            <r>
+              <c>6299205461</c>
+              <c>2017-07-19 14:25:00</c>
+              <c>2017-07-19 14:27:00</c>
+              <c>50-59</c>
+              <c>Taurus</c>
+              <c>Soccer</c>
+              <c>Luke Skywalker</c>
+              <c>Oarsman Ale</c>
+              <c>Wild Berry</c>
+              <c>4</c>
+            </r>
+            <r>
+              <c>6299205461</c>
+              <c>2017-07-19 14:25:00</c>
+              <c>2017-07-19 14:27:00</c>
+              <c>50-59</c>
+              <c>Taurus</c>
+              <c>Soccer</c>
+              <c>Luke Skywalker</c>
+              <c>Oberon</c>
+              <c>Watermelon Jolly Rancher</c>
+              <c>5</c>
+            </r>
+            <r>
+              <c>6299205461</c>
+              <c>2017-07-19 14:25:00</c>
+              <c>2017-07-19 14:27:00</c>
+              <c>50-59</c>
+              <c>Taurus</c>
+              <c>Soccer</c>
+              <c>Luke Skywalker</c>
+              <c>Amber Ale</c>
+              <c>Dunkin Donuts Vanilla Latte</c>
+              <c>8</c>
+            </r>
+            <r>
+              <c>6299205461</c>
+              <c>2017-07-19 14:25:00</c>
+              <c>2017-07-19 14:27:00</c>
+              <c>50-59</c>
+              <c>Taurus</c>
+              <c>Soccer</c>
+              <c>Luke Skywalker</c>
+              <c>Kalamazoo Stout</c>
+              <c>Dunkin Donuts Chocolate Mocha</c>
+              <c>2</c>
+            </r>
+            <r>
+              <c>6299201104</c>
+              <c>2017-07-19 14:19:00</c>
+              <c>2017-07-19 14:24:00</c>
+              <c />
+              <c />
+              <c />
+              <c />
+              <c>Oarsman Ale</c>
+              <c>Wild Berry</c>
+              <c />
+            </r>
+            <r>
+              <c>6299201104</c>
+              <c>2017-07-19 14:19:00</c>
+              <c>2017-07-19 14:24:00</c>
+              <c />
+              <c />
+              <c />
+              <c />
+              <c>Oberon</c>
+              <c>Watermelon Jolly Rancher</c>
+              <c />
+            </r>
+            <r>
+              <c>6299201104</c>
+              <c>2017-07-19 14:19:00</c>
+              <c>2017-07-19 14:24:00</c>
+              <c />
+              <c />
+              <c />
+              <c />
+              <c>Amber Ale</c>
+              <c>Dunkin Donuts Vanilla Latte</c>
+              <c />
+            </r>
+            <r>
+              <c>6299201104</c>
+              <c>2017-07-19 14:19:00</c>
+              <c>2017-07-19 14:24:00</c>
+              <c />
+              <c />
+              <c />
+              <c />
+              <c>Kalamazoo Stout</c>
+              <c>Dunkin Donuts Chocolate Mocha</c>
+              <c />
+            </r>
+            <r>
+              <c>6299201104</c>
+              <c>2017-07-19 14:19:00</c>
+              <c>2017-07-19 14:24:00</c>
+              <c />
+              <c />
+              <c />
+              <c />
+              <c>Amber</c>
+              <c>Cherry</c>
+              <c>10</c>
+            </r>
+            <r>
+              <c>6299199567</c>
+              <c>2017-07-19 14:18:00</c>
+              <c>2017-07-19 14:24:00</c>
+              <c>30-39</c>
+              <c>Libra</c>
+              <c>Golf</c>
+              <c>Han Solo</c>
+              <c>Oarsman Ale</c>
+              <c>Wild Berry</c>
+              <c />
+            </r>
+            <r>
+              <c>6299199567</c>
+              <c>2017-07-19 14:18:00</c>
+              <c>2017-07-19 14:24:00</c>
+              <c>30-39</c>
+              <c>Libra</c>
+              <c>Golf</c>
+              <c>Han Solo</c>
+              <c>Oberon</c>
+              <c>Watermelon Jolly Rancher</c>
+              <c>8</c>
+            </r>
+            <r>
+              <c>6299199567</c>
+              <c>2017-07-19 14:18:00</c>
+              <c>2017-07-19 14:24:00</c>
+              <c>30-39</c>
+              <c>Libra</c>
+              <c>Golf</c>
+              <c>Han Solo</c>
+              <c>Amber Ale</c>
+              <c>Dunkin Donuts Vanilla Latte</c>
+              <c>7</c>
+            </r>
+            <r>
+              <c>6299199567</c>
+              <c>2017-07-19 14:18:00</c>
+              <c>2017-07-19 14:24:00</c>
+              <c>30-39</c>
+              <c>Libra</c>
+              <c>Golf</c>
+              <c>Han Solo</c>
+              <c>Kalamazoo Stout</c>
+              <c>Dunkin Donuts Chocolate Mocha</c>
+              <c />
+            </r>
+          </Data>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+    </Node>
+    <Node ToolID="32">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="438" y="450" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="Own Pairing 1 - Pop-Tart" selected="False" />
+            <SelectField field="Own Pairing 1 - Beer" selected="False" />
+            <SelectField field="Own Pairing 1 - Score" selected="False" />
+            <SelectField field="Own Pairing 2 - Pop-Tart" selected="False" />
+            <SelectField field="Own Pairing 2 - Beer" selected="False" />
+            <SelectField field="Own Pairing 2 - Score" selected="False" />
+            <SelectField field="Own Pairing 3 - Pop-Tart" selected="False" />
+            <SelectField field="Own Pairing 3 - Beer" selected="False" />
+            <SelectField field="Own Pairing 3 - Score" selected="False" />
+            <SelectField field="Own Pairing 4 - Pop-Tart" selected="False" />
+            <SelectField field="Own Pairing 4 - Beer" selected="False" />
+            <SelectField field="Own Pairing 4 - Score" selected="False" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="33">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.RecordID.RecordID">
+        <Position x="342" y="450" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FieldName>RecordID</FieldName>
+          <StartValue>1</StartValue>
+          <FieldType>Int32</FieldType>
+          <FieldSize>6</FieldSize>
+          <Position>0</Position>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxRecordID" />
+    </Node>
+    <Node ToolID="34">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="450" y="702" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="RecordID" selected="True" />
+            <SelectField field="Own Pairing 1 - Pop-Tart" selected="True" />
+            <SelectField field="Own Pairing 1 - Beer" selected="True" />
+            <SelectField field="Own Pairing 1 - Score" selected="True" />
+            <SelectField field="Own Pairing 2 - Pop-Tart" selected="True" />
+            <SelectField field="Own Pairing 2 - Beer" selected="True" />
+            <SelectField field="Own Pairing 2 - Score" selected="True" />
+            <SelectField field="Own Pairing 3 - Pop-Tart" selected="True" />
+            <SelectField field="Own Pairing 3 - Beer" selected="True" />
+            <SelectField field="Own Pairing 3 - Score" selected="True" />
+            <SelectField field="Own Pairing 4 - Pop-Tart" selected="True" />
+            <SelectField field="Own Pairing 4 - Beer" selected="True" />
+            <SelectField field="Own Pairing 4 - Score" selected="True" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="35">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Transpose.Transpose">
+        <Position x="546" y="702" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <ErrorWarn>Warn</ErrorWarn>
+          <KeyFields>
+            <Field field="RecordID" />
+          </KeyFields>
+          <DataFields>
+            <Field field="RecordID" selected="False" />
+            <Field field="Own Pairing 1 - Pop-Tart" selected="True" />
+            <Field field="Own Pairing 1 - Beer" selected="True" />
+            <Field field="Own Pairing 1 - Score" selected="True" />
+            <Field field="Own Pairing 2 - Pop-Tart" selected="True" />
+            <Field field="Own Pairing 2 - Beer" selected="True" />
+            <Field field="Own Pairing 2 - Score" selected="True" />
+            <Field field="Own Pairing 3 - Pop-Tart" selected="True" />
+            <Field field="Own Pairing 3 - Beer" selected="True" />
+            <Field field="Own Pairing 3 - Score" selected="True" />
+            <Field field="Own Pairing 4 - Pop-Tart" selected="True" />
+            <Field field="Own Pairing 4 - Beer" selected="True" />
+            <Field field="Own Pairing 4 - Score" selected="True" />
+            <Field field="*Unknown" selected="True" />
+          </DataFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTranspose" />
+    </Node>
+    <Node ToolID="36">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="1398" y="462" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="False">
+          <JoinInfo connection="Left">
+            <Field field="RecordID" />
+          </JoinInfo>
+          <JoinInfo connection="Right">
+            <Field field="RecordID" />
+          </JoinInfo>
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Left_Oarsman Ale with Wild Berry" selected="False" />
+                <SelectField field="Left_Oberon with Watermelon Jolly Rancher" selected="False" />
+                <SelectField field="Left_Amber Ale with Dunkin Donuts Vanilla Latte" selected="False" />
+                <SelectField field="Left_Please score pairing # 4 " selected="False" />
+                <SelectField field="Left_Kalamazoo Stout with Dunkin Donuts Chocolate Mocha" selected="False" />
+                <SelectField field="Right_RecordID" selected="False" rename="Right_RecordID" />
+                <SelectField field="Right_Name" selected="False" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+    <Node ToolID="37">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="1494" y="462" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\jmiller\AppData\Local\Temp\Engine_27988_9f238693179a4270aa1881da0e0eb914_\Engine_6992_9b17fb4677e04b898f82575b5f202c01_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="38">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="642" y="702" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="regex_replace([Name],&quot;.*\s(.*)&quot;,'$1')" field="Name" size="24" type="String" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText><![CDATA[Name = regex_replace([Name],".*\s(.*)",'$1')
+]]></DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="39">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="738" y="690" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Mode>Simple</Mode>
+          <Simple>
+            <Field>Value</Field>
+            <Operator>IsNotNull</Operator>
+          </Simple>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>!IsNull([Value])</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="40">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.CrossTab.CrossTab">
+        <Position x="930" y="678" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <GroupFields>
+            <Field field="RecordID" />
+            <Field field="rowid" />
+          </GroupFields>
+          <HeaderField field="Name" />
+          <DataField field="Value" />
+          <Methods>
+            <Method method="Concat" />
+            <Separator>,</Separator>
+            <FieldSize value="2048" />
+          </Methods>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="RecordID" source="CrossTab:Group:Concat:" type="Int32" />
+            <Field description="Formula: IIF([Name]==&quot;Pop-Tart&quot;,[Row-1:rowid]+1,[Row-1:rowid])" name="rowid" source="CrossTab:Group:Concat:" type="Int32" />
+            <Field name="Beer" size="2048" source="CrossTab:Header:Name:Beer:Concat:" type="V_String" />
+            <Field name="Pop_Tart" size="2048" source="CrossTab:Header:Name:Pop-Tart:Concat:" type="V_String" />
+            <Field name="Score" size="2048" source="CrossTab:Header:Name:Score:Concat:" type="V_String" />
+          </RecordInfo>
+          <SortInfo>
+            <Field field="RecordID" order="Asc" />
+            <Field field="rowid" order="Asc" />
+          </SortInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxCrossTab" />
+    </Node>
+    <Node ToolID="41">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.MultiRowFormula.MultiRowFormula">
+        <Position x="834" y="678" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <UpdateField value="False" />
+          <UpdateField_Name>RecordID</UpdateField_Name>
+          <CreateField_Name>rowid</CreateField_Name>
+          <CreateField_Type>Int32</CreateField_Type>
+          <CreateField_Size>4</CreateField_Size>
+          <OtherRows>Empty</OtherRows>
+          <NumRows value="1" />
+          <Expression>IIF([Name]=="Pop-Tart",[Row-1:rowid]+1,[Row-1:rowid])</Expression>
+          <GroupByFields />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>IIF([Name]=="Pop-Tart",[Row-1:rowid]+1,[Row-1:rowid])</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxMultiRowFormula" />
+    </Node>
+    <Node ToolID="42">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="1026" y="678" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="rowid" selected="False" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="43">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="450" y="570" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="Respondent ID" selected="False" />
+            <SelectField field="Start Date" selected="False" />
+            <SelectField field="End Date" selected="False" />
+            <SelectField field="Age range" selected="False" />
+            <SelectField field="Zodiac sign" selected="False" />
+            <SelectField field="Favorite sport" selected="False" />
+            <SelectField field="Favorite Star Wars character" selected="False" />
+            <SelectField field="Own Pairing 1 - Pop-Tart" selected="False" />
+            <SelectField field="Own Pairing 1 - Beer" selected="False" />
+            <SelectField field="Own Pairing 1 - Score" selected="False" />
+            <SelectField field="Own Pairing 2 - Pop-Tart" selected="False" />
+            <SelectField field="Own Pairing 2 - Beer" selected="False" />
+            <SelectField field="Own Pairing 2 - Score" selected="False" />
+            <SelectField field="Own Pairing 3 - Pop-Tart" selected="False" />
+            <SelectField field="Own Pairing 3 - Beer" selected="False" />
+            <SelectField field="Own Pairing 3 - Score" selected="False" />
+            <SelectField field="Own Pairing 4 - Pop-Tart" selected="False" />
+            <SelectField field="Own Pairing 4 - Beer" selected="False" />
+            <SelectField field="Own Pairing 4 - Score" selected="False" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="44">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Transpose.Transpose">
+        <Position x="546" y="570" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <ErrorWarn>Warn</ErrorWarn>
+          <KeyFields>
+            <Field field="RecordID" />
+          </KeyFields>
+          <DataFields>
+            <Field field="RecordID" selected="False" />
+            <Field field="Oarsman Ale with Wild Berry" selected="True" />
+            <Field field="Oberon with Watermelon Jolly Rancher" selected="True" />
+            <Field field="Amber Ale with Dunkin Donuts Vanilla Latte" selected="True" />
+            <Field field="Please score pairing # 4 " selected="True" />
+            <Field field="Kalamazoo Stout with Dunkin Donuts Chocolate Mocha" selected="True" />
+            <Field field="*Unknown" selected="True" />
+          </DataFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTranspose" />
+    </Node>
+    <Node ToolID="45">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.RegEx.RegEx">
+        <Position x="642" y="570" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Field>Name</Field>
+          <RegExExpression value="(.*)\swith\s(.*)" />
+          <CaseInsensitve value="True" />
+          <Method>ParseComplex</Method>
+          <Replace expression="">
+            <CopyUnmatched value="True" />
+          </Replace>
+          <ParseSimple>
+            <SplitToRows value="False" />
+            <RootName>Name</RootName>
+            <NumFields value="3" />
+            <ErrorHandling>Warn</ErrorHandling>
+          </ParseSimple>
+          <ParseComplex>
+            <Field field="Beer" type="String" size="50" />
+            <Field field="Pop-Tart" type="String" size="50" />
+          </ParseComplex>
+          <Match>
+            <Field>Name_Matched</Field>
+            <ErrorUnmatched value="False" />
+          </Match>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Parse:
+(.*)\swith\s(.*)</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxRegEx" />
+    </Node>
+    <Node ToolID="46">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="738" y="570" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Mode>Simple</Mode>
+          <Simple>
+            <Field>Beer</Field>
+            <Operator>IsNotNull</Operator>
+          </Simple>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>!IsNull([Beer])</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="47">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="834" y="558" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="True" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="RecordID" selected="True" />
+            <SelectField field="Name" selected="True" />
+            <SelectField field="Beer" selected="True" />
+            <SelectField field="Pop-Tart" selected="True" rename="Pop_Tart" />
+            <SelectField field="Value" selected="True" rename="Score" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="48">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Union.Union">
+        <Position x="1170" y="558" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <ByName_ErrorMode>Warning</ByName_ErrorMode>
+          <ByName_OutputMode>All</ByName_OutputMode>
+          <Mode>ByName</Mode>
+          <SetOutputOrder value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnion" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="27" Connection="Output" />
+      <Destination ToolID="26" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="27" Connection="Output" />
+      <Destination ToolID="33" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="29" Connection="Output" />
+      <Destination ToolID="23" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="32" Connection="Output" />
+      <Destination ToolID="36" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="48" Connection="Output" />
+      <Destination ToolID="36" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="33" Connection="Output" />
+      <Destination ToolID="32" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="33" Connection="Output" />
+      <Destination ToolID="34" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="33" Connection="Output" />
+      <Destination ToolID="43" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="34" Connection="Output" />
+      <Destination ToolID="35" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="35" Connection="Output" />
+      <Destination ToolID="38" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="36" Connection="Join" />
+      <Destination ToolID="37" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="38" Connection="Output" />
+      <Destination ToolID="39" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="39" Connection="True" />
+      <Destination ToolID="41" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="40" Connection="Output" />
+      <Destination ToolID="42" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="41" Connection="Output" />
+      <Destination ToolID="40" Connection="Input" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="42" Connection="Output" />
+      <Destination ToolID="48" Connection="Input" />
+    </Connection>
+    <Connection name="#2">
+      <Origin ToolID="47" Connection="Output" />
+      <Destination ToolID="48" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="43" Connection="Output" />
+      <Destination ToolID="44" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="44" Connection="Output" />
+      <Destination ToolID="45" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="45" Connection="Output" />
+      <Destination ToolID="46" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="46" Connection="True" />
+      <Destination ToolID="47" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="False" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>challenge_83_solution</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>

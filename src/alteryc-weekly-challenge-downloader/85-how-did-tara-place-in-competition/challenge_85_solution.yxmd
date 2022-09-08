@@ -1,0 +1,6419 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="11.3">
+  <Nodes>
+    <Node ToolID="31">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="426" y="258" width="240" height="180" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Output</Text>
+          <Font name="Segoe UI" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="30">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="54" y="258" width="240" height="180" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Input</Text>
+          <Font name="Segoe UI" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="20">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="54" y="54" width="324" height="72" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text />
+          <Font name="Segoe UI" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="3" />
+          <Justification Justification="4" />
+          <BG_Image>iVBORw0KGgoAAAANSUhEUgAAAXoAAAA0CAIAAAAL52RvAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAScQAAEnEB89x6jgAAABJ0RVh0U29mdHdhcmUAR3JlZW5zaG90XlUIBQAADRxJREFUeF7tnd+OFccRh/0GzhvEb4DfwH4D+w3sN0jewFxxhxIpcGEJCS4s+WKJsYR9w14kYq8WIWE2CgqKMVqL4FUQ8kIisCVL5NtTvZXa6j/TZ2fm7J51fWqNTtdU93QPU7+pnjNneetNEATBSgi5CYJgRYTcBEGwIk5Gbv7y5D83Hu2nSrAOPHny5O7du7u7u6keBMuzarl5/OLn97/49q0/fUNJpmAdCLkJxrNSubn37NVvPv2baM2ycvPjT7+c395DqhCsZApWSMhNMJ6Vys0n2z+o1iwlN1anWIgla7BCQm6C8ayH3Lz96Y62Crk5EUJugvGsh9zYViE3J0LITTCekJugi5CbYDwhN0EXITfBeEJugi5CboLxhNwEXYTcBOMZkJsff/rlj988+3jz+/e/+Na+MkN59/OH2Nl779mr5D3EycoN4zy/vff72/9iLmz5/OWjF2lfMETITTCeAbn54KvvbKjXyjvXHhDAgy/gLSU3f7j3b3SBgq7ZVmgcSmHLoABdffDcaaUW7PSAqibXEuz965P/Skmmxe8wRLlEvJJ1AbvUv92zok2sdvNZ+0mmCnaEM70GGXITjGdAbj7a3HXx2SiEbmpWYSm5sZ7t8t6f/5naZBCHTq2KBZ+GLljNRQTxRGLUIiW5LrB2TmCy1kEN1f+31/6erEffNvrd7SfJmuHm2HPEYxByE4xnQG6463LRE8+EHGJhCxYbD1LaiQatrHOyVrCe7dKQm3Of/yN3luLsRGxqk2GdmXWeKLkBWHkalGCwg+QUJesiv1M7pXZuUSLrttbZzf7+PocAPiRTk9evX4s/JFOdTjdFBsMhUn3Bsp3s7e25TsTCNtVLFH0GW4GM2Z09LNYo1R7Ef0LGPip2CjKh3ORKUSs2RC3ucFRtCsNnF6i1fnJtcsUlFDce7du97d++ow7W2YmFPQmsWPMUjBOuDpTaFMYzq9wQCTdv3rx8+fIFA9XNzU0X7QLGra2tK1euJNdDsOzs7CSnDPG5detWqjd5+PCh+Lspi5HRpnqT27dvi7/t5LPPPsPCNtVLFH0WPV24f/9+qpeQI7JN9QXSUI1S7UFOwsWLFxsyxy5xvnPnTjLVGSs37nKfUG6UpQ6huDAmU0g7jmIVh3hO1qPkckNah8QwknvPXrHNVYA1kTq3Vzc2hXFZEtC/7qW4JRXHZcy6F21KO2ZgPrkhfuR6LcK1zkWfXBdwfWNMuxcQltaC6BTDI+2+cGEwR4BLly6Jc1FuYPBUoIk6qgnlph3808oNzoOjHXSwnFm5sTpiH4g4iFh1oxQ7d3JDVNsHukVc3pTrkWKF6eqD58lqcCfNjtAdZXBUY5hJbrglLi7sA4gHG0gciyQC+8bGRjId1Rr2Wn9SJHqQvcWYlFYwGBtWAWtyM9iJRL4wodwAelpM+kAOqsoiSCtnVBibOBT/cTmrsreYVemJaiig5czKjX2uVEttBKsmjDBZDdaBbnui2uVWRR0Bm7zQc02Viksqd1qKI5+QOeSGa1Qu1sYdG7sNLV1AuZRHwV8UB89kOgSjSlVjIpqVSILjPBetUz+NdU2jk5FyI93WVnOTyw1In6xtncbpHDvXp3A25ebYo/rgq++S1WDlJl/v1LAaUewWbHrSWHO56ciSyvZPitRIoCZhDrmRoILOe6PeS2uRI2j8ODkQI7HBluBJ1gyJLtxkeG7KB10sBsC20YnkZWzzTopS4ij6YAE9CUWxk4G58yP+tZOmp6vxjyui6XqQY6E4ToYanE25cd/pJGsFO6qimhxPbuzX25SiHNgUrD0vt2768OvHttpzTkYyudxoll67UedIatNzfTfCVe/JxXCVvXII6aQoN9pJMYZlajjwIe+kODZH0QcL8EG0DHKZFglwoxLn4lChR27UhxmJRf/5amlmkbMpN2QKtkmyVphJbtAXbUXJ11P2C6zG0yWB3uxTHlsk2ZmbyeVG79Kd1ysRLv498qSPhFJ9gVoat2WJZInMXCngoItFJzL+Y3RSlBJH0QcL8IEjivLmCxyZmlOWRbtRcgMbGxv4XL9+Xao9s8jpkhuu9S8fvTi/vcdNVd6j1eJeojslcmMFguLG7Ir9cmdCuQGrehwoWQ+xe3skw50HKStYRgmTy40EBnSupDQqamFjKYaQWORzcXUgd2x2SQxLRLkpH3RxtBP35EJTm1onPYFa9MEC8lkfUWn8C3JW3bwW7cbKDfOSI+KmTTTZ6WRAbh6/+Pnjze/dJd4op1Nu+su0cuNewLHv1Ljcx71uU8MtqSgr+w8t5pObVB9CL/Fa2FjU2Q5YLPJZcxMbMHID10VWrhRw0MVhJ3oU24m00pdQ8k6KUuIo+mCBVKk8yZKz6k5R7mYpnqsikjMyKhlezz+EoyU35P+1nxrVyhxy4x6CzCo3xee1x5YbsCsg+wWZndS57vdlnPL2vLI8FfPJTecdUqOi5yovhpBYUuUwpHVpJk1IWKQK4uCmfNBF1ommGD2diIVtqpco+mCBVFkgj71B+5ez6k6R+NTOm4wZ3EyL6DeDmgMuRVVuuN86rSEq0AsKd1Suey3Wh2pqX+J4cuNatQ8hWIFg2DrUwZLaH2WM3NjB299J2D7zxzo1mIu2kkL/ad/MzCc3nX2yfBD/HrmR12HBaplYUsWEmazmarrghrdo8f9OdFTiJk00P4Jat2xTvUTRBwukyiHu8fnccqMndqknxEpVbuwPf9ovm6gbpRaxwonIzfgUYIzcuBdwZNHkjJ0PX9x50DLr233K5HKjF26PfAjyrCR/oSZHbvs2y4DF0Y6Eq6yeiGpZmLjwlph3Uz7o4mgn8mAYZ4nbwU70oKleQlo5HyyQKoegp/JIRU7L3HKzlHNOVW7sBd1+Tc56nkK5oSTrcRkjN2Cby5m039M3Xrex2BcCXWn8uHRCJpcbkDhpvL3ikMAevNa5z0vPulASpG2qLCBWxSj+7qF1rhSwcPed6ETYOv+8E1EEmqR6CRHWomqkikGFG5FdS7khpO0F3Y7wfs+VyY1rMvK7m5FyYx/TyM+y7Jqo81mvbUKy6V4sYr7JbzbmkBuJDahFgkPVgTt548GBqpJdSYEYU+UQffzhtAk65QZ0Ii4fgbwTXX/ZNZdFQ9rJnxhT5Sg6C1lbrbfcJGsF67mU3BxvEdEjN278/Q9HioyUG6ZpX+ez6jP4uo3gxEVSJDsqytxLqjnkRtMQqP2emECyQqCBTVw5NQE6vH79ujjkHYo9VQ6RMUDeW7/cLNuJGPHPzycSg529uXIdHLgiNyB9CustN+0I7/c8hnCAC7aedMB9zZy/87IUI+UG3GuHWnpet3HP7HUA2K2Kzb2kmkNuQKMLWIygERxC4LMsT1wYa/ICiMvW1harCbbYtas8VQHZlSoGxAJSxdAvN7BUJ0xHh8oUdnZ2FjPe3dzcFCN7XWoDsitVMji69rlmcuOeFDSyA/fUs60g9sZO6Xxs4bSvs5WL8DEJzni5cVPQIk+O29ijoy+2STHrmYmZ5AaIK1kCFCFc88BjGSJPN3Kw1xYp4pAqHSwlNzWKnUBj1kwhnzLI3lQpoVqwZnID9s75zrUHeWAgSfkbgNxj5e8Hk1DkEZ4/78RTeiYfkReX80WBUzSK/l1ktv2tcCsu3xqHFsbLDeQ/QTjX8bqNE5T8GY0dG0mQnJY5mE9uBDIUUhKCk1s08cYHllHtw9GEENrY2MCZLZ+xpH0lcINU6YAB4O8if5JOFJSRkYvuMGs+17QSeg7NGcg7kYa1nhmbONQGaVnKOacqN/kLrCiI/AcGH3792L74XyvFb6BrP/zRMvib7GIpLiXc2k0KnjIR+UGGnUhtPTKJ3OSDGUy40A67jCrKk1PVkcvGBnPLTfBroCo33PMHpYGCT0ML8nyhtqzQUhSpPC3KS3I9Su2hSa0U059J5CbPtorHsrgTW0u+nJDNtKQKuQnGU5Ub4PrOX2O1hQyImCGQ7MpLi3vQoHBXL/pLqf1pmBuP9hutGguTPE1rlOKAJ5EbsP0MPoFyz7nQlLSjhP1nmmlJFXITjKclNwLXPRKgmQ4xT9hwC7U3Zz4TP+rD1U+QNy56/OmBbulKOqQQUbUbuFBsxYEGv6tiJAyvoVaMvDFgBiZt2Q6ugBowcj3i4JiZqUxQ5pisFThv6kxpn8bjEXITjGdYbs4SxCFxjnxIIaRZ3M2RC+RwFNUaZCtZ14eQm2A8vy65OUHsmm4wWzmFhNwE4wm5WQUsA+13TKvJp6Yl5CYYT8jNKmDhplrz3oiHzSdIyE0wnpCb2bn37JVNbdovXp9aQm6C8YTczAhrqPPbe1Zr1jS1gZCbYDwhNxODoCAr7x79i/FS3q7/x3Wnn5CbYDwhNxPjJEYLWjPH6zArI+QmGE/IzcQ4lZHy0ebu+uY1QshNMJ6Qm4nR957ZfrL9w9UHz9fxa++cly9fPn36NP/zUUHQT8hNEAQrIuQmCIIVEXITBMFKePPmf4GyDTAL6GK4AAAAAElFTkSuQmCC</BG_Image>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="21">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="414" y="69" width="252" height="40" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Weekly Challenge #85</Text>
+          <Font name="Microsoft Sans Serif" size="16.2" style="0" />
+          <TextColor name="Gray" />
+          <FillColor name="White" />
+          <Shape shape="3" />
+          <Justification Justification="0" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="22">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="54" y="126" width="612" height="120" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text><![CDATA[Tara (bib # 2421) raced against her friend Carisa (#3508) in all 4 events but was only accidently scored for 3 by the time keepers and her overall rank suffered. In the Interval event, Tara knew her time was exactly 1 minute faster than her friend, Carisa.
+
+If place is determined by the lowest average position for all 4 events, what overall place should Tara be? What was her place in the interval event?
+
+Anybody who does not have all four events should not be ranked.
+]]></Text>
+          <Font name="Microsoft Sans Serif" size="7.8" style="0" />
+          <TextColor name="Gray" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="3" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="23">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="594" y="318" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\jmiller\AppData\Local\Temp\Engine_18852_594682e4e0664e79b7ec05e4cbf945ae_\Engine_19056_4b004fa358994d55a3ebdfd5d183e760_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Map</DefaultTab>
+              <Hints>
+                <Map>
+                  <BaseMap>Latest:CloudMade</BaseMap>
+                </Map>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="26">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="222" y="318" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\jmiller\AppData\Local\Temp\Engine_18852_594682e4e0664e79b7ec05e4cbf945ae_\Engine_19056_c9b51ac2208d4a4c9fe6901f377bc22e_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="35">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+        <Position x="66" y="318" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <NumRows value="715" />
+          <Fields>
+            <Field name="Rank" />
+            <Field name="Bib#" />
+            <Field name="Endurance" />
+            <Field name="Strength &amp; Agility" />
+            <Field name="Interval" />
+            <Field name="Peak" />
+          </Fields>
+          <Data>
+            <r>
+              <c>1</c>
+              <c>6615</c>
+              <c>06:55.22 (3)</c>
+              <c>01:09.47 (25)</c>
+              <c>02:10.06 (5)</c>
+              <c>02:13.78 (5)</c>
+            </r>
+            <r>
+              <c>2</c>
+              <c>3880</c>
+              <c>07:47.77 (16)</c>
+              <c>00:59.84 (4)</c>
+              <c>02:32.59 (18)</c>
+              <c>02:22.75 (7)</c>
+            </r>
+            <r>
+              <c>3</c>
+              <c>8223</c>
+              <c>07:55.81 (18)</c>
+              <c>01:11.91 (31)</c>
+              <c>02:29.36 (17)</c>
+              <c>02:40.12 (20)</c>
+            </r>
+            <r>
+              <c>4</c>
+              <c>4326</c>
+              <c>08:06.25 (24)</c>
+              <c>01:03.10 (7)</c>
+              <c>03:15.50 (47)</c>
+              <c>02:25.24 (10)</c>
+            </r>
+            <r>
+              <c>5</c>
+              <c>2452</c>
+              <c>09:20.34 (42)</c>
+              <c>01:13.25 (36)</c>
+              <c>02:37.67 (22)</c>
+              <c>02:53.21 (30)</c>
+            </r>
+            <r>
+              <c>6</c>
+              <c>7805</c>
+              <c>08:48.84 (31)</c>
+              <c>01:15.95 (43)</c>
+              <c>02:54.93 (37)</c>
+              <c>02:47.63 (27)</c>
+            </r>
+            <r>
+              <c>7</c>
+              <c>4271</c>
+              <c>10:06.06 (67)</c>
+              <c>01:02.55 (6)</c>
+              <c>04:04.21 (64)</c>
+              <c>02:46.87 (25)</c>
+            </r>
+            <r>
+              <c>8</c>
+              <c>5113</c>
+              <c>09:44.68 (54)</c>
+              <c>01:15.49 (42)</c>
+              <c>02:58.47 (39)</c>
+              <c>03:13.76 (44)</c>
+            </r>
+            <r>
+              <c>9</c>
+              <c>3731</c>
+              <c>11:09.10 (80)</c>
+              <c>01:18.13 (55)</c>
+              <c>02:52.62 (35)</c>
+              <c>02:39.93 (19)</c>
+            </r>
+            <r>
+              <c>10</c>
+              <c>9284</c>
+              <c>09:46.95 (56)</c>
+              <c>01:22.00 (71)</c>
+              <c>03:16.81 (48)</c>
+              <c>03:02.21 (35)</c>
+            </r>
+            <r>
+              <c>11</c>
+              <c>4778</c>
+              <c>11:46.45 (86)</c>
+              <c>01:14.76 (41)</c>
+              <c>03:51.34 (57)</c>
+              <c>03:23.60 (48)</c>
+            </r>
+            <r>
+              <c>12</c>
+              <c>5169</c>
+              <c>09:27.58 (45)</c>
+              <c>01:29.88 (99)</c>
+              <c>04:06.50 (66)</c>
+              <c>03:00.74 (33)</c>
+            </r>
+            <r>
+              <c>13</c>
+              <c>2395</c>
+              <c>10:33.12 (74)</c>
+              <c>01:21.62 (69)</c>
+              <c>03:23.60 (51)</c>
+              <c>03:33.72 (59)</c>
+            </r>
+            <r>
+              <c>14</c>
+              <c>2658</c>
+              <c>09:21.56 (43)</c>
+              <c>01:39.34 (128)</c>
+              <c>03:48.54 (56)</c>
+              <c>03:23.15 (47)</c>
+            </r>
+            <r>
+              <c>15</c>
+              <c>6157</c>
+              <c>12:40.22 (97)</c>
+              <c>01:18.53 (57)</c>
+              <c>04:34.53 (73)</c>
+              <c>03:27.25 (51)</c>
+            </r>
+            <r>
+              <c>16</c>
+              <c>3508</c>
+              <c>10:01.40 (64)</c>
+              <c>01:40.78 (131)</c>
+              <c>04:31.48 (70)</c>
+              <c>03:42.90 (65)</c>
+            </r>
+            <r>
+              <c>17</c>
+              <c>5629</c>
+              <c>11:52.73 (88)</c>
+              <c>01:30.35 (102)</c>
+              <c>05:20.00 (80)</c>
+              <c>04:11.28 (77)</c>
+            </r>
+            <r>
+              <c>18</c>
+              <c>6594</c>
+              <c>13:47.68 (108)</c>
+              <c>01:30.50 (103)</c>
+              <c>05:16.15 (79)</c>
+              <c>04:17.93 (79)</c>
+            </r>
+            <r>
+              <c>19</c>
+              <c>5110</c>
+              <c>11:53.62 (89)</c>
+              <c>01:45.28 (142)</c>
+              <c>04:37.88 (74)</c>
+              <c>04:32.22 (83)</c>
+            </r>
+            <r>
+              <c>20</c>
+              <c>4125</c>
+              <c>12:32.57 (96)</c>
+              <c>01:44.75 (140)</c>
+              <c>04:52.67 (75)</c>
+              <c>04:30.75 (82)</c>
+            </r>
+            <r>
+              <c>21</c>
+              <c>4534</c>
+              <c>16:07.88 (121)</c>
+              <c>01:37.38 (123)</c>
+              <c>06:27.44 (92)</c>
+              <c>03:54.47 (73)</c>
+            </r>
+            <r>
+              <c>22</c>
+              <c>4797</c>
+              <c>15:19.60 (115)</c>
+              <c>01:41.72 (134)</c>
+              <c>06:12.54 (91)</c>
+              <c>04:18.25 (80)</c>
+            </r>
+            <r>
+              <c>23</c>
+              <c>3631</c>
+              <c>14:15.13 (112)</c>
+              <c>01:46.19 (146)</c>
+              <c>05:26.21 (82)</c>
+              <c>05:35.02 (92)</c>
+            </r>
+            <r>
+              <c>24</c>
+              <c>3254</c>
+              <c>12:49.25 (103)</c>
+              <c>01:48.50 (149)</c>
+              <c>06:09.09 (90)</c>
+              <c>05:31.16 (91)</c>
+            </r>
+            <r>
+              <c>25</c>
+              <c>3736</c>
+              <c>15:36.08 (119)</c>
+              <c>01:56.91 (153)</c>
+              <c>06:00.00 (84)</c>
+              <c>06:22.25 (95)</c>
+            </r>
+            <r>
+              <c>26</c>
+              <c>3588</c>
+              <c>15:21.38 (116)</c>
+              <c>01:48.90 (150)</c>
+              <c>06:30.86 (93)</c>
+              <c>05:45.40 (93)</c>
+            </r>
+            <r>
+              <c>27</c>
+              <c>3051</c>
+              <c>07:34.00 (10)</c>
+              <c>00:57.58 (1)</c>
+              <c>02:23.15 (12)</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>28</c>
+              <c>9268</c>
+              <c>--</c>
+              <c>01:06.44 (13)</c>
+              <c>02:12.09 (6)</c>
+              <c>02:21.69 (6)</c>
+            </r>
+            <r>
+              <c>29</c>
+              <c>8800</c>
+              <c>07:58.18 (20)</c>
+              <c>--</c>
+              <c>02:20.56 (9)</c>
+              <c>02:23.89 (8)</c>
+            </r>
+            <r>
+              <c>30</c>
+              <c>7322</c>
+              <c>--</c>
+              <c>01:08.62 (21)</c>
+              <c>02:20.87 (10)</c>
+              <c>02:25.82 (11)</c>
+            </r>
+            <r>
+              <c>31</c>
+              <c>5177</c>
+              <c>--</c>
+              <c>01:12.48 (33)</c>
+              <c>02:21.80 (11)</c>
+              <c>02:09.30 (3)</c>
+            </r>
+            <r>
+              <c>32</c>
+              <c>4261</c>
+              <c>00:08.51 (2)</c>
+              <c>--</c>
+              <c>02:49.38 (32)</c>
+              <c>02:35.46 (15)</c>
+            </r>
+            <r>
+              <c>33</c>
+              <c>2359</c>
+              <c>09:30.58 (48)</c>
+              <c>01:01.75 (5)</c>
+              <c>--</c>
+              <c>02:28.07 (12)</c>
+            </r>
+            <r>
+              <c>34</c>
+              <c>2501</c>
+              <c>08:31.96 (27)</c>
+              <c>01:08.00 (19)</c>
+              <c>02:42.43 (25)</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>35</c>
+              <c>8817</c>
+              <c>--</c>
+              <c>01:12.37 (32)</c>
+              <c>02:33.45 (19)</c>
+              <c>02:43.00 (22)</c>
+            </r>
+            <r>
+              <c>36</c>
+              <c>3483</c>
+              <c>09:33.47 (49)</c>
+              <c>--</c>
+              <c>02:28.79 (16)</c>
+              <c>02:36.16 (16)</c>
+            </r>
+            <r>
+              <c>37</c>
+              <c>3878</c>
+              <c>--</c>
+              <c>01:17.53 (50)</c>
+              <c>02:56.05 (38)</c>
+              <c>02:37.84 (17)</c>
+            </r>
+            <r>
+              <c>37</c>
+              <c>6502</c>
+              <c>07:44.31 (15)</c>
+              <c>01:23.09 (77)</c>
+              <c>02:23.61 (13)</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>39</c>
+              <c>5343</c>
+              <c>09:44.31 (53)</c>
+              <c>01:09.82 (26)</c>
+              <c>--</c>
+              <c>02:51.59 (29)</c>
+            </r>
+            <r>
+              <c>40</c>
+              <c>6964</c>
+              <c>09:19.65 (41)</c>
+              <c>01:17.16 (49)</c>
+              <c>--</c>
+              <c>02:43.59 (23)</c>
+            </r>
+            <r>
+              <c>41</c>
+              <c>8133</c>
+              <c>09:45.69 (55)</c>
+              <c>01:16.50 (46)</c>
+              <c>02:46.31 (29)</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>42</c>
+              <c>3277</c>
+              <c>08:05.33 (23)</c>
+              <c>01:25.00 (87)</c>
+              <c>02:47.14 (30)</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>43</c>
+              <c>8012</c>
+              <c>09:54.41 (61)</c>
+              <c>01:17.83 (52)</c>
+              <c>--</c>
+              <c>03:06.09 (39)</c>
+            </r>
+            <r>
+              <c>44</c>
+              <c>4850</c>
+              <c>09:01.56 (36)</c>
+              <c>01:22.34 (73)</c>
+              <c>04:01.40 (62)</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>45</c>
+              <c>4053</c>
+              <c>07:58.56 (21)</c>
+              <c>01:32.06 (109)</c>
+              <c>03:04.10 (43)</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>46</c>
+              <c>2421</c>
+              <c>08:57.49 (34)</c>
+              <c>01:24.19 (83)</c>
+              <c>--</c>
+              <c>03:31.44 (57)</c>
+            </r>
+            <r>
+              <c>47</c>
+              <c>4868</c>
+              <c>09:14.25 (40)</c>
+              <c>01:31.18 (106)</c>
+              <c>02:49.26 (31)</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>48</c>
+              <c>8255</c>
+              <c>11:08.96 (79)</c>
+              <c>01:19.00 (58)</c>
+              <c>03:12.37 (46)</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>49</c>
+              <c>4726</c>
+              <c>--</c>
+              <c>01:22.10 (72)</c>
+              <c>03:54.62 (59)</c>
+              <c>03:31.09 (56)</c>
+            </r>
+            <r>
+              <c>50</c>
+              <c>7117</c>
+              <c>09:56.37 (62)</c>
+              <c>01:29.90 (100)</c>
+              <c>--</c>
+              <c>02:47.35 (26)</c>
+            </r>
+            <r>
+              <c>51</c>
+              <c>6188</c>
+              <c>--</c>
+              <c>01:25.41 (88)</c>
+              <c>03:26.58 (53)</c>
+              <c>03:23.62 (49)</c>
+            </r>
+            <r>
+              <c>52</c>
+              <c>7631</c>
+              <c>11:49.00 (87)</c>
+              <c>01:19.93 (61)</c>
+              <c>05:02.94 (78)</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>53</c>
+              <c>7671</c>
+              <c>--</c>
+              <c>01:30.94 (104)</c>
+              <c>04:23.81 (69)</c>
+              <c>03:29.50 (54)</c>
+            </r>
+            <r>
+              <c>54</c>
+              <c>6261</c>
+              <c>12:21.31 (92)</c>
+              <c>01:22.97 (76)</c>
+              <c>--</c>
+              <c>03:35.62 (61)</c>
+            </r>
+            <r>
+              <c>55</c>
+              <c>8636</c>
+              <c>10:41.88 (75)</c>
+              <c>01:28.18 (93)</c>
+              <c>04:03.22 (63)</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>56</c>
+              <c>3895</c>
+              <c>--</c>
+              <c>01:32.91 (112)</c>
+              <c>04:04.69 (65)</c>
+              <c>03:29.76 (55)</c>
+            </r>
+            <r>
+              <c>57</c>
+              <c>2517</c>
+              <c>11:04.03 (77)</c>
+              <c>01:32.35 (111)</c>
+              <c>03:36.50 (54)</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>58</c>
+              <c>4186</c>
+              <c>11:00.56 (76)</c>
+              <c>01:34.87 (116)</c>
+              <c>--</c>
+              <c>03:35.60 (60)</c>
+            </r>
+            <r>
+              <c>59</c>
+              <c>2139</c>
+              <c>12:49.22 (102)</c>
+              <c>--</c>
+              <c>05:33.01 (83)</c>
+              <c>03:52.44 (71)</c>
+            </r>
+            <r>
+              <c>60</c>
+              <c>3451</c>
+              <c>--</c>
+              <c>01:40.16 (130)</c>
+              <c>03:59.17 (61)</c>
+              <c>04:45.06 (86)</c>
+            </r>
+            <r>
+              <c>61</c>
+              <c>4504</c>
+              <c>11:29.50 (83)</c>
+              <c>01:37.38 (124)</c>
+              <c>--</c>
+              <c>04:07.20 (76)</c>
+            </r>
+            <r>
+              <c>62</c>
+              <c>8572</c>
+              <c>14:12.72 (111)</c>
+              <c>01:30.96 (105)</c>
+              <c>04:53.47 (77)</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>63</c>
+              <c>8559</c>
+              <c>15:45.78 (120)</c>
+              <c>--</c>
+              <c>06:00.00 (87)</c>
+              <c>05:16.41 (90)</c>
+            </r>
+            <r>
+              <c>63</c>
+              <c>7614</c>
+              <c>12:18.68 (91)</c>
+              <c>01:34.93 (117)</c>
+              <c>--</c>
+              <c>04:52.37 (89)</c>
+            </r>
+            <r>
+              <c>65</c>
+              <c>8394</c>
+              <c>12:41.00 (98)</c>
+              <c>01:39.75 (129)</c>
+              <c>05:22.10 (81)</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>66</c>
+              <c>5350</c>
+              <c>14:03.13 (110)</c>
+              <c>01:38.56 (127)</c>
+              <c>--</c>
+              <c>04:49.18 (88)</c>
+            </r>
+            <r>
+              <c>67</c>
+              <c>2387</c>
+              <c>12:47.22 (100)</c>
+              <c>02:02.44 (154)</c>
+              <c>--</c>
+              <c>04:30.50 (81)</c>
+            </r>
+            <r>
+              <c>68</c>
+              <c>5391</c>
+              <c>13:33.94 (106)</c>
+              <c>01:45.37 (143)</c>
+              <c>06:04.61 (89)</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>69</c>
+              <c>8990</c>
+              <c>15:14.75 (114)</c>
+              <c>01:47.59 (148)</c>
+              <c>06:00.00 (88)</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>70</c>
+              <c>3737</c>
+              <c>22:00.94 (122)</c>
+              <c>02:24.69 (157)</c>
+              <c>06:00.00 (85)</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>71</c>
+              <c>3164</c>
+              <c>07:10.78 (4)</c>
+              <c>--</c>
+              <c>02:03.87 (4)</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>72</c>
+              <c>4274</c>
+              <c>--</c>
+              <c>00:58.03 (2)</c>
+              <c>02:18.77 (7)</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>72</c>
+              <c>8953</c>
+              <c>07:11.85 (5)</c>
+              <c>--</c>
+              <c>--</c>
+              <c>02:11.05 (4)</c>
+            </r>
+            <r>
+              <c>74</c>
+              <c>3647</c>
+              <c>--</c>
+              <c>01:07.20 (15)</c>
+              <c>--</c>
+              <c>01:50.75 (1)</c>
+            </r>
+            <r>
+              <c>74</c>
+              <c>7583</c>
+              <c>07:23.06 (8)</c>
+              <c>--</c>
+              <c>02:18.88 (8)</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>76</c>
+              <c>9089</c>
+              <c>07:36.97 (11)</c>
+              <c>01:04.97 (9)</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>77</c>
+              <c>6288</c>
+              <c>--</c>
+              <c>01:06.37 (12)</c>
+              <c>--</c>
+              <c>02:24.06 (9)</c>
+            </r>
+            <r>
+              <c>78</c>
+              <c>6911</c>
+              <c>--</c>
+              <c>01:04.47 (8)</c>
+              <c>02:25.89 (15)</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>79</c>
+              <c>2780</c>
+              <c>08:22.57 (25)</c>
+              <c>01:06.75 (14)</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>80</c>
+              <c>7430</c>
+              <c>07:51.52 (17)</c>
+              <c>01:08.93 (23)</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>81</c>
+              <c>8504</c>
+              <c>09:12.34 (39)</c>
+              <c>01:05.68 (10)</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>81</c>
+              <c>5806</c>
+              <c>07:56.75 (19)</c>
+              <c>01:10.78 (30)</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>83</c>
+              <c>4492</c>
+              <c>--</c>
+              <c>01:09.88 (27)</c>
+              <c>--</c>
+              <c>02:43.85 (24)</c>
+            </r>
+            <r>
+              <c>84</c>
+              <c>7747</c>
+              <c>--</c>
+              <c>01:14.50 (39)</c>
+              <c>--</c>
+              <c>02:34.56 (14)</c>
+            </r>
+            <r>
+              <c>85</c>
+              <c>6898</c>
+              <c>08:28.50 (26)</c>
+              <c>01:12.94 (34)</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>86</c>
+              <c>6194</c>
+              <c>--</c>
+              <c>00:58.22 (3)</c>
+              <c>--</c>
+              <c>03:33.68 (58)</c>
+            </r>
+            <r>
+              <c>87</c>
+              <c>4335</c>
+              <c>--</c>
+              <c>01:14.59 (40)</c>
+              <c>02:42.36 (24)</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>88</c>
+              <c>7569</c>
+              <c>00:00.00 (1)</c>
+              <c>--</c>
+              <c>--</c>
+              <c>03:42.25 (64)</c>
+            </r>
+            <r>
+              <c>89</c>
+              <c>4381</c>
+              <c>--</c>
+              <c>01:18.09 (54)</c>
+              <c>02:25.09 (14)</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>90</c>
+              <c>3944</c>
+              <c>--</c>
+              <c>01:16.18 (45)</c>
+              <c>02:45.89 (28)</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>90</c>
+              <c>7865</c>
+              <c>--</c>
+              <c>--</c>
+              <c>03:03.27 (41)</c>
+              <c>02:59.76 (32)</c>
+            </r>
+            <r>
+              <c>92</c>
+              <c>6480</c>
+              <c>--</c>
+              <c>01:09.03 (24)</c>
+              <c>03:22.64 (50)</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>92</c>
+              <c>8381</c>
+              <c>--</c>
+              <c>01:08.75 (22)</c>
+              <c>03:24.28 (52)</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>94</c>
+              <c>7466</c>
+              <c>07:39.97 (13)</c>
+              <c>01:19.96 (62)</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>95</c>
+              <c>8812</c>
+              <c>--</c>
+              <c>--</c>
+              <c>02:59.75 (40)</c>
+              <c>03:04.60 (37)</c>
+            </r>
+            <r>
+              <c>96</c>
+              <c>6661</c>
+              <c>09:23.51 (44)</c>
+              <c>--</c>
+              <c>02:53.36 (36)</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>97</c>
+              <c>4421</c>
+              <c>09:43.38 (52)</c>
+              <c>01:10.50 (29)</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>98</c>
+              <c>8086</c>
+              <c>--</c>
+              <c>01:20.44 (64)</c>
+              <c>--</c>
+              <c>02:37.88 (18)</c>
+            </r>
+            <r>
+              <c>98</c>
+              <c>7913</c>
+              <c>09:29.18 (46)</c>
+              <c>--</c>
+              <c>--</c>
+              <c>03:02.84 (36)</c>
+            </r>
+            <r>
+              <c>98</c>
+              <c>2109</c>
+              <c>09:51.86 (59)</c>
+              <c>--</c>
+              <c>02:38.94 (23)</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>101</c>
+              <c>2081</c>
+              <c>08:58.44 (35)</c>
+              <c>01:17.71 (51)</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>102</c>
+              <c>2087</c>
+              <c>07:39.78 (12)</c>
+              <c>01:22.66 (75)</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>102</c>
+              <c>8453</c>
+              <c>--</c>
+              <c>01:19.25 (60)</c>
+              <c>02:44.30 (27)</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>104</c>
+              <c>3479</c>
+              <c>09:35.22 (50)</c>
+              <c>--</c>
+              <c>--</c>
+              <c>03:04.88 (38)</c>
+            </r>
+            <r>
+              <c>104</c>
+              <c>8889</c>
+              <c>--</c>
+              <c>01:21.12 (67)</c>
+              <c>--</c>
+              <c>02:42.79 (21)</c>
+            </r>
+            <r>
+              <c>106</c>
+              <c>8118</c>
+              <c>--</c>
+              <c>01:23.21 (79)</c>
+              <c>--</c>
+              <c>02:28.79 (13)</c>
+            </r>
+            <r>
+              <c>106</c>
+              <c>6758</c>
+              <c>--</c>
+              <c>01:16.97 (47)</c>
+              <c>--</c>
+              <c>03:17.34 (45)</c>
+            </r>
+            <r>
+              <c>108</c>
+              <c>5249</c>
+              <c>09:57.62 (63)</c>
+              <c>--</c>
+              <c>--</c>
+              <c>03:01.56 (34)</c>
+            </r>
+            <r>
+              <c>109</c>
+              <c>2335</c>
+              <c>08:36.13 (28)</c>
+              <c>01:23.09 (78)</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>110</c>
+              <c>2880</c>
+              <c>--</c>
+              <c>01:21.57 (68)</c>
+              <c>--</c>
+              <c>03:27.22 (50)</c>
+            </r>
+            <r>
+              <c>111</c>
+              <c>8848</c>
+              <c>11:20.12 (82)</c>
+              <c>01:13.43 (37)</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>112</c>
+              <c>8808</c>
+              <c>--</c>
+              <c>01:26.00 (89)</c>
+              <c>--</c>
+              <c>02:55.03 (31)</c>
+            </r>
+            <r>
+              <c>113</c>
+              <c>5276</c>
+              <c>09:54.19 (60)</c>
+              <c>01:21.07 (66)</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>114</c>
+              <c>8733</c>
+              <c>--</c>
+              <c>01:24.88 (86)</c>
+              <c>--</c>
+              <c>03:11.52 (41)</c>
+            </r>
+            <r>
+              <c>115</c>
+              <c>8414</c>
+              <c>07:29.03 (9)</c>
+              <c>01:35.43 (119)</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>116</c>
+              <c>3584</c>
+              <c>--</c>
+              <c>01:19.23 (59)</c>
+              <c>--</c>
+              <c>03:48.88 (70)</c>
+            </r>
+            <r>
+              <c>117</c>
+              <c>5469</c>
+              <c>--</c>
+              <c>01:27.69 (92)</c>
+              <c>03:03.38 (42)</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>118</c>
+              <c>3502</c>
+              <c>--</c>
+              <c>01:17.00 (48)</c>
+              <c>--</c>
+              <c>04:45.37 (87)</c>
+            </r>
+            <r>
+              <c>119</c>
+              <c>2621</c>
+              <c>--</c>
+              <c>01:23.72 (81)</c>
+              <c>03:44.33 (55)</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>119</c>
+              <c>4030</c>
+              <c>--</c>
+              <c>01:34.28 (115)</c>
+              <c>02:37.19 (21)</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>121</c>
+              <c>3478</c>
+              <c>10:30.47 (73)</c>
+              <c>01:20.79 (65)</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>121</c>
+              <c>8764</c>
+              <c>09:50.94 (58)</c>
+              <c>01:23.68 (80)</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>123</c>
+              <c>2696</c>
+              <c>10:07.38 (68)</c>
+              <c>01:24.19 (82)</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>124</c>
+              <c>6885</c>
+              <c>--</c>
+              <c>01:24.65 (84)</c>
+              <c>--</c>
+              <c>03:46.82 (68)</c>
+            </r>
+            <r>
+              <c>125</c>
+              <c>4756</c>
+              <c>--</c>
+              <c>01:55.78 (152)</c>
+              <c>00:00.00 (1)</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>125</c>
+              <c>2042</c>
+              <c>--</c>
+              <c>01:31.94 (108)</c>
+              <c>03:12.22 (45)</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>127</c>
+              <c>3862</c>
+              <c>09:29.18 (47)</c>
+              <c>01:32.15 (110)</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>128</c>
+              <c>8853</c>
+              <c>08:51.91 (33)</c>
+              <c>01:37.66 (125)</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>129</c>
+              <c>7309</c>
+              <c>10:14.32 (70)</c>
+              <c>01:27.66 (90)</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>130</c>
+              <c>6546</c>
+              <c>--</c>
+              <c>01:28.89 (96)</c>
+              <c>--</c>
+              <c>03:46.16 (67)</c>
+            </r>
+            <r>
+              <c>131</c>
+              <c>4724</c>
+              <c>12:29.50 (95)</c>
+              <c>--</c>
+              <c>--</c>
+              <c>03:47.72 (69)</c>
+            </r>
+            <r>
+              <c>132</c>
+              <c>6243</c>
+              <c>--</c>
+              <c>01:29.66 (98)</c>
+              <c>04:07.24 (67)</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>133</c>
+              <c>6393</c>
+              <c>--</c>
+              <c>01:28.51 (94)</c>
+              <c>04:33.19 (72)</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>134</c>
+              <c>3295</c>
+              <c>--</c>
+              <c>01:30.32 (101)</c>
+              <c>04:15.64 (68)</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>135</c>
+              <c>8224</c>
+              <c>12:48.72 (101)</c>
+              <c>--</c>
+              <c>--</c>
+              <c>04:17.62 (78)</c>
+            </r>
+            <r>
+              <c>136</c>
+              <c>4648</c>
+              <c>--</c>
+              <c>01:35.12 (118)</c>
+              <c>--</c>
+              <c>03:39.34 (63)</c>
+            </r>
+            <r>
+              <c>137</c>
+              <c>3727</c>
+              <c>--</c>
+              <c>01:31.56 (107)</c>
+              <c>--</c>
+              <c>04:05.31 (75)</c>
+            </r>
+            <r>
+              <c>138</c>
+              <c>5036</c>
+              <c>15:30.21 (118)</c>
+              <c>--</c>
+              <c>--</c>
+              <c>03:45.92 (66)</c>
+            </r>
+            <r>
+              <c>139</c>
+              <c>4316</c>
+              <c>14:00.10 (109)</c>
+              <c>--</c>
+              <c>04:53.28 (76)</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>140</c>
+              <c>8915</c>
+              <c>10:11.21 (69)</c>
+              <c>01:36.75 (122)</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>141</c>
+              <c>8376</c>
+              <c>11:46.19 (85)</c>
+              <c>01:33.50 (113)</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>142</c>
+              <c>2840</c>
+              <c>--</c>
+              <c>01:38.06 (126)</c>
+              <c>--</c>
+              <c>03:54.84 (74)</c>
+            </r>
+            <r>
+              <c>143</c>
+              <c>5812</c>
+              <c>10:01.94 (65)</c>
+              <c>01:44.99 (141)</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>144</c>
+              <c>7824</c>
+              <c>--</c>
+              <c>01:43.72 (137)</c>
+              <c>--</c>
+              <c>03:53.13 (72)</c>
+            </r>
+            <r>
+              <c>145</c>
+              <c>8899</c>
+              <c>--</c>
+              <c>01:44.57 (139)</c>
+              <c>04:33.17 (71)</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>146</c>
+              <c>6707</c>
+              <c>11:05.88 (78)</c>
+              <c>01:41.09 (133)</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>147</c>
+              <c>7308</c>
+              <c>11:43.72 (84)</c>
+              <c>01:41.00 (132)</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>148</c>
+              <c>7508</c>
+              <c>12:28.17 (94)</c>
+              <c>01:45.72 (144)</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>149</c>
+              <c>4344</c>
+              <c>12:41.75 (99)</c>
+              <c>01:46.04 (145)</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>150</c>
+              <c>6868</c>
+              <c>--</c>
+              <c>--</c>
+              <c>01:54.27 (2)</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>150</c>
+              <c>5809</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>02:05.18 (2)</c>
+            </r>
+            <r>
+              <c>152</c>
+              <c>2111</c>
+              <c>--</c>
+              <c>--</c>
+              <c>02:02.97 (3)</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>153</c>
+              <c>8887</c>
+              <c>07:13.31 (6)</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>154</c>
+              <c>2796</c>
+              <c>07:15.53 (7)</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>155</c>
+              <c>5193</c>
+              <c>--</c>
+              <c>01:06.31 (11)</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>156</c>
+              <c>8535</c>
+              <c>07:43.47 (14)</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>157</c>
+              <c>4207</c>
+              <c>--</c>
+              <c>01:07.37 (16)</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>158</c>
+              <c>5108</c>
+              <c>--</c>
+              <c>01:07.47 (17)</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>159</c>
+              <c>4212</c>
+              <c>--</c>
+              <c>01:07.56 (18)</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>160</c>
+              <c>8380</c>
+              <c>--</c>
+              <c>01:08.19 (20)</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>160</c>
+              <c>3626</c>
+              <c>--</c>
+              <c>--</c>
+              <c>02:36.62 (20)</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>162</c>
+              <c>2183</c>
+              <c>08:04.94 (22)</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>163</c>
+              <c>6040</c>
+              <c>--</c>
+              <c>--</c>
+              <c>02:43.46 (26)</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>164</c>
+              <c>3992</c>
+              <c>--</c>
+              <c>01:09.93 (28)</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>164</c>
+              <c>7410</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>02:49.51 (28)</c>
+            </r>
+            <r>
+              <c>166</c>
+              <c>8737</c>
+              <c>08:38.03 (29)</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>167</c>
+              <c>5850</c>
+              <c>08:38.37 (30)</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>168</c>
+              <c>7234</c>
+              <c>08:48.91 (32)</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>169</c>
+              <c>7783</c>
+              <c>--</c>
+              <c>--</c>
+              <c>02:50.45 (33)</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>170</c>
+              <c>3127</c>
+              <c>--</c>
+              <c>--</c>
+              <c>02:52.15 (34)</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>171</c>
+              <c>8073</c>
+              <c>--</c>
+              <c>01:12.98 (35)</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>172</c>
+              <c>3123</c>
+              <c>09:06.12 (37)</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>173</c>
+              <c>2951</c>
+              <c>09:12.00 (38)</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>173</c>
+              <c>7692</c>
+              <c>--</c>
+              <c>01:13.90 (38)</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>175</c>
+              <c>5784</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>03:11.09 (40)</c>
+            </r>
+            <r>
+              <c>176</c>
+              <c>4708</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>03:12.31 (42)</c>
+            </r>
+            <r>
+              <c>177</c>
+              <c>8633</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>03:12.62 (43)</c>
+            </r>
+            <r>
+              <c>178</c>
+              <c>8966</c>
+              <c>--</c>
+              <c>--</c>
+              <c>03:04.98 (44)</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>178</c>
+              <c>7559</c>
+              <c>--</c>
+              <c>01:15.97 (44)</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>180</c>
+              <c>2775</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>03:21.38 (46)</c>
+            </r>
+            <r>
+              <c>181</c>
+              <c>6656</c>
+              <c>--</c>
+              <c>--</c>
+              <c>03:18.13 (49)</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>182</c>
+              <c>5677</c>
+              <c>09:40.47 (51)</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>183</c>
+              <c>8606</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>03:28.50 (52)</c>
+            </r>
+            <r>
+              <c>184</c>
+              <c>5417</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>03:29.19 (53)</c>
+            </r>
+            <r>
+              <c>184</c>
+              <c>5917</c>
+              <c>--</c>
+              <c>01:18.02 (53)</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>186</c>
+              <c>3933</c>
+              <c>--</c>
+              <c>01:18.18 (56)</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>187</c>
+              <c>2020</c>
+              <c>09:48.84 (57)</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>188</c>
+              <c>4731</c>
+              <c>--</c>
+              <c>--</c>
+              <c>03:53.38 (58)</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>189</c>
+              <c>8988</c>
+              <c>--</c>
+              <c>--</c>
+              <c>03:58.07 (60)</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>190</c>
+              <c>6494</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>03:38.91 (62)</c>
+            </r>
+            <r>
+              <c>191</c>
+              <c>2577</c>
+              <c>--</c>
+              <c>01:20.19 (63)</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>192</c>
+              <c>2854</c>
+              <c>10:02.19 (66)</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>193</c>
+              <c>8197</c>
+              <c>--</c>
+              <c>01:21.80 (70)</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>194</c>
+              <c>7779</c>
+              <c>10:21.56 (71)</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>195</c>
+              <c>2933</c>
+              <c>10:27.38 (72)</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>196</c>
+              <c>3999</c>
+              <c>--</c>
+              <c>01:22.44 (74)</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>197</c>
+              <c>8542</c>
+              <c>11:16.85 (81)</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>198</c>
+              <c>6874</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>04:40.81 (84)</c>
+            </r>
+            <r>
+              <c>199</c>
+              <c>2746</c>
+              <c>--</c>
+              <c>01:24.67 (85)</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>199</c>
+              <c>2684</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>04:42.58 (85)</c>
+            </r>
+            <r>
+              <c>201</c>
+              <c>7110</c>
+              <c>--</c>
+              <c>--</c>
+              <c>06:00.00 (86)</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>202</c>
+              <c>7951</c>
+              <c>12:11.30 (90)</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>203</c>
+              <c>4753</c>
+              <c>--</c>
+              <c>01:27.68 (91)</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>204</c>
+              <c>9207</c>
+              <c>12:24.56 (93)</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>205</c>
+              <c>4432</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>06:18.59 (94)</c>
+            </r>
+            <r>
+              <c>206</c>
+              <c>8868</c>
+              <c>--</c>
+              <c>01:28.69 (95)</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>207</c>
+              <c>5775</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>07:02.65 (96)</c>
+            </r>
+            <r>
+              <c>208</c>
+              <c>7668</c>
+              <c>--</c>
+              <c>01:28.91 (97)</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>209</c>
+              <c>8419</c>
+              <c>13:00.42 (104)</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>210</c>
+              <c>5491</c>
+              <c>13:31.64 (105)</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>211</c>
+              <c>2922</c>
+              <c>13:42.03 (107)</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>212</c>
+              <c>7987</c>
+              <c>14:44.78 (113)</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>213</c>
+              <c>9087</c>
+              <c>--</c>
+              <c>01:33.56 (114)</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>214</c>
+              <c>2497</c>
+              <c>15:24.90 (117)</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>215</c>
+              <c>8565</c>
+              <c>--</c>
+              <c>01:36.03 (120)</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>216</c>
+              <c>3301</c>
+              <c>--</c>
+              <c>01:36.19 (121)</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>217</c>
+              <c>4401</c>
+              <c>--</c>
+              <c>01:43.03 (135)</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>218</c>
+              <c>2262</c>
+              <c>--</c>
+              <c>01:43.41 (136)</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>219</c>
+              <c>4387</c>
+              <c>--</c>
+              <c>01:44.00 (138)</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>220</c>
+              <c>6087</c>
+              <c>--</c>
+              <c>01:46.70 (147)</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>221</c>
+              <c>5863</c>
+              <c>--</c>
+              <c>01:49.68 (151)</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>222</c>
+              <c>7184</c>
+              <c>--</c>
+              <c>02:03.03 (155)</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>223</c>
+              <c>5516</c>
+              <c>--</c>
+              <c>02:06.37 (156)</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>5992</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>2449</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>6044</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>2505</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>7854</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>6111</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>2568</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>4474</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>2628</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>4565</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>2727</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>8196</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>6277</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>4634</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>2787</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>8314</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>6353</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>2825</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>6461</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>4818</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>2897</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>8526</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>4916</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>8593</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>6624</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>5006</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>3068</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>8789</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>5064</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>6743</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>6844</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>5182</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>3302</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>9031</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>6889</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>5250</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>3378</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>9157</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>6927</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>7081</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>5402</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>3518</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>7156</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>5453</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>3622</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>7276</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>5548</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>3680</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>7336</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>5633</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>3755</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>2001</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>7388</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>5716</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>7439</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>5759</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>7535</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>5822</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>4060</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>2269</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>7589</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>4157</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>7708</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>6008</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>4288</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>2457</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>7807</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>4340</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>6142</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>2582</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>8021</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>6220</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>4518</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>4594</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>2750</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>6311</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>4692</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>2853</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>6486</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>2927</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>6566</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>4956</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>3002</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>3119</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>6730</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>5105</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>3234</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>6774</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>5168</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>3293</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>6861</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>5203</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>3345</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>6904</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>3384</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>9199</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>6990</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>5377</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>3482</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>7212</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>5578</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>7344</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>3796</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>2030</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>5726</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>2116</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>4043</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>2228</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>7562</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>5833</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>4096</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>2315</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>7622</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>4199</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>4235</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>2427</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>7767</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>6020</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>4320</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>7830</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>6108</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>4354</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>2539</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>7977</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>6173</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>2586</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>6239</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>4549</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>8176</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>6273</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>4606</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>6344</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>4721</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>2814</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>8393</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>6443</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>4790</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>6504</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>4880</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>2939</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>8575</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>6612</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>4999</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>3056</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>6681</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>5054</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>3136</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>8835</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>6740</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>5111</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>3255</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>6817</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>3300</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>9010</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>5239</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>3363</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>9135</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>6913</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>5336</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>9250</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>7035</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>5388</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>3506</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>7142</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>5435</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>3601</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>7248</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>5523</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>7325</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>5626</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>7372</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>5684</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>7425</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>5739</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>3966</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>2245</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>7581</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>5857</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>4132</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>7667</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>5934</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>5994</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>2450</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>6045</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>2507</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>6113</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>2569</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>7994</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>6201</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>2632</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>8095</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>6245</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>4570</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>2741</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>2791</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>8334</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>6359</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>6462</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>4824</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>2905</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>6552</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>4941</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>2973</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>6625</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>5015</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>3084</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>8794</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>6724</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>5066</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>3203</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>8861</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>6752</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>5141</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>3285</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>8974</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>6855</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>3329</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>9060</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>6892</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>5251</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>3379</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>9158</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>6946</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>5372</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>9273</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>7083</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>5404</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>3521</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>5459</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>3623</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>7287</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>5553</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>3707</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>7339</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>5643</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>3762</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>7395</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>5719</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>7448</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>5771</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>2184</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>5826</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>4088</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>2290</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>7611</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>5873</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>4171</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>2411</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>6017</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>4302</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>2459</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>7823</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>6103</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>2521</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>7923</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>4413</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>2584</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>8041</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>6232</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>4523</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>2662</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>6262</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>4599</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>2754</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>6313</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>2802</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>6409</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>4771</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>8473</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>2929</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>4957</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>3006</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>5051</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>6735</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>3238</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>6775</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>6865</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>5218</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>3346</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>9120</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>6909</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>5277</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>3404</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>7012</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>5380</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>7130</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>5429</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>7214</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>3634</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>5579</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>7363</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>5680</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>3855</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>7415</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>5727</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>3949</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>2121</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>7473</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>4046</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>2238</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>5838</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>4117</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>2330</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>5918</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>2432</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>7776</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>4325</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>7848</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>6110</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>4377</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>2551</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>7980</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>4460</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>8083</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>6240</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>4560</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>2723</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>8193</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>6275</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>4625</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>8269</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>6352</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>2818</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>6457</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>2881</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>8508</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>6535</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>4887</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>2949</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>8590</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>5005</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>3063</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>6691</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>5056</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>3141</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>6742</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>5112</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>3262</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>6838</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>5181</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>9022</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>3371</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>9140</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>6918</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>3476</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>9253</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>7055</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>7154</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>5441</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>3616</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>7251</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>5533</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>3661</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>7326</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>7373</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>5700</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>2086</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>5751</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>3973</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>2179</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>7513</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>5815</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>4054</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>5861</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>4143</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>2357</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>5981</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>7707</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>5999</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>4277</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>6057</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>4338</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>2508</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>7896</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>6138</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>4392</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>6204</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>2637</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>8104</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>6247</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>4584</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>8292</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>6302</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>4661</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>2793</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>8351</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>6364</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>2844</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>8420</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>4844</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>6555</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>4948</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>2995</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>8632</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>6649</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>5027</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>3113</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>6728</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>5091</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>3208</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>5143</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>3287</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>8985</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>6860</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>5196</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>3333</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>5270</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>3383</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>9196</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>5373</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>3481</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>5412</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>3551</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>7204</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>5466</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>7295</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>5577</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>3709</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>7341</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>5644</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>3772</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>2021</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>7396</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>5725</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>3939</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>7461</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>2215</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>7560</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>5830</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>4090</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>2300</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>5899</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>2388</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>7760</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>6018</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>2472</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>6107</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>4347</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>2528</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>6159</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>2585</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>8055</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>6234</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>8149</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>6268</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>4600</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>2765</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>8226</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>6338</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>4720</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>2813</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>6442</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>2868</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>8493</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>4871</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>6611</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>4993</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>6673</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>5053</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>6736</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>6816</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>5175</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>3297</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>8998</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>5229</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>3347</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>9133</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>5312</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>3410</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>9213</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>7021</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>5386</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>7133</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>5433</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>3592</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>3640</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>5584</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>3734</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>7371</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>5682</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>2047</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>7420</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>5736</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>3953</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>2138</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>7483</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>4048</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>2239</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>7573</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>2331</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>7648</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+            <r>
+              <c>224</c>
+              <c>5930</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+              <c>--</c>
+            </r>
+          </Data>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+    </Node>
+    <Node ToolID="36">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+        <Position x="450" y="318" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <NumRows value="1" />
+          <Fields>
+            <Field name="Place" />
+            <Field name="Bib#" />
+          </Fields>
+          <Data>
+            <r>
+              <c>11</c>
+              <c>2421</c>
+            </r>
+          </Data>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+    </Node>
+    <Node ToolID="37">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="174" y="450" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="Rank" selected="True" rename="Overall" />
+            <SelectField field="Bib#" selected="True" type="V_String" size="5" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="38">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="270" y="450" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Expression>[Bib#] = "2421"</Expression>
+          <Mode>Custom</Mode>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>[Bib#] = "2421"</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="39">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="342" y="438" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="&quot;03:31.48 ()&quot;" field="Interval" size="254" type="V_String" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText><![CDATA[Interval = "03:31.48 ()"
+]]></DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="40">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Union.Union">
+        <Position x="438" y="462" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <ByName_ErrorMode>Warning</ByName_ErrorMode>
+          <ByName_OutputMode>All</ByName_OutputMode>
+          <Mode>ByName</Mode>
+          <SetOutputOrder value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnion" />
+    </Node>
+    <Node ToolID="42">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="534" y="462" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Expression>[Endurance] != "--"
+&amp;&amp;
+[Strength &amp; Agility] != "--"
+&amp;&amp;
+[Interval] != "--"
+&amp;&amp;
+[Peak] != "--"</Expression>
+          <Mode>Custom</Mode>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>[Endurance] != "--"
+&amp;&amp;
+[Strength &amp; Agility] != "--"
+&amp;&amp;
+[Inter...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="43">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Transpose.Transpose">
+        <Position x="618" y="450" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <ErrorWarn>Warn</ErrorWarn>
+          <KeyFields>
+            <Field field="Bib#" />
+          </KeyFields>
+          <DataFields>
+            <Field field="Overall" selected="False" />
+            <Field field="Bib#" selected="False" />
+            <Field field="Endurance" selected="True" />
+            <Field field="Strength &amp; Agility" selected="True" />
+            <Field field="Interval" selected="True" />
+            <Field field="Peak" selected="True" />
+            <Field field="*Unknown" selected="True" />
+          </DataFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTranspose" />
+    </Node>
+    <Node ToolID="44">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.RegEx.RegEx">
+        <Position x="690" y="450" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Field>Value</Field>
+          <RegExExpression value="(.+)\s" />
+          <CaseInsensitve value="True" />
+          <Method>Replace</Method>
+          <Replace expression="$1">
+            <CopyUnmatched value="False" />
+          </Replace>
+          <ParseSimple>
+            <SplitToRows value="False" />
+            <RootName>Value</RootName>
+            <NumFields value="3" />
+            <ErrorHandling>Warn</ErrorHandling>
+          </ParseSimple>
+          <ParseComplex>
+            <Field field="RegExOut1" type="V_String" size="254" />
+          </ParseComplex>
+          <Match>
+            <Field>Value_Matched</Field>
+            <ErrorUnmatched value="False" />
+          </Match>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Replace:
+(.+)\s
+$1</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxRegEx" />
+    </Node>
+    <Node ToolID="45">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="786" y="450" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="tonumber(left([Value],2))*60+&#xA;tonumber(SUBSTRING([value],FindString([Value], &quot;:&quot;)+1))" field="TimeInSeconds" size="4" type="Int32" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>TimeInSeconds = tonumber(left([Value],2))*60+
+tonumber(SUBSTRING([value],FindStr...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="46">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Sort.Sort">
+        <Position x="894" y="450" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SortInfo locale="0">
+            <Field field="TimeInSeconds" order="Ascending" />
+          </SortInfo>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>TimeInSeconds - Ascending</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSort" />
+    </Node>
+    <Node ToolID="47">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.MultiRowFormula.MultiRowFormula">
+        <Position x="1002" y="450" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <UpdateField value="False" />
+          <UpdateField_Name>Bib#</UpdateField_Name>
+          <CreateField_Name>EventRank</CreateField_Name>
+          <CreateField_Type>Int32</CreateField_Type>
+          <CreateField_Size>4</CreateField_Size>
+          <OtherRows>Empty</OtherRows>
+          <NumRows value="1" />
+          <Expression>[Row-1:EventRank]+1</Expression>
+          <GroupByFields>
+            <Field field="Name" />
+          </GroupByFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>[Row-1:EventRank]+1</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxMultiRowFormula" />
+    </Node>
+    <Node ToolID="48">
+      <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+        <Position x="1098" y="450" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SummarizeFields>
+            <SummarizeField field="Bib#" action="GroupBy" rename="Bib#" />
+            <SummarizeField field="EventRank" action="Avg" rename="Avg_EventRank" />
+          </SummarizeFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+    </Node>
+    <Node ToolID="49">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Sort.Sort">
+        <Position x="1182" y="450" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SortInfo locale="0">
+            <Field field="Avg_EventRank" order="Ascending" />
+          </SortInfo>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Avg_EventRank - Ascending</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSort" />
+    </Node>
+    <Node ToolID="50">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.RecordID.RecordID">
+        <Position x="1278" y="450" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FieldName>Place</FieldName>
+          <StartValue>1</StartValue>
+          <FieldType>Int32</FieldType>
+          <FieldSize>6</FieldSize>
+          <Position>0</Position>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxRecordID" />
+    </Node>
+    <Node ToolID="51">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="1386" y="450" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="Avg_EventRank" selected="False" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="52">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="1482" y="450" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Mode>Simple</Mode>
+          <Simple>
+            <Field>Bib#</Field>
+            <Operator>=</Operator>
+            <Operands>
+              <Operand>2421</Operand>
+            </Operands>
+          </Simple>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>[Bib#] = "2421"</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="53">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="1554" y="438" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\jmiller\AppData\Local\Temp\Engine_18852_594682e4e0664e79b7ec05e4cbf945ae_\Engine_19056_f943c2a68c104db6be6d291141809a93_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="35" Connection="Output" />
+      <Destination ToolID="26" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="35" Connection="Output" />
+      <Destination ToolID="37" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="36" Connection="Output" />
+      <Destination ToolID="23" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="37" Connection="Output" />
+      <Destination ToolID="38" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="38" Connection="True" />
+      <Destination ToolID="39" Connection="Input" />
+    </Connection>
+    <Connection name="#2">
+      <Origin ToolID="38" Connection="False" />
+      <Destination ToolID="40" Connection="Input" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="39" Connection="Output" />
+      <Destination ToolID="40" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="40" Connection="Output" />
+      <Destination ToolID="42" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="42" Connection="True" />
+      <Destination ToolID="43" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="43" Connection="Output" />
+      <Destination ToolID="44" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="44" Connection="Output" />
+      <Destination ToolID="45" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="45" Connection="Output" />
+      <Destination ToolID="46" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="46" Connection="Output" />
+      <Destination ToolID="47" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="47" Connection="Output" />
+      <Destination ToolID="48" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="48" Connection="Output" />
+      <Destination ToolID="49" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="49" Connection="Output" />
+      <Destination ToolID="50" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="50" Connection="Output" />
+      <Destination ToolID="51" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="51" Connection="Output" />
+      <Destination ToolID="52" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="52" Connection="True" />
+      <Destination ToolID="53" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="False" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>challenge_85_solution</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>

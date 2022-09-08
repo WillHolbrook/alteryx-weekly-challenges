@@ -1,0 +1,1118 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2018.2">
+  <Nodes>
+    <Node ToolID="6">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="198" y="78" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Expression>!IsNull([Field_1])</Expression>
+          <Mode>Simple</Mode>
+          <Simple>
+            <Operator>IsNotNull</Operator>
+            <Field>Field_1</Field>
+            <Operands>
+              <IgnoreTimeInDateTime>True</IgnoreTimeInDateTime>
+              <DateType>fixed</DateType>
+              <PeriodDate>2018-06-15 13:20:04</PeriodDate>
+              <PeriodType>
+              </PeriodType>
+              <PeriodCount>0</PeriodCount>
+              <Operand>
+              </Operand>
+              <StartDate>2018-06-15 13:20:04</StartDate>
+              <EndDate>2018-06-15 13:20:04</EndDate>
+            </Operands>
+          </Simple>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>!IsNull([Field_1])</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="7">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.TextToColumns.TextToColumns">
+        <Position x="294" y="66" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Field>Field_1</Field>
+          <NumFields value="2" />
+          <ErrorHandling>Last</ErrorHandling>
+          <RootName>Field_1</RootName>
+          <Delimeters value=":" />
+          <Flags value="0" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextToColumns" />
+    </Node>
+    <Node ToolID="8">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.MultiRowFormula.MultiRowFormula">
+        <Position x="390" y="66" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <UpdateField value="False" />
+          <UpdateField_Name>Field_1</UpdateField_Name>
+          <CreateField_Name>Grouping</CreateField_Name>
+          <CreateField_Type>Int32</CreateField_Type>
+          <CreateField_Size>4</CreateField_Size>
+          <OtherRows>Empty</OtherRows>
+          <NumRows value="1" />
+          <Expression>if isnull([Field_12]) then [Row-1:Grouping]+1 else [Row-1:Grouping] endif</Expression>
+          <GroupByFields />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>if isnull([Field_12]) then [Row-1:Grouping]+1 else [Row-1:Gro...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxMultiRowFormula" />
+    </Node>
+    <Node ToolID="9">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="486" y="66" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="if IsNull([Field_12]) then [Field_11] else [Field_12] endif" field="Field_12" size="396" type="V_String" />
+            <FormulaField expression="if [Field_12] = [Field_11] then &quot;Stadium Name&quot; else [Field_11] endif" field="Field_11" size="396" type="V_String" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Field_12 = if IsNull([Field_12]) then [Field_11] else [Field_12] endif
+Field_11 ...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="14">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="570" y="66" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Expression>[Field_11] in("Stadium Name", "capacity", "games")</Expression>
+          <Mode>Custom</Mode>
+          <Simple>
+            <Operator>=</Operator>
+            <Field>Field_11</Field>
+            <Operands>
+              <IgnoreTimeInDateTime>True</IgnoreTimeInDateTime>
+              <DateType>fixed</DateType>
+              <PeriodDate>2018-06-15 13:37:29</PeriodDate>
+              <PeriodType>
+              </PeriodType>
+              <PeriodCount>0</PeriodCount>
+              <Operand>Stadium Names</Operand>
+              <StartDate>2018-06-15 13:37:29</StartDate>
+              <EndDate>2018-06-15 13:37:29</EndDate>
+            </Operands>
+          </Simple>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>[Field_11] in("Stadium Name", "capacity", "games")</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="15">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.TextToColumns.TextToColumns">
+        <Position x="726" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Field>Field_12</Field>
+          <NumFields value="1" />
+          <Delimeters value=";" />
+          <Flags value="0" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextToColumns" />
+    </Node>
+    <Node ToolID="16">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.TextToColumns.TextToColumns">
+        <Position x="834" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Field>Field_12</Field>
+          <NumFields value="2" />
+          <ErrorHandling>Last</ErrorHandling>
+          <RootName>Field_12</RootName>
+          <Delimeters value="(" />
+          <Flags value="0" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextToColumns" />
+    </Node>
+    <Node ToolID="17">
+      <GuiSettings>
+        <Position x="930" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="List Box (11)">"Field_122"</Value>
+          <Value name="Check Box (84)">True</Value>
+          <Value name="Check Box (117)">True</Value>
+          <Value name="Check Box (15)">True</Value>
+          <Value name="Check Box (109)">False</Value>
+          <Value name="Check Box (122)">False</Value>
+          <Value name="Check Box (53)">False</Value>
+          <Value name="Check Box (58)">False</Value>
+          <Value name="Check Box (70)">True</Value>
+          <Value name="Check Box (77)">False</Value>
+          <Value name="Drop Down (81)">upper</Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings Macro="Cleanse.yxmc" />
+    </Node>
+    <Node ToolID="18">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="1026" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="if !isempty([Field_122]) then [Field_122]+ &quot; 2018&quot; else [Field_122] endif" field="Field_122" size="254000" type="V_String" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Field_122 = if !isempty([Field_122]) then [Field_122]+ " 2018" else [Field_122] ...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="19">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DateTime.DateTime">
+        <Position x="1134" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <IsFrom value="False" />
+          <InputFieldName>Field_122</InputFieldName>
+          <Format>%d %B %Y</Format>
+          <OutputFieldName>Dates in Use</OutputFieldName>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Convert Field_122 From:
+Custom</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDateTime" />
+    </Node>
+    <Node ToolID="23">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.CrossTab.CrossTab">
+        <Position x="1266" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <GroupFields>
+            <Field field="Grouping" />
+          </GroupFields>
+          <HeaderField field="Field_11" />
+          <DataField field="Field_121" />
+          <Methods>
+            <Method method="Concat" />
+            <Separator>,</Separator>
+            <FieldSize value="2048" />
+          </Methods>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field description="Formula: if isnull([Field_12]) then [Row-1:Grouping]+1 else [Row-1:Grouping] endif" name="Grouping" source="CrossTab:Group:Concat:" type="Int32" />
+            <Field name="Capacity" size="2048" source="CrossTab:Header:Field_11:Capacity:Concat:" type="V_String" />
+            <Field name="Games" size="2048" source="CrossTab:Header:Field_11:Games:Concat:" type="V_String" />
+            <Field name="Stadium_Name" size="2048" source="CrossTab:Header:Field_11:Stadium Name:Concat:" type="V_String" />
+          </RecordInfo>
+          <SortInfo>
+            <Field field="Grouping" order="Asc" />
+          </SortInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxCrossTab" />
+    </Node>
+    <Node ToolID="24">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.TextToColumns.TextToColumns">
+        <Position x="1362" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Field>Games</Field>
+          <NumFields value="1" />
+          <Delimeters value="," />
+          <Flags value="0" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextToColumns" />
+    </Node>
+    <Node ToolID="25">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="1494" y="66" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="False">
+          <JoinInfo connection="Left">
+            <Field field="Grouping" />
+            <Field field="Games" />
+          </JoinInfo>
+          <JoinInfo connection="Right">
+            <Field field="Grouping" />
+            <Field field="Field_121" />
+          </JoinInfo>
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="True" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Left_Grouping" selected="False" />
+                <SelectField field="Left_Stadium_Name" selected="True" />
+                <SelectField field="Left_Capacity" selected="True" />
+                <SelectField field="Left_Games" selected="True" />
+                <SelectField field="Right_Field_1" selected="False" />
+                <SelectField field="Right_Field_11" selected="False" />
+                <SelectField field="Right_Field_12" selected="False" />
+                <SelectField field="Right_Grouping" selected="False" rename="Right_Grouping" />
+                <SelectField field="Right_Field_121" selected="False" />
+                <SelectField field="Right_Field_122" selected="False" />
+                <SelectField field="Right_Dates in Use" selected="True" rename="Date" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+    <Node ToolID="26">
+      <GuiSettings>
+        <Position x="1686" y="66" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="List Box (11)">"Stadium_Name1"</Value>
+          <Value name="Check Box (84)">True</Value>
+          <Value name="Check Box (117)">True</Value>
+          <Value name="Check Box (15)">True</Value>
+          <Value name="Check Box (109)">False</Value>
+          <Value name="Check Box (122)">False</Value>
+          <Value name="Check Box (53)">False</Value>
+          <Value name="Check Box (58)">True</Value>
+          <Value name="Check Box (70)">True</Value>
+          <Value name="Check Box (77)">False</Value>
+          <Value name="Drop Down (81)">upper</Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings Macro="Cleanse.yxmc" />
+    </Node>
+    <Node ToolID="27">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.TextToColumns.TextToColumns">
+        <Position x="1590" y="66" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Field>Stadium_Name</Field>
+          <NumFields value="2" />
+          <ErrorHandling>Last</ErrorHandling>
+          <RootName>Stadium_Name</RootName>
+          <Delimeters value="," />
+          <Flags value="0" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextToColumns" />
+    </Node>
+    <Node ToolID="28">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="1782" y="66" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="True" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="Date" selected="True" />
+            <SelectField field="Stadium_Name" selected="False" />
+            <SelectField field="Stadium_Name1" selected="True" rename="Stadium" />
+            <SelectField field="Stadium_Name2" selected="True" rename="City" />
+            <SelectField field="Capacity" selected="True" />
+            <SelectField field="Games" selected="True" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="29">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Sort.Sort">
+        <Position x="1878" y="66" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SortInfo locale="0">
+            <Field field="Date" order="Ascending" />
+          </SortInfo>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Date - Ascending</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSort" />
+    </Node>
+    <Node ToolID="30">
+      <GuiSettings>
+        <Position x="1974" y="66" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="List Box (11)">"Date","Stadium","City","Capacity","Games"</Value>
+          <Value name="Check Box (84)">True</Value>
+          <Value name="Check Box (117)">True</Value>
+          <Value name="Check Box (15)">True</Value>
+          <Value name="Check Box (109)">False</Value>
+          <Value name="Check Box (122)">False</Value>
+          <Value name="Check Box (53)">False</Value>
+          <Value name="Check Box (58)">False</Value>
+          <Value name="Check Box (70)">False</Value>
+          <Value name="Check Box (77)">False</Value>
+          <Value name="Drop Down (81)">upper</Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings Macro="Cleanse.yxmc" />
+    </Node>
+    <Node ToolID="31">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="2082" y="66" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\ProgramData\Alteryx\Engine\Engine_12844_3e4703eb8ad04ee4a77ee7e184e8680f_\Engine_10216_0a5366ae1d724f8f8c52075c56c4d495_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="33">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+        <Position x="54" y="78" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <NumRows value="165" />
+          <Fields>
+            <Field name="Field_1" />
+          </Fields>
+          <Data>
+            <r>
+              <c>1. Luzhniki Stadium, Moscow</c>
+            </r>
+            <r>
+              <c />
+            </r>
+            <r>
+              <c>image: https://keyassets.timeincuk.net/inspirewp/live/wp-content/uploads/sites/4/2018/03/GettyImages-857950036.jpg</c>
+            </r>
+            <r>
+              <c />
+            </r>
+            <r>
+              <c />
+            </r>
+            <r>
+              <c>Lenin: The Russian revolutionary Lenin stands outside the stadium (Getty Images)</c>
+            </r>
+            <r>
+              <c />
+            </r>
+            <r>
+              <c>Capacity: 80,000</c>
+            </r>
+            <r>
+              <c />
+            </r>
+            <r>
+              <c>Games: Russia v Saudi Arabia (14 June); Germany v Mexico (17 June); Portugal v Morocco (20 June); Denmark v France (26 June); Round of 16 (1 July); Semi-final (11 July); Final (15 July)</c>
+            </r>
+            <r>
+              <c />
+            </r>
+            <r>
+              <c>Background: Stadium wise, Luzhniki Stadium is the jewel in the Russian crown for the 2018 World Cup. Built in 1956, it has a long, illustrious history of hosting events, like the 2008 Champions league Final between Manchester United and Chelsea. Recently modernised, it will no doubt continue to be the home of the national side.</c>
+            </r>
+            <r>
+              <c />
+            </r>
+            <r>
+              <c>2. Otkritie Stadium, Moscow</c>
+            </r>
+            <r>
+              <c />
+            </r>
+            <r>
+              <c>image: https://keyassets.timeincuk.net/inspirewp/live/wp-content/uploads/sites/4/2018/03/GettyImages-824869710.jpg</c>
+            </r>
+            <r>
+              <c />
+            </r>
+            <r>
+              <c />
+            </r>
+            <r>
+              <c>Gladiator: The Spartacus statue will be a favourite amongst tourists (Getty Images)</c>
+            </r>
+            <r>
+              <c />
+            </r>
+            <r>
+              <c>Capacity: 45,360</c>
+            </r>
+            <r>
+              <c />
+            </r>
+            <r>
+              <c>Games: Argentina v Iceland (16 June); Poland v Senegal (19 June); Belgium v Tunisia (23 June); Brazil v Serbia (27 June); Round of 16 (3 July).</c>
+            </r>
+            <r>
+              <c />
+            </r>
+            <r>
+              <c>Background: A statue of Spartacus outside the stadium will prove popular, and the home of Spartak Moscow will likely be a fan favourite in 2018. It was built for club football, so the stands are close to the pitch, and in terms of travel, it has its own metro station so it doesnât take long at all to get into the city centre.</c>
+            </r>
+            <r>
+              <c />
+            </r>
+            <r>
+              <c>3. Nizhny Novgorod Stadium, Nizhny Novgorod</c>
+            </r>
+            <r>
+              <c />
+            </r>
+            <r>
+              <c>image: https://keyassets.timeincuk.net/inspirewp/live/wp-content/uploads/sites/4/2018/03/GettyImages-855884786.jpg</c>
+            </r>
+            <r>
+              <c />
+            </r>
+            <r>
+              <c />
+            </r>
+            <r>
+              <c>Striking: The Nizhny Novgorod design is sure to amaze (Getty Images)</c>
+            </r>
+            <r>
+              <c />
+            </r>
+            <r>
+              <c>Capacity: 44,899</c>
+            </r>
+            <r>
+              <c />
+            </r>
+            <r>
+              <c>Games: Sweden v South Korea (18 June); Argentina v Croatia (21 June); England v Panama (24 June); Switzerland v Costa Rica (27 June); Round of 16 (1 July); Quarter-final (6 July).</c>
+            </r>
+            <r>
+              <c />
+            </r>
+            <r>
+              <c>Background: With a striking design, Nizhny Novgorod promises to be one of the most attractive stadiums to look at out of the 12. After the tournament it will become home to Olimpiyets Nizhny Novgorod, a second-tier club.</c>
+            </r>
+            <r>
+              <c />
+            </r>
+            <r>
+              <c>4. Mordovia Arena, Saransk</c>
+            </r>
+            <r>
+              <c />
+            </r>
+            <r>
+              <c>image: https://keyassets.timeincuk.net/inspirewp/live/wp-content/uploads/sites/4/2018/03/GettyImages-928007190.jpg</c>
+            </r>
+            <r>
+              <c />
+            </r>
+            <r>
+              <c />
+            </r>
+            <r>
+              <c>Colourful: The Mordovia exterior is certain to give good pictures (Getty Images)</c>
+            </r>
+            <r>
+              <c />
+            </r>
+            <r>
+              <c>Capacity: 44,442</c>
+            </r>
+            <r>
+              <c />
+            </r>
+            <r>
+              <c>Games: Peru v Denmark (16 June); Colombia v Japan (19 June); Iran v Portugal (25 June); Panama v Tunisia (28 June).</c>
+            </r>
+            <r>
+              <c />
+            </r>
+            <r>
+              <c>Background: One of the smallest cities to host a match, Saransk was an interesting choice. The Mordovia Arena is not that stimulating either, but the brightly coloured exterior may produce some good photos. Local side Moldovia Saransk, currently in the third-tier will move in after the tournament.</c>
+            </r>
+            <r>
+              <c />
+            </r>
+            <r>
+              <c>5. Kazan Arena, Kazan</c>
+            </r>
+            <r>
+              <c />
+            </r>
+            <r>
+              <c>image: https://keyassets.timeincuk.net/inspirewp/live/wp-content/uploads/sites/4/2018/03/GettyImages-800596182.jpg</c>
+            </r>
+            <r>
+              <c />
+            </r>
+            <r>
+              <c />
+            </r>
+            <r>
+              <c>Kazan: The HD screen on the side of the stadium is a sight to behold (Getty Images)</c>
+            </r>
+            <r>
+              <c />
+            </r>
+            <r>
+              <c>Capacity: 45,379</c>
+            </r>
+            <r>
+              <c />
+            </r>
+            <r>
+              <c>Games: France v Australia (16 June); Iran v Spain (20 June); Poland v Colombia (24 June); South Korea v Germany (27 June); Round of 16 (30 June); Quarter-final (6 July).</c>
+            </r>
+            <r>
+              <c />
+            </r>
+            <r>
+              <c>Background: Designed by Populous, the same company that designed Wembley and the Emirates, the Kazan Arena is home to Rubin Kazan. It is a modern stadium but will be one of the oldest stadiums at the tournament because of new constructions. Has previously held football and athletics events, as well as the 2015 World Aquatic Championships where the football pitch was replaced by swimming pools.</c>
+            </r>
+            <r>
+              <c />
+            </r>
+            <r>
+              <c>6. Samara Arena, Samara</c>
+            </r>
+            <r>
+              <c />
+            </r>
+            <r>
+              <c>image: https://keyassets.timeincuk.net/inspirewp/live/wp-content/uploads/sites/4/2018/03/GettyImages-921384082.jpg</c>
+            </r>
+            <r>
+              <c />
+            </r>
+            <r>
+              <c />
+            </r>
+            <r>
+              <c>Dome: The 65-metre dome is a defining feature of the Samara Arena (Getty Images)</c>
+            </r>
+            <r>
+              <c />
+            </r>
+            <r>
+              <c>Capacity: 44,807</c>
+            </r>
+            <r>
+              <c />
+            </r>
+            <r>
+              <c>Games: Costa Rica v Serbia (17 June); Denmark v Australia (21 June); Uruguay v Russia (25 June); Senegal v Colombia (28 June); Round of 16 (2 July); Quarter-final (7 July).</c>
+            </r>
+            <r>
+              <c />
+            </r>
+            <r>
+              <c>Background: Samara was once home to the Russian space-programme, and the 65-metre dome, when lit up, is sure to look spectacular. It has had countless delays and re-designs after soaring costs, and will also become home to Krylia Sovetov, who are due to return to the Russian top-flight next year.</c>
+            </r>
+            <r>
+              <c />
+            </r>
+            <r>
+              <c>image: http://keyassets.timeincuk.net/inspirewp/live/wp-content/uploads/sites/4/2018/06/Screen-Shot-2018-06-13-at-10.11.42.png</c>
+            </r>
+            <r>
+              <c />
+            </r>
+            <r>
+              <c>Sport Nation</c>
+            </r>
+            <r>
+              <c />
+            </r>
+            <r>
+              <c>image: https://static.apester.com/sdk/loader.gif</c>
+            </r>
+            <r>
+              <c />
+            </r>
+            <r>
+              <c />
+            </r>
+            <r>
+              <c>7. Central Stadium, Yekaterinburg</c>
+            </r>
+            <r>
+              <c />
+            </r>
+            <r>
+              <c>image: https://keyassets.timeincuk.net/inspirewp/live/wp-content/uploads/sites/4/2018/03/GettyImages-880612806.jpg</c>
+            </r>
+            <r>
+              <c />
+            </r>
+            <r>
+              <c />
+            </r>
+            <r>
+              <c>Bizarre: Ekaterinburg Stadium has an odd design (Getty Images)</c>
+            </r>
+            <r>
+              <c />
+            </r>
+            <r>
+              <c>Capacity: 35,696</c>
+            </r>
+            <r>
+              <c />
+            </r>
+            <r>
+              <c>Games: Egypt v Uruguay (15 June); France v Peru (21 June); Japan v Senegal (24 June); Mexico v Sweden (27 June).</c>
+            </r>
+            <r>
+              <c />
+            </r>
+            <r>
+              <c>Background: The main aspect of note at Ekaterinburg are the temporary stands that sit behind each goal. Protruding outside of the stadium, FIFA introduced them to make sure the stadium is above the 35,000 required minimum. They will be taken down after the tournament and the stadium will be home to FC Ural, a mid-table team in the Russian premier League.</c>
+            </r>
+            <r>
+              <c />
+            </r>
+            <r>
+              <c>8. Krestovsky Stadium, Saint Petersburg</c>
+            </r>
+            <r>
+              <c />
+            </r>
+            <r>
+              <c>image: https://keyassets.timeincuk.net/inspirewp/live/wp-content/uploads/sites/4/2018/03/GettyImages-912051072.jpg</c>
+            </r>
+            <r>
+              <c />
+            </r>
+            <r>
+              <c />
+            </r>
+            <r>
+              <c>Expensive: St Petersburg stadium is thought to be one of the most expensive ever (Getty Images)</c>
+            </r>
+            <r>
+              <c />
+            </r>
+            <r>
+              <c>Capacity: 64,287</c>
+            </r>
+            <r>
+              <c />
+            </r>
+            <r>
+              <c>Games: Morocco v Iran (15 June); Russia v Egypt (19 June); Brazil v Costa Rica (22 June); Nigeria v Argentina (26 June); Round of 16 (3 July); Semi-final (10 July); Third place play-off (14 July).</c>
+            </r>
+            <r>
+              <c />
+            </r>
+            <r>
+              <c>Background: The stadium took a decade to build, with huge costs too, but it is certainly spectacular. It hasnât been devoid of controversy though, with the most significant being the allegation that 110 North Koreans were working there in atrocious conditions. Zenit St Petersburg will move in after the tournament.</c>
+            </r>
+            <r>
+              <c />
+            </r>
+            <r>
+              <c>9. Kaliningrad Stadium, Kaliningrad</c>
+            </r>
+            <r>
+              <c />
+            </r>
+            <r>
+              <c>image: https://keyassets.timeincuk.net/inspirewp/live/wp-content/uploads/sites/4/2018/03/GettyImages-840183288.jpg</c>
+            </r>
+            <r>
+              <c />
+            </r>
+            <r>
+              <c />
+            </r>
+            <r>
+              <c>Allianz: The Kaliningrad Stadium is designed to look like the Allianz Arena in Germany (Getty Images)</c>
+            </r>
+            <r>
+              <c />
+            </r>
+            <r>
+              <c>Capacity: 35,212</c>
+            </r>
+            <r>
+              <c />
+            </r>
+            <r>
+              <c>Games: Croatia v Nigeria (16 June); Serbia v Switzerland (22 June); Spain v Morocco (25 June); England v Belgium (28 June).</c>
+            </r>
+            <r>
+              <c />
+            </r>
+            <r>
+              <c>Background: Originally designed to look like the Allianz Arena, Kaliningrad Stadium had financial issues from the beginning. The company that drew up the plans went bankrupt so they were altered to have less capacity and a less expensive design. After the tournament it will be home to Baltika Kaliningrad, the local side who havenât been in the Russian top-flight for years.</c>
+            </r>
+            <r>
+              <c />
+            </r>
+            <r>
+              <c>10. Volgograd Arena, Volgograd</c>
+            </r>
+            <r>
+              <c />
+            </r>
+            <r>
+              <c>image: https://keyassets.timeincuk.net/inspirewp/live/wp-content/uploads/sites/4/2018/03/GettyImages-857150476.jpg</c>
+            </r>
+            <r>
+              <c />
+            </r>
+            <r>
+              <c />
+            </r>
+            <r>
+              <c>Rotor: The Volgograd will become home to Rotor after the World Cup (Getty Images)</c>
+            </r>
+            <r>
+              <c />
+            </r>
+            <r>
+              <c>Capacity: 45,568</c>
+            </r>
+            <r>
+              <c />
+            </r>
+            <r>
+              <c>Games: Tunisia v England (18 June); Nigeria v Iceland (22 June); Saudi Arabia v Egypt (25 June); Japan v Poland (28 June).</c>
+            </r>
+            <r>
+              <c />
+            </r>
+            <r>
+              <c>Background: Shockingly, in 2014, it had to be searched thoroughly for unexploded ordnance after bombs from the Battle of Stalingrad but that has been the only real issue. Currently bottom of the second-tier, Rotor are expected to move in after the tournament.</c>
+            </r>
+            <r>
+              <c />
+            </r>
+            <r>
+              <c>11. Rostov Arena, Rostov-on-Don</c>
+            </r>
+            <r>
+              <c />
+            </r>
+            <r>
+              <c>image: https://keyassets.timeincuk.net/inspirewp/live/wp-content/uploads/sites/4/2018/03/GettyImages-926164834.jpg</c>
+            </r>
+            <r>
+              <c />
+            </r>
+            <r>
+              <c />
+            </r>
+            <r>
+              <c>Costs: The Rostov Arena scaled back its design due to spiralling costs (Getty Images)</c>
+            </r>
+            <r>
+              <c />
+            </r>
+            <r>
+              <c>Capacity: 45,145</c>
+            </r>
+            <r>
+              <c />
+            </r>
+            <r>
+              <c>Games: Brazil v Switzerland (17 June); Uruguay v Saudi Arabia (20 June); South Korea v Mexico (23 June); Iceland v Croatia (26 June); Round of 16 (2 July).</c>
+            </r>
+            <r>
+              <c />
+            </r>
+            <r>
+              <c>Background: Built alongside the River Don, the Rostov Arena will supposedly be notable for its roof which imitates the meanderings of the river. FC Rostov will move in after the tournament has concluded.</c>
+            </r>
+            <r>
+              <c />
+            </r>
+            <r>
+              <c>12. Fisht Olympic Stadium, Sochi</c>
+            </r>
+            <r>
+              <c />
+            </r>
+            <r>
+              <c>image: https://keyassets.timeincuk.net/inspirewp/live/wp-content/uploads/sites/4/2018/03/GettyImages-925335334.jpg</c>
+            </r>
+            <r>
+              <c />
+            </r>
+            <r>
+              <c />
+            </r>
+            <r>
+              <c>2014: Fisht Stadium hosted the Winter olympics and Paralympics in 2014 (Getty Images)</c>
+            </r>
+            <r>
+              <c />
+            </r>
+            <r>
+              <c>Capacity: 47,659</c>
+            </r>
+            <r>
+              <c />
+            </r>
+            <r>
+              <c>Games: Portugal v Spain (15 June); Belgium v Panama (18 June); Germany v Sweden (23 June) ; Australia v Peru (26 June) ; Round of 16 (30 June); Quarter-final (7 July).</c>
+            </r>
+            <r>
+              <c />
+            </r>
+            <r>
+              <c>Background: Fisht Stadium was built for the 2014 Winter Olympics and Paralympics, so is clearly capable of hosting big events. Situated 18 miles outside of Sochi, it may be difficult to get to, but it is also one of the most dramatic stadiums in the tournament. The removal of its roof to comply with FIFA regulations also cost a lot of money.</c>
+            </r>
+            <r>
+              <c />
+            </r>
+            <r>
+              <c />
+            </r>
+            <r>
+              <c>Read more at http://www.worldsoccer.com/world-cup/world-cup-stadiums-2-400516#9lceYvf3UF2Zfd80.99</c>
+            </r>
+          </Data>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="6" Connection="True" />
+      <Destination ToolID="7" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="7" Connection="Output" />
+      <Destination ToolID="8" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="8" Connection="Output" />
+      <Destination ToolID="9" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="9" Connection="Output" />
+      <Destination ToolID="14" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="14" Connection="True" />
+      <Destination ToolID="15" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="15" Connection="Output" />
+      <Destination ToolID="16" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="16" Connection="Output" />
+      <Destination ToolID="17" Connection="Input2" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="17" Connection="Output26" />
+      <Destination ToolID="18" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="18" Connection="Output" />
+      <Destination ToolID="19" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="19" Connection="Output" />
+      <Destination ToolID="23" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="19" Connection="Output" />
+      <Destination ToolID="25" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="24" Connection="Output" />
+      <Destination ToolID="25" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="23" Connection="Output" />
+      <Destination ToolID="24" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="25" Connection="Join" />
+      <Destination ToolID="27" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="26" Connection="Output26" />
+      <Destination ToolID="28" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="27" Connection="Output" />
+      <Destination ToolID="26" Connection="Input2" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="28" Connection="Output" />
+      <Destination ToolID="29" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="29" Connection="Output" />
+      <Destination ToolID="30" Connection="Input2" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="30" Connection="Output26" />
+      <Destination ToolID="31" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="33" Connection="Output" />
+      <Destination ToolID="6" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="False" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>challenge_121_solution</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>

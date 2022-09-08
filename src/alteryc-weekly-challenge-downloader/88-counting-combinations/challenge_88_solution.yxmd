@@ -1,0 +1,426 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="11.3">
+  <Nodes>
+    <Node ToolID="11">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Transpose.Transpose">
+        <Position x="126" y="174" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <ErrorWarn>Warn</ErrorWarn>
+          <KeyFields>
+            <Field field="Transaction Number" />
+          </KeyFields>
+          <DataFields>
+            <Field field="Transaction Number" selected="False" />
+            <Field field="Item_Number_1" selected="True" />
+            <Field field="Item_Number_2" selected="True" />
+            <Field field="Item_Number_3" selected="True" />
+            <Field field="Item_Number_4" selected="True" />
+            <Field field="Item_Number_5" selected="True" />
+            <Field field="Item_Number_6" selected="True" />
+            <Field field="Item_Number_7" selected="True" />
+            <Field field="Item_Number_8" selected="True" />
+            <Field field="*Unknown" selected="True" />
+          </DataFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTranspose" />
+    </Node>
+    <Node ToolID="12">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="234" y="174" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Mode>Simple</Mode>
+          <Simple>
+            <Field>Value</Field>
+            <Operator>IsNotEmpty</Operator>
+          </Simple>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>!IsEmpty([Value])</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="13">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Sort.Sort">
+        <Position x="342" y="162" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SortInfo locale="0">
+            <Field field="Transaction Number" order="Ascending" />
+            <Field field="Value" order="Ascending" />
+          </SortInfo>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Transaction Number - Ascending
+Value - Ascending</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSort" />
+    </Node>
+    <Node ToolID="14">
+      <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+        <Position x="450" y="162" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SummarizeFields>
+            <SummarizeField field="Transaction Number" action="GroupBy" rename="Transaction Number" />
+            <SummarizeField field="Value" action="Concat" rename="Concat_Value">
+              <Concat_Start />
+              <Separator>,</Separator>
+              <Concat_End />
+            </SummarizeField>
+          </SummarizeFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+    </Node>
+    <Node ToolID="15">
+      <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+        <Position x="558" y="162" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SummarizeFields>
+            <SummarizeField field="Concat_Value" action="CountDistinct" rename="Number of Combinations" />
+          </SummarizeFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+    </Node>
+    <Node ToolID="16">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+        <Position x="18" y="174" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <NumRows value="20" />
+          <Fields>
+            <Field name="Transaction Number" />
+            <Field name="Item_Number_1" />
+            <Field name="Item_Number_2" />
+            <Field name="Item_Number_3" />
+            <Field name="Item_Number_4" />
+            <Field name="Item_Number_5" />
+            <Field name="Item_Number_6" />
+            <Field name="Item_Number_7" />
+            <Field name="Item_Number_8" />
+          </Fields>
+          <Data>
+            <r>
+              <c>1</c>
+              <c>eggs</c>
+              <c>bread</c>
+              <c>milk</c>
+              <c>sugar</c>
+              <c>flour</c>
+              <c>apples</c>
+              <c>chicken</c>
+              <c>toothpaste</c>
+            </r>
+            <r>
+              <c>2</c>
+              <c>bread</c>
+              <c>milk</c>
+              <c>oranges</c>
+              <c>coffee</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>3</c>
+              <c>milk</c>
+              <c>eggs</c>
+              <c>apples</c>
+              <c>sugar</c>
+              <c>toothpaste</c>
+              <c>chicken</c>
+              <c>bread</c>
+              <c>flour</c>
+            </r>
+            <r>
+              <c>4</c>
+              <c>yogurt</c>
+              <c>bagels</c>
+              <c>eggs</c>
+              <c>apples</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>5</c>
+              <c>tomatoes</c>
+              <c>olive oil</c>
+              <c>eggs</c>
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>6</c>
+              <c>oranges</c>
+              <c>bread</c>
+              <c>coffee</c>
+              <c>milk</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>7</c>
+              <c>bagels</c>
+              <c>yogurt</c>
+              <c>eggs</c>
+              <c>apples</c>
+              <c>coffee</c>
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>8</c>
+              <c>eggs</c>
+              <c>apples</c>
+              <c>coffee</c>
+              <c>bagels</c>
+              <c>yogurt</c>
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>9</c>
+              <c>cereal</c>
+              <c>milk</c>
+              <c>eggs</c>
+              <c>coffee</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>10</c>
+              <c>coffee</c>
+              <c>milk</c>
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>11</c>
+              <c>chicken</c>
+              <c>bagels</c>
+              <c>apples</c>
+              <c>yogurt</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>12</c>
+              <c>milk</c>
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>13</c>
+              <c>eggs</c>
+              <c>olive oil</c>
+              <c>tomatoes</c>
+              <c>potatoes</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>14</c>
+              <c>apples</c>
+              <c>oranges</c>
+              <c>bread</c>
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>15</c>
+              <c>bread</c>
+              <c>coffee</c>
+              <c>oranges</c>
+              <c>milk</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>16</c>
+              <c>olive oil</c>
+              <c>eggs</c>
+              <c>tomatoes</c>
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>17</c>
+              <c>coffee</c>
+              <c>milk</c>
+              <c>eggs</c>
+              <c>cereal</c>
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>18</c>
+              <c>sugar</c>
+              <c>bread</c>
+              <c>eggs</c>
+              <c>chicken</c>
+              <c>toothpaste</c>
+              <c>flour</c>
+              <c>apples</c>
+              <c>flour</c>
+            </r>
+            <r>
+              <c>19</c>
+              <c>milk</c>
+              <c>coffee</c>
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+            <r>
+              <c>20</c>
+              <c>milk</c>
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+              <c />
+            </r>
+          </Data>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="11" Connection="Output" />
+      <Destination ToolID="12" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="12" Connection="True" />
+      <Destination ToolID="13" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="13" Connection="Output" />
+      <Destination ToolID="14" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="14" Connection="Output" />
+      <Destination ToolID="15" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="16" Connection="Output" />
+      <Destination ToolID="11" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>challenge_88_solution</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>

@@ -1,0 +1,416 @@
+﻿<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2018.4">
+  <Nodes>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="54" y="54" width="324" height="72" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text />
+          <Font name="Segoe UI" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="3" />
+          <Justification Justification="4" />
+          <BG_Image>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</BG_Image>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="2">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="474" y="66" width="468" height="48" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Weekly Challenge #211</Text>
+          <Font name="Microsoft Sans Serif" size="16.2" style="0" />
+          <TextColor name="Gray" />
+          <FillColor name="White" />
+          <Shape shape="3" />
+          <Justification Justification="0" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="3">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="54" y="126" width="1032" height="168" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>The input file has names of users connected by commas in a single field with random numbers to each name . Some of the names start with a lower case and some have middle name to them. [ names generated using a random name generator website ]
+
+Create a set of email IDs (using @testemail.com as the domain) using a combination of first letter of the  first name + last name of the user [even if they have a middle name ] and grouped into A-Z categories.  Provide a count of the number of emails in each group.  
+
+Hint - In your output exclude any users without a valid name ( i.e, does not contain a number)</Text>
+          <Font name="Microsoft Sans Serif" size="12" style="0" />
+          <TextColor name="Gray" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="3" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="6">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="113" y="401" width="229" height="133" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>Challenge Starter File</Caption>
+          <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="False" />
+          <Folded value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="5">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+            <Position x="258" y="450" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <TempFile>C:\ProgramData\Alteryx\Engine\Engine_15496_1154f2aa8799458fbda22e698fc74b7e_\Engine_26376_4a77352ecbe74dc0a921a9bdc14fa96f_.yxdb</TempFile>
+              <TempFileDataProfiling />
+              <Layout>
+                <ViewMode>Single</ViewMode>
+                <ViewSize value="100" />
+                <View1>
+                  <DefaultTab>Profile</DefaultTab>
+                  <Hints>
+                    <Table />
+                  </Hints>
+                </View1>
+                <View2 />
+              </Layout>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+        </Node>
+        <Node ToolID="10">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+            <Position x="138" y="450" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <NumRows value="1" />
+              <Fields>
+                <Field name="Users" />
+              </Fields>
+              <Data>
+                <r>
+                  <c>Rebecca Strickland1,Clifford Erickson2,Janie Page3,Cindy Taylor4,Cheryl Luna5,Gabriel Poole6,Shannon Berry Thomas7,Jamie Morris8,Holly Neal9,Myron Pratt10,Alejandro Bowman11,Viola Craig12,Irvin Hunter13,Lloyd Clayton14,Lori Henry15,Hope Bowers16,Vivian Hale17,Geoffrey Washington18,Fredrick Armstrong19,Brandy Bass20,Erin Blake Sheldon21,Ollie Garner22,Kay Gardner23,Howard Townsend24,Mitchell Mason25,Marilyn Franklin26,Wayne Arnold27,Stephen Smith28,Grady Vasquez29,Norman Powell30,Thomas Roberson31,Max Stephens32,Shari Schwartz33,Gerardo Davis34,Claudia Flowers35,Lauren Hodges36,Marlene Dennis37,Maxine Jensen38,Brent Casey39,Nicholas Buchanan40,Emanuel Hayes41,Clark Mills42,Austin Fuller King43,Veronica Carr44,Vernon Cruz45,Tammy Dixon46,Wilbur Reese47,Ruth Myers48,May Williamson49,Joey Howell50,Corey Johnston51,Robin Parks52,Claire Wilkerson53,Kurt Rodgers54,Ivan Gonzales55,Amos Fox56,Matthew Morton57,Terrance Guerrero58,Kristen Daniels59,Garrett Bailey60,Florence Peterson61,Jodi Hunt62,Micheal Fields63,Salvatore Blair64,Ronnie Payne65,Travis Vargas66,Madeline Bridges67,Rachael Richards68,Carlos Pearson69,June Curtis70,Rosalie Haynes71,Edward Nash72,Kevin Sparks73,Antoinette Fitzgerald74,Erica Keller75,Herbert Holt76,Reginald Garrett77,Vicky Garza78,Nancy Vega79,Judy Ellis80,Gustavo Barton81,Margarita Baldwin82,Leslie Hart83,Frank Tyler84,Carl Rodriquez85,Diane Newman86,Breston Martinez87,Hugo Lewis88,Martin Snyder89,Monique Zen90,Francis Bishop91,Melvin Nunez92,Pat Paul93,Tricia Waters94,Leo Mclaughlin95,Kenneth Butler96,Naomi Ball97,Brendan Lucas98,Jerald Alexander99,America Schuster100,Bebe Baez101,Reba Rollins102,Charlena Button103,Emogene Monson104,Jalisa Pritchett105,Darline Yu106,Sharan Prosser107,Mickey Galvan108,Vinita Rush109,Latonia Echevarria110,Branden Scholl111,Altagracia Galbraith112,Ezra Moseley113,Tommy Thibodeau114,Desire Best115,Mikaela Hyatt116,Janeen Caudill117,Mitsue Portillo118,Carlie Pendergrass119,Rosalva Buckner120,Roseanne Macon121,Mary Korone122,Marianela Sauer123,Alden Seals124,Letitia Irving125,Jacelyn Jobe Jacob126,Clemmie Lombardi127,Katheryn Nevarez128,China Browder129,Shandi Randolph130,Sun Roden131,Loraine Pond132,Robbie Sheets133,Suanne Harding134,Arnita Baer135,Adriene Merritt136,Myesha Donohue137,Ivy Christman138,Riva Linn139,Fredricka Hutton140,Melva Schulze141,Kenton Bourque142,Natalya Horsley143,Viva Dellinger144,Melisa Hatley145,Jarod Whitehurst146,Alethia Shepherd147,Shanel Ferrer148,Winter Thomsen149,Janay Rapp150,Noe Brenner151,Lachelle Aguirre152,Derick Dell153,Jestine Dempsey154,Verena Butcher155,Betsey Carlisle156,Tess Fulmer157,Tonisha Hamby158,Zulema Esquivel159,Williemae Stephen160,Annamaria Snead161,Jeffrey Chan162,Juliet Arriaga163,Allegra Bonner164,Annamae Wetzel165,Rowena Gallant166,Vallie Pickett167,Lavon Vandyke168,Prince Richard Thompson169,Nubia Church170,Florine Copley171,Hilde Fitzpatrick172,Thuy Guenther173,Hal Pipkin174,Dion Denson175,Berry Jacoby176,Sherika Roche177,Yadira Patino178,Zina Dugas179,Adelle Ivy180,Marya Browning181,Kyong Loper182,Lonnie Bautista183,Kieth Canada184,Chas Salgado185,Josue Monahan186,Larraine Brunson187,Yon Whyte188,Nieves Calvin189,Reta Mabe190,Elmira Roach191,Else Conway192,Rebekah Haller193,audria Betancourt194,September Klinger195,Chelsie Cervantes196,Marine Richmond197,Blondell Guffey198,Shaquana Rosenberg199,Carlos Simmons200,Willie Nelson201,Alice Thomas202,Phillip Perez203,Roger Alexander204,Michelle Ross205,Cheryl Stewart206,Douglas Howard207,David Jones208,Judy Watson209,Kimberly Hill210,Nancy White211,Jimmy James212,Martin Morgan213,Kevin Bell214,Kathleen Long215,Frank Sanders216,Anna Price217,Ryan Brooks218,Jennifer Collins219,Janet Henderson220,Harold Adams221,Mary Hernandez222,Shawn Richardson223,Betty King224,Debra Gonzales225,Gloria Rivera226,Amy Bailey227,Frances Foster228,Dennis Thomas Jackson229,Victor Griffin230,Jack Russell231,Louis Wood232,Kathryn Morris233,Denise Murphy234,Gerald Bryant235,Nicholas Carter236,Ruby Brown237,Evelyn Bennett238,Mark Cooper239,Roy Barnes240,Brenda Roberts241,Lisa Patterson242,James Scott243,Lawrence Diaz244,Pamela Miller245,Jessica Reed246,ann Lewis247,Theresa Smith248,Lois Wright249,Timothy Cook250,Steve Ramirez251,Phyllis Davis252,Deborah Flores253,Carl Thompson254,William Kelly255,Richard Hughes256,Christina Martin257,Jason Perry258,Stephanie Edwards259,Linda Wilson260,Ronald Ward261,Cynthia Young262,Angela Mitchell263,Aaron Coleman264,Patricia Martinez265,George Anderson266,Raymond Green267,carolyn Hall268,Jane Campbell269,Daniel Jenkins270,Charles Williams271,Virginia Lopez272,Matthew Moore273,N/A,Juan Torres275,Stephen Robinson276,Margaret Taylor277,Eric Gray278,Diana Rodriguez279,Susan Powell280,Lori Harris281,shirley Peterson282,Sean Turner283,annie Clark284,Benjamin Johnson285,Kathy Phillips286,walter Lee287,Philip Walker288,Paul Garcia289,Heather Rogers290,Steven Washington291,Emily Baker292,Sara Evans Erin293,Peter Sanchez294,Catherine Allen295,justin Butler296,Doris Cox297,Julie Gonzalez298,Thomas Parker299,Scott Mathew300</c>
+                </r>
+              </Data>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+        </Node>
+      </ChildNodes>
+    </Node>
+    <Node ToolID="9">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="485" y="401" width="217" height="133" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>Output</Caption>
+          <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="False" />
+          <Folded value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="8">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+            <Position x="618" y="450" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <TempFile>C:\ProgramData\Alteryx\Engine\Engine_15496_1154f2aa8799458fbda22e698fc74b7e_\Engine_26376_c81447ff91ea47109c2bbb241d8cf86e_.yxdb</TempFile>
+              <TempFileDataProfiling />
+              <Layout>
+                <ViewMode>Single</ViewMode>
+                <ViewSize value="100" />
+                <View1>
+                  <DefaultTab>Profile</DefaultTab>
+                  <Hints>
+                    <Table />
+                  </Hints>
+                </View1>
+                <View2 />
+              </Layout>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+        </Node>
+        <Node ToolID="11">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+            <Position x="510" y="450" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <NumRows value="23" />
+              <Fields>
+                <Field name="Email_Group" />
+                <Field name="Email_Id(s)" />
+                <Field name="Count" />
+              </Fields>
+              <Data>
+                <r>
+                  <c>A</c>
+                  <c>ABowman@testemail.com;AKing@testemail.com;AFox@testemail.com;AFitzgerald@testemail.com;ASchuster@testemail.com;AGalbraith@testemail.com;ASeals@testemail.com;ABaer@testemail.com;AMerritt@testemail.com;AShepherd@testemail.com;ASnead@testemail.com;ABonner@testemail.com;AWetzel@testemail.com;AIvy@testemail.com;ABetancourt@testemail.com;AThomas@testemail.com;APrice@testemail.com;ABailey@testemail.com;ALewis@testemail.com;AMitchell@testemail.com;AColeman@testemail.com;AClark@testemail.com</c>
+                  <c>22</c>
+                </r>
+                <r>
+                  <c>B</c>
+                  <c>BBass@testemail.com;BCasey@testemail.com;BMartinez@testemail.com;BLucas@testemail.com;BBaez@testemail.com;BScholl@testemail.com;BCarlisle@testemail.com;BJacoby@testemail.com;BGuffey@testemail.com;BKing@testemail.com;BRoberts@testemail.com;BJohnson@testemail.com</c>
+                  <c>12</c>
+                </r>
+                <r>
+                  <c>C</c>
+                  <c>CErickson@testemail.com;CTaylor@testemail.com;CLuna@testemail.com;CFlowers@testemail.com;CMills@testemail.com;CJohnston@testemail.com;CWilkerson@testemail.com;CPearson@testemail.com;CRodriquez@testemail.com;CButton@testemail.com;CPendergrass@testemail.com;CLombardi@testemail.com;CBrowder@testemail.com;CSalgado@testemail.com;CCervantes@testemail.com;CSimmons@testemail.com;CStewart@testemail.com;CThompson@testemail.com;CMartin@testemail.com;CYoung@testemail.com;CHall@testemail.com;CWilliams@testemail.com;CAllen@testemail.com</c>
+                  <c>23</c>
+                </r>
+                <r>
+                  <c>D</c>
+                  <c>DNewman@testemail.com;DYu@testemail.com;DBest@testemail.com;DDell@testemail.com;DDenson@testemail.com;DHoward@testemail.com;DJones@testemail.com;DGonzales@testemail.com;DJackson@testemail.com;DMurphy@testemail.com;DFlores@testemail.com;DJenkins@testemail.com;DRodriguez@testemail.com;DCox@testemail.com</c>
+                  <c>14</c>
+                </r>
+                <r>
+                  <c>E</c>
+                  <c>ESheldon@testemail.com;EHayes@testemail.com;ENash@testemail.com;EKeller@testemail.com;EMonson@testemail.com;EMoseley@testemail.com;ERoach@testemail.com;EConway@testemail.com;EBennett@testemail.com;EGray@testemail.com;EBaker@testemail.com</c>
+                  <c>11</c>
+                </r>
+                <r>
+                  <c>F</c>
+                  <c>FArmstrong@testemail.com;FPeterson@testemail.com;FTyler@testemail.com;FBishop@testemail.com;FHutton@testemail.com;FCopley@testemail.com;FSanders@testemail.com;FFoster@testemail.com</c>
+                  <c>8</c>
+                </r>
+                <r>
+                  <c>G</c>
+                  <c>GPoole@testemail.com;GWashington@testemail.com;GVasquez@testemail.com;GDavis@testemail.com;GBailey@testemail.com;GBarton@testemail.com;GRivera@testemail.com;GBryant@testemail.com;GAnderson@testemail.com</c>
+                  <c>9</c>
+                </r>
+                <r>
+                  <c>H</c>
+                  <c>HNeal@testemail.com;HBowers@testemail.com;HTownsend@testemail.com;HHolt@testemail.com;HLewis@testemail.com;HFitzpatrick@testemail.com;HPipkin@testemail.com;HAdams@testemail.com;HRogers@testemail.com</c>
+                  <c>9</c>
+                </r>
+                <r>
+                  <c>I</c>
+                  <c>IHunter@testemail.com;IGonzales@testemail.com;IChristman@testemail.com</c>
+                  <c>3</c>
+                </r>
+                <r>
+                  <c>J</c>
+                  <c>JPage@testemail.com;JMorris@testemail.com;JHowell@testemail.com;JHunt@testemail.com;JCurtis@testemail.com;JEllis@testemail.com;JAlexander@testemail.com;JPritchett@testemail.com;JCaudill@testemail.com;JJacob@testemail.com;JWhitehurst@testemail.com;JRapp@testemail.com;JDempsey@testemail.com;JChan@testemail.com;JArriaga@testemail.com;JMonahan@testemail.com;JWatson@testemail.com;JJames@testemail.com;JCollins@testemail.com;JHenderson@testemail.com;JRussell@testemail.com;JScott@testemail.com;JReed@testemail.com;JPerry@testemail.com;JCampbell@testemail.com;JTorres@testemail.com;JButler@testemail.com;JGonzalez@testemail.com</c>
+                  <c>28</c>
+                </r>
+                <r>
+                  <c>K</c>
+                  <c>KGardner@testemail.com;KRodgers@testemail.com;KDaniels@testemail.com;KSparks@testemail.com;KButler@testemail.com;KNevarez@testemail.com;KBourque@testemail.com;KLoper@testemail.com;KCanada@testemail.com;KHill@testemail.com;KBell@testemail.com;KLong@testemail.com;KMorris@testemail.com;KPhillips@testemail.com</c>
+                  <c>14</c>
+                </r>
+                <r>
+                  <c>L</c>
+                  <c>LClayton@testemail.com;LHenry@testemail.com;LHodges@testemail.com;LHart@testemail.com;LMclaughlin@testemail.com;LEchevarria@testemail.com;LIrving@testemail.com;LPond@testemail.com;LAguirre@testemail.com;LVandyke@testemail.com;LBautista@testemail.com;LBrunson@testemail.com;LWood@testemail.com;LPatterson@testemail.com;LDiaz@testemail.com;LWright@testemail.com;LWilson@testemail.com;LHarris@testemail.com</c>
+                  <c>18</c>
+                </r>
+                <r>
+                  <c>M</c>
+                  <c>MPratt@testemail.com;MMason@testemail.com;MFranklin@testemail.com;MStephens@testemail.com;MDennis@testemail.com;MJensen@testemail.com;MWilliamson@testemail.com;MMorton@testemail.com;MFields@testemail.com;MBridges@testemail.com;MBaldwin@testemail.com;MSnyder@testemail.com;MZen@testemail.com;MNunez@testemail.com;MGalvan@testemail.com;MHyatt@testemail.com;MPortillo@testemail.com;MKorone@testemail.com;MSauer@testemail.com;MDonohue@testemail.com;MSchulze@testemail.com;MHatley@testemail.com;MBrowning@testemail.com;MRichmond@testemail.com;MRoss@testemail.com;MMorgan@testemail.com;MHernandez@testemail.com;MCooper@testemail.com;MMoore@testemail.com;MTaylor@testemail.com</c>
+                  <c>30</c>
+                </r>
+                <r>
+                  <c>N</c>
+                  <c>NPowell@testemail.com;NBuchanan@testemail.com;NVega@testemail.com;NBall@testemail.com;NHorsley@testemail.com;NBrenner@testemail.com;NChurch@testemail.com;NCalvin@testemail.com;NWhite@testemail.com;NCarter@testemail.com</c>
+                  <c>10</c>
+                </r>
+                <r>
+                  <c>O</c>
+                  <c>OGarner@testemail.com</c>
+                  <c>1</c>
+                </r>
+                <r>
+                  <c>P</c>
+                  <c>PPaul@testemail.com;PThompson@testemail.com;PPerez@testemail.com;PMiller@testemail.com;PDavis@testemail.com;PMartinez@testemail.com;PWalker@testemail.com;PGarcia@testemail.com;PSanchez@testemail.com</c>
+                  <c>9</c>
+                </r>
+                <r>
+                  <c>R</c>
+                  <c>RStrickland@testemail.com;RMyers@testemail.com;RParks@testemail.com;RPayne@testemail.com;RRichards@testemail.com;RHaynes@testemail.com;RGarrett@testemail.com;RRollins@testemail.com;RBuckner@testemail.com;RMacon@testemail.com;RSheets@testemail.com;RLinn@testemail.com;RGallant@testemail.com;RMabe@testemail.com;RHaller@testemail.com;RAlexander@testemail.com;RBrooks@testemail.com;RBrown@testemail.com;RBarnes@testemail.com;RHughes@testemail.com;RWard@testemail.com;RGreen@testemail.com</c>
+                  <c>22</c>
+                </r>
+                <r>
+                  <c>S</c>
+                  <c>SThomas@testemail.com;SSmith@testemail.com;SSchwartz@testemail.com;SBlair@testemail.com;SProsser@testemail.com;SRandolph@testemail.com;SRoden@testemail.com;SHarding@testemail.com;SFerrer@testemail.com;SRoche@testemail.com;SKlinger@testemail.com;SRosenberg@testemail.com;SRichardson@testemail.com;SRamirez@testemail.com;SEdwards@testemail.com;SRobinson@testemail.com;SPowell@testemail.com;SPeterson@testemail.com;STurner@testemail.com;SWashington@testemail.com;SErin@testemail.com;SMathew@testemail.com</c>
+                  <c>22</c>
+                </r>
+                <r>
+                  <c>T</c>
+                  <c>TRoberson@testemail.com;TDixon@testemail.com;TGuerrero@testemail.com;TVargas@testemail.com;TWaters@testemail.com;TThibodeau@testemail.com;TFulmer@testemail.com;THamby@testemail.com;TGuenther@testemail.com;TSmith@testemail.com;TCook@testemail.com;TParker@testemail.com</c>
+                  <c>12</c>
+                </r>
+                <r>
+                  <c>V</c>
+                  <c>VCraig@testemail.com;VHale@testemail.com;VCarr@testemail.com;VCruz@testemail.com;VGarza@testemail.com;VRush@testemail.com;VDellinger@testemail.com;VButcher@testemail.com;VPickett@testemail.com;VGriffin@testemail.com;VLopez@testemail.com</c>
+                  <c>11</c>
+                </r>
+                <r>
+                  <c>W</c>
+                  <c>WArnold@testemail.com;WReese@testemail.com;WThomsen@testemail.com;WStephen@testemail.com;WNelson@testemail.com;WKelly@testemail.com;WLee@testemail.com</c>
+                  <c>7</c>
+                </r>
+                <r>
+                  <c>Y</c>
+                  <c>YPatino@testemail.com;YWhyte@testemail.com</c>
+                  <c>2</c>
+                </r>
+                <r>
+                  <c>Z</c>
+                  <c>ZEsquivel@testemail.com;ZDugas@testemail.com</c>
+                  <c>2</c>
+                </r>
+              </Data>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+        </Node>
+      </ChildNodes>
+    </Node>
+    <Node ToolID="13">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="272" y="728" width="656" height="84" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>Alteryx Educational Asset - Terms and Conditions</Caption>
+          <Style TextColor="#ffffff" FillColor="#0d2345" BorderColor="#ffffff" Transparency="1" Margin="10" />
+          <Disabled value="False" />
+          <Folded value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="12">
+          <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+            <Position x="282" y="762" width="636" height="40" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Text>Use of this Alteryx asset is for educational purposes only and bound by the conditions set forth on alteryx.com/terms-and-conditions. Alteryx Information may not be reproduced, transmitted or distributed without Alteryx, Inc.'s permission.”</Text>
+              <Font name="Times New Roman" size="8.25" style="0" />
+              <TextColor name="White" />
+              <FillColor name="White" />
+              <Shape shape="3" />
+              <Justification Justification="4" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+        </Node>
+      </ChildNodes>
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="10" Connection="Output" />
+      <Destination ToolID="5" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="11" Connection="Output" />
+      <Destination ToolID="8" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>challenge_211_start_file</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>

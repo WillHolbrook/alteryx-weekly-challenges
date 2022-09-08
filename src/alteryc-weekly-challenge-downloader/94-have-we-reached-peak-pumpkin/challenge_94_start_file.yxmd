@@ -1,0 +1,842 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="11.3">
+  <Nodes>
+    <Node ToolID="31">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="426" y="282" width="276" height="288" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Output</Text>
+          <Font name="Segoe UI" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="30">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="66" y="282" width="276" height="288" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Input
+
+
+See Community Post for Input files (5 Excel Workbooks)</Text>
+          <Font name="Segoe UI" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="20">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="54" y="54" width="324" height="72" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text />
+          <Font name="Segoe UI" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="3" />
+          <Justification Justification="4" />
+          <BG_Image>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</BG_Image>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="21">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="414" y="69" width="252" height="40" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Weekly Challenge #94</Text>
+          <Font name="Microsoft Sans Serif" size="16.2" style="0" />
+          <TextColor name="Gray" />
+          <FillColor name="White" />
+          <Shape shape="3" />
+          <Justification Justification="0" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="22">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="66" y="126" width="636" height="132" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text><![CDATA[Each input file contains data on the weekly  sales of pumpkin related products for the years 2010 to 2016 (one year per tab).  Amalgamate the data for all the stores and forecast the sales for each category of the pumpkin related products for the year 2017 (52 periods).  
+
+Notes: 
+- Any Null values should be filled with the average value for that product for that week, across all stores.  
+- You will need to install the Predictive tools to use the Time Series tools to choose the best time series model for the data.  
+- Choose the time series model whose Akaike Information Criterion (abbreviated by AICC) are  consistently lower.  The data from Store 1 is the best and most complete dataset to use for deciding on a model since it contains no Null values. 
+- The Predictive District on the Gallery has some tools and samples that you may find helpful for this exercise! 
+]]></Text>
+          <Font name="Microsoft Sans Serif" size="7.8" style="0" />
+          <TextColor name="Gray" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="3" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="58">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+        <Position x="462" y="390" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <NumRows value="52" />
+          <Fields>
+            <Field name="Period" />
+            <Field name="Sub_Period" />
+            <Field name="Bakery" />
+            <Field name="Beverages" />
+            <Field name="Canned" />
+            <Field name="Dairy" />
+            <Field name="Dry_and_baking" />
+            <Field name="Frozen" />
+            <Field name="Health_and_beauty" />
+            <Field name="Produce" />
+          </Fields>
+          <Data>
+            <r>
+              <c>2017</c>
+              <c>2</c>
+              <c>1882.85403846154</c>
+              <c>1323.42357142857</c>
+              <c>1490.07442307692</c>
+              <c>1614.52370879121</c>
+              <c>1750.33260989005</c>
+              <c>1403.59607142862</c>
+              <c>1173.41332417589</c>
+              <c>67.2276324381285</c>
+            </r>
+            <r>
+              <c>2017</c>
+              <c>3</c>
+              <c>1885.39807692308</c>
+              <c>1325.85714285714</c>
+              <c>1492.53884615385</c>
+              <c>1616.93741758242</c>
+              <c>1752.7252197801</c>
+              <c>1406.00214285724</c>
+              <c>1175.90664835177</c>
+              <c>290.332008489105</c>
+            </r>
+            <r>
+              <c>2017</c>
+              <c>4</c>
+              <c>1887.94211538462</c>
+              <c>1328.29071428571</c>
+              <c>1495.00326923077</c>
+              <c>1619.35112637363</c>
+              <c>1755.11782967015</c>
+              <c>1408.40821428586</c>
+              <c>1178.39997252766</c>
+              <c>249.841263666477</c>
+            </r>
+            <r>
+              <c>2017</c>
+              <c>5</c>
+              <c>1890.48615384615</c>
+              <c>1330.72428571429</c>
+              <c>1497.46769230769</c>
+              <c>1621.76483516484</c>
+              <c>1757.51043956019</c>
+              <c>1410.81428571448</c>
+              <c>1180.89329670354</c>
+              <c>12.0665428464324</c>
+            </r>
+            <r>
+              <c>2017</c>
+              <c>6</c>
+              <c>1893.03019230769</c>
+              <c>1333.15785714286</c>
+              <c>1499.93211538462</c>
+              <c>1624.17854395604</c>
+              <c>1759.90304945024</c>
+              <c>1413.2203571431</c>
+              <c>1183.38662087943</c>
+              <c>-62.2391572968721</c>
+            </r>
+            <r>
+              <c>2017</c>
+              <c>7</c>
+              <c>1895.57423076923</c>
+              <c>1335.59142857143</c>
+              <c>1502.39653846154</c>
+              <c>1626.59225274725</c>
+              <c>1762.29565934029</c>
+              <c>1415.62642857172</c>
+              <c>1185.87994505531</c>
+              <c>-33.1899194712975</c>
+            </r>
+            <r>
+              <c>2017</c>
+              <c>8</c>
+              <c>1898.11826923077</c>
+              <c>1338.025</c>
+              <c>1504.86096153846</c>
+              <c>1629.00596153846</c>
+              <c>1764.68826923034</c>
+              <c>1418.03250000034</c>
+              <c>1188.3732692312</c>
+              <c>-6.57023430432457</c>
+            </r>
+            <r>
+              <c>2017</c>
+              <c>9</c>
+              <c>1900.66230769231</c>
+              <c>1340.45857142857</c>
+              <c>1507.32538461538</c>
+              <c>1631.41967032967</c>
+              <c>1767.08087912039</c>
+              <c>1420.43857142897</c>
+              <c>1190.86659340708</c>
+              <c>17.8230954843458</c>
+            </r>
+            <r>
+              <c>2017</c>
+              <c>10</c>
+              <c>1903.20634615385</c>
+              <c>1342.89214285714</c>
+              <c>1509.78980769231</c>
+              <c>1633.83337912088</c>
+              <c>1769.47348901044</c>
+              <c>1422.84464285759</c>
+              <c>1193.35991758297</c>
+              <c>40.1762726330032</c>
+            </r>
+            <r>
+              <c>2017</c>
+              <c>11</c>
+              <c>1905.75038461538</c>
+              <c>1345.32571428571</c>
+              <c>1512.25423076923</c>
+              <c>1636.24708791209</c>
+              <c>1771.86609890049</c>
+              <c>1425.25071428621</c>
+              <c>1195.85324175885</c>
+              <c>60.6599266879463</c>
+            </r>
+            <r>
+              <c>2017</c>
+              <c>12</c>
+              <c>1908.29442307692</c>
+              <c>1347.75928571429</c>
+              <c>1514.71865384615</c>
+              <c>1638.6607967033</c>
+              <c>1774.25870879053</c>
+              <c>1427.65678571483</c>
+              <c>1198.34656593474</c>
+              <c>79.4304164779305</c>
+            </r>
+            <r>
+              <c>2017</c>
+              <c>13</c>
+              <c>1910.83846153846</c>
+              <c>1350.19285714286</c>
+              <c>1517.18307692308</c>
+              <c>1641.07450549451</c>
+              <c>1776.65131868058</c>
+              <c>1430.06285714345</c>
+              <c>1200.83989011062</c>
+              <c>96.6310236552852</c>
+            </r>
+            <r>
+              <c>2017</c>
+              <c>14</c>
+              <c>1913.3825</c>
+              <c>1352.62642857143</c>
+              <c>1519.6475</c>
+              <c>1643.48821428571</c>
+              <c>1779.04392857063</c>
+              <c>1432.46892857207</c>
+              <c>1203.33321428651</c>
+              <c>112.393046414411</c>
+            </r>
+            <r>
+              <c>2017</c>
+              <c>15</c>
+              <c>1915.92653846154</c>
+              <c>1355.06</c>
+              <c>1522.11192307692</c>
+              <c>1645.90192307692</c>
+              <c>1781.43653846068</c>
+              <c>1434.87500000069</c>
+              <c>1205.82653846239</c>
+              <c>126.83680173639</c>
+            </r>
+            <r>
+              <c>2017</c>
+              <c>16</c>
+              <c>1918.47057692308</c>
+              <c>1357.49357142857</c>
+              <c>1524.57634615385</c>
+              <c>1648.31563186813</c>
+              <c>1783.82914835073</c>
+              <c>1437.28107142931</c>
+              <c>1208.31986263828</c>
+              <c>140.072543810193</c>
+            </r>
+            <r>
+              <c>2017</c>
+              <c>17</c>
+              <c>1921.01461538462</c>
+              <c>1359.92714285714</c>
+              <c>1527.04076923077</c>
+              <c>1650.72934065934</c>
+              <c>1786.22175824078</c>
+              <c>1439.68714285793</c>
+              <c>1210.81318681416</c>
+              <c>152.201305641105</c>
+            </r>
+            <r>
+              <c>2017</c>
+              <c>18</c>
+              <c>1923.55865384615</c>
+              <c>1362.36071428571</c>
+              <c>1529.50519230769</c>
+              <c>1653.14304945055</c>
+              <c>1788.61436813082</c>
+              <c>1442.09321428655</c>
+              <c>1213.30651099005</c>
+              <c>163.315670270659</c>
+            </r>
+            <r>
+              <c>2017</c>
+              <c>19</c>
+              <c>1926.10269230769</c>
+              <c>1364.79428571429</c>
+              <c>1531.96961538462</c>
+              <c>1655.55675824176</c>
+              <c>1791.00697802087</c>
+              <c>1444.49928571517</c>
+              <c>1215.79983516593</c>
+              <c>173.500477495074</c>
+            </r>
+            <r>
+              <c>2017</c>
+              <c>20</c>
+              <c>1928.64673076923</c>
+              <c>1367.22785714286</c>
+              <c>1534.43403846154</c>
+              <c>1657.97046703297</c>
+              <c>1793.39958791092</c>
+              <c>1446.90535714379</c>
+              <c>1218.29315934182</c>
+              <c>182.833471476815</c>
+            </r>
+            <r>
+              <c>2017</c>
+              <c>21</c>
+              <c>1931.19076923077</c>
+              <c>1369.66142857143</c>
+              <c>1536.89846153846</c>
+              <c>1660.38417582418</c>
+              <c>1795.79219780097</c>
+              <c>1449.31142857241</c>
+              <c>1220.78648351771</c>
+              <c>191.385894192721</c>
+            </r>
+            <r>
+              <c>2017</c>
+              <c>22</c>
+              <c>1933.73480769231</c>
+              <c>1372.095</c>
+              <c>1539.36288461538</c>
+              <c>1662.79788461538</c>
+              <c>1798.18480769102</c>
+              <c>1451.71750000103</c>
+              <c>1223.27980769359</c>
+              <c>199.223029248699</c>
+            </r>
+            <r>
+              <c>2017</c>
+              <c>23</c>
+              <c>1936.27884615385</c>
+              <c>1374.52857142857</c>
+              <c>1541.82730769231</c>
+              <c>1665.21159340659</c>
+              <c>1800.57741758107</c>
+              <c>1454.12357142966</c>
+              <c>1225.77313186948</c>
+              <c>206.404700212112</c>
+            </r>
+            <r>
+              <c>2017</c>
+              <c>24</c>
+              <c>1938.82288461538</c>
+              <c>1376.96214285714</c>
+              <c>1544.29173076923</c>
+              <c>1667.6253021978</c>
+              <c>1802.97002747112</c>
+              <c>1456.52964285828</c>
+              <c>1228.26645604536</c>
+              <c>212.985727265791</c>
+            </r>
+            <r>
+              <c>2017</c>
+              <c>25</c>
+              <c>1941.36692307692</c>
+              <c>1379.39571428571</c>
+              <c>1546.75615384615</c>
+              <c>1670.03901098901</c>
+              <c>1805.36263736116</c>
+              <c>1458.9357142869</c>
+              <c>1230.75978022125</c>
+              <c>219.016345669486</c>
+            </r>
+            <r>
+              <c>2017</c>
+              <c>26</c>
+              <c>1943.91096153846</c>
+              <c>1381.82928571429</c>
+              <c>1549.22057692308</c>
+              <c>1672.45271978022</c>
+              <c>1807.75524725121</c>
+              <c>1461.34178571552</c>
+              <c>1233.25310439713</c>
+              <c>224.542589223016</c>
+            </r>
+            <r>
+              <c>2017</c>
+              <c>27</c>
+              <c>1946.455</c>
+              <c>1384.26285714286</c>
+              <c>1551.685</c>
+              <c>1674.86642857143</c>
+              <c>1810.14785714126</c>
+              <c>1463.74785714414</c>
+              <c>1235.74642857302</c>
+              <c>229.606641658205</c>
+            </r>
+            <r>
+              <c>2017</c>
+              <c>28</c>
+              <c>1948.99903846154</c>
+              <c>1386.69642857143</c>
+              <c>1554.14942307692</c>
+              <c>1677.28013736264</c>
+              <c>1812.54046703131</c>
+              <c>1466.15392857276</c>
+              <c>1238.2397527489</c>
+              <c>234.247158641927</c>
+            </r>
+            <r>
+              <c>2017</c>
+              <c>29</c>
+              <c>1951.54307692308</c>
+              <c>1389.13</c>
+              <c>1556.61384615385</c>
+              <c>1679.69384615385</c>
+              <c>1814.93307692136</c>
+              <c>1468.56000000138</c>
+              <c>1240.73307692479</c>
+              <c>238.499562848207</c>
+            </r>
+            <r>
+              <c>2017</c>
+              <c>30</c>
+              <c>1954.08711538462</c>
+              <c>1391.56357142857</c>
+              <c>1559.07826923077</c>
+              <c>1682.10755494505</c>
+              <c>1817.32568681141</c>
+              <c>1470.96607143</c>
+              <c>1243.22640110067</c>
+              <c>242.396314351759</c>
+            </r>
+            <r>
+              <c>2017</c>
+              <c>31</c>
+              <c>1956.63115384615</c>
+              <c>1393.99714285714</c>
+              <c>1561.54269230769</c>
+              <c>1684.52126373626</c>
+              <c>1819.71829670146</c>
+              <c>1473.37214285862</c>
+              <c>1245.71972527656</c>
+              <c>245.967158406992</c>
+            </r>
+            <r>
+              <c>2017</c>
+              <c>32</c>
+              <c>1959.17519230769</c>
+              <c>1396.43071428571</c>
+              <c>1564.00711538462</c>
+              <c>1686.93497252747</c>
+              <c>1822.1109065915</c>
+              <c>1475.77821428724</c>
+              <c>1248.21304945244</c>
+              <c>249.239352503836</c>
+            </r>
+            <r>
+              <c>2017</c>
+              <c>33</c>
+              <c>1961.71923076923</c>
+              <c>1398.86428571429</c>
+              <c>1566.47153846154</c>
+              <c>1689.34868131868</c>
+              <c>1824.50351648155</c>
+              <c>1478.18428571586</c>
+              <c>1250.70637362833</c>
+              <c>252.23787443361</c>
+            </r>
+            <r>
+              <c>2017</c>
+              <c>34</c>
+              <c>1964.26326923077</c>
+              <c>1401.29785714286</c>
+              <c>1568.93596153846</c>
+              <c>1691.76239010989</c>
+              <c>1826.8961263716</c>
+              <c>1480.59035714448</c>
+              <c>1253.19969780421</c>
+              <c>254.985612953158</c>
+            </r>
+            <r>
+              <c>2017</c>
+              <c>35</c>
+              <c>1966.80730769231</c>
+              <c>1403.73142857143</c>
+              <c>1571.40038461538</c>
+              <c>1694.1760989011</c>
+              <c>1829.28873626165</c>
+              <c>1482.9964285731</c>
+              <c>1255.6930219801</c>
+              <c>257.503542502661</c>
+            </r>
+            <r>
+              <c>2017</c>
+              <c>36</c>
+              <c>1969.35134615385</c>
+              <c>1406.165</c>
+              <c>1573.86480769231</c>
+              <c>1696.58980769231</c>
+              <c>1831.6813461517</c>
+              <c>1485.40250000172</c>
+              <c>1258.18634615598</c>
+              <c>259.810883310803</c>
+            </r>
+            <r>
+              <c>2017</c>
+              <c>37</c>
+              <c>1971.89538461538</c>
+              <c>1408.59857142857</c>
+              <c>1576.32923076923</c>
+              <c>1699.00351648352</c>
+              <c>1834.07395604175</c>
+              <c>1487.80857143034</c>
+              <c>1260.67967033187</c>
+              <c>261.925248109441</c>
+            </r>
+            <r>
+              <c>2017</c>
+              <c>38</c>
+              <c>1974.43942307692</c>
+              <c>1411.03214285714</c>
+              <c>1578.79365384615</c>
+              <c>1701.41722527473</c>
+              <c>1836.46656593179</c>
+              <c>1490.21464285897</c>
+              <c>1263.17299450775</c>
+              <c>263.862776577686</c>
+            </r>
+            <r>
+              <c>2017</c>
+              <c>39</c>
+              <c>1976.98346153846</c>
+              <c>1413.46571428571</c>
+              <c>1581.25807692308</c>
+              <c>1703.83093406593</c>
+              <c>1838.85917582184</c>
+              <c>1492.62071428759</c>
+              <c>1265.66631868364</c>
+              <c>265.638258541668</c>
+            </r>
+            <r>
+              <c>2017</c>
+              <c>40</c>
+              <c>1979.5275</c>
+              <c>1415.89928571429</c>
+              <c>1583.7225</c>
+              <c>1706.24464285714</c>
+              <c>1841.25178571189</c>
+              <c>1495.02678571621</c>
+              <c>1268.15964285952</c>
+              <c>267.265246870402</c>
+            </r>
+            <r>
+              <c>2017</c>
+              <c>41</c>
+              <c>1982.07153846154</c>
+              <c>1418.33285714286</c>
+              <c>1586.18692307692</c>
+              <c>1708.65835164835</c>
+              <c>1843.64439560194</c>
+              <c>1497.43285714483</c>
+              <c>1270.65296703541</c>
+              <c>268.756160929535</c>
+            </r>
+            <r>
+              <c>2017</c>
+              <c>42</c>
+              <c>1984.61557692308</c>
+              <c>1420.76642857143</c>
+              <c>1588.65134615385</c>
+              <c>1711.07206043956</c>
+              <c>1846.03700549199</c>
+              <c>1499.83892857345</c>
+              <c>1273.1462912113</c>
+              <c>270.122381382665</c>
+            </r>
+            <r>
+              <c>2017</c>
+              <c>43</c>
+              <c>1987.15961538462</c>
+              <c>1423.2</c>
+              <c>1591.11576923077</c>
+              <c>1713.48576923077</c>
+              <c>1848.42961538204</c>
+              <c>1502.24500000207</c>
+              <c>1275.63961538718</c>
+              <c>271.37433706389</c>
+            </r>
+            <r>
+              <c>2017</c>
+              <c>44</c>
+              <c>1989.70365384615</c>
+              <c>1425.63357142857</c>
+              <c>1593.58019230769</c>
+              <c>1715.89947802198</c>
+              <c>1850.82222527209</c>
+              <c>1504.65107143069</c>
+              <c>1278.13293956307</c>
+              <c>272.521584584714</c>
+            </r>
+            <r>
+              <c>2017</c>
+              <c>45</c>
+              <c>1992.24769230769</c>
+              <c>1428.06714285714</c>
+              <c>1596.04461538462</c>
+              <c>1718.31318681319</c>
+              <c>1853.21483516213</c>
+              <c>1507.05714285931</c>
+              <c>1280.62626373895</c>
+              <c>273.572881282972</c>
+            </r>
+            <r>
+              <c>2017</c>
+              <c>46</c>
+              <c>1994.79173076923</c>
+              <c>1430.50071428571</c>
+              <c>1598.50903846154</c>
+              <c>1720.7268956044</c>
+              <c>1855.60744505218</c>
+              <c>1509.46321428793</c>
+              <c>1283.11958791484</c>
+              <c>274.536252070624</c>
+            </r>
+            <r>
+              <c>2017</c>
+              <c>47</c>
+              <c>1997.33576923077</c>
+              <c>1432.93428571429</c>
+              <c>1600.97346153846</c>
+              <c>1723.1406043956</c>
+              <c>1858.00005494223</c>
+              <c>1511.86928571655</c>
+              <c>1285.61291209072</c>
+              <c>275.419050690688</c>
+            </r>
+            <r>
+              <c>2017</c>
+              <c>48</c>
+              <c>1999.87980769231</c>
+              <c>1435.36785714286</c>
+              <c>1603.43788461538</c>
+              <c>1725.55431318681</c>
+              <c>1860.39266483228</c>
+              <c>1514.27535714517</c>
+              <c>1288.10623626661</c>
+              <c>276.228015850912</c>
+            </r>
+            <r>
+              <c>2017</c>
+              <c>49</c>
+              <c>2002.42384615385</c>
+              <c>1437.80142857143</c>
+              <c>1605.90230769231</c>
+              <c>1727.96802197802</c>
+              <c>1862.78527472233</c>
+              <c>1516.68142857379</c>
+              <c>1290.59956044249</c>
+              <c>276.969322662661</c>
+            </r>
+            <r>
+              <c>2017</c>
+              <c>50</c>
+              <c>2004.96788461538</c>
+              <c>1440.235</c>
+              <c>1608.36673076923</c>
+              <c>1730.38173076923</c>
+              <c>1865.17788461238</c>
+              <c>1519.08750000241</c>
+              <c>1293.09288461838</c>
+              <c>277.648629777684</c>
+            </r>
+            <r>
+              <c>2017</c>
+              <c>51</c>
+              <c>2007.51192307692</c>
+              <c>1442.66857142857</c>
+              <c>1610.83115384615</c>
+              <c>1732.79543956044</c>
+              <c>1867.57049450242</c>
+              <c>1521.49357143103</c>
+              <c>1295.58620879426</c>
+              <c>278.271122582561</c>
+            </r>
+            <r>
+              <c>2017</c>
+              <c>52</c>
+              <c>2010.05596153846</c>
+              <c>1445.10214285714</c>
+              <c>1613.29557692308</c>
+              <c>1735.20914835165</c>
+              <c>1869.96310439247</c>
+              <c>1523.89964285966</c>
+              <c>1298.07953297015</c>
+              <c>278.841552780559</c>
+            </r>
+            <r>
+              <c>2018</c>
+              <c>1</c>
+              <c>2012.6</c>
+              <c>1447.53571428571</c>
+              <c>1615.76</c>
+              <c>1737.62285714286</c>
+              <c>1872.35571428252</c>
+              <c>1526.30571428828</c>
+              <c>1300.57285714603</c>
+              <c>279.364274663026</c>
+            </r>
+          </Data>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+    </Node>
+    <Node ToolID="59">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="558" y="390" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\ProgramData\Alteryx\Engine\Engine_7880_043c5baf5f9a4c13a4db3dc8e3bc6464_\Engine_2664_053e455273bf46c4a53b5be8816e0de2_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="58" Connection="Output" />
+      <Destination ToolID="59" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="False" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>challenge_94_start_file</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>

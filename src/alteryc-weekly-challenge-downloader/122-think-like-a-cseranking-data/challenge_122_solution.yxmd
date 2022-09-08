@@ -1,0 +1,428 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2018.2">
+  <Nodes>
+    <Node ToolID="33">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="318" y="66" width="744" height="288" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>OUTPUT DESIRED</Text>
+          <Font name="Segoe UI" size="15.75" style="1" />
+          <TextColor name="Black" />
+          <FillColor name="Silver" />
+          <Shape shape="0" />
+          <Justification Justification="0" />
+          <BG_Image>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</BG_Image>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="47">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="89.00002" y="418" width="673" height="277" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>Workflow Solution</Caption>
+          <Style TextColor="#314c4a" FillColor="#c0c0c0" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="False" />
+          <Folded value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="39">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+            <Position x="114" y="533.9999" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <NumRows value="12" />
+              <Fields>
+                <Field name="Rating" />
+              </Fields>
+              <Data>
+                <r>
+                  <c>7</c>
+                </r>
+                <r>
+                  <c>7</c>
+                </r>
+                <r>
+                  <c>6</c>
+                </r>
+                <r>
+                  <c>5</c>
+                </r>
+                <r>
+                  <c>4</c>
+                </r>
+                <r>
+                  <c>4</c>
+                </r>
+                <r>
+                  <c>4</c>
+                </r>
+                <r>
+                  <c>3</c>
+                </r>
+                <r>
+                  <c>2</c>
+                </r>
+                <r>
+                  <c>2</c>
+                </r>
+                <r>
+                  <c>2</c>
+                </r>
+                <r>
+                  <c>1</c>
+                </r>
+              </Data>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+        </Node>
+        <Node ToolID="40">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.MultiRowFormula.MultiRowFormula">
+            <Position x="210" y="534" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <UpdateField value="False" />
+              <UpdateField_Name>Rating</UpdateField_Name>
+              <CreateField_Name>RatingCt</CreateField_Name>
+              <CreateField_Type>Int32</CreateField_Type>
+              <CreateField_Size>4</CreateField_Size>
+              <OtherRows>Empty</OtherRows>
+              <NumRows value="1" />
+              <Expression>if [Rating] != [Row-1:Rating] then 1 else [Row-1:RatingCt] + 1 endif</Expression>
+              <GroupByFields />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>if [Rating] != [Row-1:Rating] then 1 else [Row-1:RatingCt] + ...</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxMultiRowFormula" />
+        </Node>
+        <Node ToolID="41">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+            <Position x="306" y="462" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <TempFile>C:\ProgramData\Alteryx\Engine\Engine_7928_171023c8de564223be0dbd339ce5d39f_\Engine_8400_9eb75284d82d4145acb4b7768ba2b77d_.yxdb</TempFile>
+              <TempFileDataProfiling />
+              <Layout>
+                <ViewMode>Single</ViewMode>
+                <ViewSize value="100" />
+                <View1>
+                  <DefaultTab>Profile</DefaultTab>
+                  <Hints>
+                    <Table />
+                  </Hints>
+                </View1>
+                <View2 />
+              </Layout>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+        </Node>
+        <Node ToolID="43">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.MultiRowFormula.MultiRowFormula">
+            <Position x="474" y="534" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <UpdateField value="False" />
+              <UpdateField_Name />
+              <CreateField_Name>MTRank</CreateField_Name>
+              <CreateField_Type>Int32</CreateField_Type>
+              <CreateField_Size>4</CreateField_Size>
+              <OtherRows>Empty</OtherRows>
+              <NumRows value="1" />
+              <Expression>IF [Rating] = [Row-1:Rating] THEN [Row-1:MTRank] 
+Elseif [Row-1:RatingCt] &gt; 0 then ([Row-1:MTRank]+ [Row-1:RatingCt])
+else ([Row-1:MTRank]+1)
+ENDIF</Expression>
+              <GroupByFields />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>IF [Rating] = [Row-1:Rating] THEN [Row-1:MTRank] 
+Elseif [Row...</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxMultiRowFormula" />
+        </Node>
+        <Node ToolID="44">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+            <Position x="678" y="534" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <TempFile>C:\ProgramData\Alteryx\Engine\Engine_7928_171023c8de564223be0dbd339ce5d39f_\Engine_8400_e993027e5b874c2d98a6edc8b277ced1_.yxdb</TempFile>
+              <TempFileDataProfiling />
+              <Layout>
+                <ViewMode>Single</ViewMode>
+                <ViewSize value="100" />
+                <View1>
+                  <DefaultTab>Profile</DefaultTab>
+                  <Hints>
+                    <Table />
+                  </Hints>
+                </View1>
+                <View2 />
+              </Layout>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+        </Node>
+        <Node ToolID="45">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+            <Position x="582" y="534" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="RatingCt" selected="False" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+        </Node>
+        <Node ToolID="46">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+            <Position x="558" y="462" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <TempFile>C:\ProgramData\Alteryx\Engine\Engine_7928_171023c8de564223be0dbd339ce5d39f_\Engine_8400_f7610e5f925f47e884e36808ab67388d_.yxdb</TempFile>
+              <TempFileDataProfiling />
+              <Layout>
+                <ViewMode>Single</ViewMode>
+                <ViewSize value="100" />
+                <View1>
+                  <DefaultTab>Profile</DefaultTab>
+                  <Hints>
+                    <Table />
+                  </Hints>
+                </View1>
+                <View2 />
+              </Layout>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+        </Node>
+      </ChildNodes>
+    </Node>
+    <Node ToolID="36">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="92" y="157" width="175" height="98" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>Input</Caption>
+          <Style TextColor="#314c4a" FillColor="#c0c0c0" BorderColor="#314c4a" Transparency="25" Margin="10" />
+          <Disabled value="False" />
+          <Folded value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="37">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+            <Position x="102" y="186" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <NumRows value="12" />
+              <Fields>
+                <Field name="Rating" />
+              </Fields>
+              <Data>
+                <r>
+                  <c>7</c>
+                </r>
+                <r>
+                  <c>7</c>
+                </r>
+                <r>
+                  <c>6</c>
+                </r>
+                <r>
+                  <c>5</c>
+                </r>
+                <r>
+                  <c>4</c>
+                </r>
+                <r>
+                  <c>4</c>
+                </r>
+                <r>
+                  <c>4</c>
+                </r>
+                <r>
+                  <c>3</c>
+                </r>
+                <r>
+                  <c>2</c>
+                </r>
+                <r>
+                  <c>2</c>
+                </r>
+                <r>
+                  <c>2</c>
+                </r>
+                <r>
+                  <c>1</c>
+                </r>
+              </Data>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+        </Node>
+        <Node ToolID="38">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+            <Position x="198" y="186" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <TempFile>C:\ProgramData\Alteryx\Engine\Engine_7928_171023c8de564223be0dbd339ce5d39f_\Engine_8400_91c8b38dab5a489189899a4b80a7baf8_.yxdb</TempFile>
+              <Layout>
+                <View1>
+                  <Hints>
+                    <Table />
+                  </Hints>
+                </View1>
+              </Layout>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+        </Node>
+      </ChildNodes>
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="39" Connection="Output" />
+      <Destination ToolID="40" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="40" Connection="Output" />
+      <Destination ToolID="43" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="40" Connection="Output" />
+      <Destination ToolID="41" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="43" Connection="Output" />
+      <Destination ToolID="45" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="43" Connection="Output" />
+      <Destination ToolID="46" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="45" Connection="Output" />
+      <Destination ToolID="44" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="37" Connection="Output" />
+      <Destination ToolID="38" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>challenge_122_solution</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>
